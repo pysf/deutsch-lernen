@@ -1,0 +1,42 @@
+[speaker:Vicki] Menschen A1.1. Lektion 8. Kein Problem. Ich habe Zeit! <break time="3s"/>
+[speaker:Vicki] einladen <break time="3s"/> einladen <break time="3s"/>
+[speaker:Vicki] absagen <break time="3s"/> absagen <break time="3s"/>
+[speaker:Vicki] zusagen <break time="3s"/> zusagen <break time="3s"/>
+[speaker:Vicki] warum <break time="3s"/> warum <break time="3s"/>
+[speaker:Vicki] wann <break time="3s"/> wann <break time="3s"/>
+[speaker:Vicki] vielleicht <break time="3s"/> vielleicht <break time="3s"/>
+[speaker:Vicki] morgen <break time="3s"/> morgen <break time="3s"/>
+[speaker:Vicki] spät <break time="3s"/> spät <break time="3s"/>
+[speaker:Vicki] wie spät <break time="3s"/> wie spät <break time="3s"/>
+[speaker:Vicki] halb <break time="3s"/> halb <break time="3s"/>
+[speaker:Vicki] um <break time="3s"/> um <break time="3s"/>
+[speaker:Vicki] der Montag <break time="3s"/> der Montag <break time="3s"/> Montage <break time="3s"/>
+[speaker:Vicki] der Dienstag <break time="3s"/> der Dienstag <break time="3s"/> Dienstage <break time="3s"/>
+[speaker:Vicki] der Mittwoch <break time="3s"/> der Mittwoch <break time="3s"/> Mittwoche <break time="3s"/>
+[speaker:Vicki] der Donnerstag <break time="3s"/> der Donnerstag <break time="3s"/> Donnerstage <break time="3s"/>
+[speaker:Vicki] der Freitag <break time="3s"/> der Freitag <break time="3s"/> Freitage <break time="3s"/>
+[speaker:Vicki] der Samstag <break time="3s"/> der Samstag <break time="3s"/> Samstage <break time="3s"/>
+[speaker:Vicki] der Sonntag <break time="3s"/> der Sonntag <break time="3s"/> Sonntage <break time="3s"/>
+[speaker:Vicki] die Woche <break time="3s"/> die Woche <break time="3s"/> Wochen <break time="3s"/>
+[speaker:Vicki] der Geburtstag <break time="3s"/> der Geburtstag <break time="3s"/> Geburtstage <break time="3s"/>
+[speaker:Vicki] das Schwimmbad <break time="3s"/> das Schwimmbad <break time="3s"/> Schwimmbäder <break time="3s"/>
+[speaker:Vicki] die Ausstellung <break time="3s"/> die Ausstellung <break time="3s"/> Ausstellungen <break time="3s"/>
+[speaker:Vicki] das Café <break time="3s"/> das Café <break time="3s"/> Cafés <break time="3s"/>
+[speaker:Vicki] die Disco <break time="3s"/> die Disco <break time="3s"/> Discos <break time="3s"/>
+[speaker:Vicki] die Kneipe <break time="3s"/> die Kneipe <break time="3s"/> Kneipen <break time="3s"/>
+[speaker:Vicki] das Konzert <break time="3s"/> das Konzert <break time="3s"/> Konzerte <break time="3s"/>
+[speaker:Vicki] das Museum <break time="3s"/> das Museum <break time="3s"/> Museen <break time="3s"/>
+[speaker:Vicki] das Restaurant <break time="3s"/> das Restaurant <break time="3s"/> Restaurants <break time="3s"/>
+[speaker:Vicki] die Idee <break time="3s"/> die Idee <break time="3s"/> Ideen <break time="3s"/>
+[speaker:Vicki] die Einladung <break time="3s"/> die Einladung <break time="3s"/> Einladungen <break time="3s"/>
+[speaker:Vicki] der Vorschlag <break time="3s"/> der Vorschlag <break time="3s"/> Vorschläge <break time="3s"/>
+<break time="3s"/>
+[speaker:Vicki] Heute ist Mittwoch. <break time="4s"/>
+[speaker:Vicki] Hast du morgen Zeit? <break time="4s"/>
+[speaker:Vicki] Wir gehen am Freitag ins Konzert. <break time="4s"/>
+[speaker:Vicki] Das Konzert beginnt um acht Uhr. <break time="4s"/>
+[speaker:Vicki] Am Samstag gehe ich ins Restaurant. <break time="4s"/>
+[speaker:Vicki] Ich trinke gern Kaffee im Café. <break time="4s"/>
+[speaker:Vicki] Wann gehen wir ins Museum? <break time="4s"/>
+[speaker:Vicki] Ich habe leider keine Zeit. <break time="4s"/>
+[speaker:Vicki] Vielleicht am Sonntag? <break time="4s"/>

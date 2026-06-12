@@ -1,0 +1,56 @@
+You are a German A1.1 tutor and a front-end developer. Below is a plain block of
+ttsmp3 commands for one lesson of "Menschen A1.1". Turn it into ONE minimal,
+self-contained, mobile-friendly HTML vocabulary page.
+
+LESSON:  Lektion {NUMBER} — "{TITLE}"   (use this for the page heading)
+
+USE THE PASTED COMMANDS AS THE ONLY SOURCE OF CONTENT. Do not add or remove
+German words, and do not change the German. Your only addition is English
+translations.
+
+How to read the commands:
+- Ignore every  [speaker:...]  and  <break .../>  tag.
+- The block has TWO parts, split by a line that contains ONLY a <break/> tag:
+  * BEFORE the separator = vocabulary. Each of these lines repeats a word and
+    uses 3-second breaks. The word is repeated — keep it ONCE. For a noun the
+    line is "ARTICLE NOUN ... ARTICLE NOUN ... PLURAL": the singular is
+    "ARTICLE NOUN" and the final token is the plural (no article).
+  * AFTER the separator = the text. Each of these lines is one full German
+    sentence (they use 4-second breaks). Together they form one paragraph.
+
+Build the page with these requirements:
+- A single standalone .html file. One <style> tag, no external libraries, fonts,
+  scripts, or images. Must work offline.
+- Include <meta name="viewport" content="width=device-width, initial-scale=1">.
+- VERY MINIMAL design: white background, near-black text, clean system font
+  stack, lots of whitespace, one column, no boxes/shadows/borders (a thin light
+  divider between words at most). Comfortable font size for phone reading.
+- NAVIGATION: immediately before the <h1>, add a small muted back-link:
+    <a class="back-link" href="index.html">← Alle Lektionen</a>
+  Style (.back-link): display:block; font-size:0.78rem; color:#bbb;
+  text-decoration:none; margin-bottom:1.5rem. Hover: color:#888.
+- Title at top: "Lektion {NUMBER} — {TITLE}".
+- GENDER COLORS — the only color on the page. Color the article + noun by gender:
+    der -> blue (#1d4ed8),  die -> red (#db2777),  das -> green (#059669).
+  Add one small, quiet legend line under the title. Legend margin-bottom: 0.5rem.
+- AUDIO DOWNLOAD: immediately after the legend </p>, add:
+    <a class="mp3-link" href="Lektion-{NUMBER}.mp3" download>⬇ Audio herunterladen</a>
+  Style (.mp3-link): display:block; font-size:0.78rem; color:#bbb;
+  text-decoration:none; margin-bottom:2.5rem. Hover: color:#888.
+- "Wortschatz" section: for each word, one simple row:
+    * the German word (nouns: article + noun in the gender color; plural in small
+      muted text after it, e.g. "Pl. Büros"; non-nouns in plain near-black)
+    * its English translation in small muted text
+- "Text" section: the German sentences as one paragraph, and under it the full
+  English translation in small muted text.
+- Good contrast, accessible, no Farsi or any language besides German and English.
+
+OUTPUT: return only the full HTML document, starting with <!DOCTYPE html>.
+
+AFTER SAVING Lektion-{NUMBER}.html: update index.html — add the following line
+to the <ul class="lektion-list"> if this lektion is not already listed:
+  <li><a href="Lektion-{NUMBER}.html"><span class="lektion-num">{NUMBER}</span>{TITLE}</a></li>
+
+--- PASTE THE LESSON .txt BELOW THIS LINE ---
+
+{PASTE THE FULL CONTENT OF Lektion-N.txt HERE}

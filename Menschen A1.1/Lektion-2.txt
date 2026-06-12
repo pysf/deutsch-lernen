@@ -1,0 +1,47 @@
+[speaker:Vicki] er <break time="3s"/> er <break time="3s"/>
+[speaker:Vicki] sie <break time="3s"/> sie <break time="3s"/>
+[speaker:Vicki] wir <break time="3s"/> wir <break time="3s"/>
+[speaker:Vicki] ihr <break time="3s"/> ihr <break time="3s"/>
+[speaker:Vicki] haben <break time="3s"/> haben <break time="3s"/>
+[speaker:Vicki] arbeiten <break time="3s"/> arbeiten <break time="3s"/>
+[speaker:Vicki] studieren <break time="3s"/> studieren <break time="3s"/>
+[speaker:Vicki] lesen <break time="3s"/> lesen <break time="3s"/>
+[speaker:Vicki] suchen <break time="3s"/> suchen <break time="3s"/>
+[speaker:Vicki] verheiratet <break time="3s"/> verheiratet <break time="3s"/>
+[speaker:Vicki] geschieden <break time="3s"/> geschieden <break time="3s"/>
+[speaker:Vicki] allein <break time="3s"/> allein <break time="3s"/>
+[speaker:Vicki] alt <break time="3s"/> alt <break time="3s"/>
+[speaker:Vicki] jetzt <break time="3s"/> jetzt <break time="3s"/>
+[speaker:Vicki] kein <break time="3s"/> kein <break time="3s"/>
+[speaker:Vicki] der Arzt <break time="3s"/> der Arzt <break time="3s"/> Ärzte <break time="3s"/>
+[speaker:Vicki] die Ärztin <break time="3s"/> die Ärztin <break time="3s"/> Ärztinnen <break time="3s"/>
+[speaker:Vicki] der Journalist <break time="3s"/> der Journalist <break time="3s"/> Journalisten <break time="3s"/>
+[speaker:Vicki] die Journalistin <break time="3s"/> die Journalistin <break time="3s"/> Journalistinnen <break time="3s"/>
+[speaker:Vicki] der Lehrer <break time="3s"/> der Lehrer <break time="3s"/> Lehrer <break time="3s"/>
+[speaker:Vicki] die Lehrerin <break time="3s"/> die Lehrerin <break time="3s"/> Lehrerinnen <break time="3s"/>
+[speaker:Vicki] der Student <break time="3s"/> der Student <break time="3s"/> Studenten <break time="3s"/>
+[speaker:Vicki] die Studentin <break time="3s"/> die Studentin <break time="3s"/> Studentinnen <break time="3s"/>
+[speaker:Vicki] der Kellner <break time="3s"/> der Kellner <break time="3s"/> Kellner <break time="3s"/>
+[speaker:Vicki] die Kellnerin <break time="3s"/> die Kellnerin <break time="3s"/> Kellnerinnen <break time="3s"/>
+[speaker:Vicki] der Ingenieur <break time="3s"/> der Ingenieur <break time="3s"/> Ingenieure <break time="3s"/>
+[speaker:Vicki] die Ingenieurin <break time="3s"/> die Ingenieurin <break time="3s"/> Ingenieurinnen <break time="3s"/>
+[speaker:Vicki] der Friseur <break time="3s"/> der Friseur <break time="3s"/> Friseure <break time="3s"/>
+[speaker:Vicki] der Schauspieler <break time="3s"/> der Schauspieler <break time="3s"/> Schauspieler <break time="3s"/>
+[speaker:Vicki] der Verkäufer <break time="3s"/> der Verkäufer <break time="3s"/> Verkäufer <break time="3s"/>
+[speaker:Vicki] der Beruf <break time="3s"/> der Beruf <break time="3s"/> Berufe <break time="3s"/>
+[speaker:Vicki] das Jahr <break time="3s"/> das Jahr <break time="3s"/> Jahre <break time="3s"/>
+[speaker:Vicki] das Kind <break time="3s"/> das Kind <break time="3s"/> Kinder <break time="3s"/>
+[speaker:Vicki] die Stadt <break time="3s"/> die Stadt <break time="3s"/> Städte <break time="3s"/>
+[speaker:Vicki] das Foto <break time="3s"/> das Foto <break time="3s"/> Fotos <break time="3s"/>
+[speaker:Vicki] der Job <break time="3s"/> der Job <break time="3s"/> Jobs <break time="3s"/>
+[speaker:Vicki] die Zahl <break time="3s"/> die Zahl <break time="3s"/> Zahlen <break time="3s"/>
+<break time="3s"/>
+[speaker:Vicki] Ich heiße Tomás. <break time="4s"/>
+[speaker:Vicki] Ich bin Journalist. <break time="4s"/>
+[speaker:Vicki] Ich arbeite in Berlin. <break time="4s"/>
+[speaker:Vicki] Ich bin 32 Jahre alt. <break time="4s"/>
+[speaker:Vicki] Ich bin nicht verheiratet. <break time="4s"/>
+[speaker:Vicki] Ich habe keine Kinder. <break time="4s"/>
+[speaker:Vicki] Meine Freundin ist Ärztin. <break time="4s"/>
+[speaker:Vicki] Sie arbeitet in Wien. <break time="4s"/>
+[speaker:Vicki] Wir wohnen in Berlin. <break time="4s"/>

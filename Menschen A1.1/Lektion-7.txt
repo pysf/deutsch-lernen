@@ -1,0 +1,40 @@
+[speaker:Vicki] Menschen A1.1. Lektion 7. Du kannst wirklich toll! <break time="3s"/>
+[speaker:Vicki] backen <break time="3s"/> backen <break time="3s"/>
+[speaker:Vicki] fotografieren <break time="3s"/> fotografieren <break time="3s"/>
+[speaker:Vicki] Fußball spielen <break time="3s"/> Fußball spielen <break time="3s"/>
+[speaker:Vicki] im Internet surfen <break time="3s"/> im Internet surfen <break time="3s"/>
+[speaker:Vicki] malen <break time="3s"/> malen <break time="3s"/>
+[speaker:Vicki] Musik hören <break time="3s"/> Musik hören <break time="3s"/>
+[speaker:Vicki] Rad fahren <break time="3s"/> Rad fahren <break time="3s"/>
+[speaker:Vicki] schwimmen <break time="3s"/> schwimmen <break time="3s"/>
+[speaker:Vicki] spazieren gehen <break time="3s"/> spazieren gehen <break time="3s"/>
+[speaker:Vicki] können <break time="3s"/> können <break time="3s"/>
+[speaker:Vicki] lieben <break time="3s"/> lieben <break time="3s"/>
+[speaker:Vicki] telefonieren <break time="3s"/> telefonieren <break time="3s"/>
+[speaker:Vicki] gar nicht <break time="3s"/> gar nicht <break time="3s"/>
+[speaker:Vicki] manchmal <break time="3s"/> manchmal <break time="3s"/>
+[speaker:Vicki] nie <break time="3s"/> nie <break time="3s"/>
+[speaker:Vicki] oft <break time="3s"/> oft <break time="3s"/>
+[speaker:Vicki] wie oft <break time="3s"/> wie oft <break time="3s"/>
+[speaker:Vicki] leider <break time="3s"/> leider <break time="3s"/>
+[speaker:Vicki] natürlich <break time="3s"/> natürlich <break time="3s"/>
+[speaker:Vicki] fast <break time="3s"/> fast <break time="3s"/>
+[speaker:Vicki] der Ausflug <break time="3s"/> der Ausflug <break time="3s"/> Ausflüge <break time="3s"/>
+[speaker:Vicki] die Freizeit <break time="3s"/> die Freizeit <break time="3s"/>
+[speaker:Vicki] das Kino <break time="3s"/> das Kino <break time="3s"/> Kinos <break time="3s"/>
+[speaker:Vicki] der Spaß <break time="3s"/> der Spaß <break time="3s"/>
+[speaker:Vicki] das Theater <break time="3s"/> das Theater <break time="3s"/> Theater <break time="3s"/>
+[speaker:Vicki] die Gitarre <break time="3s"/> die Gitarre <break time="3s"/> Gitarren <break time="3s"/>
+[speaker:Vicki] das Kompliment <break time="3s"/> das Kompliment <break time="3s"/> Komplimente <break time="3s"/>
+[speaker:Vicki] die Fähigkeit <break time="3s"/> die Fähigkeit <break time="3s"/> Fähigkeiten <break time="3s"/>
+[speaker:Vicki] das Auto <break time="3s"/> das Auto <break time="3s"/> Autos <break time="3s"/>
+<break time="3s"/>
+[speaker:Vicki] Ich kann gut Gitarre spielen. <break time="4s"/>
+[speaker:Vicki] Mein Freund kann gut Fußball spielen. <break time="4s"/>
+[speaker:Vicki] Kannst du malen? <break time="4s"/>
+[speaker:Vicki] Ich fahre oft Rad. <break time="4s"/>
+[speaker:Vicki] Meine Schwester fotografiert gern. <break time="4s"/>
+[speaker:Vicki] Wir gehen manchmal ins Kino. <break time="4s"/>
+[speaker:Vicki] Ich kann leider nicht gut schwimmen. <break time="4s"/>
+[speaker:Vicki] Wir machen gern Ausflüge in die Natur. <break time="4s"/>
+[speaker:Vicki] Musik hören macht Spaß. <break time="4s"/>

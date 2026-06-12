@@ -1,0 +1,37 @@
+[speaker:Vicki] mein <break time="3s"/> mein <break time="3s"/>
+[speaker:Vicki] meine <break time="3s"/> meine <break time="3s"/>
+[speaker:Vicki] dein <break time="3s"/> dein <break time="3s"/>
+[speaker:Vicki] deine <break time="3s"/> deine <break time="3s"/>
+[speaker:Vicki] Ihr <break time="3s"/> Ihr <break time="3s"/>
+[speaker:Vicki] Ihre <break time="3s"/> Ihre <break time="3s"/>
+[speaker:Vicki] die Mutter <break time="3s"/> die Mutter <break time="3s"/> Mütter <break time="3s"/>
+[speaker:Vicki] der Vater <break time="3s"/> der Vater <break time="3s"/> Väter <break time="3s"/>
+[speaker:Vicki] die Eltern <break time="3s"/> die Eltern <break time="3s"/>
+[speaker:Vicki] die Großmutter <break time="3s"/> die Großmutter <break time="3s"/> Großmütter <break time="3s"/>
+[speaker:Vicki] der Großvater <break time="3s"/> der Großvater <break time="3s"/> Großväter <break time="3s"/>
+[speaker:Vicki] die Großeltern <break time="3s"/> die Großeltern <break time="3s"/>
+[speaker:Vicki] die Oma <break time="3s"/> die Oma <break time="3s"/> Omas <break time="3s"/>
+[speaker:Vicki] die Schwester <break time="3s"/> die Schwester <break time="3s"/> Schwestern <break time="3s"/>
+[speaker:Vicki] der Bruder <break time="3s"/> der Bruder <break time="3s"/> Brüder <break time="3s"/>
+[speaker:Vicki] die Geschwister <break time="3s"/> die Geschwister <break time="3s"/>
+[speaker:Vicki] der Sohn <break time="3s"/> der Sohn <break time="3s"/> Söhne <break time="3s"/>
+[speaker:Vicki] die Tochter <break time="3s"/> die Tochter <break time="3s"/> Töchter <break time="3s"/>
+[speaker:Vicki] die Ehefrau <break time="3s"/> die Ehefrau <break time="3s"/> Ehefrauen <break time="3s"/>
+[speaker:Vicki] der Ehemann <break time="3s"/> der Ehemann <break time="3s"/> Ehemänner <break time="3s"/>
+[speaker:Vicki] der Enkel <break time="3s"/> der Enkel <break time="3s"/> Enkel <break time="3s"/>
+[speaker:Vicki] die Enkelin <break time="3s"/> die Enkelin <break time="3s"/> Enkelinnen <break time="3s"/>
+[speaker:Vicki] die Familie <break time="3s"/> die Familie <break time="3s"/> Familien <break time="3s"/>
+[speaker:Vicki] der Freund <break time="3s"/> der Freund <break time="3s"/> Freunde <break time="3s"/>
+[speaker:Vicki] die Freundin <break time="3s"/> die Freundin <break time="3s"/> Freundinnen <break time="3s"/>
+[speaker:Vicki] der Kollege <break time="3s"/> der Kollege <break time="3s"/> Kollegen <break time="3s"/>
+[speaker:Vicki] die Kollegin <break time="3s"/> die Kollegin <break time="3s"/> Kolleginnen <break time="3s"/>
+<break time="3s"/>
+[speaker:Vicki] Das ist meine Familie. <break time="4s"/>
+[speaker:Vicki] Meine Mutter heißt Lena. <break time="4s"/>
+[speaker:Vicki] Mein Vater heißt Hans. <break time="4s"/>
+[speaker:Vicki] Das ist mein Bruder. <break time="4s"/>
+[speaker:Vicki] Mein Bruder ist Student. <break time="4s"/>
+[speaker:Vicki] Das ist meine Schwester. <break time="4s"/>
+[speaker:Vicki] Meine Schwester ist Ärztin. <break time="4s"/>
+[speaker:Vicki] Meine Großeltern wohnen in Hamburg. <break time="4s"/>
+[speaker:Vicki] Wie heißt deine Mutter? <break time="4s"/>
