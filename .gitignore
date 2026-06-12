@@ -1,0 +1,8 @@
+# Ignore macOS system files
+.DS_Store
+.DS_Store?
+._*
+
+# Files that might be created inside folders
+.Spotlight-V100
+.Trashes
