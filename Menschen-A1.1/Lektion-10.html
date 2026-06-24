@@ -14,17 +14,20 @@
     h2 { font-size: 0.85rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.09em; color: #aaa; margin-bottom: 1.2rem; }
     section { margin-bottom: 3rem; }
     .word-list { list-style: none; }
-    .word-list li { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; padding: 0.5rem 0; border-bottom: 1px solid #f0f0f0; }
+    .word-list li { padding: 0.5rem 0; border-bottom: 1px solid #f0f0f0; }
     .word-list li:last-child { border-bottom: none; }
+    .word-row { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; }
     .de { font-size: 1rem; font-weight: 500; }
     .plural { font-size: 0.75rem; color: #bbb; font-weight: 400; margin-left: 0.35rem; }
     .en { font-size: 0.85rem; color: #999; text-align: right; flex-shrink: 0; }
-    .text-de { font-size: 1rem; line-height: 2; margin-bottom: 1rem; }
-    .text-en { font-size: 0.85rem; color: #999; line-height: 2; }
+    .sample { font-size: 0.82rem; color: #bbb; font-style: italic; margin-top: 0.1rem; }
     .back-link { display: block; font-size: 0.78rem; color: #bbb; text-decoration: none; margin-bottom: 1.5rem; }
     .back-link:hover { color: #888; }
     .mp3-link { display: block; font-size: 0.78rem; color: #bbb; text-decoration: none; margin-bottom: 2.5rem; }
     .mp3-link:hover { color: #888; }
+    .verb-reg { color: #d97706; }
+    .verb-irr { color: #7c3aed; }
+    .perfekt { font-size: 0.75rem; color: #bbb; font-weight: 400; margin-left: 0.4rem; }
   </style>
 </head>
 <body>
@@ -34,68 +37,135 @@
     <span><span class="der">■</span> der (m)</span>
     <span><span class="die">■</span> die (f)</span>
     <span><span class="das">■</span> das (n)</span>
+    <span><span class="verb-reg">■</span> reg.</span>
+    <span><span class="verb-irr">■</span> irr.</span>
   </p>
   <a class="mp3-link" href="Lektion-10.mp3" download>⬇ Audio herunterladen</a>
 
   <section>
     <h2>Wortschatz</h2>
     <ul class="word-list">
-      <li><span class="de">einsteigen</span><span class="en">to get on / to board</span></li>
-      <li><span class="de">aussteigen</span><span class="en">to get off / to exit</span></li>
-      <li><span class="de">abfahren</span><span class="en">to depart</span></li>
-      <li><span class="de">ankommen</span><span class="en">to arrive</span></li>
-      <li><span class="de">umsteigen</span><span class="en">to transfer / to change</span></li>
-      <li><span class="de">einfahren</span><span class="en">to pull in (train)</span></li>
-      <li><span class="de">abholen</span><span class="en">to pick up</span></li>
-      <li><span class="de">anrufen</span><span class="en">to call (by phone)</span></li>
-      <li><span class="de">nehmen</span><span class="en">to take (transport)</span></li>
-      <li><span class="de">gerade</span><span class="en">right now / just</span></li>
-      <li><span class="de"><span class="die">die U-Bahn</span><span class="plural">Pl. U-Bahnen</span></span><span class="en">subway / metro</span></li>
-      <li><span class="de"><span class="der">der Bus</span><span class="plural">Pl. Busse</span></span><span class="en">bus</span></li>
-      <li><span class="de"><span class="die">die S-Bahn</span><span class="plural">Pl. S-Bahnen</span></span><span class="en">suburban rail</span></li>
-      <li><span class="de"><span class="die">die Straßenbahn</span><span class="plural">Pl. Straßenbahnen</span></span><span class="en">tram / streetcar</span></li>
-      <li><span class="de"><span class="der">der Zug</span><span class="plural">Pl. Züge</span></span><span class="en">train</span></li>
-      <li><span class="de"><span class="das">das Taxi</span><span class="plural">Pl. Taxis</span></span><span class="en">taxi</span></li>
-      <li><span class="de"><span class="das">das Flugzeug</span><span class="plural">Pl. Flugzeuge</span></span><span class="en">airplane</span></li>
-      <li><span class="de"><span class="der">der Bahnhof</span><span class="plural">Pl. Bahnhöfe</span></span><span class="en">train station</span></li>
-      <li><span class="de"><span class="der">der Hauptbahnhof</span><span class="plural">Pl. Hauptbahnhöfe</span></span><span class="en">main station</span></li>
-      <li><span class="de"><span class="der">der Flughafen</span><span class="plural">Pl. Flughäfen</span></span><span class="en">airport</span></li>
-      <li><span class="de"><span class="der">der Bahnsteig</span><span class="plural">Pl. Bahnsteige</span></span><span class="en">platform</span></li>
-      <li><span class="de"><span class="das">das Gleis</span><span class="plural">Pl. Gleise</span></span><span class="en">track / platform</span></li>
-      <li><span class="de"><span class="die">die Haltestelle</span><span class="plural">Pl. Haltestellen</span></span><span class="en">stop</span></li>
-      <li><span class="de"><span class="der">der Koffer</span><span class="plural">Pl. Koffer</span></span><span class="en">suitcase</span></li>
-      <li><span class="de"><span class="das">das Gepäck</span></span><span class="en">luggage / baggage</span></li>
-      <li><span class="de"><span class="die">die Reise</span><span class="plural">Pl. Reisen</span></span><span class="en">journey / trip</span></li>
-      <li><span class="de"><span class="die">die Minute</span><span class="plural">Pl. Minuten</span></span><span class="en">minute</span></li>
-      <li><span class="de"><span class="die">die Durchsage</span><span class="plural">Pl. Durchsagen</span></span><span class="en">announcement</span></li>
-      <li><span class="de"><span class="das">das Verkehrsmittel</span><span class="plural">Pl. Verkehrsmittel</span></span><span class="en">means of transport</span></li>
-    </ul>
-  </section>
 
-  <section>
-    <h2>Text</h2>
-    <div class="text-de">
-      Ich fahre mit dem Bus.<br>
-      Der Zug kommt um zehn Uhr an.<br>
-      Ich steige am Hauptbahnhof ein.<br>
-      In München steige ich um.<br>
-      Mein Koffer ist groß.<br>
-      Die U-Bahn fährt in drei Minuten ab.<br>
-      Ich nehme ein Taxi zum Flughafen.<br>
-      Die Straßenbahn hält hier.<br>
-      Mein Freund holt mich ab.
-    </div>
-    <div class="text-en">
-      I'm travelling by bus.<br>
-      The train arrives at ten o'clock.<br>
-      I board at the main station.<br>
-      In Munich I change trains.<br>
-      My suitcase is big.<br>
-      The metro departs in three minutes.<br>
-      I'm taking a taxi to the airport.<br>
-      The tram stops here.<br>
-      My friend is picking me up.
-    </div>
+      <li>
+        <div class="word-row"><span class="de"><span class="verb-irr">einsteigen</span><span class="perfekt"> · ist eingestiegen</span></span><span class="en">to get on / to board</span></div>
+        <p class="sample">Ich steige in den Bus ein. · Ich bin in den Bus eingestiegen.</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="verb-irr">aussteigen</span><span class="perfekt"> · ist ausgestiegen</span></span><span class="en">to get off / to exit</span></div>
+        <p class="sample">Ich steige am Bahnhof aus. · Ich bin am Bahnhof ausgestiegen.</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="verb-irr">abfahren</span><span class="perfekt"> · ist abgefahren</span></span><span class="en">to depart</span></div>
+        <p class="sample">Der Zug fährt um acht Uhr ab. · Der Zug ist um acht Uhr abgefahren.</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="verb-irr">ankommen</span><span class="perfekt"> · ist angekommen</span></span><span class="en">to arrive</span></div>
+        <p class="sample">Wir kommen um zehn Uhr an. · Wir sind um zehn Uhr angekommen.</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="verb-irr">umsteigen</span><span class="perfekt"> · ist umgestiegen</span></span><span class="en">to transfer / to change</span></div>
+        <p class="sample">In München steige ich um. · Ich bin in München umgestiegen.</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="verb-irr">einfahren</span><span class="perfekt"> · ist eingefahren</span></span><span class="en">to pull in (train)</span></div>
+        <p class="sample">Der Zug fährt gerade ein. · Der Zug ist gerade eingefahren.</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="verb-reg">abholen</span><span class="perfekt"> · hat abgeholt</span></span><span class="en">to pick up</span></div>
+        <p class="sample">Mein Freund holt mich ab. · Mein Freund hat mich abgeholt.</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="verb-irr">anrufen</span><span class="perfekt"> · hat angerufen</span></span><span class="en">to call (by phone)</span></div>
+        <p class="sample">Ich rufe meine Mutter an. · Ich habe meine Mutter angerufen.</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="verb-irr">nehmen</span><span class="perfekt"> · hat genommen</span></span><span class="en">to take (transport)</span></div>
+        <p class="sample">Ich nehme die S-Bahn. · Ich habe die S-Bahn genommen.</p>
+      </li>
+
+      <li>
+        <div class="word-row"><span class="de">gerade</span><span class="en">right now / just</span></div>
+        <p class="sample">Der Bus kommt gerade.</p>
+      </li>
+
+      <li>
+        <div class="word-row"><span class="de"><span class="die">die U-Bahn</span><span class="plural">Pl. U-Bahnen</span></span><span class="en">subway / metro</span></div>
+        <p class="sample">Die U-Bahn kommt. · Ich nehme die U-Bahn.</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Bus</span><span class="plural">Pl. Busse</span></span><span class="en">bus</span></div>
+        <p class="sample">Der Bus kommt in fünf Minuten. · Ich nehme den Bus.</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="die">die S-Bahn</span><span class="plural">Pl. S-Bahnen</span></span><span class="en">suburban rail</span></div>
+        <p class="sample">Die S-Bahn fährt nach München. · Ich nehme die S-Bahn.</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="die">die Straßenbahn</span><span class="plural">Pl. Straßenbahnen</span></span><span class="en">tram / streetcar</span></div>
+        <p class="sample">Die Straßenbahn hält hier. · Ich nehme die Straßenbahn.</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Zug</span><span class="plural">Pl. Züge</span></span><span class="en">train</span></div>
+        <p class="sample">Der Zug kommt um zehn Uhr. · Ich nehme den Zug.</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="das">das Taxi</span><span class="plural">Pl. Taxis</span></span><span class="en">taxi</span></div>
+        <p class="sample">Das Taxi ist teuer. · Ich nehme ein Taxi.</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="das">das Flugzeug</span><span class="plural">Pl. Flugzeuge</span></span><span class="en">airplane</span></div>
+        <p class="sample">Das Flugzeug fliegt nach Berlin. · Ich nehme das Flugzeug.</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Bahnhof</span><span class="plural">Pl. Bahnhöfe</span></span><span class="en">train station</span></div>
+        <p class="sample">Der Bahnhof ist groß. · Ich suche den Bahnhof.</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Hauptbahnhof</span><span class="plural">Pl. Hauptbahnhöfe</span></span><span class="en">main station</span></div>
+        <p class="sample">Der Hauptbahnhof ist sehr groß. · Ich suche den Hauptbahnhof.</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Flughafen</span><span class="plural">Pl. Flughäfen</span></span><span class="en">airport</span></div>
+        <p class="sample">Der Flughafen ist weit weg. · Ich suche den Flughafen.</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Bahnsteig</span><span class="plural">Pl. Bahnsteige</span></span><span class="en">platform</span></div>
+        <p class="sample">Der Bahnsteig ist hier. · Ich suche den Bahnsteig.</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="das">das Gleis</span><span class="plural">Pl. Gleise</span></span><span class="en">track / platform</span></div>
+        <p class="sample">Das Gleis ist Nummer fünf. · Ich suche das Gleis.</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="die">die Haltestelle</span><span class="plural">Pl. Haltestellen</span></span><span class="en">stop</span></div>
+        <p class="sample">Die Haltestelle ist hier. · Ich suche die Haltestelle.</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Koffer</span><span class="plural">Pl. Koffer</span></span><span class="en">suitcase</span></div>
+        <p class="sample">Der Koffer ist schwer. · Ich trage den Koffer.</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="das">das Gepäck</span></span><span class="en">luggage / baggage</span></div>
+        <p class="sample">Das Gepäck ist schwer. · Ich habe das Gepäck.</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="die">die Reise</span><span class="plural">Pl. Reisen</span></span><span class="en">journey / trip</span></div>
+        <p class="sample">Die Reise dauert zwei Stunden. · Ich mache eine Reise.</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="die">die Minute</span><span class="plural">Pl. Minuten</span></span><span class="en">minute</span></div>
+        <p class="sample">Eine Minute ist kurz. · Ich warte eine Minute.</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="die">die Durchsage</span><span class="plural">Pl. Durchsagen</span></span><span class="en">announcement</span></div>
+        <p class="sample">Die Durchsage ist laut. · Ich höre die Durchsage.</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="das">das Verkehrsmittel</span><span class="plural">Pl. Verkehrsmittel</span></span><span class="en">means of transport</span></div>
+        <p class="sample">Das Verkehrsmittel ist gut. · Ich brauche ein Verkehrsmittel.</p>
+      </li>
+
+    </ul>
   </section>
 </body>
 </html>

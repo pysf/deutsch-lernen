@@ -14,17 +14,20 @@
     h2 { font-size: 0.85rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.09em; color: #aaa; margin-bottom: 1.2rem; }
     section { margin-bottom: 3rem; }
     .word-list { list-style: none; }
-    .word-list li { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; padding: 0.5rem 0; border-bottom: 1px solid #f0f0f0; }
+    .word-list li { padding: 0.5rem 0; border-bottom: 1px solid #f0f0f0; }
     .word-list li:last-child { border-bottom: none; }
+    .word-row { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; }
     .de { font-size: 1rem; font-weight: 500; }
     .plural { font-size: 0.75rem; color: #bbb; font-weight: 400; margin-left: 0.35rem; }
     .en { font-size: 0.85rem; color: #999; text-align: right; flex-shrink: 0; }
-    .text-de { font-size: 1rem; line-height: 2; margin-bottom: 1rem; }
-    .text-en { font-size: 0.85rem; color: #999; line-height: 2; }
+    .sample { font-size: 0.82rem; color: #bbb; font-style: italic; margin-top: 0.1rem; }
     .back-link { display: block; font-size: 0.78rem; color: #bbb; text-decoration: none; margin-bottom: 1.5rem; }
     .back-link:hover { color: #888; }
     .mp3-link { display: block; font-size: 0.78rem; color: #bbb; text-decoration: none; margin-bottom: 2.5rem; }
     .mp3-link:hover { color: #888; }
+    .verb-reg { color: #d97706; }
+    .verb-irr { color: #7c3aed; }
+    .perfekt { font-size: 0.75rem; color: #bbb; font-weight: 400; margin-left: 0.4rem; }
   </style>
 </head>
 <body>
@@ -34,72 +37,51 @@
     <span><span class="der">■</span> der (m)</span>
     <span><span class="die">■</span> die (f)</span>
     <span><span class="das">■</span> das (n)</span>
+    <span><span class="verb-reg">■</span> reg.</span>
+    <span><span class="verb-irr">■</span> irr.</span>
   </p>
   <a class="mp3-link" href="Lektion-9.mp3" download>⬇ Audio herunterladen</a>
 
   <section>
     <h2>Wortschatz</h2>
     <ul class="word-list">
-      <li><span class="de">essen</span><span class="en">to eat</span></li>
-      <li><span class="de">trinken</span><span class="en">to drink</span></li>
-      <li><span class="de">schmecken</span><span class="en">to taste (good)</span></li>
-      <li><span class="de">mögen</span><span class="en">to like</span></li>
-      <li><span class="de"><span class="der">der Hunger</span></span><span class="en">hunger</span></li>
-      <li><span class="de"><span class="der">der Durst</span></span><span class="en">thirst</span></li>
-      <li><span class="de"><span class="der">der Onkel</span><span class="plural">Pl. Onkel</span></span><span class="en">uncle</span></li>
-      <li><span class="de"><span class="der">der Kühlschrank</span><span class="plural">Pl. Kühlschränke</span></span><span class="en">fridge / refrigerator</span></li>
-      <li><span class="de"><span class="das">das Brot</span><span class="plural">Pl. Brote</span></span><span class="en">bread</span></li>
-      <li><span class="de"><span class="die">die Butter</span></span><span class="en">butter</span></li>
-      <li><span class="de"><span class="der">der Käse</span><span class="plural">Pl. Käse</span></span><span class="en">cheese</span></li>
-      <li><span class="de"><span class="der">der Schinken</span><span class="plural">Pl. Schinken</span></span><span class="en">ham</span></li>
-      <li><span class="de"><span class="der">der Apfel</span><span class="plural">Pl. Äpfel</span></span><span class="en">apple</span></li>
-      <li><span class="de"><span class="die">die Orange</span><span class="plural">Pl. Orangen</span></span><span class="en">orange</span></li>
-      <li><span class="de"><span class="die">die Tomate</span><span class="plural">Pl. Tomaten</span></span><span class="en">tomato</span></li>
-      <li><span class="de"><span class="die">die Kartoffel</span><span class="plural">Pl. Kartoffeln</span></span><span class="en">potato</span></li>
-      <li><span class="de"><span class="der">der Fisch</span><span class="plural">Pl. Fische</span></span><span class="en">fish</span></li>
-      <li><span class="de"><span class="der">der Salat</span><span class="plural">Pl. Salate</span></span><span class="en">salad / lettuce</span></li>
-      <li><span class="de"><span class="die">die Suppe</span><span class="plural">Pl. Suppen</span></span><span class="en">soup</span></li>
-      <li><span class="de"><span class="der">der Kuchen</span><span class="plural">Pl. Kuchen</span></span><span class="en">cake</span></li>
-      <li><span class="de"><span class="die">die Schokolade</span><span class="plural">Pl. Schokoladen</span></span><span class="en">chocolate</span></li>
-      <li><span class="de"><span class="die">die Milch</span></span><span class="en">milk</span></li>
-      <li><span class="de"><span class="das">das Ei</span><span class="plural">Pl. Eier</span></span><span class="en">egg</span></li>
-      <li><span class="de"><span class="das">das Eis</span></span><span class="en">ice cream</span></li>
-      <li><span class="de"><span class="das">das Obst</span></span><span class="en">fruit</span></li>
-      <li><span class="de"><span class="der">der Reis</span></span><span class="en">rice</span></li>
-      <li><span class="de"><span class="die">die Pizza</span><span class="plural">Pl. Pizzen</span></span><span class="en">pizza</span></li>
-      <li><span class="de"><span class="das">das Frühstück</span></span><span class="en">breakfast</span></li>
-      <li><span class="de"><span class="die">die Vorspeise</span><span class="plural">Pl. Vorspeisen</span></span><span class="en">starter / appetizer</span></li>
-      <li><span class="de"><span class="das">das Hauptgericht</span><span class="plural">Pl. Hauptgerichte</span></span><span class="en">main course</span></li>
-      <li><span class="de"><span class="das">das Dessert</span><span class="plural">Pl. Desserts</span></span><span class="en">dessert</span></li>
-      <li><span class="de"><span class="die">die Speisekarte</span><span class="plural">Pl. Speisekarten</span></span><span class="en">menu</span></li>
-      <li><span class="de"><span class="das">das Wochenende</span><span class="plural">Pl. Wochenenden</span></span><span class="en">weekend</span></li>
-    </ul>
-  </section>
 
-  <section>
-    <h2>Text</h2>
-    <div class="text-de">
-      Ich habe Hunger.<br>
-      Im Kühlschrank ist Käse und Schinken.<br>
-      Ich esse gern Brot mit Butter.<br>
-      Magst du Tomaten?<br>
-      Ich trinke Milch zum Frühstück.<br>
-      Die Suppe schmeckt sehr gut.<br>
-      Ich möchte Eis als Dessert.<br>
-      Am Wochenende backe ich Kuchen.<br>
-      Ich esse gern Obst.
-    </div>
-    <div class="text-en">
-      I'm hungry.<br>
-      In the fridge there is cheese and ham.<br>
-      I like eating bread with butter.<br>
-      Do you like tomatoes?<br>
-      I drink milk for breakfast.<br>
-      The soup tastes very good.<br>
-      I'd like ice cream for dessert.<br>
-      At the weekend I bake cake.<br>
-      I like eating fruit.
-    </div>
+      <li><div class="word-row"><span class="de"><span class="verb-irr">essen</span><span class="perfekt"> · hat gegessen</span></span><span class="en">to eat</span></div><p class="sample">Ich esse Brot. · Ich habe Brot gegessen.</p></li>
+      <li><div class="word-row"><span class="de"><span class="verb-irr">trinken</span><span class="perfekt"> · hat getrunken</span></span><span class="en">to drink</span></div><p class="sample">Ich trinke Wasser. · Ich habe Wasser getrunken.</p></li>
+      <li><div class="word-row"><span class="de"><span class="verb-reg">schmecken</span><span class="perfekt"> · hat geschmeckt</span></span><span class="en">to taste (good)</span></div><p class="sample">Die Suppe schmeckt gut. · Die Suppe hat gut geschmeckt.</p></li>
+      <li><div class="word-row"><span class="de"><span class="verb-irr">mögen</span><span class="perfekt"> · hat gemocht</span></span><span class="en">to like</span></div><p class="sample">Ich mag Schokolade. · Ich habe Schokolade gemocht.</p></li>
+
+      <li><div class="word-row"><span class="de"><span class="der">der Hunger</span></span><span class="en">hunger</span></div><p class="sample">Der Hunger ist groß. · Ich habe Hunger.</p></li>
+      <li><div class="word-row"><span class="de"><span class="der">der Durst</span></span><span class="en">thirst</span></div><p class="sample">Der Durst ist groß. · Ich habe Durst.</p></li>
+      <li><div class="word-row"><span class="de"><span class="der">der Onkel</span><span class="plural">Pl. Onkel</span></span><span class="en">uncle</span></div><p class="sample">Der Onkel ist nett. · Ich besuche den Onkel.</p></li>
+      <li><div class="word-row"><span class="de"><span class="der">der Kühlschrank</span><span class="plural">Pl. Kühlschränke</span></span><span class="en">fridge / refrigerator</span></div><p class="sample">Der Kühlschrank ist voll. · Ich öffne den Kühlschrank.</p></li>
+      <li><div class="word-row"><span class="de"><span class="das">das Brot</span><span class="plural">Pl. Brote</span></span><span class="en">bread</span></div><p class="sample">Das Brot ist frisch. · Ich esse ein Brot.</p></li>
+      <li><div class="word-row"><span class="de"><span class="die">die Butter</span></span><span class="en">butter</span></div><p class="sample">Die Butter ist frisch. · Ich nehme die Butter.</p></li>
+      <li><div class="word-row"><span class="de"><span class="der">der Käse</span><span class="plural">Pl. Käse</span></span><span class="en">cheese</span></div><p class="sample">Der Käse ist gut. · Ich esse den Käse.</p></li>
+      <li><div class="word-row"><span class="de"><span class="der">der Schinken</span><span class="plural">Pl. Schinken</span></span><span class="en">ham</span></div><p class="sample">Der Schinken ist frisch. · Ich esse den Schinken.</p></li>
+      <li><div class="word-row"><span class="de"><span class="der">der Apfel</span><span class="plural">Pl. Äpfel</span></span><span class="en">apple</span></div><p class="sample">Der Apfel ist rot. · Ich esse einen Apfel.</p></li>
+      <li><div class="word-row"><span class="de"><span class="die">die Orange</span><span class="plural">Pl. Orangen</span></span><span class="en">orange</span></div><p class="sample">Die Orange ist süß. · Ich esse eine Orange.</p></li>
+      <li><div class="word-row"><span class="de"><span class="die">die Tomate</span><span class="plural">Pl. Tomaten</span></span><span class="en">tomato</span></div><p class="sample">Die Tomate ist rot. · Ich esse eine Tomate.</p></li>
+      <li><div class="word-row"><span class="de"><span class="die">die Kartoffel</span><span class="plural">Pl. Kartoffeln</span></span><span class="en">potato</span></div><p class="sample">Die Kartoffel ist groß. · Ich koche eine Kartoffel.</p></li>
+      <li><div class="word-row"><span class="de"><span class="der">der Fisch</span><span class="plural">Pl. Fische</span></span><span class="en">fish</span></div><p class="sample">Der Fisch ist frisch. · Ich esse den Fisch.</p></li>
+      <li><div class="word-row"><span class="de"><span class="der">der Salat</span><span class="plural">Pl. Salate</span></span><span class="en">salad / lettuce</span></div><p class="sample">Der Salat ist frisch. · Ich esse den Salat.</p></li>
+      <li><div class="word-row"><span class="de"><span class="die">die Suppe</span><span class="plural">Pl. Suppen</span></span><span class="en">soup</span></div><p class="sample">Die Suppe ist heiß. · Ich esse die Suppe.</p></li>
+      <li><div class="word-row"><span class="de"><span class="der">der Kuchen</span><span class="plural">Pl. Kuchen</span></span><span class="en">cake</span></div><p class="sample">Der Kuchen ist süß. · Ich esse den Kuchen.</p></li>
+      <li><div class="word-row"><span class="de"><span class="die">die Schokolade</span><span class="plural">Pl. Schokoladen</span></span><span class="en">chocolate</span></div><p class="sample">Die Schokolade ist gut. · Ich esse die Schokolade.</p></li>
+      <li><div class="word-row"><span class="de"><span class="die">die Milch</span></span><span class="en">milk</span></div><p class="sample">Die Milch ist frisch. · Ich trinke die Milch.</p></li>
+      <li><div class="word-row"><span class="de"><span class="das">das Ei</span><span class="plural">Pl. Eier</span></span><span class="en">egg</span></div><p class="sample">Das Ei ist frisch. · Ich esse ein Ei.</p></li>
+      <li><div class="word-row"><span class="de"><span class="das">das Eis</span></span><span class="en">ice cream</span></div><p class="sample">Das Eis ist kalt. · Ich esse ein Eis.</p></li>
+      <li><div class="word-row"><span class="de"><span class="das">das Obst</span></span><span class="en">fruit</span></div><p class="sample">Das Obst ist frisch. · Ich esse das Obst.</p></li>
+      <li><div class="word-row"><span class="de"><span class="der">der Reis</span></span><span class="en">rice</span></div><p class="sample">Der Reis ist fertig. · Ich esse den Reis.</p></li>
+      <li><div class="word-row"><span class="de"><span class="die">die Pizza</span><span class="plural">Pl. Pizzen</span></span><span class="en">pizza</span></div><p class="sample">Die Pizza ist heiß. · Ich esse eine Pizza.</p></li>
+      <li><div class="word-row"><span class="de"><span class="das">das Frühstück</span></span><span class="en">breakfast</span></div><p class="sample">Das Frühstück ist fertig. · Ich mache das Frühstück.</p></li>
+      <li><div class="word-row"><span class="de"><span class="die">die Vorspeise</span><span class="plural">Pl. Vorspeisen</span></span><span class="en">starter / appetizer</span></div><p class="sample">Die Vorspeise ist gut. · Ich bestelle eine Vorspeise.</p></li>
+      <li><div class="word-row"><span class="de"><span class="das">das Hauptgericht</span><span class="plural">Pl. Hauptgerichte</span></span><span class="en">main course</span></div><p class="sample">Das Hauptgericht ist groß. · Ich bestelle ein Hauptgericht.</p></li>
+      <li><div class="word-row"><span class="de"><span class="das">das Dessert</span><span class="plural">Pl. Desserts</span></span><span class="en">dessert</span></div><p class="sample">Das Dessert ist süß. · Ich bestelle ein Dessert.</p></li>
+      <li><div class="word-row"><span class="de"><span class="die">die Speisekarte</span><span class="plural">Pl. Speisekarten</span></span><span class="en">menu</span></div><p class="sample">Die Speisekarte ist lang. · Ich lese die Speisekarte.</p></li>
+      <li><div class="word-row"><span class="de"><span class="das">das Wochenende</span><span class="plural">Pl. Wochenenden</span></span><span class="en">weekend</span></div><p class="sample">Das Wochenende ist schön. · Ich genieße das Wochenende.</p></li>
+
+    </ul>
   </section>
 </body>
 </html>

@@ -14,17 +14,20 @@
     h2 { font-size: 0.85rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.09em; color: #aaa; margin-bottom: 1.2rem; }
     section { margin-bottom: 3rem; }
     .word-list { list-style: none; }
-    .word-list li { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; padding: 0.5rem 0; border-bottom: 1px solid #f0f0f0; }
+    .word-list li { padding: 0.5rem 0; border-bottom: 1px solid #f0f0f0; }
     .word-list li:last-child { border-bottom: none; }
+    .word-row { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; }
     .de { font-size: 1rem; font-weight: 500; }
     .plural { font-size: 0.75rem; color: #bbb; font-weight: 400; margin-left: 0.35rem; }
     .en { font-size: 0.85rem; color: #999; text-align: right; flex-shrink: 0; }
-    .text-de { font-size: 1rem; line-height: 2; margin-bottom: 1rem; }
-    .text-en { font-size: 0.85rem; color: #999; line-height: 2; }
+    .sample { font-size: 0.82rem; color: #bbb; font-style: italic; margin-top: 0.1rem; }
     .back-link { display: block; font-size: 0.78rem; color: #bbb; text-decoration: none; margin-bottom: 1.5rem; }
     .back-link:hover { color: #888; }
     .mp3-link { display: block; font-size: 0.78rem; color: #bbb; text-decoration: none; margin-bottom: 2.5rem; }
     .mp3-link:hover { color: #888; }
+    .verb-reg { color: #d97706; }
+    .verb-irr { color: #7c3aed; }
+    .perfekt { font-size: 0.75rem; color: #bbb; font-weight: 400; margin-left: 0.4rem; }
   </style>
 </head>
 <body>
@@ -34,68 +37,48 @@
     <span><span class="der">■</span> der (m)</span>
     <span><span class="die">■</span> die (f)</span>
     <span><span class="das">■</span> das (n)</span>
+    <span><span class="verb-reg">■</span> reg.</span>
+    <span><span class="verb-irr">■</span> irr.</span>
   </p>
   <a class="mp3-link" href="Lektion-7.mp3" download>⬇ Audio herunterladen</a>
 
   <section>
     <h2>Wortschatz</h2>
     <ul class="word-list">
-      <li><span class="de">backen</span><span class="en">to bake</span></li>
-      <li><span class="de">fotografieren</span><span class="en">to take photos</span></li>
-      <li><span class="de">Fußball spielen</span><span class="en">to play football</span></li>
-      <li><span class="de">im Internet surfen</span><span class="en">to surf the internet</span></li>
-      <li><span class="de">malen</span><span class="en">to paint / to draw</span></li>
-      <li><span class="de">Musik hören</span><span class="en">to listen to music</span></li>
-      <li><span class="de">Rad fahren</span><span class="en">to ride a bike</span></li>
-      <li><span class="de">schwimmen</span><span class="en">to swim</span></li>
-      <li><span class="de">spazieren gehen</span><span class="en">to go for a walk</span></li>
-      <li><span class="de">können</span><span class="en">can / to be able to</span></li>
-      <li><span class="de">lieben</span><span class="en">to love</span></li>
-      <li><span class="de">telefonieren</span><span class="en">to make a phone call</span></li>
-      <li><span class="de">gar nicht</span><span class="en">not at all</span></li>
-      <li><span class="de">manchmal</span><span class="en">sometimes</span></li>
-      <li><span class="de">nie</span><span class="en">never</span></li>
-      <li><span class="de">oft</span><span class="en">often</span></li>
-      <li><span class="de">wie oft</span><span class="en">how often</span></li>
-      <li><span class="de">leider</span><span class="en">unfortunately</span></li>
-      <li><span class="de">natürlich</span><span class="en">of course / naturally</span></li>
-      <li><span class="de">fast</span><span class="en">almost</span></li>
-      <li><span class="de"><span class="der">der Ausflug</span><span class="plural">Pl. Ausflüge</span></span><span class="en">excursion / day trip</span></li>
-      <li><span class="de"><span class="die">die Freizeit</span></span><span class="en">free time</span></li>
-      <li><span class="de"><span class="das">das Kino</span><span class="plural">Pl. Kinos</span></span><span class="en">cinema</span></li>
-      <li><span class="de"><span class="der">der Spaß</span></span><span class="en">fun</span></li>
-      <li><span class="de"><span class="das">das Theater</span><span class="plural">Pl. Theater</span></span><span class="en">theatre</span></li>
-      <li><span class="de"><span class="die">die Gitarre</span><span class="plural">Pl. Gitarren</span></span><span class="en">guitar</span></li>
-      <li><span class="de"><span class="das">das Kompliment</span><span class="plural">Pl. Komplimente</span></span><span class="en">compliment</span></li>
-      <li><span class="de"><span class="die">die Fähigkeit</span><span class="plural">Pl. Fähigkeiten</span></span><span class="en">ability / skill</span></li>
-      <li><span class="de"><span class="das">das Auto</span><span class="plural">Pl. Autos</span></span><span class="en">car</span></li>
-    </ul>
-  </section>
 
-  <section>
-    <h2>Text</h2>
-    <div class="text-de">
-      Ich kann gut Gitarre spielen.<br>
-      Mein Freund kann gut Fußball spielen.<br>
-      Kannst du malen?<br>
-      Ich fahre oft Rad.<br>
-      Meine Schwester fotografiert gern.<br>
-      Wir gehen manchmal ins Kino.<br>
-      Ich kann leider nicht gut schwimmen.<br>
-      Wir machen gern Ausflüge in die Natur.<br>
-      Musik hören macht Spaß.
-    </div>
-    <div class="text-en">
-      I can play guitar well.<br>
-      My friend can play football well.<br>
-      Can you paint?<br>
-      I often ride my bike.<br>
-      My sister likes taking photos.<br>
-      We sometimes go to the cinema.<br>
-      Unfortunately I can't swim well.<br>
-      We like going on day trips into nature.<br>
-      Listening to music is fun.
-    </div>
+      <li><div class="word-row"><span class="de"><span class="verb-irr">backen</span><span class="perfekt"> · hat gebacken</span></span><span class="en">to bake</span></div><p class="sample">Ich backe einen Kuchen. · Ich habe einen Kuchen gebacken.</p></li>
+      <li><div class="word-row"><span class="de"><span class="verb-reg">fotografieren</span><span class="perfekt"> · hat fotografiert</span></span><span class="en">to take photos</span></div><p class="sample">Ich fotografiere die Stadt. · Ich habe die Stadt fotografiert.</p></li>
+      <li><div class="word-row"><span class="de"><span class="verb-reg">Fußball spielen</span><span class="perfekt"> · hat Fußball gespielt</span></span><span class="en">to play football</span></div><p class="sample">Ich spiele Fußball. · Ich habe Fußball gespielt.</p></li>
+      <li><div class="word-row"><span class="de"><span class="verb-reg">im Internet surfen</span><span class="perfekt"> · hat im Internet gesurft</span></span><span class="en">to surf the internet</span></div><p class="sample">Ich surfe im Internet. · Ich habe im Internet gesurft.</p></li>
+      <li><div class="word-row"><span class="de"><span class="verb-reg">malen</span><span class="perfekt"> · hat gemalt</span></span><span class="en">to paint / to draw</span></div><p class="sample">Ich male ein Bild. · Ich habe ein Bild gemalt.</p></li>
+      <li><div class="word-row"><span class="de"><span class="verb-reg">Musik hören</span><span class="perfekt"> · hat Musik gehört</span></span><span class="en">to listen to music</span></div><p class="sample">Ich höre Musik. · Ich habe Musik gehört.</p></li>
+      <li><div class="word-row"><span class="de"><span class="verb-irr">Rad fahren</span><span class="perfekt"> · ist Rad gefahren</span></span><span class="en">to ride a bike</span></div><p class="sample">Ich fahre Rad. · Ich bin Rad gefahren.</p></li>
+      <li><div class="word-row"><span class="de"><span class="verb-irr">schwimmen</span><span class="perfekt"> · ist geschwommen</span></span><span class="en">to swim</span></div><p class="sample">Ich schwimme gern. · Ich bin geschwommen.</p></li>
+      <li><div class="word-row"><span class="de"><span class="verb-irr">spazieren gehen</span><span class="perfekt"> · ist spazieren gegangen</span></span><span class="en">to go for a walk</span></div><p class="sample">Ich gehe spazieren. · Ich bin spazieren gegangen.</p></li>
+      <li><div class="word-row"><span class="de"><span class="verb-irr">können</span><span class="perfekt"> · hat gekonnt</span></span><span class="en">can / to be able to</span></div><p class="sample">Ich kann gut schwimmen. · Ich habe das immer gekonnt.</p></li>
+      <li><div class="word-row"><span class="de"><span class="verb-reg">lieben</span><span class="perfekt"> · hat geliebt</span></span><span class="en">to love</span></div><p class="sample">Ich liebe Musik. · Ich habe die Musik geliebt.</p></li>
+      <li><div class="word-row"><span class="de"><span class="verb-reg">telefonieren</span><span class="perfekt"> · hat telefoniert</span></span><span class="en">to make a phone call</span></div><p class="sample">Ich telefoniere mit meiner Mutter. · Ich habe mit ihr telefoniert.</p></li>
+
+      <li><div class="word-row"><span class="de">gar nicht</span><span class="en">not at all</span></div><p class="sample">Ich kann gar nicht schwimmen.</p></li>
+      <li><div class="word-row"><span class="de">manchmal</span><span class="en">sometimes</span></div><p class="sample">Ich fahre manchmal Rad.</p></li>
+      <li><div class="word-row"><span class="de">nie</span><span class="en">never</span></div><p class="sample">Ich gehe nie ins Kino.</p></li>
+      <li><div class="word-row"><span class="de">oft</span><span class="en">often</span></div><p class="sample">Ich höre oft Musik.</p></li>
+      <li><div class="word-row"><span class="de">wie oft</span><span class="en">how often</span></div><p class="sample">Wie oft spielst du Fußball?</p></li>
+      <li><div class="word-row"><span class="de">leider</span><span class="en">unfortunately</span></div><p class="sample">Ich kann leider nicht kommen.</p></li>
+      <li><div class="word-row"><span class="de">natürlich</span><span class="en">of course / naturally</span></div><p class="sample">Natürlich komme ich!</p></li>
+      <li><div class="word-row"><span class="de">fast</span><span class="en">almost</span></div><p class="sample">Ich kann fast gut schwimmen.</p></li>
+
+      <li><div class="word-row"><span class="de"><span class="der">der Ausflug</span><span class="plural">Pl. Ausflüge</span></span><span class="en">excursion / day trip</span></div><p class="sample">Der Ausflug ist schön. · Ich mache einen Ausflug.</p></li>
+      <li><div class="word-row"><span class="de"><span class="die">die Freizeit</span></span><span class="en">free time</span></div><p class="sample">Die Freizeit ist kurz. · Ich genieße die Freizeit.</p></li>
+      <li><div class="word-row"><span class="de"><span class="das">das Kino</span><span class="plural">Pl. Kinos</span></span><span class="en">cinema</span></div><p class="sample">Das Kino ist neu. · Ich besuche das Kino.</p></li>
+      <li><div class="word-row"><span class="de"><span class="der">der Spaß</span></span><span class="en">fun</span></div><p class="sample">Der Spaß ist groß. · Ich habe Spaß.</p></li>
+      <li><div class="word-row"><span class="de"><span class="das">das Theater</span><span class="plural">Pl. Theater</span></span><span class="en">theatre</span></div><p class="sample">Das Theater ist alt. · Ich besuche das Theater.</p></li>
+      <li><div class="word-row"><span class="de"><span class="die">die Gitarre</span><span class="plural">Pl. Gitarren</span></span><span class="en">guitar</span></div><p class="sample">Die Gitarre ist schön. · Ich kaufe eine Gitarre.</p></li>
+      <li><div class="word-row"><span class="de"><span class="das">das Kompliment</span><span class="plural">Pl. Komplimente</span></span><span class="en">compliment</span></div><p class="sample">Das Kompliment ist nett. · Ich mache ein Kompliment.</p></li>
+      <li><div class="word-row"><span class="de"><span class="die">die Fähigkeit</span><span class="plural">Pl. Fähigkeiten</span></span><span class="en">ability / skill</span></div><p class="sample">Die Fähigkeit ist wichtig. · Ich habe eine Fähigkeit.</p></li>
+      <li><div class="word-row"><span class="de"><span class="das">das Auto</span><span class="plural">Pl. Autos</span></span><span class="en">car</span></div><p class="sample">Das Auto ist neu. · Ich kaufe ein Auto.</p></li>
+
+    </ul>
   </section>
 </body>
 </html>

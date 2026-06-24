@@ -30,9 +30,11 @@ Build the page with these requirements:
   Style (.back-link): display:block; font-size:0.78rem; color:#bbb;
   text-decoration:none; margin-bottom:1.5rem. Hover: color:#888.
 - Title at top: "Lektion {NUMBER} — {TITLE}".
-- GENDER COLORS — the only color on the page. Color the article + noun by gender:
-    der -> blue (#1d4ed8),  die -> red (#db2777),  das -> green (#059669).
-  Add one small, quiet legend line under the title. Legend margin-bottom: 0.5rem.
+- GENDER COLORS for nouns, and VERB COLORS for verbs — the only colors on the page.
+  Noun gender: der -> blue (#1d4ed8),  die -> red (#db2777),  das -> green (#059669).
+  Verb type: regular -> orange (#d97706),  irregular -> purple (#7c3aed).
+  Add one small, quiet legend line under the title showing all five symbols. Legend margin-bottom: 0.5rem.
+  Legend format: der (m) · die (f) · das (n) · reg. · irr. — each preceded by its colored ■ square.
 - AUDIO DOWNLOAD: immediately after the legend </p>, add:
     <a class="mp3-link" href="Lektion-{NUMBER}.mp3" download>⬇ Audio herunterladen</a>
   Style (.mp3-link): display:block; font-size:0.78rem; color:#bbb;
@@ -40,6 +42,12 @@ Build the page with these requirements:
 - "Wortschatz" section: for each word, one simple row:
     * the German word (nouns: article + noun in the gender color; plural in small
       muted text after it, e.g. "Pl. Büros"; non-nouns in plain near-black)
+    * for VERBS: wrap the infinitive in a colored span (verb-reg or verb-irr),
+      then add the Perfekt form in small muted text after it, e.g.:
+        regular: <span class="verb-reg">wohnen</span><span class="perfekt"> · hat gewohnt</span>
+        irregular: <span class="verb-irr">kommen</span><span class="perfekt"> · ist gekommen</span>
+      CSS: .verb-reg { color: #d97706; }  .verb-irr { color: #7c3aed; }
+           .perfekt { font-size: 0.75rem; color: #bbb; font-weight: 400; margin-left: 0.4rem; }
     * its English translation in small muted text
 - "Text" section: the German sentences as one paragraph, and under it the full
   English translation in small muted text.

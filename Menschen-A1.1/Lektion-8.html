@@ -14,17 +14,20 @@
     h2 { font-size: 0.85rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.09em; color: #aaa; margin-bottom: 1.2rem; }
     section { margin-bottom: 3rem; }
     .word-list { list-style: none; }
-    .word-list li { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; padding: 0.5rem 0; border-bottom: 1px solid #f0f0f0; }
+    .word-list li { padding: 0.5rem 0; border-bottom: 1px solid #f0f0f0; }
     .word-list li:last-child { border-bottom: none; }
+    .word-row { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; }
     .de { font-size: 1rem; font-weight: 500; }
     .plural { font-size: 0.75rem; color: #bbb; font-weight: 400; margin-left: 0.35rem; }
     .en { font-size: 0.85rem; color: #999; text-align: right; flex-shrink: 0; }
-    .text-de { font-size: 1rem; line-height: 2; margin-bottom: 1rem; }
-    .text-en { font-size: 0.85rem; color: #999; line-height: 2; }
+    .sample { font-size: 0.82rem; color: #bbb; font-style: italic; margin-top: 0.1rem; }
     .back-link { display: block; font-size: 0.78rem; color: #bbb; text-decoration: none; margin-bottom: 1.5rem; }
     .back-link:hover { color: #888; }
     .mp3-link { display: block; font-size: 0.78rem; color: #bbb; text-decoration: none; margin-bottom: 2.5rem; }
     .mp3-link:hover { color: #888; }
+    .verb-reg { color: #d97706; }
+    .verb-irr { color: #7c3aed; }
+    .perfekt { font-size: 0.75rem; color: #bbb; font-weight: 400; margin-left: 0.4rem; }
   </style>
 </head>
 <body>
@@ -34,70 +37,50 @@
     <span><span class="der">■</span> der (m)</span>
     <span><span class="die">■</span> die (f)</span>
     <span><span class="das">■</span> das (n)</span>
+    <span><span class="verb-reg">■</span> reg.</span>
+    <span><span class="verb-irr">■</span> irr.</span>
   </p>
   <a class="mp3-link" href="Lektion-8.mp3" download>⬇ Audio herunterladen</a>
 
   <section>
     <h2>Wortschatz</h2>
     <ul class="word-list">
-      <li><span class="de">einladen</span><span class="en">to invite</span></li>
-      <li><span class="de">absagen</span><span class="en">to cancel</span></li>
-      <li><span class="de">zusagen</span><span class="en">to accept (an invitation)</span></li>
-      <li><span class="de">warum</span><span class="en">why</span></li>
-      <li><span class="de">wann</span><span class="en">when</span></li>
-      <li><span class="de">vielleicht</span><span class="en">maybe / perhaps</span></li>
-      <li><span class="de">morgen</span><span class="en">tomorrow</span></li>
-      <li><span class="de">spät</span><span class="en">late</span></li>
-      <li><span class="de">wie spät</span><span class="en">what time is it</span></li>
-      <li><span class="de">halb</span><span class="en">half past</span></li>
-      <li><span class="de">um</span><span class="en">at (time)</span></li>
-      <li><span class="de"><span class="der">der Montag</span><span class="plural">Pl. Montage</span></span><span class="en">Monday</span></li>
-      <li><span class="de"><span class="der">der Dienstag</span><span class="plural">Pl. Dienstage</span></span><span class="en">Tuesday</span></li>
-      <li><span class="de"><span class="der">der Mittwoch</span><span class="plural">Pl. Mittwoche</span></span><span class="en">Wednesday</span></li>
-      <li><span class="de"><span class="der">der Donnerstag</span><span class="plural">Pl. Donnerstage</span></span><span class="en">Thursday</span></li>
-      <li><span class="de"><span class="der">der Freitag</span><span class="plural">Pl. Freitage</span></span><span class="en">Friday</span></li>
-      <li><span class="de"><span class="der">der Samstag</span><span class="plural">Pl. Samstage</span></span><span class="en">Saturday</span></li>
-      <li><span class="de"><span class="der">der Sonntag</span><span class="plural">Pl. Sonntage</span></span><span class="en">Sunday</span></li>
-      <li><span class="de"><span class="die">die Woche</span><span class="plural">Pl. Wochen</span></span><span class="en">week</span></li>
-      <li><span class="de"><span class="der">der Geburtstag</span><span class="plural">Pl. Geburtstage</span></span><span class="en">birthday</span></li>
-      <li><span class="de"><span class="das">das Schwimmbad</span><span class="plural">Pl. Schwimmbäder</span></span><span class="en">swimming pool</span></li>
-      <li><span class="de"><span class="die">die Ausstellung</span><span class="plural">Pl. Ausstellungen</span></span><span class="en">exhibition</span></li>
-      <li><span class="de"><span class="das">das Café</span><span class="plural">Pl. Cafés</span></span><span class="en">café</span></li>
-      <li><span class="de"><span class="die">die Disco</span><span class="plural">Pl. Discos</span></span><span class="en">disco</span></li>
-      <li><span class="de"><span class="die">die Kneipe</span><span class="plural">Pl. Kneipen</span></span><span class="en">pub</span></li>
-      <li><span class="de"><span class="das">das Konzert</span><span class="plural">Pl. Konzerte</span></span><span class="en">concert</span></li>
-      <li><span class="de"><span class="das">das Museum</span><span class="plural">Pl. Museen</span></span><span class="en">museum</span></li>
-      <li><span class="de"><span class="das">das Restaurant</span><span class="plural">Pl. Restaurants</span></span><span class="en">restaurant</span></li>
-      <li><span class="de"><span class="die">die Idee</span><span class="plural">Pl. Ideen</span></span><span class="en">idea</span></li>
-      <li><span class="de"><span class="die">die Einladung</span><span class="plural">Pl. Einladungen</span></span><span class="en">invitation</span></li>
-      <li><span class="de"><span class="der">der Vorschlag</span><span class="plural">Pl. Vorschläge</span></span><span class="en">suggestion / proposal</span></li>
-    </ul>
-  </section>
 
-  <section>
-    <h2>Text</h2>
-    <div class="text-de">
-      Heute ist Mittwoch.<br>
-      Hast du morgen Zeit?<br>
-      Wir gehen am Freitag ins Konzert.<br>
-      Das Konzert beginnt um acht Uhr.<br>
-      Am Samstag gehe ich ins Restaurant.<br>
-      Ich trinke gern Kaffee im Café.<br>
-      Wann gehen wir ins Museum?<br>
-      Ich habe leider keine Zeit.<br>
-      Vielleicht am Sonntag?
-    </div>
-    <div class="text-en">
-      Today is Wednesday.<br>
-      Do you have time tomorrow?<br>
-      We're going to the concert on Friday.<br>
-      The concert starts at eight o'clock.<br>
-      On Saturday I'm going to the restaurant.<br>
-      I like drinking coffee at the café.<br>
-      When are we going to the museum?<br>
-      Unfortunately I have no time.<br>
-      Maybe on Sunday?
-    </div>
+      <li><div class="word-row"><span class="de"><span class="verb-irr">einladen</span><span class="perfekt"> · hat eingeladen</span></span><span class="en">to invite</span></div><p class="sample">Ich lade dich ein. · Ich habe dich eingeladen.</p></li>
+      <li><div class="word-row"><span class="de"><span class="verb-reg">absagen</span><span class="perfekt"> · hat abgesagt</span></span><span class="en">to cancel</span></div><p class="sample">Ich sage den Termin ab. · Ich habe den Termin abgesagt.</p></li>
+      <li><div class="word-row"><span class="de"><span class="verb-reg">zusagen</span><span class="perfekt"> · hat zugesagt</span></span><span class="en">to accept (an invitation)</span></div><p class="sample">Ich sage zu. · Ich habe zugesagt.</p></li>
+
+      <li><div class="word-row"><span class="de">warum</span><span class="en">why</span></div><p class="sample">Warum kommst du nicht?</p></li>
+      <li><div class="word-row"><span class="de">wann</span><span class="en">when</span></div><p class="sample">Wann kommst du?</p></li>
+      <li><div class="word-row"><span class="de">vielleicht</span><span class="en">maybe / perhaps</span></div><p class="sample">Vielleicht gehe ich ins Kino.</p></li>
+      <li><div class="word-row"><span class="de">morgen</span><span class="en">tomorrow</span></div><p class="sample">Morgen habe ich Zeit.</p></li>
+      <li><div class="word-row"><span class="de">spät</span><span class="en">late</span></div><p class="sample">Es ist schon spät.</p></li>
+      <li><div class="word-row"><span class="de">wie spät</span><span class="en">what time is it</span></div><p class="sample">Wie spät ist es?</p></li>
+      <li><div class="word-row"><span class="de">halb</span><span class="en">half past</span></div><p class="sample">Es ist halb drei.</p></li>
+      <li><div class="word-row"><span class="de">um</span><span class="en">at (time)</span></div><p class="sample">Der Film beginnt um acht.</p></li>
+
+      <li><div class="word-row"><span class="de"><span class="der">der Montag</span><span class="plural">Pl. Montage</span></span><span class="en">Monday</span></div><p class="sample">Der Montag ist lang. · Ich mag den Montag nicht.</p></li>
+      <li><div class="word-row"><span class="de"><span class="der">der Dienstag</span><span class="plural">Pl. Dienstage</span></span><span class="en">Tuesday</span></div><p class="sample">Der Dienstag ist frei. · Ich mag den Dienstag.</p></li>
+      <li><div class="word-row"><span class="de"><span class="der">der Mittwoch</span><span class="plural">Pl. Mittwoche</span></span><span class="en">Wednesday</span></div><p class="sample">Der Mittwoch ist gut. · Ich mag den Mittwoch.</p></li>
+      <li><div class="word-row"><span class="de"><span class="der">der Donnerstag</span><span class="plural">Pl. Donnerstage</span></span><span class="en">Thursday</span></div><p class="sample">Der Donnerstag ist lang. · Ich mag den Donnerstag.</p></li>
+      <li><div class="word-row"><span class="de"><span class="der">der Freitag</span><span class="plural">Pl. Freitage</span></span><span class="en">Friday</span></div><p class="sample">Der Freitag ist gut. · Ich mag den Freitag.</p></li>
+      <li><div class="word-row"><span class="de"><span class="der">der Samstag</span><span class="plural">Pl. Samstage</span></span><span class="en">Saturday</span></div><p class="sample">Der Samstag ist frei. · Ich mag den Samstag.</p></li>
+      <li><div class="word-row"><span class="de"><span class="der">der Sonntag</span><span class="plural">Pl. Sonntage</span></span><span class="en">Sunday</span></div><p class="sample">Der Sonntag ist ruhig. · Ich mag den Sonntag.</p></li>
+      <li><div class="word-row"><span class="de"><span class="die">die Woche</span><span class="plural">Pl. Wochen</span></span><span class="en">week</span></div><p class="sample">Die Woche hat sieben Tage. · Ich warte eine Woche.</p></li>
+      <li><div class="word-row"><span class="de"><span class="der">der Geburtstag</span><span class="plural">Pl. Geburtstage</span></span><span class="en">birthday</span></div><p class="sample">Der Geburtstag ist im März. · Ich feiere den Geburtstag.</p></li>
+      <li><div class="word-row"><span class="de"><span class="das">das Schwimmbad</span><span class="plural">Pl. Schwimmbäder</span></span><span class="en">swimming pool</span></div><p class="sample">Das Schwimmbad ist offen. · Ich besuche das Schwimmbad.</p></li>
+      <li><div class="word-row"><span class="de"><span class="die">die Ausstellung</span><span class="plural">Pl. Ausstellungen</span></span><span class="en">exhibition</span></div><p class="sample">Die Ausstellung ist schön. · Ich besuche die Ausstellung.</p></li>
+      <li><div class="word-row"><span class="de"><span class="das">das Café</span><span class="plural">Pl. Cafés</span></span><span class="en">café</span></div><p class="sample">Das Café ist nett. · Ich besuche das Café.</p></li>
+      <li><div class="word-row"><span class="de"><span class="die">die Disco</span><span class="plural">Pl. Discos</span></span><span class="en">disco</span></div><p class="sample">Die Disco ist laut. · Ich besuche die Disco.</p></li>
+      <li><div class="word-row"><span class="de"><span class="die">die Kneipe</span><span class="plural">Pl. Kneipen</span></span><span class="en">pub</span></div><p class="sample">Die Kneipe ist gemütlich. · Ich besuche die Kneipe.</p></li>
+      <li><div class="word-row"><span class="de"><span class="das">das Konzert</span><span class="plural">Pl. Konzerte</span></span><span class="en">concert</span></div><p class="sample">Das Konzert ist gut. · Ich besuche das Konzert.</p></li>
+      <li><div class="word-row"><span class="de"><span class="das">das Museum</span><span class="plural">Pl. Museen</span></span><span class="en">museum</span></div><p class="sample">Das Museum ist groß. · Ich besuche das Museum.</p></li>
+      <li><div class="word-row"><span class="de"><span class="das">das Restaurant</span><span class="plural">Pl. Restaurants</span></span><span class="en">restaurant</span></div><p class="sample">Das Restaurant ist gut. · Ich besuche das Restaurant.</p></li>
+      <li><div class="word-row"><span class="de"><span class="die">die Idee</span><span class="plural">Pl. Ideen</span></span><span class="en">idea</span></div><p class="sample">Die Idee ist gut. · Ich habe eine Idee.</p></li>
+      <li><div class="word-row"><span class="de"><span class="die">die Einladung</span><span class="plural">Pl. Einladungen</span></span><span class="en">invitation</span></div><p class="sample">Die Einladung ist schön. · Ich bekomme eine Einladung.</p></li>
+      <li><div class="word-row"><span class="de"><span class="der">der Vorschlag</span><span class="plural">Pl. Vorschläge</span></span><span class="en">suggestion / proposal</span></div><p class="sample">Der Vorschlag ist gut. · Ich mache einen Vorschlag.</p></li>
+
+    </ul>
   </section>
 </body>
 </html>
