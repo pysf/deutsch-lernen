@@ -1,0 +1,103 @@
+<speak>
+  <voice name="de-DE-Chirp3-HD-Charon">Menschen A1.1. Lektion 9. Ich möchte was essen, Onkel Harry.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">essen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">essen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">essen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Ich esse Brot.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">trinken</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">trinken</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">trinken.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Ich trinke Wasser.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">schmecken</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">schmecken</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">schmecken.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Die Suppe schmeckt gut.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">mögen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">mögen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">mögen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Ich mag Schokolade.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Hunger</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Hunger</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Hunger.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Der Hunger ist groß.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Durst</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Durst</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Durst.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Der Durst ist groß.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Onkel</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Onkel</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Onkel.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Der Onkel ist nett.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Kühlschrank</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Kühlschrank</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Kühlschrank.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Der Kühlschrank ist voll.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Brot</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Brot</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Brot.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Das Brot ist frisch.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Butter</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Butter</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Butter.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Die Butter ist frisch.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Käse</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Käse</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Käse.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Der Käse ist gut.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Schinken</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Schinken</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Schinken.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Der Schinken ist frisch.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Apfel</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Apfel</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Apfel.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Der Apfel ist rot.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Orange</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Orange</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Orange.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Die Orange ist süß.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Tomate</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Tomate</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Tomate.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Die Tomate ist rot.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Kartoffel</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Kartoffel</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Kartoffel.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Die Kartoffel ist groß.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Fisch</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Fisch</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Fisch.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Der Fisch ist frisch.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Salat</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Salat</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Salat.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Der Salat ist frisch.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Suppe</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Suppe</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Suppe.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Die Suppe ist heiß.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Kuchen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Kuchen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Kuchen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Der Kuchen ist süß.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Schokolade</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Schokolade</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Schokolade.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Die Schokolade ist gut.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Milch</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Milch</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Milch.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Die Milch ist frisch.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Ei</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Ei</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Ei.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Das Ei ist frisch.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Eis</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Eis</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Eis.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Das Eis ist kalt.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Obst</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Obst</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Obst.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Das Obst ist frisch.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Reis</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Reis</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Reis.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Der Reis ist fertig.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Pizza</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Pizza</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Pizza.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Die Pizza ist heiß.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Frühstück</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Frühstück</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Frühstück.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Das Frühstück ist fertig.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Vorspeise</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Vorspeise</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Vorspeise.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Die Vorspeise ist gut.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Hauptgericht</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Hauptgericht</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Hauptgericht.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Das Hauptgericht ist groß.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Dessert</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Dessert</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Dessert.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Das Dessert ist süß.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Speisekarte</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Speisekarte</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Speisekarte.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Die Speisekarte ist lang.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Wochenende</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Wochenende</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Wochenende.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Das Wochenende ist schön.</voice> <break time="4s"/>
+
+</speak>

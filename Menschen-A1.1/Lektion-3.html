@@ -6,7 +6,7 @@
   <title>Lektion 3 — Das ist meine Mutter</title>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background: #fff; color: #1a1a1a; font-size: 18px; line-height: 1.6; padding: 2rem 1.25rem; max-width: 640px; margin: 0 auto; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background: #fff; color: #1a1a1a; font-size: 18px; line-height: 1.6; padding: 3.5rem 1.25rem 2rem; max-width: 640px; margin: 0 auto; }
     h1 { font-size: 1.4rem; font-weight: 700; margin-bottom: 0.35rem; }
     .legend { font-size: 0.78rem; color: #888; margin-bottom: 0.5rem; }
     .legend span { margin-right: 1rem; }
@@ -28,9 +28,30 @@
     .verb-reg { color: #d97706; }
     .verb-irr { color: #7c3aed; }
     .perfekt { font-size: 0.75rem; color: #bbb; font-weight: 400; margin-left: 0.4rem; }
+    .pos { font-style: italic; font-size: 0.72rem; color: #bbb; font-weight: 400; margin-left: 0.35rem; }
+    #player { position: fixed; top: 0; left: 0; right: 0; background: #fff; border-bottom: 1px solid #f0f0f0; z-index: 100; padding: 0.5rem 1.25rem; display: flex; align-items: center; justify-content: center; gap: 0.75rem; }
+    #player button { background: none; border: 1px solid #ddd; border-radius: 4px; padding: 0.3rem 0.7rem; font-size: 0.82rem; color: #555; cursor: pointer; line-height: 1.4; }
+    #player button:hover { border-color: #aaa; color: #111; }
+    #player #pp { min-width: 2.2rem; }
   </style>
 </head>
 <body>
+  <div id="player">
+    <audio id="audio" src="Lektion-3.mp3"></audio>
+    <button onclick="seek(-10)">−10s</button>
+    <button id="pp" onclick="togglePlay()">▶</button>
+    <button onclick="seek(10)">+10s</button>
+  </div>
+  <script>
+    const audio = document.getElementById('audio');
+    const pp = document.getElementById('pp');
+    function togglePlay() {
+      if (audio.paused) { audio.play(); pp.textContent = '⏸'; }
+      else { audio.pause(); pp.textContent = '▶'; }
+    }
+    function seek(s) { audio.currentTime = Math.max(0, audio.currentTime + s); }
+    audio.addEventListener('ended', () => pp.textContent = '▶');
+  </script>
   <a class="back-link" href="index.html">← Alle Lektionen</a>
   <h1>Lektion 3 — Das ist meine Mutter</h1>
   <p class="legend">
@@ -39,6 +60,7 @@
     <span><span class="das">■</span> das (n)</span>
     <span><span class="verb-reg">■</span> reg.</span>
     <span><span class="verb-irr">■</span> irr.</span>
+    <span><span class="pos">(t)</span> transitiv · <span class="pos">(i)</span> intransitiv · <span class="pos">(adj)</span> Adjektiv · <span class="pos">(adv)</span> Adverb</span>
   </p>
   <a class="mp3-link" href="Lektion-3.mp3" download>⬇ Audio herunterladen</a>
 
@@ -50,27 +72,27 @@
       <li><div class="word-row"><span class="de">dein / deine</span><span class="en">your (informal)</span></div><p class="sample">Dein Bruder ist nett.</p></li>
       <li><div class="word-row"><span class="de">Ihr / Ihre</span><span class="en">your (formal)</span></div><p class="sample">Wie ist Ihr Name?</p></li>
 
-      <li><div class="word-row"><span class="de"><span class="die">die Mutter</span><span class="plural">Pl. Mütter</span></span><span class="en">mother</span></div><p class="sample">Die Mutter ist zu Hause. · Ich besuche die Mutter.</p></li>
-      <li><div class="word-row"><span class="de"><span class="der">der Vater</span><span class="plural">Pl. Väter</span></span><span class="en">father</span></div><p class="sample">Der Vater arbeitet. · Ich besuche den Vater.</p></li>
-      <li><div class="word-row"><span class="de"><span class="die">die Eltern</span></span><span class="en">parents (pl. only)</span></div><p class="sample">Die Eltern sind nett. · Ich besuche die Eltern.</p></li>
-      <li><div class="word-row"><span class="de"><span class="die">die Großmutter</span><span class="plural">Pl. Großmütter</span></span><span class="en">grandmother</span></div><p class="sample">Die Großmutter ist alt. · Ich besuche die Großmutter.</p></li>
-      <li><div class="word-row"><span class="de"><span class="der">der Großvater</span><span class="plural">Pl. Großväter</span></span><span class="en">grandfather</span></div><p class="sample">Der Großvater ist alt. · Ich besuche den Großvater.</p></li>
-      <li><div class="word-row"><span class="de"><span class="die">die Großeltern</span></span><span class="en">grandparents (pl. only)</span></div><p class="sample">Die Großeltern sind nett. · Ich besuche die Großeltern.</p></li>
-      <li><div class="word-row"><span class="de"><span class="die">die Oma</span><span class="plural">Pl. Omas</span></span><span class="en">grandma</span></div><p class="sample">Die Oma ist nett. · Ich besuche die Oma.</p></li>
-      <li><div class="word-row"><span class="de"><span class="die">die Schwester</span><span class="plural">Pl. Schwestern</span></span><span class="en">sister</span></div><p class="sample">Die Schwester wohnt in Wien. · Ich habe eine Schwester.</p></li>
-      <li><div class="word-row"><span class="de"><span class="der">der Bruder</span><span class="plural">Pl. Brüder</span></span><span class="en">brother</span></div><p class="sample">Der Bruder ist nett. · Ich habe einen Bruder.</p></li>
-      <li><div class="word-row"><span class="de"><span class="die">die Geschwister</span></span><span class="en">siblings (pl. only)</span></div><p class="sample">Die Geschwister sind nett. · Ich habe Geschwister.</p></li>
-      <li><div class="word-row"><span class="de"><span class="der">der Sohn</span><span class="plural">Pl. Söhne</span></span><span class="en">son</span></div><p class="sample">Der Sohn ist jung. · Ich habe einen Sohn.</p></li>
-      <li><div class="word-row"><span class="de"><span class="die">die Tochter</span><span class="plural">Pl. Töchter</span></span><span class="en">daughter</span></div><p class="sample">Die Tochter ist klein. · Ich habe eine Tochter.</p></li>
-      <li><div class="word-row"><span class="de"><span class="die">die Ehefrau</span><span class="plural">Pl. Ehefrauen</span></span><span class="en">wife</span></div><p class="sample">Die Ehefrau arbeitet. · Er hat eine Ehefrau.</p></li>
-      <li><div class="word-row"><span class="de"><span class="der">der Ehemann</span><span class="plural">Pl. Ehemänner</span></span><span class="en">husband</span></div><p class="sample">Der Ehemann kommt aus Berlin. · Sie hat einen Ehemann.</p></li>
-      <li><div class="word-row"><span class="de"><span class="der">der Enkel</span><span class="plural">Pl. Enkel</span></span><span class="en">grandson</span></div><p class="sample">Der Enkel ist jung. · Sie hat einen Enkel.</p></li>
-      <li><div class="word-row"><span class="de"><span class="die">die Enkelin</span><span class="plural">Pl. Enkelinnen</span></span><span class="en">granddaughter</span></div><p class="sample">Die Enkelin ist klein. · Sie hat eine Enkelin.</p></li>
-      <li><div class="word-row"><span class="de"><span class="die">die Familie</span><span class="plural">Pl. Familien</span></span><span class="en">family</span></div><p class="sample">Die Familie ist groß. · Ich habe eine Familie.</p></li>
-      <li><div class="word-row"><span class="de"><span class="der">der Freund</span><span class="plural">Pl. Freunde</span></span><span class="en">friend / boyfriend</span></div><p class="sample">Der Freund kommt. · Ich habe einen Freund.</p></li>
-      <li><div class="word-row"><span class="de"><span class="die">die Freundin</span><span class="plural">Pl. Freundinnen</span></span><span class="en">friend / girlfriend</span></div><p class="sample">Die Freundin wohnt in Wien. · Ich habe eine Freundin.</p></li>
-      <li><div class="word-row"><span class="de"><span class="der">der Kollege</span><span class="plural">Pl. Kollegen</span></span><span class="en">colleague (m)</span></div><p class="sample">Der Kollege ist nett. · Ich kenne den Kollegen.</p></li>
-      <li><div class="word-row"><span class="de"><span class="die">die Kollegin</span><span class="plural">Pl. Kolleginnen</span></span><span class="en">colleague (f)</span></div><p class="sample">Die Kollegin arbeitet hier. · Ich kenne die Kollegin.</p></li>
+      <li><div class="word-row"><span class="de"><span class="die">die Mutter</span><span class="plural">Pl. Mütter</span><span class="pos" title="feminin">(f)</span></span><span class="en">mother</span></div><p class="sample">Die Mutter ist zu Hause. · Ich besuche die Mutter.</p></li>
+      <li><div class="word-row"><span class="de"><span class="der">der Vater</span><span class="plural">Pl. Väter</span><span class="pos" title="maskulin">(m)</span></span><span class="en">father</span></div><p class="sample">Der Vater arbeitet. · Ich besuche den Vater.</p></li>
+      <li><div class="word-row"><span class="de"><span class="die">die Eltern</span><span class="pos" title="feminin">(f)</span></span><span class="en">parents (pl. only)</span></div><p class="sample">Die Eltern sind nett. · Ich besuche die Eltern.</p></li>
+      <li><div class="word-row"><span class="de"><span class="die">die Großmutter</span><span class="plural">Pl. Großmütter</span><span class="pos" title="feminin">(f)</span></span><span class="en">grandmother</span></div><p class="sample">Die Großmutter ist alt. · Ich besuche die Großmutter.</p></li>
+      <li><div class="word-row"><span class="de"><span class="der">der Großvater</span><span class="plural">Pl. Großväter</span><span class="pos" title="maskulin">(m)</span></span><span class="en">grandfather</span></div><p class="sample">Der Großvater ist alt. · Ich besuche den Großvater.</p></li>
+      <li><div class="word-row"><span class="de"><span class="die">die Großeltern</span><span class="pos" title="feminin">(f)</span></span><span class="en">grandparents (pl. only)</span></div><p class="sample">Die Großeltern sind nett. · Ich besuche die Großeltern.</p></li>
+      <li><div class="word-row"><span class="de"><span class="die">die Oma</span><span class="plural">Pl. Omas</span><span class="pos" title="feminin">(f)</span></span><span class="en">grandma</span></div><p class="sample">Die Oma ist nett. · Ich besuche die Oma.</p></li>
+      <li><div class="word-row"><span class="de"><span class="die">die Schwester</span><span class="plural">Pl. Schwestern</span><span class="pos" title="feminin">(f)</span></span><span class="en">sister</span></div><p class="sample">Die Schwester wohnt in Wien. · Ich habe eine Schwester.</p></li>
+      <li><div class="word-row"><span class="de"><span class="der">der Bruder</span><span class="plural">Pl. Brüder</span><span class="pos" title="maskulin">(m)</span></span><span class="en">brother</span></div><p class="sample">Der Bruder ist nett. · Ich habe einen Bruder.</p></li>
+      <li><div class="word-row"><span class="de"><span class="die">die Geschwister</span><span class="pos" title="feminin">(f)</span></span><span class="en">siblings (pl. only)</span></div><p class="sample">Die Geschwister sind nett. · Ich habe Geschwister.</p></li>
+      <li><div class="word-row"><span class="de"><span class="der">der Sohn</span><span class="plural">Pl. Söhne</span><span class="pos" title="maskulin">(m)</span></span><span class="en">son</span></div><p class="sample">Der Sohn ist jung. · Ich habe einen Sohn.</p></li>
+      <li><div class="word-row"><span class="de"><span class="die">die Tochter</span><span class="plural">Pl. Töchter</span><span class="pos" title="feminin">(f)</span></span><span class="en">daughter</span></div><p class="sample">Die Tochter ist klein. · Ich habe eine Tochter.</p></li>
+      <li><div class="word-row"><span class="de"><span class="die">die Ehefrau</span><span class="plural">Pl. Ehefrauen</span><span class="pos" title="feminin">(f)</span></span><span class="en">wife</span></div><p class="sample">Die Ehefrau arbeitet. · Er hat eine Ehefrau.</p></li>
+      <li><div class="word-row"><span class="de"><span class="der">der Ehemann</span><span class="plural">Pl. Ehemänner</span><span class="pos" title="maskulin">(m)</span></span><span class="en">husband</span></div><p class="sample">Der Ehemann kommt aus Berlin. · Sie hat einen Ehemann.</p></li>
+      <li><div class="word-row"><span class="de"><span class="der">der Enkel</span><span class="plural">Pl. Enkel</span><span class="pos" title="maskulin">(m)</span></span><span class="en">grandson</span></div><p class="sample">Der Enkel ist jung. · Sie hat einen Enkel.</p></li>
+      <li><div class="word-row"><span class="de"><span class="die">die Enkelin</span><span class="plural">Pl. Enkelinnen</span><span class="pos" title="feminin">(f)</span></span><span class="en">granddaughter</span></div><p class="sample">Die Enkelin ist klein. · Sie hat eine Enkelin.</p></li>
+      <li><div class="word-row"><span class="de"><span class="die">die Familie</span><span class="plural">Pl. Familien</span><span class="pos" title="feminin">(f)</span></span><span class="en">family</span></div><p class="sample">Die Familie ist groß. · Ich habe eine Familie.</p></li>
+      <li><div class="word-row"><span class="de"><span class="der">der Freund</span><span class="plural">Pl. Freunde</span><span class="pos" title="maskulin">(m)</span></span><span class="en">friend / boyfriend</span></div><p class="sample">Der Freund kommt. · Ich habe einen Freund.</p></li>
+      <li><div class="word-row"><span class="de"><span class="die">die Freundin</span><span class="plural">Pl. Freundinnen</span><span class="pos" title="feminin">(f)</span></span><span class="en">friend / girlfriend</span></div><p class="sample">Die Freundin wohnt in Wien. · Ich habe eine Freundin.</p></li>
+      <li><div class="word-row"><span class="de"><span class="der">der Kollege</span><span class="plural">Pl. Kollegen</span><span class="pos" title="maskulin">(m)</span></span><span class="en">colleague (m)</span></div><p class="sample">Der Kollege ist nett. · Ich kenne den Kollegen.</p></li>
+      <li><div class="word-row"><span class="de"><span class="die">die Kollegin</span><span class="plural">Pl. Kolleginnen</span><span class="pos" title="feminin">(f)</span></span><span class="en">colleague (f)</span></div><p class="sample">Die Kollegin arbeitet hier. · Ich kenne die Kollegin.</p></li>
 
     </ul>
   </section>

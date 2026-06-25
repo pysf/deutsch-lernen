@@ -1,0 +1,112 @@
+<speak>
+  <voice name="de-DE-Chirp3-HD-Charon">Menschen A1.1. Lektion 1. Hallo! Ich bin Nicole.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">Hallo</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">Hallo</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">Hallo.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Hallo! Wie heißen Sie?</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">auf Wiedersehen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">auf Wiedersehen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">auf Wiedersehen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Auf Wiedersehen! Bis morgen.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">tschüss</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">tschüss</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">tschüss.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Tschüss! Bis bald.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">guten Morgen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">guten Morgen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">guten Morgen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Guten Morgen! Wie geht es Ihnen?</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">guten Tag</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">guten Tag</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">guten Tag.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Guten Tag! Ich heiße Anna.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">guten Abend</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">guten Abend</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">guten Abend.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Guten Abend! Wie geht es dir?</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">gute Nacht</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">gute Nacht</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">gute Nacht.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Gute Nacht! Bis morgen.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">danke</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">danke</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">danke.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Danke! Das ist sehr nett.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">bitte</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">bitte</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">bitte.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Bitte, kommen Sie herein.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">ja</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">ja</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">ja.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Ja, ich komme aus Wien.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">nein</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">nein</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">nein.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Nein, ich wohne nicht in Berlin.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">auch</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">auch</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">auch.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Ich spreche auch Englisch.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">gut</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">gut</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">gut.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Mein Deutsch ist gut.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">sehr gut</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">sehr gut</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">sehr gut.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Das ist sehr gut!</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">nicht so gut</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">nicht so gut</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">nicht so gut.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Mein Englisch ist nicht so gut.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">heißen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">heißen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">heißen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Ich heiße Anna.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">sein</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">sein</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">sein.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Ich bin Studentin.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">kommen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">kommen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">kommen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Ich komme aus Deutschland.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">wohnen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">wohnen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">wohnen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Ich wohne in Berlin.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">sprechen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">sprechen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">sprechen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Ich spreche Deutsch.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">deutsch</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">deutsch</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">deutsch.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Ich spreche Deutsch.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Lied</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Lied</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Lied.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Das Lied ist schön.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Name</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Name</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Name.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Der Name ist lang.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Land</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Land</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Land.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Das Land ist groß.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Sprache</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Sprache</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Sprache.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Die Sprache ist schön.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Musik</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Musik</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Musik.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Die Musik ist schön.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Frau</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Frau</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Frau.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Die Frau kommt aus Wien.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Herr</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Herr</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Herr.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Der Herr heißt Müller.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Vorname</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Vorname</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Vorname.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Der Vorname ist Anna.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Familienname</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Familienname</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Familienname.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Der Familienname ist Müller.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Abend</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Abend</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Abend.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Der Abend ist schön.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Morgen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Morgen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Morgen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Der Morgen ist kalt.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Nacht</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Nacht</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Nacht.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Die Nacht ist lang.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">Deutschland</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">Deutschland</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">Deutschland.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Deutschland ist groß.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">Österreich</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">Österreich</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">Österreich.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Österreich ist schön.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Schweiz</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Schweiz</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Schweiz.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Die Schweiz ist schön.</voice> <break time="4s"/>
+
+</speak>

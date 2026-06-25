@@ -6,7 +6,7 @@
   <title>Lektion 12 — Was war das schönste Erlebnis?</title>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background: #fff; color: #1a1a1a; font-size: 18px; line-height: 1.6; padding: 2rem 1.25rem; max-width: 640px; margin: 0 auto; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background: #fff; color: #1a1a1a; font-size: 18px; line-height: 1.6; padding: 3.5rem 1.25rem 2rem; max-width: 640px; margin: 0 auto; }
     h1 { font-size: 1.4rem; font-weight: 700; margin-bottom: 0.35rem; }
     .legend { font-size: 0.78rem; color: #888; margin-bottom: 0.5rem; }
     .legend span { margin-right: 1rem; }
@@ -28,9 +28,30 @@
     .verb-reg { color: #d97706; }
     .verb-irr { color: #7c3aed; }
     .perfekt { font-size: 0.75rem; color: #bbb; font-weight: 400; margin-left: 0.4rem; }
+    .pos { font-style: italic; font-size: 0.72rem; color: #bbb; font-weight: 400; margin-left: 0.35rem; }
+    #player { position: fixed; top: 0; left: 0; right: 0; background: #fff; border-bottom: 1px solid #f0f0f0; z-index: 100; padding: 0.5rem 1.25rem; display: flex; align-items: center; justify-content: center; gap: 0.75rem; }
+    #player button { background: none; border: 1px solid #ddd; border-radius: 4px; padding: 0.3rem 0.7rem; font-size: 0.82rem; color: #555; cursor: pointer; line-height: 1.4; }
+    #player button:hover { border-color: #aaa; color: #111; }
+    #player #pp { min-width: 2.2rem; }
   </style>
 </head>
 <body>
+  <div id="player">
+    <audio id="audio" src="Lektion-12.mp3"></audio>
+    <button onclick="seek(-10)">−10s</button>
+    <button id="pp" onclick="togglePlay()">▶</button>
+    <button onclick="seek(10)">+10s</button>
+  </div>
+  <script>
+    const audio = document.getElementById('audio');
+    const pp = document.getElementById('pp');
+    function togglePlay() {
+      if (audio.paused) { audio.play(); pp.textContent = '⏸'; }
+      else { audio.pause(); pp.textContent = '▶'; }
+    }
+    function seek(s) { audio.currentTime = Math.max(0, audio.currentTime + s); }
+    audio.addEventListener('ended', () => pp.textContent = '▶');
+  </script>
   <a class="back-link" href="index.html">← Alle Lektionen</a>
   <h1>Lektion 12 — Was war das schönste Erlebnis?</h1>
   <p class="legend">
@@ -39,6 +60,7 @@
     <span><span class="das">■</span> das (n)</span>
     <span><span class="verb-reg">■</span> reg.</span>
     <span><span class="verb-irr">■</span> irr.</span>
+    <span><span class="pos">(t)</span> transitiv · <span class="pos">(i)</span> intransitiv · <span class="pos">(adj)</span> Adjektiv · <span class="pos">(adv)</span> Adverb</span>
   </p>
   <a class="mp3-link" href="Lektion-12.mp3" download>⬇ Audio herunterladen</a>
 
@@ -46,36 +68,36 @@
     <h2>Wortschatz</h2>
     <ul class="word-list">
 
-      <li><div class="word-row"><span class="de"><span class="verb-reg">feiern</span><span class="perfekt"> · hat gefeiert</span></span><span class="en">to celebrate</span></div><p class="sample">Wir feiern meinen Geburtstag. · Wir haben meinen Geburtstag gefeiert.</p></li>
-      <li><div class="word-row"><span class="de"><span class="verb-reg">passieren</span><span class="perfekt"> · ist passiert</span></span><span class="en">to happen</span></div><p class="sample">Was passiert hier? · Was ist passiert?</p></li>
-      <li><div class="word-row"><span class="de"><span class="verb-irr">anfangen</span><span class="perfekt"> · hat angefangen</span></span><span class="en">to begin / to start</span></div><p class="sample">Der Film fängt um acht an. · Der Film hat um acht angefangen.</p></li>
-      <li><div class="word-row"><span class="de"><span class="verb-reg">aufhören</span><span class="perfekt"> · hat aufgehört</span></span><span class="en">to stop / to finish</span></div><p class="sample">Der Regen hört auf. · Der Regen hat aufgehört.</p></li>
-      <li><div class="word-row"><span class="de"><span class="verb-reg">dauern</span><span class="perfekt"> · hat gedauert</span></span><span class="en">to last / to take (time)</span></div><p class="sample">Der Film dauert zwei Stunden. · Der Film hat zwei Stunden gedauert.</p></li>
-      <li><div class="word-row"><span class="de"><span class="verb-reg">wandern</span><span class="perfekt"> · ist gewandert</span></span><span class="en">to hike</span></div><p class="sample">Ich wandere in den Bergen. · Ich bin in den Bergen gewandert.</p></li>
-      <li><div class="word-row"><span class="de"><span class="verb-irr">fliegen</span><span class="perfekt"> · ist geflogen</span></span><span class="en">to fly</span></div><p class="sample">Ich fliege nach Berlin. · Ich bin nach Berlin geflogen.</p></li>
-      <li><div class="word-row"><span class="de"><span class="verb-irr">klingen</span><span class="perfekt"> · hat geklungen</span></span><span class="en">to sound</span></div><p class="sample">Das klingt gut. · Das hat gut geklungen.</p></li>
-      <li><div class="word-row"><span class="de"><span class="verb-irr">gefallen</span><span class="perfekt"> · hat gefallen</span></span><span class="en">to like / to please</span></div><p class="sample">Das Konzert gefällt mir. · Das Konzert hat mir gefallen.</p></li>
+      <li><div class="word-row"><span class="de"><span class="verb-reg">feiern</span><span class="perfekt"> · hat gefeiert</span><span class="pos" title="transitiv (Akkusativobjekt)">(t)</span></span><span class="en">to celebrate</span></div><p class="sample">Wir feiern meinen Geburtstag. · Wir haben meinen Geburtstag gefeiert.</p></li>
+      <li><div class="word-row"><span class="de"><span class="verb-reg">passieren</span><span class="perfekt"> · ist passiert</span><span class="pos" title="intransitiv">(i)</span></span><span class="en">to happen</span></div><p class="sample">Was passiert hier? · Was ist passiert?</p></li>
+      <li><div class="word-row"><span class="de"><span class="verb-irr">anfangen</span><span class="perfekt"> · hat angefangen</span><span class="pos" title="intransitiv">(i)</span></span><span class="en">to begin / to start</span></div><p class="sample">Der Film fängt um acht an. · Der Film hat um acht angefangen.</p></li>
+      <li><div class="word-row"><span class="de"><span class="verb-reg">aufhören</span><span class="perfekt"> · hat aufgehört</span><span class="pos" title="intransitiv">(i)</span></span><span class="en">to stop / to finish</span></div><p class="sample">Der Regen hört auf. · Der Regen hat aufgehört.</p></li>
+      <li><div class="word-row"><span class="de"><span class="verb-reg">dauern</span><span class="perfekt"> · hat gedauert</span><span class="pos" title="intransitiv">(i)</span></span><span class="en">to last / to take (time)</span></div><p class="sample">Der Film dauert zwei Stunden. · Der Film hat zwei Stunden gedauert.</p></li>
+      <li><div class="word-row"><span class="de"><span class="verb-reg">wandern</span><span class="perfekt"> · ist gewandert</span><span class="pos" title="intransitiv">(i)</span></span><span class="en">to hike</span></div><p class="sample">Ich wandere in den Bergen. · Ich bin in den Bergen gewandert.</p></li>
+      <li><div class="word-row"><span class="de"><span class="verb-irr">fliegen</span><span class="perfekt"> · ist geflogen</span><span class="pos" title="intransitiv">(i)</span></span><span class="en">to fly</span></div><p class="sample">Ich fliege nach Berlin. · Ich bin nach Berlin geflogen.</p></li>
+      <li><div class="word-row"><span class="de"><span class="verb-irr">klingen</span><span class="perfekt"> · hat geklungen</span><span class="pos" title="intransitiv">(i)</span></span><span class="en">to sound</span></div><p class="sample">Das klingt gut. · Das hat gut geklungen.</p></li>
+      <li><div class="word-row"><span class="de"><span class="verb-irr">gefallen</span><span class="perfekt"> · hat gefallen</span><span class="pos" title="intransitiv">(i)</span></span><span class="en">to like / to please</span></div><p class="sample">Das Konzert gefällt mir. · Das Konzert hat mir gefallen.</p></li>
 
-      <li><div class="word-row"><span class="de">damals</span><span class="en">back then / at that time</span></div><p class="sample">Damals war ich jung.</p></li>
-      <li><div class="word-row"><span class="de">plötzlich</span><span class="en">suddenly</span></div><p class="sample">Plötzlich hat es geregnet.</p></li>
-      <li><div class="word-row"><span class="de">dann</span><span class="en">then / after that</span></div><p class="sample">Ich esse, dann schlafe ich.</p></li>
-      <li><div class="word-row"><span class="de">zuerst</span><span class="en">first of all</span></div><p class="sample">Zuerst frühstücke ich.</p></li>
-      <li><div class="word-row"><span class="de">danach</span><span class="en">afterwards</span></div><p class="sample">Danach gehe ich spazieren.</p></li>
-      <li><div class="word-row"><span class="de">toll</span><span class="en">great / fantastic</span></div><p class="sample">Das Konzert war toll.</p></li>
-      <li><div class="word-row"><span class="de">super</span><span class="en">super / great</span></div><p class="sample">Die Reise war super.</p></li>
-      <li><div class="word-row"><span class="de">wirklich</span><span class="en">really / truly</span></div><p class="sample">Das war wirklich schön.</p></li>
+      <li><div class="word-row"><span class="de">damals<span class="pos" title="Adverb">(adv)</span></span><span class="en">back then / at that time</span></div><p class="sample">Damals war ich jung.</p></li>
+      <li><div class="word-row"><span class="de">plötzlich<span class="pos" title="Adverb">(adv)</span></span><span class="en">suddenly</span></div><p class="sample">Plötzlich hat es geregnet.</p></li>
+      <li><div class="word-row"><span class="de">dann<span class="pos" title="Adverb">(adv)</span></span><span class="en">then / after that</span></div><p class="sample">Ich esse, dann schlafe ich.</p></li>
+      <li><div class="word-row"><span class="de">zuerst<span class="pos" title="Adverb">(adv)</span></span><span class="en">first of all</span></div><p class="sample">Zuerst frühstücke ich.</p></li>
+      <li><div class="word-row"><span class="de">danach<span class="pos" title="Adverb">(adv)</span></span><span class="en">afterwards</span></div><p class="sample">Danach gehe ich spazieren.</p></li>
+      <li><div class="word-row"><span class="de">toll<span class="pos" title="Adjektiv">(adj)</span></span><span class="en">great / fantastic</span></div><p class="sample">Das Konzert war toll.</p></li>
+      <li><div class="word-row"><span class="de">super<span class="pos" title="Adjektiv">(adj)</span></span><span class="en">super / great</span></div><p class="sample">Die Reise war super.</p></li>
+      <li><div class="word-row"><span class="de">wirklich<span class="pos" title="Adverb">(adv)</span></span><span class="en">really / truly</span></div><p class="sample">Das war wirklich schön.</p></li>
 
-      <li><div class="word-row"><span class="de"><span class="das">das Erlebnis</span><span class="plural">Pl. Erlebnisse</span></span><span class="en">experience / event</span></div><p class="sample">Das Erlebnis war toll. · Ich erzähle das Erlebnis.</p></li>
-      <li><div class="word-row"><span class="de"><span class="die">die Reise</span><span class="plural">Pl. Reisen</span></span><span class="en">trip / journey</span></div><p class="sample">Die Reise war schön. · Ich mache eine Reise.</p></li>
-      <li><div class="word-row"><span class="de"><span class="die">die Party</span><span class="plural">Pl. Partys</span></span><span class="en">party</span></div><p class="sample">Die Party ist laut. · Ich mache eine Party.</p></li>
-      <li><div class="word-row"><span class="de"><span class="das">das Fest</span><span class="plural">Pl. Feste</span></span><span class="en">festival / celebration</span></div><p class="sample">Das Fest ist schön. · Ich besuche ein Fest.</p></li>
-      <li><div class="word-row"><span class="de"><span class="die">die Musik</span></span><span class="en">music</span></div><p class="sample">Die Musik ist laut. · Ich höre die Musik.</p></li>
-      <li><div class="word-row"><span class="de"><span class="der">der Urlaub</span><span class="plural">Pl. Urlaube</span></span><span class="en">holiday / vacation</span></div><p class="sample">Der Urlaub war schön. · Ich mache einen Urlaub.</p></li>
-      <li><div class="word-row"><span class="de"><span class="das">das Meer</span><span class="plural">Pl. Meere</span></span><span class="en">sea / ocean</span></div><p class="sample">Das Meer ist blau. · Ich sehe das Meer.</p></li>
-      <li><div class="word-row"><span class="de"><span class="der">der Berg</span><span class="plural">Pl. Berge</span></span><span class="en">mountain</span></div><p class="sample">Der Berg ist hoch. · Ich sehe den Berg.</p></li>
-      <li><div class="word-row"><span class="de"><span class="der">der Strand</span><span class="plural">Pl. Strände</span></span><span class="en">beach</span></div><p class="sample">Der Strand ist lang. · Ich besuche den Strand.</p></li>
-      <li><div class="word-row"><span class="de"><span class="die">die Geschichte</span><span class="plural">Pl. Geschichten</span></span><span class="en">story / history</span></div><p class="sample">Die Geschichte ist lang. · Ich erzähle eine Geschichte.</p></li>
-      <li><div class="word-row"><span class="de"><span class="das">das Foto</span><span class="plural">Pl. Fotos</span></span><span class="en">photo</span></div><p class="sample">Das Foto ist schön. · Ich mache ein Foto.</p></li>
+      <li><div class="word-row"><span class="de"><span class="das">das Erlebnis</span><span class="plural">Pl. Erlebnisse</span><span class="pos" title="neutrum">(n)</span></span><span class="en">experience / event</span></div><p class="sample">Das Erlebnis war toll. · Ich erzähle das Erlebnis.</p></li>
+      <li><div class="word-row"><span class="de"><span class="die">die Reise</span><span class="plural">Pl. Reisen</span><span class="pos" title="feminin">(f)</span></span><span class="en">trip / journey</span></div><p class="sample">Die Reise war schön. · Ich mache eine Reise.</p></li>
+      <li><div class="word-row"><span class="de"><span class="die">die Party</span><span class="plural">Pl. Partys</span><span class="pos" title="feminin">(f)</span></span><span class="en">party</span></div><p class="sample">Die Party ist laut. · Ich mache eine Party.</p></li>
+      <li><div class="word-row"><span class="de"><span class="das">das Fest</span><span class="plural">Pl. Feste</span><span class="pos" title="neutrum">(n)</span></span><span class="en">festival / celebration</span></div><p class="sample">Das Fest ist schön. · Ich besuche ein Fest.</p></li>
+      <li><div class="word-row"><span class="de"><span class="die">die Musik</span><span class="pos" title="feminin">(f)</span></span><span class="en">music</span></div><p class="sample">Die Musik ist laut. · Ich höre die Musik.</p></li>
+      <li><div class="word-row"><span class="de"><span class="der">der Urlaub</span><span class="plural">Pl. Urlaube</span><span class="pos" title="maskulin">(m)</span></span><span class="en">holiday / vacation</span></div><p class="sample">Der Urlaub war schön. · Ich mache einen Urlaub.</p></li>
+      <li><div class="word-row"><span class="de"><span class="das">das Meer</span><span class="plural">Pl. Meere</span><span class="pos" title="neutrum">(n)</span></span><span class="en">sea / ocean</span></div><p class="sample">Das Meer ist blau. · Ich sehe das Meer.</p></li>
+      <li><div class="word-row"><span class="de"><span class="der">der Berg</span><span class="plural">Pl. Berge</span><span class="pos" title="maskulin">(m)</span></span><span class="en">mountain</span></div><p class="sample">Der Berg ist hoch. · Ich sehe den Berg.</p></li>
+      <li><div class="word-row"><span class="de"><span class="der">der Strand</span><span class="plural">Pl. Strände</span><span class="pos" title="maskulin">(m)</span></span><span class="en">beach</span></div><p class="sample">Der Strand ist lang. · Ich besuche den Strand.</p></li>
+      <li><div class="word-row"><span class="de"><span class="die">die Geschichte</span><span class="plural">Pl. Geschichten</span><span class="pos" title="feminin">(f)</span></span><span class="en">story / history</span></div><p class="sample">Die Geschichte ist lang. · Ich erzähle eine Geschichte.</p></li>
+      <li><div class="word-row"><span class="de"><span class="das">das Foto</span><span class="plural">Pl. Fotos</span><span class="pos" title="neutrum">(n)</span></span><span class="en">photo</span></div><p class="sample">Das Foto ist schön. · Ich mache ein Foto.</p></li>
 
     </ul>
   </section>

@@ -6,7 +6,7 @@
   <title>Lektion 6 — Ich brauche kein Büro</title>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background: #fff; color: #1a1a1a; font-size: 18px; line-height: 1.6; padding: 2rem 1.25rem; max-width: 640px; margin: 0 auto; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background: #fff; color: #1a1a1a; font-size: 18px; line-height: 1.6; padding: 3.5rem 1.25rem 2rem; max-width: 640px; margin: 0 auto; }
     h1 { font-size: 1.4rem; font-weight: 700; margin-bottom: 0.35rem; }
     .legend { font-size: 0.78rem; color: #888; margin-bottom: 0.5rem; }
     .legend span { margin-right: 1rem; }
@@ -28,9 +28,30 @@
     .verb-reg { color: #d97706; }
     .verb-irr { color: #7c3aed; }
     .perfekt { font-size: 0.75rem; color: #bbb; font-weight: 400; margin-left: 0.4rem; }
+    .pos { font-style: italic; font-size: 0.72rem; color: #bbb; font-weight: 400; margin-left: 0.35rem; }
+    #player { position: fixed; top: 0; left: 0; right: 0; background: #fff; border-bottom: 1px solid #f0f0f0; z-index: 100; padding: 0.5rem 1.25rem; display: flex; align-items: center; justify-content: center; gap: 0.75rem; }
+    #player button { background: none; border: 1px solid #ddd; border-radius: 4px; padding: 0.3rem 0.7rem; font-size: 0.82rem; color: #555; cursor: pointer; line-height: 1.4; }
+    #player button:hover { border-color: #aaa; color: #111; }
+    #player #pp { min-width: 2.2rem; }
   </style>
 </head>
 <body>
+  <div id="player">
+    <audio id="audio" src="Lektion-6.mp3"></audio>
+    <button onclick="seek(-10)">−10s</button>
+    <button id="pp" onclick="togglePlay()">▶</button>
+    <button onclick="seek(10)">+10s</button>
+  </div>
+  <script>
+    const audio = document.getElementById('audio');
+    const pp = document.getElementById('pp');
+    function togglePlay() {
+      if (audio.paused) { audio.play(); pp.textContent = '⏸'; }
+      else { audio.pause(); pp.textContent = '▶'; }
+    }
+    function seek(s) { audio.currentTime = Math.max(0, audio.currentTime + s); }
+    audio.addEventListener('ended', () => pp.textContent = '▶');
+  </script>
   <a class="back-link" href="index.html">← Alle Lektionen</a>
   <h1>Lektion 6 — Ich brauche kein Büro</h1>
   <p class="legend">
@@ -39,6 +60,7 @@
     <span><span class="das">■</span> das (n)</span>
     <span><span class="verb-reg">■</span> reg.</span>
     <span><span class="verb-irr">■</span> irr.</span>
+    <span><span class="pos">(t)</span> transitiv · <span class="pos">(i)</span> intransitiv · <span class="pos">(adj)</span> Adjektiv · <span class="pos">(adv)</span> Adverb</span>
   </p>
   <a class="mp3-link" href="Lektion-6.mp3" download>⬇ Audio herunterladen</a>
 
@@ -46,31 +68,31 @@
     <h2>Wortschatz</h2>
     <ul class="word-list">
 
-      <li><div class="word-row"><span class="de"><span class="verb-reg">brauchen</span><span class="perfekt"> · hat gebraucht</span></span><span class="en">to need</span></div><p class="sample">Ich brauche einen Laptop. · Er hat einen Laptop gebraucht.</p></li>
-      <li><div class="word-row"><span class="de"><span class="verb-irr">wollen</span><span class="perfekt"> · hat gewollt</span></span><span class="en">to want</span></div><p class="sample">Ich will einen Job. · Er hat einen Job gewollt.</p></li>
+      <li><div class="word-row"><span class="de"><span class="verb-reg">brauchen</span><span class="perfekt"> · hat gebraucht</span><span class="pos" title="transitiv (Akkusativobjekt)">(t)</span></span><span class="en">to need</span></div><p class="sample">Ich brauche einen Laptop. · Er hat einen Laptop gebraucht.</p></li>
+      <li><div class="word-row"><span class="de"><span class="verb-irr">wollen</span><span class="perfekt"> · hat gewollt</span><span class="pos" title="transitiv (Akkusativobjekt)">(t)</span></span><span class="en">to want</span></div><p class="sample">Ich will einen Job. · Er hat einen Job gewollt.</p></li>
 
-      <li><div class="word-row"><span class="de">heute</span><span class="en">today</span></div><p class="sample">Heute arbeite ich zu Hause.</p></li>
+      <li><div class="word-row"><span class="de">heute<span class="pos" title="Adverb">(adv)</span></span><span class="en">today</span></div><p class="sample">Heute arbeite ich zu Hause.</p></li>
 
-      <li><div class="word-row"><span class="de"><span class="der">der Bildschirm</span><span class="plural">Pl. Bildschirme</span></span><span class="en">screen / monitor</span></div><p class="sample">Der Bildschirm ist groß. · Ich kaufe einen Bildschirm.</p></li>
-      <li><div class="word-row"><span class="de"><span class="die">die Briefmarke</span><span class="plural">Pl. Briefmarken</span></span><span class="en">postage stamp</span></div><p class="sample">Die Briefmarke ist klein. · Ich brauche eine Briefmarke.</p></li>
-      <li><div class="word-row"><span class="de"><span class="der">der Computer</span><span class="plural">Pl. Computer</span></span><span class="en">computer</span></div><p class="sample">Der Computer ist neu. · Ich kaufe einen Computer.</p></li>
-      <li><div class="word-row"><span class="de"><span class="der">der Drucker</span><span class="plural">Pl. Drucker</span></span><span class="en">printer</span></div><p class="sample">Der Drucker ist kaputt. · Ich brauche einen Drucker.</p></li>
-      <li><div class="word-row"><span class="de"><span class="das">das Handy</span><span class="plural">Pl. Handys</span></span><span class="en">mobile phone</span></div><p class="sample">Das Handy ist neu. · Ich habe ein Handy.</p></li>
-      <li><div class="word-row"><span class="de"><span class="der">der Kalender</span><span class="plural">Pl. Kalender</span></span><span class="en">calendar</span></div><p class="sample">Der Kalender ist groß. · Ich kaufe einen Kalender.</p></li>
-      <li><div class="word-row"><span class="de"><span class="die">die Maus</span><span class="plural">Pl. Mäuse</span></span><span class="en">mouse (computer)</span></div><p class="sample">Die Maus ist klein. · Ich brauche eine Maus.</p></li>
-      <li><div class="word-row"><span class="de"><span class="das">das Notizbuch</span><span class="plural">Pl. Notizbücher</span></span><span class="en">notebook</span></div><p class="sample">Das Notizbuch ist voll. · Ich kaufe ein Notizbuch.</p></li>
-      <li><div class="word-row"><span class="de"><span class="die">die Rechnung</span><span class="plural">Pl. Rechnungen</span></span><span class="en">invoice / bill</span></div><p class="sample">Die Rechnung ist hoch. · Ich bezahle die Rechnung.</p></li>
-      <li><div class="word-row"><span class="de"><span class="der">der Stift</span><span class="plural">Pl. Stifte</span></span><span class="en">pen / pencil</span></div><p class="sample">Der Stift ist neu. · Ich brauche einen Stift.</p></li>
-      <li><div class="word-row"><span class="de"><span class="das">das Telefon</span><span class="plural">Pl. Telefone</span></span><span class="en">telephone</span></div><p class="sample">Das Telefon ist laut. · Ich habe ein Telefon.</p></li>
-      <li><div class="word-row"><span class="de"><span class="der">der Arbeitsplatz</span><span class="plural">Pl. Arbeitsplätze</span></span><span class="en">workplace / workstation</span></div><p class="sample">Der Arbeitsplatz ist gut. · Ich suche einen Arbeitsplatz.</p></li>
-      <li><div class="word-row"><span class="de"><span class="das">das Büro</span><span class="plural">Pl. Büros</span></span><span class="en">office</span></div><p class="sample">Das Büro ist groß. · Ich suche ein Büro.</p></li>
-      <li><div class="word-row"><span class="de"><span class="der">der Chef</span><span class="plural">Pl. Chefs</span></span><span class="en">boss</span></div><p class="sample">Der Chef ist nett. · Ich kenne den Chef.</p></li>
-      <li><div class="word-row"><span class="de"><span class="die">die Firma</span><span class="plural">Pl. Firmen</span></span><span class="en">company / firm</span></div><p class="sample">Die Firma ist groß. · Ich kenne die Firma.</p></li>
-      <li><div class="word-row"><span class="de"><span class="der">der Laptop</span><span class="plural">Pl. Laptops</span></span><span class="en">laptop</span></div><p class="sample">Der Laptop ist klein. · Ich brauche einen Laptop.</p></li>
-      <li><div class="word-row"><span class="de"><span class="der">der See</span><span class="plural">Pl. Seen</span></span><span class="en">lake</span></div><p class="sample">Der See ist schön. · Ich sehe den See.</p></li>
-      <li><div class="word-row"><span class="de"><span class="der">der Termin</span><span class="plural">Pl. Termine</span></span><span class="en">appointment</span></div><p class="sample">Der Termin ist morgen. · Ich habe einen Termin.</p></li>
-      <li><div class="word-row"><span class="de"><span class="die">die Telefonnummer</span><span class="plural">Pl. Telefonnummern</span></span><span class="en">phone number</span></div><p class="sample">Die Telefonnummer ist lang. · Ich schreibe die Telefonnummer.</p></li>
-      <li><div class="word-row"><span class="de"><span class="die">die SMS</span></span><span class="en">text message</span></div><p class="sample">Die SMS ist kurz. · Ich schicke eine SMS.</p></li>
+      <li><div class="word-row"><span class="de"><span class="der">der Bildschirm</span><span class="plural">Pl. Bildschirme</span><span class="pos" title="maskulin">(m)</span></span><span class="en">screen / monitor</span></div><p class="sample">Der Bildschirm ist groß. · Ich kaufe einen Bildschirm.</p></li>
+      <li><div class="word-row"><span class="de"><span class="die">die Briefmarke</span><span class="plural">Pl. Briefmarken</span><span class="pos" title="feminin">(f)</span></span><span class="en">postage stamp</span></div><p class="sample">Die Briefmarke ist klein. · Ich brauche eine Briefmarke.</p></li>
+      <li><div class="word-row"><span class="de"><span class="der">der Computer</span><span class="plural">Pl. Computer</span><span class="pos" title="maskulin">(m)</span></span><span class="en">computer</span></div><p class="sample">Der Computer ist neu. · Ich kaufe einen Computer.</p></li>
+      <li><div class="word-row"><span class="de"><span class="der">der Drucker</span><span class="plural">Pl. Drucker</span><span class="pos" title="maskulin">(m)</span></span><span class="en">printer</span></div><p class="sample">Der Drucker ist kaputt. · Ich brauche einen Drucker.</p></li>
+      <li><div class="word-row"><span class="de"><span class="das">das Handy</span><span class="plural">Pl. Handys</span><span class="pos" title="neutrum">(n)</span></span><span class="en">mobile phone</span></div><p class="sample">Das Handy ist neu. · Ich habe ein Handy.</p></li>
+      <li><div class="word-row"><span class="de"><span class="der">der Kalender</span><span class="plural">Pl. Kalender</span><span class="pos" title="maskulin">(m)</span></span><span class="en">calendar</span></div><p class="sample">Der Kalender ist groß. · Ich kaufe einen Kalender.</p></li>
+      <li><div class="word-row"><span class="de"><span class="die">die Maus</span><span class="plural">Pl. Mäuse</span><span class="pos" title="feminin">(f)</span></span><span class="en">mouse (computer)</span></div><p class="sample">Die Maus ist klein. · Ich brauche eine Maus.</p></li>
+      <li><div class="word-row"><span class="de"><span class="das">das Notizbuch</span><span class="plural">Pl. Notizbücher</span><span class="pos" title="neutrum">(n)</span></span><span class="en">notebook</span></div><p class="sample">Das Notizbuch ist voll. · Ich kaufe ein Notizbuch.</p></li>
+      <li><div class="word-row"><span class="de"><span class="die">die Rechnung</span><span class="plural">Pl. Rechnungen</span><span class="pos" title="feminin">(f)</span></span><span class="en">invoice / bill</span></div><p class="sample">Die Rechnung ist hoch. · Ich bezahle die Rechnung.</p></li>
+      <li><div class="word-row"><span class="de"><span class="der">der Stift</span><span class="plural">Pl. Stifte</span><span class="pos" title="maskulin">(m)</span></span><span class="en">pen / pencil</span></div><p class="sample">Der Stift ist neu. · Ich brauche einen Stift.</p></li>
+      <li><div class="word-row"><span class="de"><span class="das">das Telefon</span><span class="plural">Pl. Telefone</span><span class="pos" title="neutrum">(n)</span></span><span class="en">telephone</span></div><p class="sample">Das Telefon ist laut. · Ich habe ein Telefon.</p></li>
+      <li><div class="word-row"><span class="de"><span class="der">der Arbeitsplatz</span><span class="plural">Pl. Arbeitsplätze</span><span class="pos" title="maskulin">(m)</span></span><span class="en">workplace / workstation</span></div><p class="sample">Der Arbeitsplatz ist gut. · Ich suche einen Arbeitsplatz.</p></li>
+      <li><div class="word-row"><span class="de"><span class="das">das Büro</span><span class="plural">Pl. Büros</span><span class="pos" title="neutrum">(n)</span></span><span class="en">office</span></div><p class="sample">Das Büro ist groß. · Ich suche ein Büro.</p></li>
+      <li><div class="word-row"><span class="de"><span class="der">der Chef</span><span class="plural">Pl. Chefs</span><span class="pos" title="maskulin">(m)</span></span><span class="en">boss</span></div><p class="sample">Der Chef ist nett. · Ich kenne den Chef.</p></li>
+      <li><div class="word-row"><span class="de"><span class="die">die Firma</span><span class="plural">Pl. Firmen</span><span class="pos" title="feminin">(f)</span></span><span class="en">company / firm</span></div><p class="sample">Die Firma ist groß. · Ich kenne die Firma.</p></li>
+      <li><div class="word-row"><span class="de"><span class="der">der Laptop</span><span class="plural">Pl. Laptops</span><span class="pos" title="maskulin">(m)</span></span><span class="en">laptop</span></div><p class="sample">Der Laptop ist klein. · Ich brauche einen Laptop.</p></li>
+      <li><div class="word-row"><span class="de"><span class="der">der See</span><span class="plural">Pl. Seen</span><span class="pos" title="maskulin">(m)</span></span><span class="en">lake</span></div><p class="sample">Der See ist schön. · Ich sehe den See.</p></li>
+      <li><div class="word-row"><span class="de"><span class="der">der Termin</span><span class="plural">Pl. Termine</span><span class="pos" title="maskulin">(m)</span></span><span class="en">appointment</span></div><p class="sample">Der Termin ist morgen. · Ich habe einen Termin.</p></li>
+      <li><div class="word-row"><span class="de"><span class="die">die Telefonnummer</span><span class="plural">Pl. Telefonnummern</span><span class="pos" title="feminin">(f)</span></span><span class="en">phone number</span></div><p class="sample">Die Telefonnummer ist lang. · Ich schreibe die Telefonnummer.</p></li>
+      <li><div class="word-row"><span class="de"><span class="die">die SMS</span><span class="pos" title="feminin">(f)</span></span><span class="en">text message</span></div><p class="sample">Die SMS ist kurz. · Ich schicke eine SMS.</p></li>
 
     </ul>
   </section>

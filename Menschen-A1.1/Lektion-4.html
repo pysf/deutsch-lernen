@@ -6,7 +6,7 @@
   <title>Lektion 4 — Der Tisch ist schön!</title>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background: #fff; color: #1a1a1a; font-size: 18px; line-height: 1.6; padding: 2rem 1.25rem; max-width: 640px; margin: 0 auto; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background: #fff; color: #1a1a1a; font-size: 18px; line-height: 1.6; padding: 3.5rem 1.25rem 2rem; max-width: 640px; margin: 0 auto; }
     h1 { font-size: 1.4rem; font-weight: 700; margin-bottom: 0.35rem; }
     .legend { font-size: 0.78rem; color: #888; margin-bottom: 0.5rem; }
     .legend span { margin-right: 1rem; }
@@ -28,9 +28,30 @@
     .verb-reg { color: #d97706; }
     .verb-irr { color: #7c3aed; }
     .perfekt { font-size: 0.75rem; color: #bbb; font-weight: 400; margin-left: 0.4rem; }
+    .pos { font-style: italic; font-size: 0.72rem; color: #bbb; font-weight: 400; margin-left: 0.35rem; }
+    #player { position: fixed; top: 0; left: 0; right: 0; background: #fff; border-bottom: 1px solid #f0f0f0; z-index: 100; padding: 0.5rem 1.25rem; display: flex; align-items: center; justify-content: center; gap: 0.75rem; }
+    #player button { background: none; border: 1px solid #ddd; border-radius: 4px; padding: 0.3rem 0.7rem; font-size: 0.82rem; color: #555; cursor: pointer; line-height: 1.4; }
+    #player button:hover { border-color: #aaa; color: #111; }
+    #player #pp { min-width: 2.2rem; }
   </style>
 </head>
 <body>
+  <div id="player">
+    <audio id="audio" src="Lektion-4.mp3"></audio>
+    <button onclick="seek(-10)">−10s</button>
+    <button id="pp" onclick="togglePlay()">▶</button>
+    <button onclick="seek(10)">+10s</button>
+  </div>
+  <script>
+    const audio = document.getElementById('audio');
+    const pp = document.getElementById('pp');
+    function togglePlay() {
+      if (audio.paused) { audio.play(); pp.textContent = '⏸'; }
+      else { audio.pause(); pp.textContent = '▶'; }
+    }
+    function seek(s) { audio.currentTime = Math.max(0, audio.currentTime + s); }
+    audio.addEventListener('ended', () => pp.textContent = '▶');
+  </script>
   <a class="back-link" href="index.html">← Alle Lektionen</a>
   <h1>Lektion 4 — Der Tisch ist schön!</h1>
   <p class="legend">
@@ -39,6 +60,7 @@
     <span><span class="das">■</span> das (n)</span>
     <span><span class="verb-reg">■</span> reg.</span>
     <span><span class="verb-irr">■</span> irr.</span>
+    <span><span class="pos">(t)</span> transitiv · <span class="pos">(i)</span> intransitiv · <span class="pos">(adj)</span> Adjektiv · <span class="pos">(adv)</span> Adverb</span>
   </p>
   <a class="mp3-link" href="Lektion-4.mp3" download>⬇ Audio herunterladen</a>
 
@@ -46,36 +68,36 @@
     <h2>Wortschatz</h2>
     <ul class="word-list">
 
-      <li><div class="word-row"><span class="de">groß</span><span class="en">big / tall</span></div><p class="sample">Das Zimmer ist groß.</p></li>
-      <li><div class="word-row"><span class="de">klein</span><span class="en">small / little</span></div><p class="sample">Der Stuhl ist klein.</p></li>
-      <li><div class="word-row"><span class="de">modern</span><span class="en">modern</span></div><p class="sample">Das Sofa ist modern.</p></li>
-      <li><div class="word-row"><span class="de">praktisch</span><span class="en">practical</span></div><p class="sample">Der Tisch ist praktisch.</p></li>
-      <li><div class="word-row"><span class="de">schön</span><span class="en">beautiful / nice</span></div><p class="sample">Die Lampe ist schön.</p></li>
-      <li><div class="word-row"><span class="de">hässlich</span><span class="en">ugly</span></div><p class="sample">Der Teppich ist hässlich.</p></li>
-      <li><div class="word-row"><span class="de">billig</span><span class="en">cheap</span></div><p class="sample">Das Bett ist billig.</p></li>
-      <li><div class="word-row"><span class="de">günstig</span><span class="en">affordable / good value</span></div><p class="sample">Der Sessel ist günstig.</p></li>
-      <li><div class="word-row"><span class="de">teuer</span><span class="en">expensive</span></div><p class="sample">Der Schrank ist teuer.</p></li>
+      <li><div class="word-row"><span class="de">groß<span class="pos" title="Adjektiv">(adj)</span></span><span class="en">big / tall</span></div><p class="sample">Das Zimmer ist groß.</p></li>
+      <li><div class="word-row"><span class="de">klein<span class="pos" title="Adjektiv">(adj)</span></span><span class="en">small / little</span></div><p class="sample">Der Stuhl ist klein.</p></li>
+      <li><div class="word-row"><span class="de">modern<span class="pos" title="Adjektiv">(adj)</span></span><span class="en">modern</span></div><p class="sample">Das Sofa ist modern.</p></li>
+      <li><div class="word-row"><span class="de">praktisch<span class="pos" title="Adjektiv">(adj)</span></span><span class="en">practical</span></div><p class="sample">Der Tisch ist praktisch.</p></li>
+      <li><div class="word-row"><span class="de">schön<span class="pos" title="Adjektiv">(adj)</span></span><span class="en">beautiful / nice</span></div><p class="sample">Die Lampe ist schön.</p></li>
+      <li><div class="word-row"><span class="de">hässlich<span class="pos" title="Adjektiv">(adj)</span></span><span class="en">ugly</span></div><p class="sample">Der Teppich ist hässlich.</p></li>
+      <li><div class="word-row"><span class="de">billig<span class="pos" title="Adjektiv">(adj)</span></span><span class="en">cheap</span></div><p class="sample">Das Bett ist billig.</p></li>
+      <li><div class="word-row"><span class="de">günstig<span class="pos" title="Adjektiv">(adj)</span></span><span class="en">affordable / good value</span></div><p class="sample">Der Sessel ist günstig.</p></li>
+      <li><div class="word-row"><span class="de">teuer<span class="pos" title="Adjektiv">(adj)</span></span><span class="en">expensive</span></div><p class="sample">Der Schrank ist teuer.</p></li>
 
-      <li><div class="word-row"><span class="de"><span class="verb-reg">brauchen</span><span class="perfekt"> · hat gebraucht</span></span><span class="en">to need</span></div><p class="sample">Ich brauche einen Tisch. · Er hat einen Tisch gebraucht.</p></li>
-      <li><div class="word-row"><span class="de"><span class="verb-reg">kosten</span><span class="perfekt"> · hat gekostet</span></span><span class="en">to cost</span></div><p class="sample">Das Sofa kostet 500 Euro. · Das Sofa hat 500 Euro gekostet.</p></li>
-      <li><div class="word-row"><span class="de"><span class="verb-reg">zeigen</span><span class="perfekt"> · hat gezeigt</span></span><span class="en">to show</span></div><p class="sample">Ich zeige das Bild. · Er hat das Bild gezeigt.</p></li>
+      <li><div class="word-row"><span class="de"><span class="verb-reg">brauchen</span><span class="perfekt"> · hat gebraucht</span><span class="pos" title="transitiv (Akkusativobjekt)">(t)</span></span><span class="en">to need</span></div><p class="sample">Ich brauche einen Tisch. · Er hat einen Tisch gebraucht.</p></li>
+      <li><div class="word-row"><span class="de"><span class="verb-reg">kosten</span><span class="perfekt"> · hat gekostet</span><span class="pos" title="transitiv (Akkusativobjekt)">(t)</span></span><span class="en">to cost</span></div><p class="sample">Das Sofa kostet 500 Euro. · Das Sofa hat 500 Euro gekostet.</p></li>
+      <li><div class="word-row"><span class="de"><span class="verb-reg">zeigen</span><span class="perfekt"> · hat gezeigt</span><span class="pos" title="transitiv (Akkusativobjekt)">(t)</span></span><span class="en">to show</span></div><p class="sample">Ich zeige das Bild. · Er hat das Bild gezeigt.</p></li>
 
-      <li><div class="word-row"><span class="de"><span class="das">das Bett</span><span class="plural">Pl. Betten</span></span><span class="en">bed</span></div><p class="sample">Das Bett ist groß. · Ich kaufe ein Bett.</p></li>
-      <li><div class="word-row"><span class="de"><span class="das">das Bild</span><span class="plural">Pl. Bilder</span></span><span class="en">picture / painting</span></div><p class="sample">Das Bild ist schön. · Ich kaufe ein Bild.</p></li>
-      <li><div class="word-row"><span class="de"><span class="die">die Couch</span><span class="plural">Pl. Couches</span></span><span class="en">couch</span></div><p class="sample">Die Couch ist bequem. · Ich kaufe eine Couch.</p></li>
-      <li><div class="word-row"><span class="de"><span class="der">der Tisch</span><span class="plural">Pl. Tische</span></span><span class="en">table</span></div><p class="sample">Der Tisch ist modern. · Ich kaufe einen Tisch.</p></li>
-      <li><div class="word-row"><span class="de"><span class="die">die Lampe</span><span class="plural">Pl. Lampen</span></span><span class="en">lamp</span></div><p class="sample">Die Lampe ist schön. · Ich kaufe eine Lampe.</p></li>
-      <li><div class="word-row"><span class="de"><span class="der">der Schrank</span><span class="plural">Pl. Schränke</span></span><span class="en">wardrobe / cupboard</span></div><p class="sample">Der Schrank ist groß. · Ich kaufe einen Schrank.</p></li>
-      <li><div class="word-row"><span class="de"><span class="der">der Sessel</span><span class="plural">Pl. Sessel</span></span><span class="en">armchair</span></div><p class="sample">Der Sessel ist bequem. · Ich kaufe einen Sessel.</p></li>
-      <li><div class="word-row"><span class="de"><span class="das">das Sofa</span><span class="plural">Pl. Sofas</span></span><span class="en">sofa</span></div><p class="sample">Das Sofa ist bequem. · Ich kaufe ein Sofa.</p></li>
-      <li><div class="word-row"><span class="de"><span class="der">der Stuhl</span><span class="plural">Pl. Stühle</span></span><span class="en">chair</span></div><p class="sample">Der Stuhl ist klein. · Ich kaufe einen Stuhl.</p></li>
-      <li><div class="word-row"><span class="de"><span class="der">der Teppich</span><span class="plural">Pl. Teppiche</span></span><span class="en">carpet / rug</span></div><p class="sample">Der Teppich ist schön. · Ich kaufe einen Teppich.</p></li>
-      <li><div class="word-row"><span class="de"><span class="das">das Zimmer</span><span class="plural">Pl. Zimmer</span></span><span class="en">room</span></div><p class="sample">Das Zimmer ist groß. · Ich suche ein Zimmer.</p></li>
-      <li><div class="word-row"><span class="de"><span class="die">die Möbel</span></span><span class="en">furniture (pl. only)</span></div><p class="sample">Die Möbel sind neu. · Ich kaufe Möbel.</p></li>
-      <li><div class="word-row"><span class="de"><span class="der">der Euro</span><span class="plural">Pl. Euros</span></span><span class="en">euro</span></div><p class="sample">Der Euro ist die Währung. · Ich habe einen Euro.</p></li>
-      <li><div class="word-row"><span class="de"><span class="der">der Preis</span><span class="plural">Pl. Preise</span></span><span class="en">price</span></div><p class="sample">Der Preis ist gut. · Ich frage den Preis.</p></li>
-      <li><div class="word-row"><span class="de"><span class="das">das Sonderangebot</span><span class="plural">Pl. Sonderangebote</span></span><span class="en">special offer</span></div><p class="sample">Das Sonderangebot ist gut. · Ich nehme das Sonderangebot.</p></li>
-      <li><div class="word-row"><span class="de"><span class="das">das Möbelhaus</span><span class="plural">Pl. Möbelhäuser</span></span><span class="en">furniture store</span></div><p class="sample">Das Möbelhaus ist groß. · Ich besuche das Möbelhaus.</p></li>
+      <li><div class="word-row"><span class="de"><span class="das">das Bett</span><span class="plural">Pl. Betten</span><span class="pos" title="neutrum">(n)</span></span><span class="en">bed</span></div><p class="sample">Das Bett ist groß. · Ich kaufe ein Bett.</p></li>
+      <li><div class="word-row"><span class="de"><span class="das">das Bild</span><span class="plural">Pl. Bilder</span><span class="pos" title="neutrum">(n)</span></span><span class="en">picture / painting</span></div><p class="sample">Das Bild ist schön. · Ich kaufe ein Bild.</p></li>
+      <li><div class="word-row"><span class="de"><span class="die">die Couch</span><span class="plural">Pl. Couches</span><span class="pos" title="feminin">(f)</span></span><span class="en">couch</span></div><p class="sample">Die Couch ist bequem. · Ich kaufe eine Couch.</p></li>
+      <li><div class="word-row"><span class="de"><span class="der">der Tisch</span><span class="plural">Pl. Tische</span><span class="pos" title="maskulin">(m)</span></span><span class="en">table</span></div><p class="sample">Der Tisch ist modern. · Ich kaufe einen Tisch.</p></li>
+      <li><div class="word-row"><span class="de"><span class="die">die Lampe</span><span class="plural">Pl. Lampen</span><span class="pos" title="feminin">(f)</span></span><span class="en">lamp</span></div><p class="sample">Die Lampe ist schön. · Ich kaufe eine Lampe.</p></li>
+      <li><div class="word-row"><span class="de"><span class="der">der Schrank</span><span class="plural">Pl. Schränke</span><span class="pos" title="maskulin">(m)</span></span><span class="en">wardrobe / cupboard</span></div><p class="sample">Der Schrank ist groß. · Ich kaufe einen Schrank.</p></li>
+      <li><div class="word-row"><span class="de"><span class="der">der Sessel</span><span class="plural">Pl. Sessel</span><span class="pos" title="maskulin">(m)</span></span><span class="en">armchair</span></div><p class="sample">Der Sessel ist bequem. · Ich kaufe einen Sessel.</p></li>
+      <li><div class="word-row"><span class="de"><span class="das">das Sofa</span><span class="plural">Pl. Sofas</span><span class="pos" title="neutrum">(n)</span></span><span class="en">sofa</span></div><p class="sample">Das Sofa ist bequem. · Ich kaufe ein Sofa.</p></li>
+      <li><div class="word-row"><span class="de"><span class="der">der Stuhl</span><span class="plural">Pl. Stühle</span><span class="pos" title="maskulin">(m)</span></span><span class="en">chair</span></div><p class="sample">Der Stuhl ist klein. · Ich kaufe einen Stuhl.</p></li>
+      <li><div class="word-row"><span class="de"><span class="der">der Teppich</span><span class="plural">Pl. Teppiche</span><span class="pos" title="maskulin">(m)</span></span><span class="en">carpet / rug</span></div><p class="sample">Der Teppich ist schön. · Ich kaufe einen Teppich.</p></li>
+      <li><div class="word-row"><span class="de"><span class="das">das Zimmer</span><span class="plural">Pl. Zimmer</span><span class="pos" title="neutrum">(n)</span></span><span class="en">room</span></div><p class="sample">Das Zimmer ist groß. · Ich suche ein Zimmer.</p></li>
+      <li><div class="word-row"><span class="de"><span class="die">die Möbel</span><span class="pos" title="feminin">(f)</span></span><span class="en">furniture (pl. only)</span></div><p class="sample">Die Möbel sind neu. · Ich kaufe Möbel.</p></li>
+      <li><div class="word-row"><span class="de"><span class="der">der Euro</span><span class="plural">Pl. Euros</span><span class="pos" title="maskulin">(m)</span></span><span class="en">euro</span></div><p class="sample">Der Euro ist die Währung. · Ich habe einen Euro.</p></li>
+      <li><div class="word-row"><span class="de"><span class="der">der Preis</span><span class="plural">Pl. Preise</span><span class="pos" title="maskulin">(m)</span></span><span class="en">price</span></div><p class="sample">Der Preis ist gut. · Ich frage den Preis.</p></li>
+      <li><div class="word-row"><span class="de"><span class="das">das Sonderangebot</span><span class="plural">Pl. Sonderangebote</span><span class="pos" title="neutrum">(n)</span></span><span class="en">special offer</span></div><p class="sample">Das Sonderangebot ist gut. · Ich nehme das Sonderangebot.</p></li>
+      <li><div class="word-row"><span class="de"><span class="das">das Möbelhaus</span><span class="plural">Pl. Möbelhäuser</span><span class="pos" title="neutrum">(n)</span></span><span class="en">furniture store</span></div><p class="sample">Das Möbelhaus ist groß. · Ich besuche das Möbelhaus.</p></li>
 
     </ul>
   </section>

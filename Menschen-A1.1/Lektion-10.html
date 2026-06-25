@@ -6,7 +6,7 @@
   <title>Lektion 10 — Ich steige jetzt in die U-Bahn ein.</title>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background: #fff; color: #1a1a1a; font-size: 18px; line-height: 1.6; padding: 2rem 1.25rem; max-width: 640px; margin: 0 auto; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background: #fff; color: #1a1a1a; font-size: 18px; line-height: 1.6; padding: 3.5rem 1.25rem 2rem; max-width: 640px; margin: 0 auto; }
     h1 { font-size: 1.4rem; font-weight: 700; margin-bottom: 0.35rem; }
     .legend { font-size: 0.78rem; color: #888; margin-bottom: 0.5rem; }
     .legend span { margin-right: 1rem; }
@@ -28,9 +28,30 @@
     .verb-reg { color: #d97706; }
     .verb-irr { color: #7c3aed; }
     .perfekt { font-size: 0.75rem; color: #bbb; font-weight: 400; margin-left: 0.4rem; }
+    .pos { font-style: italic; font-size: 0.72rem; color: #bbb; font-weight: 400; margin-left: 0.35rem; }
+    #player { position: fixed; top: 0; left: 0; right: 0; background: #fff; border-bottom: 1px solid #f0f0f0; z-index: 100; padding: 0.5rem 1.25rem; display: flex; align-items: center; justify-content: center; gap: 0.75rem; }
+    #player button { background: none; border: 1px solid #ddd; border-radius: 4px; padding: 0.3rem 0.7rem; font-size: 0.82rem; color: #555; cursor: pointer; line-height: 1.4; }
+    #player button:hover { border-color: #aaa; color: #111; }
+    #player #pp { min-width: 2.2rem; }
   </style>
 </head>
 <body>
+  <div id="player">
+    <audio id="audio" src="Lektion-10.mp3"></audio>
+    <button onclick="seek(-10)">−10s</button>
+    <button id="pp" onclick="togglePlay()">▶</button>
+    <button onclick="seek(10)">+10s</button>
+  </div>
+  <script>
+    const audio = document.getElementById('audio');
+    const pp = document.getElementById('pp');
+    function togglePlay() {
+      if (audio.paused) { audio.play(); pp.textContent = '⏸'; }
+      else { audio.pause(); pp.textContent = '▶'; }
+    }
+    function seek(s) { audio.currentTime = Math.max(0, audio.currentTime + s); }
+    audio.addEventListener('ended', () => pp.textContent = '▶');
+  </script>
   <a class="back-link" href="index.html">← Alle Lektionen</a>
   <h1>Lektion 10 — Ich steige jetzt in die U-Bahn ein.</h1>
   <p class="legend">
@@ -39,6 +60,7 @@
     <span><span class="das">■</span> das (n)</span>
     <span><span class="verb-reg">■</span> reg.</span>
     <span><span class="verb-irr">■</span> irr.</span>
+    <span><span class="pos">(t)</span> transitiv · <span class="pos">(i)</span> intransitiv · <span class="pos">(adj)</span> Adjektiv · <span class="pos">(adv)</span> Adverb</span>
   </p>
   <a class="mp3-link" href="Lektion-10.mp3" download>⬇ Audio herunterladen</a>
 
@@ -47,121 +69,121 @@
     <ul class="word-list">
 
       <li>
-        <div class="word-row"><span class="de"><span class="verb-irr">einsteigen</span><span class="perfekt"> · ist eingestiegen</span></span><span class="en">to get on / to board</span></div>
+        <div class="word-row"><span class="de"><span class="verb-irr">einsteigen</span><span class="perfekt"> · ist eingestiegen</span><span class="pos" title="intransitiv">(i)</span></span><span class="en">to get on / to board</span></div>
         <p class="sample">Ich steige in den Bus ein. · Ich bin in den Bus eingestiegen.</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="verb-irr">aussteigen</span><span class="perfekt"> · ist ausgestiegen</span></span><span class="en">to get off / to exit</span></div>
+        <div class="word-row"><span class="de"><span class="verb-irr">aussteigen</span><span class="perfekt"> · ist ausgestiegen</span><span class="pos" title="intransitiv">(i)</span></span><span class="en">to get off / to exit</span></div>
         <p class="sample">Ich steige am Bahnhof aus. · Ich bin am Bahnhof ausgestiegen.</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="verb-irr">abfahren</span><span class="perfekt"> · ist abgefahren</span></span><span class="en">to depart</span></div>
+        <div class="word-row"><span class="de"><span class="verb-irr">abfahren</span><span class="perfekt"> · ist abgefahren</span><span class="pos" title="intransitiv">(i)</span></span><span class="en">to depart</span></div>
         <p class="sample">Der Zug fährt um acht Uhr ab. · Der Zug ist um acht Uhr abgefahren.</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="verb-irr">ankommen</span><span class="perfekt"> · ist angekommen</span></span><span class="en">to arrive</span></div>
+        <div class="word-row"><span class="de"><span class="verb-irr">ankommen</span><span class="perfekt"> · ist angekommen</span><span class="pos" title="intransitiv">(i)</span></span><span class="en">to arrive</span></div>
         <p class="sample">Wir kommen um zehn Uhr an. · Wir sind um zehn Uhr angekommen.</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="verb-irr">umsteigen</span><span class="perfekt"> · ist umgestiegen</span></span><span class="en">to transfer / to change</span></div>
+        <div class="word-row"><span class="de"><span class="verb-irr">umsteigen</span><span class="perfekt"> · ist umgestiegen</span><span class="pos" title="intransitiv">(i)</span></span><span class="en">to transfer / to change</span></div>
         <p class="sample">In München steige ich um. · Ich bin in München umgestiegen.</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="verb-irr">einfahren</span><span class="perfekt"> · ist eingefahren</span></span><span class="en">to pull in (train)</span></div>
+        <div class="word-row"><span class="de"><span class="verb-irr">einfahren</span><span class="perfekt"> · ist eingefahren</span><span class="pos" title="intransitiv">(i)</span></span><span class="en">to pull in (train)</span></div>
         <p class="sample">Der Zug fährt gerade ein. · Der Zug ist gerade eingefahren.</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="verb-reg">abholen</span><span class="perfekt"> · hat abgeholt</span></span><span class="en">to pick up</span></div>
+        <div class="word-row"><span class="de"><span class="verb-reg">abholen</span><span class="perfekt"> · hat abgeholt</span><span class="pos" title="transitiv (Akkusativobjekt)">(t)</span></span><span class="en">to pick up</span></div>
         <p class="sample">Mein Freund holt mich ab. · Mein Freund hat mich abgeholt.</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="verb-irr">anrufen</span><span class="perfekt"> · hat angerufen</span></span><span class="en">to call (by phone)</span></div>
+        <div class="word-row"><span class="de"><span class="verb-irr">anrufen</span><span class="perfekt"> · hat angerufen</span><span class="pos" title="transitiv (Akkusativobjekt)">(t)</span></span><span class="en">to call (by phone)</span></div>
         <p class="sample">Ich rufe meine Mutter an. · Ich habe meine Mutter angerufen.</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="verb-irr">nehmen</span><span class="perfekt"> · hat genommen</span></span><span class="en">to take (transport)</span></div>
+        <div class="word-row"><span class="de"><span class="verb-irr">nehmen</span><span class="perfekt"> · hat genommen</span><span class="pos" title="transitiv (Akkusativobjekt)">(t)</span></span><span class="en">to take (transport)</span></div>
         <p class="sample">Ich nehme die S-Bahn. · Ich habe die S-Bahn genommen.</p>
       </li>
 
       <li>
-        <div class="word-row"><span class="de">gerade</span><span class="en">right now / just</span></div>
+        <div class="word-row"><span class="de">gerade<span class="pos" title="Adverb">(adv)</span></span><span class="en">right now / just</span></div>
         <p class="sample">Der Bus kommt gerade.</p>
       </li>
 
       <li>
-        <div class="word-row"><span class="de"><span class="die">die U-Bahn</span><span class="plural">Pl. U-Bahnen</span></span><span class="en">subway / metro</span></div>
+        <div class="word-row"><span class="de"><span class="die">die U-Bahn</span><span class="plural">Pl. U-Bahnen</span><span class="pos" title="feminin">(f)</span></span><span class="en">subway / metro</span></div>
         <p class="sample">Die U-Bahn kommt. · Ich nehme die U-Bahn.</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="der">der Bus</span><span class="plural">Pl. Busse</span></span><span class="en">bus</span></div>
+        <div class="word-row"><span class="de"><span class="der">der Bus</span><span class="plural">Pl. Busse</span><span class="pos" title="maskulin">(m)</span></span><span class="en">bus</span></div>
         <p class="sample">Der Bus kommt in fünf Minuten. · Ich nehme den Bus.</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="die">die S-Bahn</span><span class="plural">Pl. S-Bahnen</span></span><span class="en">suburban rail</span></div>
+        <div class="word-row"><span class="de"><span class="die">die S-Bahn</span><span class="plural">Pl. S-Bahnen</span><span class="pos" title="feminin">(f)</span></span><span class="en">suburban rail</span></div>
         <p class="sample">Die S-Bahn fährt nach München. · Ich nehme die S-Bahn.</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="die">die Straßenbahn</span><span class="plural">Pl. Straßenbahnen</span></span><span class="en">tram / streetcar</span></div>
+        <div class="word-row"><span class="de"><span class="die">die Straßenbahn</span><span class="plural">Pl. Straßenbahnen</span><span class="pos" title="feminin">(f)</span></span><span class="en">tram / streetcar</span></div>
         <p class="sample">Die Straßenbahn hält hier. · Ich nehme die Straßenbahn.</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="der">der Zug</span><span class="plural">Pl. Züge</span></span><span class="en">train</span></div>
+        <div class="word-row"><span class="de"><span class="der">der Zug</span><span class="plural">Pl. Züge</span><span class="pos" title="maskulin">(m)</span></span><span class="en">train</span></div>
         <p class="sample">Der Zug kommt um zehn Uhr. · Ich nehme den Zug.</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="das">das Taxi</span><span class="plural">Pl. Taxis</span></span><span class="en">taxi</span></div>
+        <div class="word-row"><span class="de"><span class="das">das Taxi</span><span class="plural">Pl. Taxis</span><span class="pos" title="neutrum">(n)</span></span><span class="en">taxi</span></div>
         <p class="sample">Das Taxi ist teuer. · Ich nehme ein Taxi.</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="das">das Flugzeug</span><span class="plural">Pl. Flugzeuge</span></span><span class="en">airplane</span></div>
+        <div class="word-row"><span class="de"><span class="das">das Flugzeug</span><span class="plural">Pl. Flugzeuge</span><span class="pos" title="neutrum">(n)</span></span><span class="en">airplane</span></div>
         <p class="sample">Das Flugzeug fliegt nach Berlin. · Ich nehme das Flugzeug.</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="der">der Bahnhof</span><span class="plural">Pl. Bahnhöfe</span></span><span class="en">train station</span></div>
+        <div class="word-row"><span class="de"><span class="der">der Bahnhof</span><span class="plural">Pl. Bahnhöfe</span><span class="pos" title="maskulin">(m)</span></span><span class="en">train station</span></div>
         <p class="sample">Der Bahnhof ist groß. · Ich suche den Bahnhof.</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="der">der Hauptbahnhof</span><span class="plural">Pl. Hauptbahnhöfe</span></span><span class="en">main station</span></div>
+        <div class="word-row"><span class="de"><span class="der">der Hauptbahnhof</span><span class="plural">Pl. Hauptbahnhöfe</span><span class="pos" title="maskulin">(m)</span></span><span class="en">main station</span></div>
         <p class="sample">Der Hauptbahnhof ist sehr groß. · Ich suche den Hauptbahnhof.</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="der">der Flughafen</span><span class="plural">Pl. Flughäfen</span></span><span class="en">airport</span></div>
+        <div class="word-row"><span class="de"><span class="der">der Flughafen</span><span class="plural">Pl. Flughäfen</span><span class="pos" title="maskulin">(m)</span></span><span class="en">airport</span></div>
         <p class="sample">Der Flughafen ist weit weg. · Ich suche den Flughafen.</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="der">der Bahnsteig</span><span class="plural">Pl. Bahnsteige</span></span><span class="en">platform</span></div>
+        <div class="word-row"><span class="de"><span class="der">der Bahnsteig</span><span class="plural">Pl. Bahnsteige</span><span class="pos" title="maskulin">(m)</span></span><span class="en">platform</span></div>
         <p class="sample">Der Bahnsteig ist hier. · Ich suche den Bahnsteig.</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="das">das Gleis</span><span class="plural">Pl. Gleise</span></span><span class="en">track / platform</span></div>
+        <div class="word-row"><span class="de"><span class="das">das Gleis</span><span class="plural">Pl. Gleise</span><span class="pos" title="neutrum">(n)</span></span><span class="en">track / platform</span></div>
         <p class="sample">Das Gleis ist Nummer fünf. · Ich suche das Gleis.</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="die">die Haltestelle</span><span class="plural">Pl. Haltestellen</span></span><span class="en">stop</span></div>
+        <div class="word-row"><span class="de"><span class="die">die Haltestelle</span><span class="plural">Pl. Haltestellen</span><span class="pos" title="feminin">(f)</span></span><span class="en">stop</span></div>
         <p class="sample">Die Haltestelle ist hier. · Ich suche die Haltestelle.</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="der">der Koffer</span><span class="plural">Pl. Koffer</span></span><span class="en">suitcase</span></div>
+        <div class="word-row"><span class="de"><span class="der">der Koffer</span><span class="plural">Pl. Koffer</span><span class="pos" title="maskulin">(m)</span></span><span class="en">suitcase</span></div>
         <p class="sample">Der Koffer ist schwer. · Ich trage den Koffer.</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="das">das Gepäck</span></span><span class="en">luggage / baggage</span></div>
+        <div class="word-row"><span class="de"><span class="das">das Gepäck</span><span class="pos" title="neutrum">(n)</span></span><span class="en">luggage / baggage</span></div>
         <p class="sample">Das Gepäck ist schwer. · Ich habe das Gepäck.</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="die">die Reise</span><span class="plural">Pl. Reisen</span></span><span class="en">journey / trip</span></div>
+        <div class="word-row"><span class="de"><span class="die">die Reise</span><span class="plural">Pl. Reisen</span><span class="pos" title="feminin">(f)</span></span><span class="en">journey / trip</span></div>
         <p class="sample">Die Reise dauert zwei Stunden. · Ich mache eine Reise.</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="die">die Minute</span><span class="plural">Pl. Minuten</span></span><span class="en">minute</span></div>
+        <div class="word-row"><span class="de"><span class="die">die Minute</span><span class="plural">Pl. Minuten</span><span class="pos" title="feminin">(f)</span></span><span class="en">minute</span></div>
         <p class="sample">Eine Minute ist kurz. · Ich warte eine Minute.</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="die">die Durchsage</span><span class="plural">Pl. Durchsagen</span></span><span class="en">announcement</span></div>
+        <div class="word-row"><span class="de"><span class="die">die Durchsage</span><span class="plural">Pl. Durchsagen</span><span class="pos" title="feminin">(f)</span></span><span class="en">announcement</span></div>
         <p class="sample">Die Durchsage ist laut. · Ich höre die Durchsage.</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="das">das Verkehrsmittel</span><span class="plural">Pl. Verkehrsmittel</span></span><span class="en">means of transport</span></div>
+        <div class="word-row"><span class="de"><span class="das">das Verkehrsmittel</span><span class="plural">Pl. Verkehrsmittel</span><span class="pos" title="neutrum">(n)</span></span><span class="en">means of transport</span></div>
         <p class="sample">Das Verkehrsmittel ist gut. · Ich brauche ein Verkehrsmittel.</p>
       </li>
 

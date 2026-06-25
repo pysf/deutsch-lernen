@@ -6,7 +6,7 @@
   <title>Lektion 8 — Kein Problem. Ich habe Zeit!</title>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background: #fff; color: #1a1a1a; font-size: 18px; line-height: 1.6; padding: 2rem 1.25rem; max-width: 640px; margin: 0 auto; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background: #fff; color: #1a1a1a; font-size: 18px; line-height: 1.6; padding: 3.5rem 1.25rem 2rem; max-width: 640px; margin: 0 auto; }
     h1 { font-size: 1.4rem; font-weight: 700; margin-bottom: 0.35rem; }
     .legend { font-size: 0.78rem; color: #888; margin-bottom: 0.5rem; }
     .legend span { margin-right: 1rem; }
@@ -28,9 +28,30 @@
     .verb-reg { color: #d97706; }
     .verb-irr { color: #7c3aed; }
     .perfekt { font-size: 0.75rem; color: #bbb; font-weight: 400; margin-left: 0.4rem; }
+    .pos { font-style: italic; font-size: 0.72rem; color: #bbb; font-weight: 400; margin-left: 0.35rem; }
+    #player { position: fixed; top: 0; left: 0; right: 0; background: #fff; border-bottom: 1px solid #f0f0f0; z-index: 100; padding: 0.5rem 1.25rem; display: flex; align-items: center; justify-content: center; gap: 0.75rem; }
+    #player button { background: none; border: 1px solid #ddd; border-radius: 4px; padding: 0.3rem 0.7rem; font-size: 0.82rem; color: #555; cursor: pointer; line-height: 1.4; }
+    #player button:hover { border-color: #aaa; color: #111; }
+    #player #pp { min-width: 2.2rem; }
   </style>
 </head>
 <body>
+  <div id="player">
+    <audio id="audio" src="Lektion-8.mp3"></audio>
+    <button onclick="seek(-10)">−10s</button>
+    <button id="pp" onclick="togglePlay()">▶</button>
+    <button onclick="seek(10)">+10s</button>
+  </div>
+  <script>
+    const audio = document.getElementById('audio');
+    const pp = document.getElementById('pp');
+    function togglePlay() {
+      if (audio.paused) { audio.play(); pp.textContent = '⏸'; }
+      else { audio.pause(); pp.textContent = '▶'; }
+    }
+    function seek(s) { audio.currentTime = Math.max(0, audio.currentTime + s); }
+    audio.addEventListener('ended', () => pp.textContent = '▶');
+  </script>
   <a class="back-link" href="index.html">← Alle Lektionen</a>
   <h1>Lektion 8 — Kein Problem. Ich habe Zeit!</h1>
   <p class="legend">
@@ -39,6 +60,7 @@
     <span><span class="das">■</span> das (n)</span>
     <span><span class="verb-reg">■</span> reg.</span>
     <span><span class="verb-irr">■</span> irr.</span>
+    <span><span class="pos">(t)</span> transitiv · <span class="pos">(i)</span> intransitiv · <span class="pos">(adj)</span> Adjektiv · <span class="pos">(adv)</span> Adverb</span>
   </p>
   <a class="mp3-link" href="Lektion-8.mp3" download>⬇ Audio herunterladen</a>
 
@@ -46,39 +68,39 @@
     <h2>Wortschatz</h2>
     <ul class="word-list">
 
-      <li><div class="word-row"><span class="de"><span class="verb-irr">einladen</span><span class="perfekt"> · hat eingeladen</span></span><span class="en">to invite</span></div><p class="sample">Ich lade dich ein. · Ich habe dich eingeladen.</p></li>
-      <li><div class="word-row"><span class="de"><span class="verb-reg">absagen</span><span class="perfekt"> · hat abgesagt</span></span><span class="en">to cancel</span></div><p class="sample">Ich sage den Termin ab. · Ich habe den Termin abgesagt.</p></li>
-      <li><div class="word-row"><span class="de"><span class="verb-reg">zusagen</span><span class="perfekt"> · hat zugesagt</span></span><span class="en">to accept (an invitation)</span></div><p class="sample">Ich sage zu. · Ich habe zugesagt.</p></li>
+      <li><div class="word-row"><span class="de"><span class="verb-irr">einladen</span><span class="perfekt"> · hat eingeladen</span><span class="pos" title="transitiv (Akkusativobjekt)">(t)</span></span><span class="en">to invite</span></div><p class="sample">Ich lade dich ein. · Ich habe dich eingeladen.</p></li>
+      <li><div class="word-row"><span class="de"><span class="verb-reg">absagen</span><span class="perfekt"> · hat abgesagt</span><span class="pos" title="transitiv (Akkusativobjekt)">(t)</span></span><span class="en">to cancel</span></div><p class="sample">Ich sage den Termin ab. · Ich habe den Termin abgesagt.</p></li>
+      <li><div class="word-row"><span class="de"><span class="verb-reg">zusagen</span><span class="perfekt"> · hat zugesagt</span><span class="pos" title="intransitiv">(i)</span></span><span class="en">to accept (an invitation)</span></div><p class="sample">Ich sage zu. · Ich habe zugesagt.</p></li>
 
       <li><div class="word-row"><span class="de">warum</span><span class="en">why</span></div><p class="sample">Warum kommst du nicht?</p></li>
       <li><div class="word-row"><span class="de">wann</span><span class="en">when</span></div><p class="sample">Wann kommst du?</p></li>
-      <li><div class="word-row"><span class="de">vielleicht</span><span class="en">maybe / perhaps</span></div><p class="sample">Vielleicht gehe ich ins Kino.</p></li>
-      <li><div class="word-row"><span class="de">morgen</span><span class="en">tomorrow</span></div><p class="sample">Morgen habe ich Zeit.</p></li>
-      <li><div class="word-row"><span class="de">spät</span><span class="en">late</span></div><p class="sample">Es ist schon spät.</p></li>
+      <li><div class="word-row"><span class="de">vielleicht<span class="pos" title="Adverb">(adv)</span></span><span class="en">maybe / perhaps</span></div><p class="sample">Vielleicht gehe ich ins Kino.</p></li>
+      <li><div class="word-row"><span class="de">morgen<span class="pos" title="Adverb">(adv)</span></span><span class="en">tomorrow</span></div><p class="sample">Morgen habe ich Zeit.</p></li>
+      <li><div class="word-row"><span class="de">spät<span class="pos" title="Adjektiv">(adj)</span></span><span class="en">late</span></div><p class="sample">Es ist schon spät.</p></li>
       <li><div class="word-row"><span class="de">wie spät</span><span class="en">what time is it</span></div><p class="sample">Wie spät ist es?</p></li>
       <li><div class="word-row"><span class="de">halb</span><span class="en">half past</span></div><p class="sample">Es ist halb drei.</p></li>
       <li><div class="word-row"><span class="de">um</span><span class="en">at (time)</span></div><p class="sample">Der Film beginnt um acht.</p></li>
 
-      <li><div class="word-row"><span class="de"><span class="der">der Montag</span><span class="plural">Pl. Montage</span></span><span class="en">Monday</span></div><p class="sample">Der Montag ist lang. · Ich mag den Montag nicht.</p></li>
-      <li><div class="word-row"><span class="de"><span class="der">der Dienstag</span><span class="plural">Pl. Dienstage</span></span><span class="en">Tuesday</span></div><p class="sample">Der Dienstag ist frei. · Ich mag den Dienstag.</p></li>
-      <li><div class="word-row"><span class="de"><span class="der">der Mittwoch</span><span class="plural">Pl. Mittwoche</span></span><span class="en">Wednesday</span></div><p class="sample">Der Mittwoch ist gut. · Ich mag den Mittwoch.</p></li>
-      <li><div class="word-row"><span class="de"><span class="der">der Donnerstag</span><span class="plural">Pl. Donnerstage</span></span><span class="en">Thursday</span></div><p class="sample">Der Donnerstag ist lang. · Ich mag den Donnerstag.</p></li>
-      <li><div class="word-row"><span class="de"><span class="der">der Freitag</span><span class="plural">Pl. Freitage</span></span><span class="en">Friday</span></div><p class="sample">Der Freitag ist gut. · Ich mag den Freitag.</p></li>
-      <li><div class="word-row"><span class="de"><span class="der">der Samstag</span><span class="plural">Pl. Samstage</span></span><span class="en">Saturday</span></div><p class="sample">Der Samstag ist frei. · Ich mag den Samstag.</p></li>
-      <li><div class="word-row"><span class="de"><span class="der">der Sonntag</span><span class="plural">Pl. Sonntage</span></span><span class="en">Sunday</span></div><p class="sample">Der Sonntag ist ruhig. · Ich mag den Sonntag.</p></li>
-      <li><div class="word-row"><span class="de"><span class="die">die Woche</span><span class="plural">Pl. Wochen</span></span><span class="en">week</span></div><p class="sample">Die Woche hat sieben Tage. · Ich warte eine Woche.</p></li>
-      <li><div class="word-row"><span class="de"><span class="der">der Geburtstag</span><span class="plural">Pl. Geburtstage</span></span><span class="en">birthday</span></div><p class="sample">Der Geburtstag ist im März. · Ich feiere den Geburtstag.</p></li>
-      <li><div class="word-row"><span class="de"><span class="das">das Schwimmbad</span><span class="plural">Pl. Schwimmbäder</span></span><span class="en">swimming pool</span></div><p class="sample">Das Schwimmbad ist offen. · Ich besuche das Schwimmbad.</p></li>
-      <li><div class="word-row"><span class="de"><span class="die">die Ausstellung</span><span class="plural">Pl. Ausstellungen</span></span><span class="en">exhibition</span></div><p class="sample">Die Ausstellung ist schön. · Ich besuche die Ausstellung.</p></li>
-      <li><div class="word-row"><span class="de"><span class="das">das Café</span><span class="plural">Pl. Cafés</span></span><span class="en">café</span></div><p class="sample">Das Café ist nett. · Ich besuche das Café.</p></li>
-      <li><div class="word-row"><span class="de"><span class="die">die Disco</span><span class="plural">Pl. Discos</span></span><span class="en">disco</span></div><p class="sample">Die Disco ist laut. · Ich besuche die Disco.</p></li>
-      <li><div class="word-row"><span class="de"><span class="die">die Kneipe</span><span class="plural">Pl. Kneipen</span></span><span class="en">pub</span></div><p class="sample">Die Kneipe ist gemütlich. · Ich besuche die Kneipe.</p></li>
-      <li><div class="word-row"><span class="de"><span class="das">das Konzert</span><span class="plural">Pl. Konzerte</span></span><span class="en">concert</span></div><p class="sample">Das Konzert ist gut. · Ich besuche das Konzert.</p></li>
-      <li><div class="word-row"><span class="de"><span class="das">das Museum</span><span class="plural">Pl. Museen</span></span><span class="en">museum</span></div><p class="sample">Das Museum ist groß. · Ich besuche das Museum.</p></li>
-      <li><div class="word-row"><span class="de"><span class="das">das Restaurant</span><span class="plural">Pl. Restaurants</span></span><span class="en">restaurant</span></div><p class="sample">Das Restaurant ist gut. · Ich besuche das Restaurant.</p></li>
-      <li><div class="word-row"><span class="de"><span class="die">die Idee</span><span class="plural">Pl. Ideen</span></span><span class="en">idea</span></div><p class="sample">Die Idee ist gut. · Ich habe eine Idee.</p></li>
-      <li><div class="word-row"><span class="de"><span class="die">die Einladung</span><span class="plural">Pl. Einladungen</span></span><span class="en">invitation</span></div><p class="sample">Die Einladung ist schön. · Ich bekomme eine Einladung.</p></li>
-      <li><div class="word-row"><span class="de"><span class="der">der Vorschlag</span><span class="plural">Pl. Vorschläge</span></span><span class="en">suggestion / proposal</span></div><p class="sample">Der Vorschlag ist gut. · Ich mache einen Vorschlag.</p></li>
+      <li><div class="word-row"><span class="de"><span class="der">der Montag</span><span class="plural">Pl. Montage</span><span class="pos" title="maskulin">(m)</span></span><span class="en">Monday</span></div><p class="sample">Der Montag ist lang. · Ich mag den Montag nicht.</p></li>
+      <li><div class="word-row"><span class="de"><span class="der">der Dienstag</span><span class="plural">Pl. Dienstage</span><span class="pos" title="maskulin">(m)</span></span><span class="en">Tuesday</span></div><p class="sample">Der Dienstag ist frei. · Ich mag den Dienstag.</p></li>
+      <li><div class="word-row"><span class="de"><span class="der">der Mittwoch</span><span class="plural">Pl. Mittwoche</span><span class="pos" title="maskulin">(m)</span></span><span class="en">Wednesday</span></div><p class="sample">Der Mittwoch ist gut. · Ich mag den Mittwoch.</p></li>
+      <li><div class="word-row"><span class="de"><span class="der">der Donnerstag</span><span class="plural">Pl. Donnerstage</span><span class="pos" title="maskulin">(m)</span></span><span class="en">Thursday</span></div><p class="sample">Der Donnerstag ist lang. · Ich mag den Donnerstag.</p></li>
+      <li><div class="word-row"><span class="de"><span class="der">der Freitag</span><span class="plural">Pl. Freitage</span><span class="pos" title="maskulin">(m)</span></span><span class="en">Friday</span></div><p class="sample">Der Freitag ist gut. · Ich mag den Freitag.</p></li>
+      <li><div class="word-row"><span class="de"><span class="der">der Samstag</span><span class="plural">Pl. Samstage</span><span class="pos" title="maskulin">(m)</span></span><span class="en">Saturday</span></div><p class="sample">Der Samstag ist frei. · Ich mag den Samstag.</p></li>
+      <li><div class="word-row"><span class="de"><span class="der">der Sonntag</span><span class="plural">Pl. Sonntage</span><span class="pos" title="maskulin">(m)</span></span><span class="en">Sunday</span></div><p class="sample">Der Sonntag ist ruhig. · Ich mag den Sonntag.</p></li>
+      <li><div class="word-row"><span class="de"><span class="die">die Woche</span><span class="plural">Pl. Wochen</span><span class="pos" title="feminin">(f)</span></span><span class="en">week</span></div><p class="sample">Die Woche hat sieben Tage. · Ich warte eine Woche.</p></li>
+      <li><div class="word-row"><span class="de"><span class="der">der Geburtstag</span><span class="plural">Pl. Geburtstage</span><span class="pos" title="maskulin">(m)</span></span><span class="en">birthday</span></div><p class="sample">Der Geburtstag ist im März. · Ich feiere den Geburtstag.</p></li>
+      <li><div class="word-row"><span class="de"><span class="das">das Schwimmbad</span><span class="plural">Pl. Schwimmbäder</span><span class="pos" title="neutrum">(n)</span></span><span class="en">swimming pool</span></div><p class="sample">Das Schwimmbad ist offen. · Ich besuche das Schwimmbad.</p></li>
+      <li><div class="word-row"><span class="de"><span class="die">die Ausstellung</span><span class="plural">Pl. Ausstellungen</span><span class="pos" title="feminin">(f)</span></span><span class="en">exhibition</span></div><p class="sample">Die Ausstellung ist schön. · Ich besuche die Ausstellung.</p></li>
+      <li><div class="word-row"><span class="de"><span class="das">das Café</span><span class="plural">Pl. Cafés</span><span class="pos" title="neutrum">(n)</span></span><span class="en">café</span></div><p class="sample">Das Café ist nett. · Ich besuche das Café.</p></li>
+      <li><div class="word-row"><span class="de"><span class="die">die Disco</span><span class="plural">Pl. Discos</span><span class="pos" title="feminin">(f)</span></span><span class="en">disco</span></div><p class="sample">Die Disco ist laut. · Ich besuche die Disco.</p></li>
+      <li><div class="word-row"><span class="de"><span class="die">die Kneipe</span><span class="plural">Pl. Kneipen</span><span class="pos" title="feminin">(f)</span></span><span class="en">pub</span></div><p class="sample">Die Kneipe ist gemütlich. · Ich besuche die Kneipe.</p></li>
+      <li><div class="word-row"><span class="de"><span class="das">das Konzert</span><span class="plural">Pl. Konzerte</span><span class="pos" title="neutrum">(n)</span></span><span class="en">concert</span></div><p class="sample">Das Konzert ist gut. · Ich besuche das Konzert.</p></li>
+      <li><div class="word-row"><span class="de"><span class="das">das Museum</span><span class="plural">Pl. Museen</span><span class="pos" title="neutrum">(n)</span></span><span class="en">museum</span></div><p class="sample">Das Museum ist groß. · Ich besuche das Museum.</p></li>
+      <li><div class="word-row"><span class="de"><span class="das">das Restaurant</span><span class="plural">Pl. Restaurants</span><span class="pos" title="neutrum">(n)</span></span><span class="en">restaurant</span></div><p class="sample">Das Restaurant ist gut. · Ich besuche das Restaurant.</p></li>
+      <li><div class="word-row"><span class="de"><span class="die">die Idee</span><span class="plural">Pl. Ideen</span><span class="pos" title="feminin">(f)</span></span><span class="en">idea</span></div><p class="sample">Die Idee ist gut. · Ich habe eine Idee.</p></li>
+      <li><div class="word-row"><span class="de"><span class="die">die Einladung</span><span class="plural">Pl. Einladungen</span><span class="pos" title="feminin">(f)</span></span><span class="en">invitation</span></div><p class="sample">Die Einladung ist schön. · Ich bekomme eine Einladung.</p></li>
+      <li><div class="word-row"><span class="de"><span class="der">der Vorschlag</span><span class="plural">Pl. Vorschläge</span><span class="pos" title="maskulin">(m)</span></span><span class="en">suggestion / proposal</span></div><p class="sample">Der Vorschlag ist gut. · Ich mache einen Vorschlag.</p></li>
 
     </ul>
   </section>

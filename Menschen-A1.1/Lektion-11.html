@@ -6,7 +6,7 @@
   <title>Lektion 11 — Chaos im Haus</title>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background: #fff; color: #1a1a1a; font-size: 18px; line-height: 1.6; padding: 2rem 1.25rem; max-width: 640px; margin: 0 auto; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background: #fff; color: #1a1a1a; font-size: 18px; line-height: 1.6; padding: 3.5rem 1.25rem 2rem; max-width: 640px; margin: 0 auto; }
     h1 { font-size: 1.4rem; font-weight: 700; margin-bottom: 0.35rem; }
     .legend { font-size: 0.78rem; color: #888; margin-bottom: 0.5rem; }
     .legend span { margin-right: 1rem; }
@@ -28,9 +28,30 @@
     .verb-reg { color: #d97706; }
     .verb-irr { color: #7c3aed; }
     .perfekt { font-size: 0.75rem; color: #bbb; font-weight: 400; margin-left: 0.4rem; }
+    .pos { font-style: italic; font-size: 0.72rem; color: #bbb; font-weight: 400; margin-left: 0.35rem; }
+    #player { position: fixed; top: 0; left: 0; right: 0; background: #fff; border-bottom: 1px solid #f0f0f0; z-index: 100; padding: 0.5rem 1.25rem; display: flex; align-items: center; justify-content: center; gap: 0.75rem; }
+    #player button { background: none; border: 1px solid #ddd; border-radius: 4px; padding: 0.3rem 0.7rem; font-size: 0.82rem; color: #555; cursor: pointer; line-height: 1.4; }
+    #player button:hover { border-color: #aaa; color: #111; }
+    #player #pp { min-width: 2.2rem; }
   </style>
 </head>
 <body>
+  <div id="player">
+    <audio id="audio" src="Lektion-11.mp3"></audio>
+    <button onclick="seek(-10)">−10s</button>
+    <button id="pp" onclick="togglePlay()">▶</button>
+    <button onclick="seek(10)">+10s</button>
+  </div>
+  <script>
+    const audio = document.getElementById('audio');
+    const pp = document.getElementById('pp');
+    function togglePlay() {
+      if (audio.paused) { audio.play(); pp.textContent = '⏸'; }
+      else { audio.pause(); pp.textContent = '▶'; }
+    }
+    function seek(s) { audio.currentTime = Math.max(0, audio.currentTime + s); }
+    audio.addEventListener('ended', () => pp.textContent = '▶');
+  </script>
   <a class="back-link" href="index.html">← Alle Lektionen</a>
   <h1>Lektion 11 — Chaos im Haus</h1>
   <p class="legend">
@@ -39,6 +60,7 @@
     <span><span class="das">■</span> das (n)</span>
     <span><span class="verb-reg">■</span> reg.</span>
     <span><span class="verb-irr">■</span> irr.</span>
+    <span><span class="pos">(t)</span> transitiv · <span class="pos">(i)</span> intransitiv · <span class="pos">(adj)</span> Adjektiv · <span class="pos">(adv)</span> Adverb</span>
   </p>
   <a class="mp3-link" href="Lektion-11.mp3" download>⬇ Audio herunterladen</a>
 
@@ -46,33 +68,33 @@
     <h2>Wortschatz</h2>
     <ul class="word-list">
 
-      <li><div class="word-row"><span class="de"><span class="verb-irr">aufstehen</span><span class="perfekt"> · ist aufgestanden</span></span><span class="en">to get up</span></div><p class="sample">Ich stehe um sieben Uhr auf. · Ich bin um sieben Uhr aufgestanden.</p></li>
-      <li><div class="word-row"><span class="de"><span class="verb-reg">aufräumen</span><span class="perfekt"> · hat aufgeräumt</span></span><span class="en">to tidy up</span></div><p class="sample">Ich räume das Zimmer auf. · Ich habe das Zimmer aufgeräumt.</p></li>
-      <li><div class="word-row"><span class="de"><span class="verb-reg">frühstücken</span><span class="perfekt"> · hat gefrühstückt</span></span><span class="en">to have breakfast</span></div><p class="sample">Ich frühstücke um acht Uhr. · Ich habe um acht Uhr gefrühstückt.</p></li>
-      <li><div class="word-row"><span class="de"><span class="verb-irr">schlafen</span><span class="perfekt"> · hat geschlafen</span></span><span class="en">to sleep</span></div><p class="sample">Ich schlafe lange. · Ich habe lange geschlafen.</p></li>
-      <li><div class="word-row"><span class="de"><span class="verb-reg">kaufen</span><span class="perfekt"> · hat gekauft</span></span><span class="en">to buy</span></div><p class="sample">Ich kaufe Brot. · Ich habe Brot gekauft.</p></li>
-      <li><div class="word-row"><span class="de"><span class="verb-irr">bringen</span><span class="perfekt"> · hat gebracht</span></span><span class="en">to bring</span></div><p class="sample">Ich bringe das Buch. · Ich habe das Buch gebracht.</p></li>
-      <li><div class="word-row"><span class="de"><span class="verb-reg">lachen</span><span class="perfekt"> · hat gelacht</span></span><span class="en">to laugh</span></div><p class="sample">Ich lache viel. · Ich habe viel gelacht.</p></li>
-      <li><div class="word-row"><span class="de"><span class="verb-reg">reden</span><span class="perfekt"> · hat geredet</span></span><span class="en">to talk / to speak</span></div><p class="sample">Ich rede mit meiner Freundin. · Ich habe mit ihr geredet.</p></li>
+      <li><div class="word-row"><span class="de"><span class="verb-irr">aufstehen</span><span class="perfekt"> · ist aufgestanden</span><span class="pos" title="intransitiv">(i)</span></span><span class="en">to get up</span></div><p class="sample">Ich stehe um sieben Uhr auf. · Ich bin um sieben Uhr aufgestanden.</p></li>
+      <li><div class="word-row"><span class="de"><span class="verb-reg">aufräumen</span><span class="perfekt"> · hat aufgeräumt</span><span class="pos" title="transitiv (Akkusativobjekt)">(t)</span></span><span class="en">to tidy up</span></div><p class="sample">Ich räume das Zimmer auf. · Ich habe das Zimmer aufgeräumt.</p></li>
+      <li><div class="word-row"><span class="de"><span class="verb-reg">frühstücken</span><span class="perfekt"> · hat gefrühstückt</span><span class="pos" title="intransitiv">(i)</span></span><span class="en">to have breakfast</span></div><p class="sample">Ich frühstücke um acht Uhr. · Ich habe um acht Uhr gefrühstückt.</p></li>
+      <li><div class="word-row"><span class="de"><span class="verb-irr">schlafen</span><span class="perfekt"> · hat geschlafen</span><span class="pos" title="intransitiv">(i)</span></span><span class="en">to sleep</span></div><p class="sample">Ich schlafe lange. · Ich habe lange geschlafen.</p></li>
+      <li><div class="word-row"><span class="de"><span class="verb-reg">kaufen</span><span class="perfekt"> · hat gekauft</span><span class="pos" title="transitiv (Akkusativobjekt)">(t)</span></span><span class="en">to buy</span></div><p class="sample">Ich kaufe Brot. · Ich habe Brot gekauft.</p></li>
+      <li><div class="word-row"><span class="de"><span class="verb-irr">bringen</span><span class="perfekt"> · hat gebracht</span><span class="pos" title="transitiv (Akkusativobjekt)">(t)</span></span><span class="en">to bring</span></div><p class="sample">Ich bringe das Buch. · Ich habe das Buch gebracht.</p></li>
+      <li><div class="word-row"><span class="de"><span class="verb-reg">lachen</span><span class="perfekt"> · hat gelacht</span><span class="pos" title="intransitiv">(i)</span></span><span class="en">to laugh</span></div><p class="sample">Ich lache viel. · Ich habe viel gelacht.</p></li>
+      <li><div class="word-row"><span class="de"><span class="verb-reg">reden</span><span class="perfekt"> · hat geredet</span><span class="pos" title="intransitiv">(i)</span></span><span class="en">to talk / to speak</span></div><p class="sample">Ich rede mit meiner Freundin. · Ich habe mit ihr geredet.</p></li>
 
-      <li><div class="word-row"><span class="de">schon</span><span class="en">already</span></div><p class="sample">Ich habe schon gefrühstückt.</p></li>
-      <li><div class="word-row"><span class="de">noch nicht</span><span class="en">not yet</span></div><p class="sample">Ich habe noch nicht aufgeräumt.</p></li>
-      <li><div class="word-row"><span class="de">gerade</span><span class="en">just / right now</span></div><p class="sample">Ich räume gerade auf.</p></li>
-      <li><div class="word-row"><span class="de">zusammen</span><span class="en">together</span></div><p class="sample">Wir kochen zusammen.</p></li>
+      <li><div class="word-row"><span class="de">schon<span class="pos" title="Adverb">(adv)</span></span><span class="en">already</span></div><p class="sample">Ich habe schon gefrühstückt.</p></li>
+      <li><div class="word-row"><span class="de">noch nicht<span class="pos" title="Adverb">(adv)</span></span><span class="en">not yet</span></div><p class="sample">Ich habe noch nicht aufgeräumt.</p></li>
+      <li><div class="word-row"><span class="de">gerade<span class="pos" title="Adverb">(adv)</span></span><span class="en">just / right now</span></div><p class="sample">Ich räume gerade auf.</p></li>
+      <li><div class="word-row"><span class="de">zusammen<span class="pos" title="Adverb">(adv)</span></span><span class="en">together</span></div><p class="sample">Wir kochen zusammen.</p></li>
 
-      <li><div class="word-row"><span class="de"><span class="das">das Chaos</span></span><span class="en">chaos / mess</span></div><p class="sample">Das Chaos ist groß. · Ich sehe das Chaos.</p></li>
-      <li><div class="word-row"><span class="de"><span class="die">die Küche</span><span class="plural">Pl. Küchen</span></span><span class="en">kitchen</span></div><p class="sample">Die Küche ist sauber. · Ich putze die Küche.</p></li>
-      <li><div class="word-row"><span class="de"><span class="das">das Wohnzimmer</span><span class="plural">Pl. Wohnzimmer</span></span><span class="en">living room</span></div><p class="sample">Das Wohnzimmer ist groß. · Ich räume das Wohnzimmer auf.</p></li>
-      <li><div class="word-row"><span class="de"><span class="das">das Schlafzimmer</span><span class="plural">Pl. Schlafzimmer</span></span><span class="en">bedroom</span></div><p class="sample">Das Schlafzimmer ist ruhig. · Ich räume das Schlafzimmer auf.</p></li>
-      <li><div class="word-row"><span class="de"><span class="das">das Bad</span><span class="plural">Pl. Bäder</span></span><span class="en">bathroom</span></div><p class="sample">Das Bad ist klein. · Ich putze das Bad.</p></li>
-      <li><div class="word-row"><span class="de"><span class="die">die Treppe</span><span class="plural">Pl. Treppen</span></span><span class="en">stairs / staircase</span></div><p class="sample">Die Treppe ist steil. · Ich putze die Treppe.</p></li>
-      <li><div class="word-row"><span class="de"><span class="der">der Boden</span><span class="plural">Pl. Böden</span></span><span class="en">floor / ground</span></div><p class="sample">Der Boden ist sauber. · Ich putze den Boden.</p></li>
-      <li><div class="word-row"><span class="de"><span class="die">die Wäsche</span></span><span class="en">laundry / washing</span></div><p class="sample">Die Wäsche ist fertig. · Ich mache die Wäsche.</p></li>
-      <li><div class="word-row"><span class="de"><span class="die">die Spülmaschine</span><span class="plural">Pl. Spülmaschinen</span></span><span class="en">dishwasher</span></div><p class="sample">Die Spülmaschine ist voll. · Ich leere die Spülmaschine.</p></li>
-      <li><div class="word-row"><span class="de"><span class="der">der Müll</span></span><span class="en">rubbish / garbage</span></div><p class="sample">Der Müll ist voll. · Ich bringe den Müll raus.</p></li>
-      <li><div class="word-row"><span class="de"><span class="die">die Hausarbeit</span><span class="plural">Pl. Hausarbeiten</span></span><span class="en">household chore</span></div><p class="sample">Die Hausarbeit ist viel. · Ich mache die Hausarbeit.</p></li>
-      <li><div class="word-row"><span class="de"><span class="die">die WG</span><span class="plural">Pl. WGs</span></span><span class="en">shared flat (Wohngemeinschaft)</span></div><p class="sample">Die WG ist groß. · Ich suche eine WG.</p></li>
-      <li><div class="word-row"><span class="de"><span class="der">der Mitbewohner</span><span class="plural">Pl. Mitbewohner</span></span><span class="en">flatmate / roommate</span></div><p class="sample">Der Mitbewohner ist nett. · Ich kenne den Mitbewohner.</p></li>
+      <li><div class="word-row"><span class="de"><span class="das">das Chaos</span><span class="pos" title="neutrum">(n)</span></span><span class="en">chaos / mess</span></div><p class="sample">Das Chaos ist groß. · Ich sehe das Chaos.</p></li>
+      <li><div class="word-row"><span class="de"><span class="die">die Küche</span><span class="plural">Pl. Küchen</span><span class="pos" title="feminin">(f)</span></span><span class="en">kitchen</span></div><p class="sample">Die Küche ist sauber. · Ich putze die Küche.</p></li>
+      <li><div class="word-row"><span class="de"><span class="das">das Wohnzimmer</span><span class="plural">Pl. Wohnzimmer</span><span class="pos" title="neutrum">(n)</span></span><span class="en">living room</span></div><p class="sample">Das Wohnzimmer ist groß. · Ich räume das Wohnzimmer auf.</p></li>
+      <li><div class="word-row"><span class="de"><span class="das">das Schlafzimmer</span><span class="plural">Pl. Schlafzimmer</span><span class="pos" title="neutrum">(n)</span></span><span class="en">bedroom</span></div><p class="sample">Das Schlafzimmer ist ruhig. · Ich räume das Schlafzimmer auf.</p></li>
+      <li><div class="word-row"><span class="de"><span class="das">das Bad</span><span class="plural">Pl. Bäder</span><span class="pos" title="neutrum">(n)</span></span><span class="en">bathroom</span></div><p class="sample">Das Bad ist klein. · Ich putze das Bad.</p></li>
+      <li><div class="word-row"><span class="de"><span class="die">die Treppe</span><span class="plural">Pl. Treppen</span><span class="pos" title="feminin">(f)</span></span><span class="en">stairs / staircase</span></div><p class="sample">Die Treppe ist steil. · Ich putze die Treppe.</p></li>
+      <li><div class="word-row"><span class="de"><span class="der">der Boden</span><span class="plural">Pl. Böden</span><span class="pos" title="maskulin">(m)</span></span><span class="en">floor / ground</span></div><p class="sample">Der Boden ist sauber. · Ich putze den Boden.</p></li>
+      <li><div class="word-row"><span class="de"><span class="die">die Wäsche</span><span class="pos" title="feminin">(f)</span></span><span class="en">laundry / washing</span></div><p class="sample">Die Wäsche ist fertig. · Ich mache die Wäsche.</p></li>
+      <li><div class="word-row"><span class="de"><span class="die">die Spülmaschine</span><span class="plural">Pl. Spülmaschinen</span><span class="pos" title="feminin">(f)</span></span><span class="en">dishwasher</span></div><p class="sample">Die Spülmaschine ist voll. · Ich leere die Spülmaschine.</p></li>
+      <li><div class="word-row"><span class="de"><span class="der">der Müll</span><span class="pos" title="maskulin">(m)</span></span><span class="en">rubbish / garbage</span></div><p class="sample">Der Müll ist voll. · Ich bringe den Müll raus.</p></li>
+      <li><div class="word-row"><span class="de"><span class="die">die Hausarbeit</span><span class="plural">Pl. Hausarbeiten</span><span class="pos" title="feminin">(f)</span></span><span class="en">household chore</span></div><p class="sample">Die Hausarbeit ist viel. · Ich mache die Hausarbeit.</p></li>
+      <li><div class="word-row"><span class="de"><span class="die">die WG</span><span class="plural">Pl. WGs</span><span class="pos" title="feminin">(f)</span></span><span class="en">shared flat (Wohngemeinschaft)</span></div><p class="sample">Die WG ist groß. · Ich suche eine WG.</p></li>
+      <li><div class="word-row"><span class="de"><span class="der">der Mitbewohner</span><span class="plural">Pl. Mitbewohner</span><span class="pos" title="maskulin">(m)</span></span><span class="en">flatmate / roommate</span></div><p class="sample">Der Mitbewohner ist nett. · Ich kenne den Mitbewohner.</p></li>
 
     </ul>
   </section>

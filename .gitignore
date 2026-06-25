@@ -1,8 +1,17 @@
-# Ignore macOS system files
+# macOS
 .DS_Store
 .DS_Store?
 ._*
-
-# Files that might be created inside folders
 .Spotlight-V100
 .Trashes
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Generated audio — large binary files, re-generate with tts.py
+Menschen-A1.1/*.mp3
+
+# Voice comparison samples
+Menschen-A1.1/voice-samples/
