@@ -15,8 +15,8 @@ and provides talker variability which helps generalise pronunciation.
 
 | Role | Voice | Why |
 |------|-------|-----|
-| **Word voice** (repeat after) | `de-DE-Chirp3-HD-Kore` | Clear female, 15% slower for drilling |
-| **Sentence voice** (context) | `de-DE-Chirp3-HD-Charon` | Male contrast, normal speed |
+| **Word voice** (repeat after) | `de-DE-Chirp3-HD-Puck` | Clear female, 15% slower for drilling |
+| **Sentence voice** (context) | `de-DE-Chirp3-HD-Puck` | Male contrast, normal speed |
 
 ### Why Chirp3 HD
 | Tier | Naturalness | `<break>` SSML works | Free tier/month |
@@ -43,10 +43,10 @@ One full lesson set (~12 lessons) uses ~50k chars — about 5% of the free tier.
 4. 4s pause after the sentence
 
 ```xml
-<voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">einsteigen</prosody></voice> <break time="2.5s"/>
-<voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">einsteigen</prosody></voice> <break time="2.5s"/>
-<voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">einsteigen.</prosody></voice> <break time="2.5s"/>
-<voice name="de-DE-Chirp3-HD-Charon">Ich steige in den Bus ein.</voice> <break time="4s"/>
+<voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">einsteigen</prosody></voice> <break time="2.5s"/>
+<voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">einsteigen</prosody></voice> <break time="2.5s"/>
+<voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">einsteigen.</prosody></voice> <break time="2.5s"/>
+<voice name="de-DE-Chirp3-HD-Puck">Ich steige in den Bus ein.</voice> <break time="4s"/>
 ```
 
 ### Verbs — what to say
@@ -63,7 +63,7 @@ One full lesson set (~12 lessons) uses ~50k chars — about 5% of the free tier.
 
 ### Lesson title (spoken first by sentence voice)
 ```xml
-<voice name="de-DE-Chirp3-HD-Charon">Menschen A1.1. Lektion 10. {TITLE}.</voice> <break time="4s"/>
+<voice name="de-DE-Chirp3-HD-Puck">Menschen A1.1. Lektion 10. {TITLE}.</voice> <break time="4s"/>
 ```
 
 ---

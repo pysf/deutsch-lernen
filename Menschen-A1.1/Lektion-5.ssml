@@ -1,84 +1,84 @@
 <speak>
-  <voice name="de-DE-Chirp3-HD-Charon">Menschen A1.1. Lektion 5. Was ist das? Das ist ein F.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Menschen A1.1. Lektion 5. Was ist das? Das ist ein F.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">neu</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">neu</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">neu.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Charon">Das Buch ist neu.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">neu</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">neu</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">neu.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Das Buch ist neu.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">elegant</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">elegant</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">elegant.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Charon">Die Brille ist elegant.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">elegant</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">elegant</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">elegant.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Die Brille ist elegant.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">rund</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">rund</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">rund.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Charon">Das Glas ist rund.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">rund</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">rund</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">rund.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Das Glas ist rund.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">eckig</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">eckig</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">eckig.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Charon">Der Tisch ist eckig.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">eckig</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">eckig</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">eckig.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Der Tisch ist eckig.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">sportlich</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">sportlich</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">sportlich.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Charon">Die Tasche ist sportlich.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">sportlich</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">sportlich</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">sportlich.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Die Tasche ist sportlich.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">möchten</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">möchten</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">möchten.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">hat gemocht.</prosody></voice> <break time="3.5s"/>
-  <voice name="de-DE-Chirp3-HD-Charon">Ich möchte ein Buch.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">möchten</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">möchten</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">möchten.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">hat gemocht.</prosody></voice> <break time="3.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Ich möchte ein Buch.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">beschreiben</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">beschreiben</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">beschreiben.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">hat beschrieben.</prosody></voice> <break time="3.5s"/>
-  <voice name="de-DE-Chirp3-HD-Charon">Ich beschreibe die Uhr.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">beschreiben</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">beschreiben</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">beschreiben.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">hat beschrieben.</prosody></voice> <break time="3.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Ich beschreibe die Uhr.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Bleistift</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Bleistift</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Bleistift.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Charon">Der Bleistift ist lang.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Bleistift</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Bleistift</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Bleistift.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Der Bleistift ist lang.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Brille</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Brille</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Brille.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Charon">Die Brille ist neu.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Brille</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Brille</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Brille.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Die Brille ist neu.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Buch</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Buch</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Buch.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Charon">Das Buch ist interessant.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Buch</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Buch</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Buch.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Das Buch ist interessant.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Feuerzeug</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Feuerzeug</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Feuerzeug.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Charon">Das Feuerzeug ist klein.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Feuerzeug</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Feuerzeug</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Feuerzeug.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Das Feuerzeug ist klein.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Flasche</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Flasche</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Flasche.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Charon">Die Flasche ist groß.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Flasche</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Flasche</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Flasche.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Die Flasche ist groß.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Fotoapparat</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Fotoapparat</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Fotoapparat.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Charon">Der Fotoapparat ist modern.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Fotoapparat</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Fotoapparat</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Fotoapparat.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Der Fotoapparat ist modern.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Kette</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Kette</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Kette.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Charon">Die Kette ist schön.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Kette</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Kette</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Kette.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Die Kette ist schön.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Kugelschreiber</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Kugelschreiber</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Kugelschreiber.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Charon">Der Kugelschreiber ist neu.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Kugelschreiber</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Kugelschreiber</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Kugelschreiber.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Der Kugelschreiber ist neu.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Schlüssel</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Schlüssel</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Schlüssel.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Charon">Der Schlüssel ist klein.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Schlüssel</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Schlüssel</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Schlüssel.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Der Schlüssel ist klein.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Tasche</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Tasche</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Tasche.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Charon">Die Tasche ist groß.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Tasche</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Tasche</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Tasche.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Die Tasche ist groß.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Uhr</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Uhr</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Uhr.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Charon">Die Uhr ist schön.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Uhr</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Uhr</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Uhr.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Die Uhr ist schön.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Farbe</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Farbe</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Farbe.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Charon">Die Farbe ist schön.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Farbe</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Farbe</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Farbe.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Die Farbe ist schön.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Form</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Form</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Form.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Charon">Die Form ist rund.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Form</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Form</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Form.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Die Form ist rund.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Material</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Material</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Material.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Charon">Das Material ist gut.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Material</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Material</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Material.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Das Material ist gut.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Ding</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Ding</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Ding.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Charon">Das Ding ist klein.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Ding</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Ding</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Ding.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Das Ding ist klein.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Glas</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Glas</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Glas.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Charon">Das Glas ist rund.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Glas</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Glas</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Glas.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Das Glas ist rund.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Metall</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Metall</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Metall.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Charon">Das Metall ist hart.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Metall</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Metall</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Metall.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Das Metall ist hart.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Plastik</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Plastik</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Plastik.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Charon">Das Plastik ist leicht.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Plastik</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Plastik</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Plastik.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Das Plastik ist leicht.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Formular</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Formular</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Formular.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Charon">Das Formular ist lang.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Formular</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Formular</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Formular.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Das Formular ist lang.</voice> <break time="4s"/>
 
 </speak>

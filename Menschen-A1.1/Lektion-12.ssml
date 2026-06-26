@@ -1,97 +1,97 @@
 <speak>
-  <voice name="de-DE-Chirp3-HD-Charon">Menschen A1.1. Lektion 12. Was war das schönste Erlebnis?</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Menschen A1.1. Lektion 12. Was war das schönste Erlebnis?</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">feiern</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">feiern</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">feiern.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">hat gefeiert.</prosody></voice> <break time="3.5s"/>
-  <voice name="de-DE-Chirp3-HD-Charon">Wir feiern meinen Geburtstag.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">feiern</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">feiern</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">feiern.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">hat gefeiert.</prosody></voice> <break time="3.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Wir feiern meinen Geburtstag.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">passieren</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">passieren</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">passieren.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">ist passiert.</prosody></voice> <break time="3.5s"/>
-  <voice name="de-DE-Chirp3-HD-Charon">Was passiert hier?</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">passieren</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">passieren</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">passieren.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">ist passiert.</prosody></voice> <break time="3.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Was passiert hier?</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">anfangen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">anfangen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">anfangen.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">hat angefangen.</prosody></voice> <break time="3.5s"/>
-  <voice name="de-DE-Chirp3-HD-Charon">Der Film fängt um acht an.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">anfangen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">anfangen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">anfangen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">hat angefangen.</prosody></voice> <break time="3.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Der Film fängt um acht an.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">aufhören</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">aufhören</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">aufhören.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">hat aufgehört.</prosody></voice> <break time="3.5s"/>
-  <voice name="de-DE-Chirp3-HD-Charon">Der Regen hört auf.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">aufhören</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">aufhören</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">aufhören.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">hat aufgehört.</prosody></voice> <break time="3.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Der Regen hört auf.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">dauern</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">dauern</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">dauern.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">hat gedauert.</prosody></voice> <break time="3.5s"/>
-  <voice name="de-DE-Chirp3-HD-Charon">Der Film dauert zwei Stunden.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">dauern</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">dauern</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">dauern.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">hat gedauert.</prosody></voice> <break time="3.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Der Film dauert zwei Stunden.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">wandern</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">wandern</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">wandern.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">ist gewandert.</prosody></voice> <break time="3.5s"/>
-  <voice name="de-DE-Chirp3-HD-Charon">Ich wandere in den Bergen.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">wandern</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">wandern</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">wandern.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">ist gewandert.</prosody></voice> <break time="3.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Ich wandere in den Bergen.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">fliegen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">fliegen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">fliegen.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">ist geflogen.</prosody></voice> <break time="3.5s"/>
-  <voice name="de-DE-Chirp3-HD-Charon">Ich fliege nach Berlin.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">fliegen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">fliegen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">fliegen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">ist geflogen.</prosody></voice> <break time="3.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Ich fliege nach Berlin.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">klingen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">klingen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">klingen.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">hat geklungen.</prosody></voice> <break time="3.5s"/>
-  <voice name="de-DE-Chirp3-HD-Charon">Das klingt gut.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">klingen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">klingen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">klingen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">hat geklungen.</prosody></voice> <break time="3.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Das klingt gut.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">gefallen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">gefallen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">gefallen.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">hat gefallen.</prosody></voice> <break time="3.5s"/>
-  <voice name="de-DE-Chirp3-HD-Charon">Das Konzert gefällt mir.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">gefallen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">gefallen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">gefallen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">hat gefallen.</prosody></voice> <break time="3.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Das Konzert gefällt mir.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">damals</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">damals</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">damals.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Charon">Damals war ich jung.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">damals</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">damals</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">damals.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Damals war ich jung.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">plötzlich</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">plötzlich</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">plötzlich.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Charon">Plötzlich hat es geregnet.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">plötzlich</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">plötzlich</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">plötzlich.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Plötzlich hat es geregnet.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">dann</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">dann</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">dann.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Charon">Ich esse, dann schlafe ich.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">dann</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">dann</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">dann.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Ich esse, dann schlafe ich.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">zuerst</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">zuerst</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">zuerst.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Charon">Zuerst frühstücke ich.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">zuerst</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">zuerst</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">zuerst.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Zuerst frühstücke ich.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">danach</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">danach</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">danach.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Charon">Danach gehe ich spazieren.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">danach</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">danach</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">danach.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Danach gehe ich spazieren.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">toll</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">toll</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">toll.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Charon">Das Konzert war toll.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">toll</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">toll</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">toll.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Das Konzert war toll.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">super</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">super</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">super.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Charon">Die Reise war super.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">super</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">super</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">super.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Die Reise war super.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">wirklich</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">wirklich</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">wirklich.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Charon">Das war wirklich schön.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">wirklich</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">wirklich</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">wirklich.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Das war wirklich schön.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Erlebnis</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Erlebnis</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Erlebnis.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Charon">Das Erlebnis war toll.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Erlebnis</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Erlebnis</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Erlebnis.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Das Erlebnis war toll.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Reise</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Reise</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Reise.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Charon">Die Reise war schön.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Reise</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Reise</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Reise.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Die Reise war schön.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Party</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Party</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Party.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Charon">Die Party ist laut.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Party</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Party</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Party.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Die Party ist laut.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Fest</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Fest</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Fest.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Charon">Das Fest ist schön.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Fest</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Fest</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Fest.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Das Fest ist schön.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Musik</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Musik</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Musik.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Charon">Die Musik ist laut.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Musik</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Musik</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Musik.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Die Musik ist laut.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Urlaub</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Urlaub</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Urlaub.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Charon">Der Urlaub war schön.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Urlaub</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Urlaub</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Urlaub.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Der Urlaub war schön.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Meer</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Meer</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Meer.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Charon">Das Meer ist blau.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Meer</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Meer</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Meer.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Das Meer ist blau.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Berg</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Berg</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Berg.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Charon">Der Berg ist hoch.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Berg</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Berg</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Berg.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Der Berg ist hoch.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Strand</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Strand</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Strand.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Charon">Der Strand ist lang.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Strand</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Strand</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Strand.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Der Strand ist lang.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Geschichte</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Geschichte</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Geschichte.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Charon">Die Geschichte ist lang.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Geschichte</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Geschichte</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Geschichte.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Die Geschichte ist lang.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Foto</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Foto</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Foto.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Charon">Das Foto ist schön.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Foto</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Foto</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Foto.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Das Foto ist schön.</voice> <break time="4s"/>
 
 </speak>

@@ -60,7 +60,7 @@ Each MP3 is a **listen-and-repeat** exercise:
 ### Voices
 | Role | Voice |
 |------|-------|
-| Word / drill | `de-DE-Chirp3-HD-Kore` (female, 15% slower) |
+| Word / drill | `de-DE-Chirp3-HD-Charon` (female, 15% slower) |
 | Sentence / context | `de-DE-Chirp3-HD-Charon` (male, normal speed) |
 
 Google Chirp3 HD is the most natural German voice tier and supports SSML
