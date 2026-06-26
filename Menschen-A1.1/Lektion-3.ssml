@@ -1,0 +1,76 @@
+<speak>
+  <voice name="de-DE-Chirp3-HD-Puck">Menschen A1.1. Lektion 3. Das ist meine Mutter.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">mein</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">mein</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">mein.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Mein Name ist Anna.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">dein</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">dein</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">dein.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Dein Bruder ist nett.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">Ihr</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">Ihr</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">Ihr.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Wie ist Ihr Name?</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Mutter</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Mutter</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Mutter.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Die Mutter ist zu Hause.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Vater</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Vater</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Vater.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Der Vater arbeitet.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Eltern</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Eltern</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Eltern.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Die Eltern sind nett.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Großmutter</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Großmutter</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Großmutter.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Die Großmutter ist alt.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Großvater</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Großvater</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Großvater.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Der Großvater ist alt.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Großeltern</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Großeltern</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Großeltern.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Die Großeltern sind nett.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Oma</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Oma</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Oma.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Die Oma ist nett.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Schwester</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Schwester</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Schwester.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Die Schwester wohnt in Wien.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Bruder</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Bruder</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Bruder.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Der Bruder ist nett.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Geschwister</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Geschwister</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Geschwister.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Die Geschwister sind nett.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Sohn</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Sohn</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Sohn.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Der Sohn ist jung.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Tochter</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Tochter</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Tochter.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Die Tochter ist klein.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Ehefrau</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Ehefrau</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Ehefrau.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Die Ehefrau arbeitet.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Ehemann</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Ehemann</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Ehemann.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Der Ehemann kommt aus Berlin.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Enkel</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Enkel</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Enkel.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Der Enkel ist jung.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Enkelin</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Enkelin</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Enkelin.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Die Enkelin ist klein.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Familie</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Familie</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Familie.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Die Familie ist groß.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Freund</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Freund</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Freund.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Der Freund kommt.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Freundin</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Freundin</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Freundin.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Die Freundin wohnt in Wien.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Kollege</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Kollege</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Kollege.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Der Kollege ist nett.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Kollegin</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Kollegin</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Kollegin.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Die Kollegin arbeitet hier.</voice> <break time="4s"/>
+
+</speak>
