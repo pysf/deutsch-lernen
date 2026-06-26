@@ -1,73 +1,75 @@
 <speak>
   <voice name="de-DE-Chirp3-HD-Charon">Menschen A1.1. Lektion 6. Ich brauche kein Büro.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">brauchen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">brauchen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">brauchen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">brauchen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">brauchen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">brauchen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">hat gebraucht.</prosody></voice> <break time="3.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Ich brauche einen Laptop.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">wollen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">wollen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">wollen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">wollen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">wollen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">wollen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">hat gewollt.</prosody></voice> <break time="3.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Ich will einen Job.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">heute</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">heute</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">heute.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">heute</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">heute</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">heute.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Heute arbeite ich zu Hause.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Bildschirm</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Bildschirm</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Bildschirm.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Bildschirm</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Bildschirm</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Bildschirm.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Der Bildschirm ist groß.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Briefmarke</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Briefmarke</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Briefmarke.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Briefmarke</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Briefmarke</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Briefmarke.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Die Briefmarke ist klein.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Computer</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Computer</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Computer.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Computer</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Computer</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Computer.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Der Computer ist neu.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Drucker</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Drucker</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Drucker.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Drucker</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Drucker</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Drucker.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Der Drucker ist kaputt.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Handy</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Handy</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Handy.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Handy</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Handy</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Handy.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Das Handy ist neu.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Kalender</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Kalender</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Kalender.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Kalender</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Kalender</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Kalender.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Der Kalender ist groß.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Maus</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Maus</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Maus.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Maus</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Maus</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Maus.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Die Maus ist klein.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Notizbuch</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Notizbuch</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Notizbuch.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Notizbuch</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Notizbuch</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Notizbuch.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Das Notizbuch ist voll.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Rechnung</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Rechnung</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Rechnung.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Rechnung</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Rechnung</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Rechnung.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Die Rechnung ist hoch.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Stift</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Stift</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Stift.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Stift</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Stift</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Stift.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Der Stift ist neu.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Telefon</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Telefon</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Telefon.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Telefon</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Telefon</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Telefon.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Das Telefon ist laut.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Arbeitsplatz</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Arbeitsplatz</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Arbeitsplatz.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Arbeitsplatz</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Arbeitsplatz</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Arbeitsplatz.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Der Arbeitsplatz ist gut.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Büro</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Büro</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Büro.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Büro</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Büro</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Büro.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Das Büro ist groß.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Chef</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Chef</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Chef.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Chef</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Chef</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Chef.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Der Chef ist nett.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Firma</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Firma</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Firma.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Firma</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Firma</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Firma.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Die Firma ist groß.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Laptop</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Laptop</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Laptop.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Laptop</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Laptop</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Laptop.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Der Laptop ist klein.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der See</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der See</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der See.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der See</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der See</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der See.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Der See ist schön.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Termin</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Termin</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Termin.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Termin</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Termin</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Termin.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Der Termin ist morgen.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Telefonnummer</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Telefonnummer</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Telefonnummer.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Telefonnummer</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Telefonnummer</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Telefonnummer.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Die Telefonnummer ist lang.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die SMS</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die SMS</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die SMS.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die SMS</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die SMS</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die SMS.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Die SMS ist kurz.</voice> <break time="4s"/>
 
 </speak>

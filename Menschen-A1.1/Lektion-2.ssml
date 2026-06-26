@@ -1,103 +1,120 @@
 <speak>
   <voice name="de-DE-Chirp3-HD-Charon">Menschen A1.1. Lektion 2. Ich bin Journalistin.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">haben</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">haben</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">haben.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">er</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">er</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">er.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Er ist Journalist.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">sie</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">sie</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">sie.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Sie wohnt in Berlin.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">wir</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">wir</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">wir.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Wir kommen aus Österreich.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">ihr</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">ihr</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">ihr.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon">Seid ihr verheiratet?</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">haben</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">haben</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">haben.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">hat gehabt.</prosody></voice> <break time="3.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Ich habe ein Kind.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">arbeiten</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">arbeiten</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">arbeiten.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">arbeiten</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">arbeiten</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">arbeiten.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">hat gearbeitet.</prosody></voice> <break time="3.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Ich arbeite in Berlin.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">studieren</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">studieren</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">studieren.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">studieren</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">studieren</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">studieren.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">hat studiert.</prosody></voice> <break time="3.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Ich studiere Deutsch.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">lesen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">lesen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">lesen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">lesen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">lesen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">lesen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">hat gelesen.</prosody></voice> <break time="3.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Ich lese ein Buch.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">suchen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">suchen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">suchen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">suchen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">suchen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">suchen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">hat gesucht.</prosody></voice> <break time="3.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Ich suche einen Job.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">verheiratet</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">verheiratet</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">verheiratet.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">verheiratet</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">verheiratet</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">verheiratet.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Er ist verheiratet.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">geschieden</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">geschieden</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">geschieden.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">geschieden</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">geschieden</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">geschieden.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Sie ist geschieden.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">allein</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">allein</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">allein.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">allein</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">allein</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">allein.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Er wohnt allein.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">alt</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">alt</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">alt.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">alt</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">alt</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">alt.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Wie alt bist du?</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">jetzt</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">jetzt</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">jetzt.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">jetzt</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">jetzt</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">jetzt.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Ich wohne jetzt in Wien.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">kein</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">kein</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">kein.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">kein</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">kein</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">kein.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Ich habe kein Auto.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Arzt</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Arzt</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Arzt.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Arzt</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Arzt</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Arzt.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Der Arzt ist nett.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Ärztin</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Ärztin</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Ärztin.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Ärztin</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Ärztin</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Ärztin.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Die Ärztin ist nett.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Journalist</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Journalist</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Journalist.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Journalist</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Journalist</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Journalist.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Der Journalist schreibt.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Journalistin</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Journalistin</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Journalistin.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Journalistin</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Journalistin</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Journalistin.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Die Journalistin ist gut.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Lehrer</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Lehrer</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Lehrer.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Lehrer</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Lehrer</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Lehrer.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Der Lehrer ist nett.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Lehrerin</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Lehrerin</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Lehrerin.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Lehrerin</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Lehrerin</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Lehrerin.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Die Lehrerin ist nett.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Student</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Student</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Student.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Student</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Student</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Student.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Der Student wohnt in Berlin.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Studentin</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Studentin</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Studentin.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Studentin</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Studentin</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Studentin.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Die Studentin lernt Deutsch.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Kellner</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Kellner</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Kellner.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Kellner</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Kellner</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Kellner.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Der Kellner ist freundlich.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Kellnerin</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Kellnerin</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Kellnerin.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Kellnerin</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Kellnerin</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Kellnerin.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Die Kellnerin kommt.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Ingenieur</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Ingenieur</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Ingenieur.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Ingenieur</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Ingenieur</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Ingenieur.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Der Ingenieur arbeitet viel.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Ingenieurin</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Ingenieurin</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Ingenieurin.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Ingenieurin</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Ingenieurin</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Ingenieurin.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Die Ingenieurin arbeitet hier.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Friseur</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Friseur</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Friseur.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Friseur</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Friseur</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Friseur.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Der Friseur ist gut.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Schauspieler</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Schauspieler</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Schauspieler.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Schauspieler</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Schauspieler</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Schauspieler.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Der Schauspieler ist bekannt.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Verkäufer</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Verkäufer</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Verkäufer.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Verkäufer</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Verkäufer</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Verkäufer.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Der Verkäufer ist freundlich.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Beruf</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Beruf</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Beruf.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Beruf</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Beruf</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Beruf.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Der Beruf ist interessant.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Jahr</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Jahr</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Jahr.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Jahr</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Jahr</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Jahr.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Das Jahr ist lang.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Kind</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Kind</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Kind.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Kind</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Kind</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Kind.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Das Kind ist klein.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Stadt</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Stadt</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Stadt.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Stadt</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Stadt</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Stadt.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Die Stadt ist groß.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Foto</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Foto</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Foto.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Foto</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Foto</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Foto.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Das Foto ist schön.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Job</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Job</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Job.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Job</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Job</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Job.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Der Job ist gut.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Zahl</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Zahl</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Zahl.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Zahl</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Zahl</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Zahl.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Die Zahl ist groß.</voice> <break time="4s"/>
 
 </speak>

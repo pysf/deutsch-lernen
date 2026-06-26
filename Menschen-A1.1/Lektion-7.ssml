@@ -1,91 +1,103 @@
 <speak>
   <voice name="de-DE-Chirp3-HD-Charon">Menschen A1.1. Lektion 7. Du kannst wirklich toll!</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">backen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">backen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">backen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">backen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">backen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">backen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">hat gebacken.</prosody></voice> <break time="3.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Ich backe einen Kuchen.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">fotografieren</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">fotografieren</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">fotografieren.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">fotografieren</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">fotografieren</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">fotografieren.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">hat fotografiert.</prosody></voice> <break time="3.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Ich fotografiere die Stadt.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">Fußball spielen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">Fußball spielen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">Fußball spielen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">Fußball spielen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">Fußball spielen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">Fußball spielen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">hat Fußball gespielt.</prosody></voice> <break time="3.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Ich spiele Fußball.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">im Internet surfen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">im Internet surfen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">im Internet surfen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">im Internet surfen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">im Internet surfen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">im Internet surfen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">hat im Internet gesurft.</prosody></voice> <break time="3.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Ich surfe im Internet.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">malen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">malen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">malen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">malen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">malen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">malen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">hat gemalt.</prosody></voice> <break time="3.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Ich male ein Bild.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">Musik hören</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">Musik hören</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">Musik hören.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">Musik hören</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">Musik hören</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">Musik hören.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">hat Musik gehört.</prosody></voice> <break time="3.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Ich höre Musik.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">Rad fahren</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">Rad fahren</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">Rad fahren.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">Rad fahren</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">Rad fahren</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">Rad fahren.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">ist Rad gefahren.</prosody></voice> <break time="3.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Ich fahre Rad.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">schwimmen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">schwimmen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">schwimmen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">schwimmen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">schwimmen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">schwimmen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">ist geschwommen.</prosody></voice> <break time="3.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Ich schwimme gern.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">spazieren gehen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">spazieren gehen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">spazieren gehen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">spazieren gehen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">spazieren gehen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">spazieren gehen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">ist spazieren gegangen.</prosody></voice> <break time="3.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Ich gehe spazieren.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">können</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">können</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">können.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">können</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">können</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">können.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">hat gekonnt.</prosody></voice> <break time="3.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Ich kann gut schwimmen.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">lieben</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">lieben</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">lieben.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">lieben</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">lieben</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">lieben.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">hat geliebt.</prosody></voice> <break time="3.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Ich liebe Musik.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">telefonieren</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">telefonieren</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">telefonieren.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">telefonieren</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">telefonieren</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">telefonieren.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">hat telefoniert.</prosody></voice> <break time="3.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Ich telefoniere mit meiner Mutter.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">gar nicht</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">gar nicht</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">gar nicht.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">gar nicht</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">gar nicht</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">gar nicht.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Ich kann gar nicht schwimmen.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">manchmal</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">manchmal</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">manchmal.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">manchmal</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">manchmal</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">manchmal.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Ich fahre manchmal Rad.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">nie</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">nie</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">nie.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">nie</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">nie</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">nie.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Ich gehe nie ins Kino.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">oft</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">oft</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">oft.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">oft</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">oft</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">oft.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Ich höre oft Musik.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">wie oft</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">wie oft</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">wie oft.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">wie oft</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">wie oft</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">wie oft.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Wie oft spielst du Fußball?</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">leider</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">leider</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">leider.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">leider</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">leider</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">leider.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Ich kann leider nicht kommen.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">natürlich</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">natürlich</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">natürlich.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">natürlich</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">natürlich</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">natürlich.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Natürlich komme ich!</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">fast</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">fast</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">fast.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">fast</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">fast</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">fast.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Ich kann fast gut schwimmen.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Ausflug</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Ausflug</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Ausflug.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Ausflug</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Ausflug</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Ausflug.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Der Ausflug ist schön.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Freizeit</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Freizeit</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Freizeit.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Freizeit</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Freizeit</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Freizeit.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Die Freizeit ist kurz.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Kino</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Kino</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Kino.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Kino</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Kino</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Kino.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Das Kino ist neu.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Spaß</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Spaß</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Spaß.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Spaß</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Spaß</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Spaß.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Der Spaß ist groß.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Theater</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Theater</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Theater.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Theater</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Theater</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Theater.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Das Theater ist alt.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Gitarre</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Gitarre</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Gitarre.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Gitarre</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Gitarre</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Gitarre.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Die Gitarre ist schön.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Kompliment</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Kompliment</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Kompliment.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Kompliment</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Kompliment</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Kompliment.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Das Kompliment ist nett.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Fähigkeit</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Fähigkeit</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Fähigkeit.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Fähigkeit</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Fähigkeit</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Fähigkeit.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Die Fähigkeit ist wichtig.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Auto</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Auto</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Auto.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Auto</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Auto</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Auto.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Das Auto ist neu.</voice> <break time="4s"/>
 
 </speak>

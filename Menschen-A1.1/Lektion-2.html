@@ -23,24 +23,29 @@
     .sample { font-size: 0.82rem; color: #bbb; font-style: italic; margin-top: 0.1rem; }
     .back-link { display: block; font-size: 0.78rem; color: #bbb; text-decoration: none; margin-bottom: 1.5rem; }
     .back-link:hover { color: #888; }
-    .mp3-link { display: block; font-size: 0.78rem; color: #bbb; text-decoration: none; margin-bottom: 2.5rem; }
-    .mp3-link:hover { color: #888; }
     .verb-reg { color: #d97706; }
     .verb-irr { color: #7c3aed; }
-    .perfekt { font-size: 0.75rem; color: #bbb; font-weight: 400; margin-left: 0.4rem; }
+    .perfekt { font-size: 0.82rem; color: #888; font-weight: 400; margin-top: 0.1rem; }
     .pos { font-style: italic; font-size: 0.72rem; color: #bbb; font-weight: 400; margin-left: 0.35rem; }
     #player { position: fixed; top: 0; left: 0; right: 0; background: #fff; border-bottom: 1px solid #f0f0f0; z-index: 100; padding: 0.5rem 1.25rem; display: flex; align-items: center; justify-content: center; gap: 0.75rem; }
     #player button { background: none; border: 1px solid #ddd; border-radius: 4px; padding: 0.3rem 0.7rem; font-size: 0.82rem; color: #555; cursor: pointer; line-height: 1.4; }
     #player button:hover { border-color: #aaa; color: #111; }
     #player #pp { min-width: 2.2rem; }
+    .gloss { font-size: 0.75rem; color: #d0d0d0; margin-top: 0.05rem; }
+    #progress { position: absolute; bottom: 0; left: 0; height: 2px; background: #1d4ed8; width: 0%; }
+    .lesson-nav { display: flex; justify-content: space-between; margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid #f0f0f0; font-size: 0.82rem; }
+    .lesson-nav a { color: #bbb; text-decoration: none; }
+    .lesson-nav a:hover { color: #555; }
   </style>
 </head>
 <body>
   <div id="player">
     <audio id="audio" src="Lektion-2.mp3"></audio>
+    <button onclick="restart()">↺</button>
     <button onclick="seek(-10)">−10s</button>
     <button id="pp" onclick="togglePlay()">▶</button>
     <button onclick="seek(10)">+10s</button>
+    <div id="progress"></div>
   </div>
   <script>
     const audio = document.getElementById('audio');
@@ -50,7 +55,12 @@
       else { audio.pause(); pp.textContent = '▶'; }
     }
     function seek(s) { audio.currentTime = Math.max(0, audio.currentTime + s); }
+    function restart() { audio.currentTime = 0; audio.play(); pp.textContent = '⏸'; }
     audio.addEventListener('ended', () => pp.textContent = '▶');
+    const bar = document.getElementById('progress');
+    audio.addEventListener('timeupdate', () => {
+      if (audio.duration) bar.style.width = (audio.currentTime / audio.duration * 100) + '%';
+    });
   </script>
   <a class="back-link" href="index.html">← Alle Lektionen</a>
   <h1>Lektion 2 — Ich bin Journalistin</h1>
@@ -62,54 +72,211 @@
     <span><span class="verb-irr">■</span> irr.</span>
     <span><span class="pos">(t)</span> transitiv · <span class="pos">(i)</span> intransitiv · <span class="pos">(adj)</span> Adjektiv · <span class="pos">(adv)</span> Adverb</span>
   </p>
-  <a class="mp3-link" href="Lektion-2.mp3" download>⬇ Audio herunterladen</a>
 
   <section>
     <h2>Wortschatz</h2>
     <ul class="word-list">
 
-      <li><div class="word-row"><span class="de">er</span><span class="en">he</span></div><p class="sample">Er ist Journalist.</p></li>
-      <li><div class="word-row"><span class="de">sie</span><span class="en">she / they</span></div><p class="sample">Sie wohnt in Berlin.</p></li>
-      <li><div class="word-row"><span class="de">wir</span><span class="en">we</span></div><p class="sample">Wir kommen aus Österreich.</p></li>
-      <li><div class="word-row"><span class="de">ihr</span><span class="en">you (plural informal)</span></div><p class="sample">Seid ihr verheiratet?</p></li>
+      <li>
+        <div class="word-row"><span class="de">er</span><span class="en">he</span></div>
+        <p class="sample">Er ist Journalist.</p>
+        <p class="gloss">He is journalist.</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">sie</span><span class="en">she / they</span></div>
+        <p class="sample">Sie wohnt in Berlin.</p>
+        <p class="gloss">She lives in Berlin.</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">wir</span><span class="en">we</span></div>
+        <p class="sample">Wir kommen aus Österreich.</p>
+        <p class="gloss">We come from Austria.</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">ihr</span><span class="en">you (plural informal)</span></div>
+        <p class="sample">Seid ihr verheiratet?</p>
+        <p class="gloss">Are you married?</p>
+      </li>
 
-      <li><div class="word-row"><span class="de"><span class="verb-irr">haben</span><span class="perfekt"> · hat gehabt</span><span class="pos" title="transitiv (Akkusativobjekt)">(t)</span></span><span class="en">to have</span></div><p class="sample">Ich habe ein Kind. · Er hat ein Kind gehabt.</p></li>
-      <li><div class="word-row"><span class="de"><span class="verb-reg">arbeiten</span><span class="perfekt"> · hat gearbeitet</span><span class="pos" title="intransitiv">(i)</span></span><span class="en">to work</span></div><p class="sample">Ich arbeite in Berlin. · Sie hat in Wien gearbeitet.</p></li>
-      <li><div class="word-row"><span class="de"><span class="verb-reg">studieren</span><span class="perfekt"> · hat studiert</span><span class="pos" title="transitiv (Akkusativobjekt)">(t)</span></span><span class="en">to study (at university)</span></div><p class="sample">Ich studiere Deutsch. · Er hat Medizin studiert.</p></li>
-      <li><div class="word-row"><span class="de"><span class="verb-irr">lesen</span><span class="perfekt"> · hat gelesen</span><span class="pos" title="transitiv (Akkusativobjekt)">(t)</span></span><span class="en">to read</span></div><p class="sample">Ich lese ein Buch. · Sie hat die Zeitung gelesen.</p></li>
-      <li><div class="word-row"><span class="de"><span class="verb-reg">suchen</span><span class="perfekt"> · hat gesucht</span><span class="pos" title="transitiv (Akkusativobjekt)">(t)</span></span><span class="en">to look for</span></div><p class="sample">Ich suche einen Job. · Er hat einen Job gesucht.</p></li>
+      <li>
+        <div class="word-row"><span class="de"><span class="verb-irr">haben</span><span class="pos" title="transitiv (Akkusativobjekt)">(t)</span></span><span class="en">to have</span></div>
+        <p class="perfekt">hat gehabt</p>
+        <p class="sample">Ich habe ein Kind. · Er hat ein Kind gehabt.</p>
+        <p class="gloss">I have a child.</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="verb-reg">arbeiten</span><span class="pos" title="intransitiv">(i)</span></span><span class="en">to work</span></div>
+        <p class="perfekt">hat gearbeitet</p>
+        <p class="sample">Ich arbeite in Berlin. · Sie hat in Wien gearbeitet.</p>
+        <p class="gloss">I work in Berlin.</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="verb-reg">studieren</span><span class="pos" title="transitiv (Akkusativobjekt)">(t)</span></span><span class="en">to study (at university)</span></div>
+        <p class="perfekt">hat studiert</p>
+        <p class="sample">Ich studiere Deutsch. · Er hat Medizin studiert.</p>
+        <p class="gloss">I study German.</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="verb-irr">lesen</span><span class="pos" title="transitiv (Akkusativobjekt)">(t)</span></span><span class="en">to read</span></div>
+        <p class="perfekt">hat gelesen</p>
+        <p class="sample">Ich lese ein Buch. · Sie hat die Zeitung gelesen.</p>
+        <p class="gloss">I read a book.</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="verb-reg">suchen</span><span class="pos" title="transitiv (Akkusativobjekt)">(t)</span></span><span class="en">to look for</span></div>
+        <p class="perfekt">hat gesucht</p>
+        <p class="sample">Ich suche einen Job. · Er hat einen Job gesucht.</p>
+        <p class="gloss">I look-for a job.</p>
+      </li>
 
-      <li><div class="word-row"><span class="de">verheiratet<span class="pos" title="Adjektiv">(adj)</span></span><span class="en">married</span></div><p class="sample">Er ist verheiratet.</p></li>
-      <li><div class="word-row"><span class="de">geschieden<span class="pos" title="Adjektiv">(adj)</span></span><span class="en">divorced</span></div><p class="sample">Sie ist geschieden.</p></li>
-      <li><div class="word-row"><span class="de">allein<span class="pos" title="Adverb">(adv)</span></span><span class="en">alone / single</span></div><p class="sample">Er wohnt allein.</p></li>
-      <li><div class="word-row"><span class="de">alt<span class="pos" title="Adjektiv">(adj)</span></span><span class="en">old</span></div><p class="sample">Wie alt bist du?</p></li>
-      <li><div class="word-row"><span class="de">jetzt<span class="pos" title="Adverb">(adv)</span></span><span class="en">now</span></div><p class="sample">Ich wohne jetzt in Wien.</p></li>
-      <li><div class="word-row"><span class="de">kein</span><span class="en">no / not a / none</span></div><p class="sample">Ich habe kein Auto.</p></li>
+      <li>
+        <div class="word-row"><span class="de">verheiratet<span class="pos" title="Adjektiv">(adj)</span></span><span class="en">married</span></div>
+        <p class="sample">Er ist verheiratet.</p>
+        <p class="gloss">He is married.</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">geschieden<span class="pos" title="Adjektiv">(adj)</span></span><span class="en">divorced</span></div>
+        <p class="sample">Sie ist geschieden.</p>
+        <p class="gloss">She is divorced.</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">allein<span class="pos" title="Adverb">(adv)</span></span><span class="en">alone / single</span></div>
+        <p class="sample">Er wohnt allein.</p>
+        <p class="gloss">He lives alone.</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">alt<span class="pos" title="Adjektiv">(adj)</span></span><span class="en">old</span></div>
+        <p class="sample">Wie alt bist du?</p>
+        <p class="gloss">How old are you?</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">jetzt<span class="pos" title="Adverb">(adv)</span></span><span class="en">now</span></div>
+        <p class="sample">Ich wohne jetzt in Wien.</p>
+        <p class="gloss">I live now in Vienna.</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">kein</span><span class="en">no / not a / none</span></div>
+        <p class="sample">Ich habe kein Auto.</p>
+        <p class="gloss">I have no car.</p>
+      </li>
 
-      <li><div class="word-row"><span class="de"><span class="der">der Arzt</span><span class="plural">Pl. Ärzte</span><span class="pos" title="maskulin">(m)</span></span><span class="en">doctor (m)</span></div><p class="sample">Der Arzt ist nett. · Ich suche einen Arzt.</p></li>
-      <li><div class="word-row"><span class="de"><span class="die">die Ärztin</span><span class="plural">Pl. Ärztinnen</span><span class="pos" title="feminin">(f)</span></span><span class="en">doctor (f)</span></div><p class="sample">Die Ärztin ist nett. · Ich suche eine Ärztin.</p></li>
-      <li><div class="word-row"><span class="de"><span class="der">der Journalist</span><span class="plural">Pl. Journalisten</span><span class="pos" title="maskulin">(m)</span></span><span class="en">journalist (m)</span></div><p class="sample">Der Journalist schreibt. · Ich kenne einen Journalisten.</p></li>
-      <li><div class="word-row"><span class="de"><span class="die">die Journalistin</span><span class="plural">Pl. Journalistinnen</span><span class="pos" title="feminin">(f)</span></span><span class="en">journalist (f)</span></div><p class="sample">Die Journalistin ist gut. · Ich kenne eine Journalistin.</p></li>
-      <li><div class="word-row"><span class="de"><span class="der">der Lehrer</span><span class="plural">Pl. Lehrer</span><span class="pos" title="maskulin">(m)</span></span><span class="en">teacher (m)</span></div><p class="sample">Der Lehrer ist nett. · Ich kenne den Lehrer.</p></li>
-      <li><div class="word-row"><span class="de"><span class="die">die Lehrerin</span><span class="plural">Pl. Lehrerinnen</span><span class="pos" title="feminin">(f)</span></span><span class="en">teacher (f)</span></div><p class="sample">Die Lehrerin ist nett. · Ich kenne die Lehrerin.</p></li>
-      <li><div class="word-row"><span class="de"><span class="der">der Student</span><span class="plural">Pl. Studenten</span><span class="pos" title="maskulin">(m)</span></span><span class="en">student (m)</span></div><p class="sample">Der Student wohnt in Berlin. · Ich kenne den Studenten.</p></li>
-      <li><div class="word-row"><span class="de"><span class="die">die Studentin</span><span class="plural">Pl. Studentinnen</span><span class="pos" title="feminin">(f)</span></span><span class="en">student (f)</span></div><p class="sample">Die Studentin lernt Deutsch. · Ich kenne die Studentin.</p></li>
-      <li><div class="word-row"><span class="de"><span class="der">der Kellner</span><span class="plural">Pl. Kellner</span><span class="pos" title="maskulin">(m)</span></span><span class="en">waiter</span></div><p class="sample">Der Kellner ist freundlich. · Ich rufe den Kellner.</p></li>
-      <li><div class="word-row"><span class="de"><span class="die">die Kellnerin</span><span class="plural">Pl. Kellnerinnen</span><span class="pos" title="feminin">(f)</span></span><span class="en">waitress</span></div><p class="sample">Die Kellnerin kommt. · Ich rufe die Kellnerin.</p></li>
-      <li><div class="word-row"><span class="de"><span class="der">der Ingenieur</span><span class="plural">Pl. Ingenieure</span><span class="pos" title="maskulin">(m)</span></span><span class="en">engineer (m)</span></div><p class="sample">Der Ingenieur arbeitet viel. · Ich kenne den Ingenieur.</p></li>
-      <li><div class="word-row"><span class="de"><span class="die">die Ingenieurin</span><span class="plural">Pl. Ingenieurinnen</span><span class="pos" title="feminin">(f)</span></span><span class="en">engineer (f)</span></div><p class="sample">Die Ingenieurin arbeitet hier. · Ich kenne die Ingenieurin.</p></li>
-      <li><div class="word-row"><span class="de"><span class="der">der Friseur</span><span class="plural">Pl. Friseure</span><span class="pos" title="maskulin">(m)</span></span><span class="en">hairdresser</span></div><p class="sample">Der Friseur ist gut. · Ich suche einen Friseur.</p></li>
-      <li><div class="word-row"><span class="de"><span class="der">der Schauspieler</span><span class="plural">Pl. Schauspieler</span><span class="pos" title="maskulin">(m)</span></span><span class="en">actor</span></div><p class="sample">Der Schauspieler ist bekannt. · Ich kenne den Schauspieler.</p></li>
-      <li><div class="word-row"><span class="de"><span class="der">der Verkäufer</span><span class="plural">Pl. Verkäufer</span><span class="pos" title="maskulin">(m)</span></span><span class="en">salesperson (m)</span></div><p class="sample">Der Verkäufer ist freundlich. · Ich frage den Verkäufer.</p></li>
-      <li><div class="word-row"><span class="de"><span class="der">der Beruf</span><span class="plural">Pl. Berufe</span><span class="pos" title="maskulin">(m)</span></span><span class="en">profession / job</span></div><p class="sample">Der Beruf ist interessant. · Ich habe einen Beruf.</p></li>
-      <li><div class="word-row"><span class="de"><span class="das">das Jahr</span><span class="plural">Pl. Jahre</span><span class="pos" title="neutrum">(n)</span></span><span class="en">year</span></div><p class="sample">Das Jahr ist lang. · Ich warte ein Jahr.</p></li>
-      <li><div class="word-row"><span class="de"><span class="das">das Kind</span><span class="plural">Pl. Kinder</span><span class="pos" title="neutrum">(n)</span></span><span class="en">child</span></div><p class="sample">Das Kind ist klein. · Ich habe ein Kind.</p></li>
-      <li><div class="word-row"><span class="de"><span class="die">die Stadt</span><span class="plural">Pl. Städte</span><span class="pos" title="feminin">(f)</span></span><span class="en">city / town</span></div><p class="sample">Die Stadt ist groß. · Ich kenne die Stadt.</p></li>
-      <li><div class="word-row"><span class="de"><span class="das">das Foto</span><span class="plural">Pl. Fotos</span><span class="pos" title="neutrum">(n)</span></span><span class="en">photo</span></div><p class="sample">Das Foto ist schön. · Ich mache ein Foto.</p></li>
-      <li><div class="word-row"><span class="de"><span class="der">der Job</span><span class="plural">Pl. Jobs</span><span class="pos" title="maskulin">(m)</span></span><span class="en">job</span></div><p class="sample">Der Job ist gut. · Ich suche einen Job.</p></li>
-      <li><div class="word-row"><span class="de"><span class="die">die Zahl</span><span class="plural">Pl. Zahlen</span><span class="pos" title="feminin">(f)</span></span><span class="en">number</span></div><p class="sample">Die Zahl ist groß. · Ich schreibe die Zahl.</p></li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Arzt</span><span class="plural">Pl. Ärzte</span><span class="pos" title="maskulin">(m)</span></span><span class="en">doctor (m)</span></div>
+        <p class="sample">Der Arzt ist nett. · Ich suche einen Arzt.</p>
+        <p class="gloss">The doctor is nice.</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="die">die Ärztin</span><span class="plural">Pl. Ärztinnen</span><span class="pos" title="feminin">(f)</span></span><span class="en">doctor (f)</span></div>
+        <p class="sample">Die Ärztin ist nett. · Ich suche eine Ärztin.</p>
+        <p class="gloss">The doctor is nice.</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Journalist</span><span class="plural">Pl. Journalisten</span><span class="pos" title="maskulin">(m)</span></span><span class="en">journalist (m)</span></div>
+        <p class="sample">Der Journalist schreibt. · Ich kenne einen Journalisten.</p>
+        <p class="gloss">The journalist writes.</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="die">die Journalistin</span><span class="plural">Pl. Journalistinnen</span><span class="pos" title="feminin">(f)</span></span><span class="en">journalist (f)</span></div>
+        <p class="sample">Die Journalistin ist gut. · Ich kenne eine Journalistin.</p>
+        <p class="gloss">The journalist is good.</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Lehrer</span><span class="plural">Pl. Lehrer</span><span class="pos" title="maskulin">(m)</span></span><span class="en">teacher (m)</span></div>
+        <p class="sample">Der Lehrer ist nett. · Ich kenne den Lehrer.</p>
+        <p class="gloss">The teacher is nice.</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="die">die Lehrerin</span><span class="plural">Pl. Lehrerinnen</span><span class="pos" title="feminin">(f)</span></span><span class="en">teacher (f)</span></div>
+        <p class="sample">Die Lehrerin ist nett. · Ich kenne die Lehrerin.</p>
+        <p class="gloss">The teacher is nice.</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Student</span><span class="plural">Pl. Studenten</span><span class="pos" title="maskulin">(m)</span></span><span class="en">student (m)</span></div>
+        <p class="sample">Der Student wohnt in Berlin. · Ich kenne den Studenten.</p>
+        <p class="gloss">The student lives in Berlin.</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="die">die Studentin</span><span class="plural">Pl. Studentinnen</span><span class="pos" title="feminin">(f)</span></span><span class="en">student (f)</span></div>
+        <p class="sample">Die Studentin lernt Deutsch. · Ich kenne die Studentin.</p>
+        <p class="gloss">The student learns German.</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Kellner</span><span class="plural">Pl. Kellner</span><span class="pos" title="maskulin">(m)</span></span><span class="en">waiter</span></div>
+        <p class="sample">Der Kellner ist freundlich. · Ich rufe den Kellner.</p>
+        <p class="gloss">The waiter is friendly.</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="die">die Kellnerin</span><span class="plural">Pl. Kellnerinnen</span><span class="pos" title="feminin">(f)</span></span><span class="en">waitress</span></div>
+        <p class="sample">Die Kellnerin kommt. · Ich rufe die Kellnerin.</p>
+        <p class="gloss">The waitress comes.</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Ingenieur</span><span class="plural">Pl. Ingenieure</span><span class="pos" title="maskulin">(m)</span></span><span class="en">engineer (m)</span></div>
+        <p class="sample">Der Ingenieur arbeitet viel. · Ich kenne den Ingenieur.</p>
+        <p class="gloss">The engineer works much.</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="die">die Ingenieurin</span><span class="plural">Pl. Ingenieurinnen</span><span class="pos" title="feminin">(f)</span></span><span class="en">engineer (f)</span></div>
+        <p class="sample">Die Ingenieurin arbeitet hier. · Ich kenne die Ingenieurin.</p>
+        <p class="gloss">The engineer works here.</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Friseur</span><span class="plural">Pl. Friseure</span><span class="pos" title="maskulin">(m)</span></span><span class="en">hairdresser</span></div>
+        <p class="sample">Der Friseur ist gut. · Ich suche einen Friseur.</p>
+        <p class="gloss">The hairdresser is good.</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Schauspieler</span><span class="plural">Pl. Schauspieler</span><span class="pos" title="maskulin">(m)</span></span><span class="en">actor</span></div>
+        <p class="sample">Der Schauspieler ist bekannt. · Ich kenne den Schauspieler.</p>
+        <p class="gloss">The actor is famous.</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Verkäufer</span><span class="plural">Pl. Verkäufer</span><span class="pos" title="maskulin">(m)</span></span><span class="en">salesperson (m)</span></div>
+        <p class="sample">Der Verkäufer ist freundlich. · Ich frage den Verkäufer.</p>
+        <p class="gloss">The salesperson is friendly.</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Beruf</span><span class="plural">Pl. Berufe</span><span class="pos" title="maskulin">(m)</span></span><span class="en">profession / job</span></div>
+        <p class="sample">Der Beruf ist interessant. · Ich habe einen Beruf.</p>
+        <p class="gloss">The profession is interesting.</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="das">das Jahr</span><span class="plural">Pl. Jahre</span><span class="pos" title="neutrum">(n)</span></span><span class="en">year</span></div>
+        <p class="sample">Das Jahr ist lang. · Ich warte ein Jahr.</p>
+        <p class="gloss">The year is long.</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="das">das Kind</span><span class="plural">Pl. Kinder</span><span class="pos" title="neutrum">(n)</span></span><span class="en">child</span></div>
+        <p class="sample">Das Kind ist klein. · Ich habe ein Kind.</p>
+        <p class="gloss">The child is small.</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="die">die Stadt</span><span class="plural">Pl. Städte</span><span class="pos" title="feminin">(f)</span></span><span class="en">city / town</span></div>
+        <p class="sample">Die Stadt ist groß. · Ich kenne die Stadt.</p>
+        <p class="gloss">The city is big.</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="das">das Foto</span><span class="plural">Pl. Fotos</span><span class="pos" title="neutrum">(n)</span></span><span class="en">photo</span></div>
+        <p class="sample">Das Foto ist schön. · Ich mache ein Foto.</p>
+        <p class="gloss">The photo is beautiful.</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Job</span><span class="plural">Pl. Jobs</span><span class="pos" title="maskulin">(m)</span></span><span class="en">job</span></div>
+        <p class="sample">Der Job ist gut. · Ich suche einen Job.</p>
+        <p class="gloss">The job is good.</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="die">die Zahl</span><span class="plural">Pl. Zahlen</span><span class="pos" title="feminin">(f)</span></span><span class="en">number</span></div>
+        <p class="sample">Die Zahl ist groß. · Ich schreibe die Zahl.</p>
+        <p class="gloss">The number is big.</p>
+      </li>
 
     </ul>
   </section>
+
+  <nav class="lesson-nav">
+    <a href="Lektion-1.html">← Lektion 1</a>
+    <a href="Lektion-3.html">Lektion 3 →</a>
+  </nav>
 </body>
 </html>

@@ -1,79 +1,87 @@
 <speak>
   <voice name="de-DE-Chirp3-HD-Charon">Menschen A1.1. Lektion 11. Chaos im Haus.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">aufstehen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">aufstehen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">aufstehen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">aufstehen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">aufstehen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">aufstehen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">ist aufgestanden.</prosody></voice> <break time="3.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Ich stehe um sieben Uhr auf.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">aufräumen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">aufräumen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">aufräumen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">aufräumen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">aufräumen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">aufräumen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">hat aufgeräumt.</prosody></voice> <break time="3.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Ich räume das Zimmer auf.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">frühstücken</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">frühstücken</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">frühstücken.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">frühstücken</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">frühstücken</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">frühstücken.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">hat gefrühstückt.</prosody></voice> <break time="3.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Ich frühstücke um acht Uhr.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">schlafen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">schlafen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">schlafen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">schlafen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">schlafen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">schlafen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">hat geschlafen.</prosody></voice> <break time="3.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Ich schlafe lange.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">kaufen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">kaufen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">kaufen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">kaufen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">kaufen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">kaufen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">hat gekauft.</prosody></voice> <break time="3.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Ich kaufe Brot.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">bringen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">bringen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">bringen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">bringen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">bringen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">bringen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">hat gebracht.</prosody></voice> <break time="3.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Ich bringe das Buch.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">lachen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">lachen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">lachen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">lachen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">lachen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">lachen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">hat gelacht.</prosody></voice> <break time="3.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Ich lache viel.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">reden</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">reden</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">reden.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">reden</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">reden</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">reden.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">hat geredet.</prosody></voice> <break time="3.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Ich rede mit meiner Freundin.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">schon</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">schon</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">schon.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">schon</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">schon</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">schon.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Ich habe schon gefrühstückt.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">noch nicht</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">noch nicht</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">noch nicht.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">noch nicht</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">noch nicht</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">noch nicht.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Ich habe noch nicht aufgeräumt.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">gerade</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">gerade</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">gerade.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">gerade</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">gerade</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">gerade.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Ich räume gerade auf.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">zusammen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">zusammen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">zusammen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">zusammen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">zusammen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">zusammen.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Wir kochen zusammen.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Chaos</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Chaos</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Chaos.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Chaos</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Chaos</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Chaos.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Das Chaos ist groß.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Küche</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Küche</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Küche.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Küche</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Küche</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Küche.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Die Küche ist sauber.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Wohnzimmer</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Wohnzimmer</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Wohnzimmer.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Wohnzimmer</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Wohnzimmer</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Wohnzimmer.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Das Wohnzimmer ist groß.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Schlafzimmer</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Schlafzimmer</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Schlafzimmer.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Schlafzimmer</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Schlafzimmer</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Schlafzimmer.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Das Schlafzimmer ist ruhig.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Bad</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Bad</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Bad.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Bad</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Bad</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Bad.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Das Bad ist klein.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Treppe</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Treppe</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Treppe.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Treppe</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Treppe</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Treppe.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Die Treppe ist steil.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Boden</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Boden</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Boden.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Boden</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Boden</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Boden.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Der Boden ist sauber.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Wäsche</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Wäsche</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Wäsche.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Wäsche</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Wäsche</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Wäsche.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Die Wäsche ist fertig.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Spülmaschine</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Spülmaschine</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Spülmaschine.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Spülmaschine</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Spülmaschine</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Spülmaschine.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Die Spülmaschine ist voll.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Müll</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Müll</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Müll.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Müll</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Müll</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Müll.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Der Müll ist voll.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Hausarbeit</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Hausarbeit</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Hausarbeit.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Hausarbeit</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Hausarbeit</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Hausarbeit.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Die Hausarbeit ist viel.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die WG</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die WG</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die WG.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die WG</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die WG</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die WG.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Die WG ist groß.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Mitbewohner</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Mitbewohner</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Mitbewohner.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Mitbewohner</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Mitbewohner</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Mitbewohner.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Der Mitbewohner ist nett.</voice> <break time="4s"/>
 
 </speak>

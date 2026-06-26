@@ -1,97 +1,100 @@
 <speak>
   <voice name="de-DE-Chirp3-HD-Charon">Menschen A1.1. Lektion 8. Kein Problem. Ich habe Zeit!</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">einladen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">einladen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">einladen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">einladen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">einladen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">einladen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">hat eingeladen.</prosody></voice> <break time="3.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Ich lade dich ein.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">absagen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">absagen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">absagen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">absagen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">absagen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">absagen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">hat abgesagt.</prosody></voice> <break time="3.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Ich sage den Termin ab.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">zusagen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">zusagen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">zusagen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">zusagen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">zusagen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">zusagen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">hat zugesagt.</prosody></voice> <break time="3.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Ich sage zu.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">warum</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">warum</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">warum.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">warum</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">warum</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">warum.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Warum kommst du nicht?</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">wann</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">wann</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">wann.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">wann</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">wann</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">wann.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Wann kommst du?</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">vielleicht</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">vielleicht</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">vielleicht.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">vielleicht</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">vielleicht</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">vielleicht.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Vielleicht gehe ich ins Kino.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">morgen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">morgen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">morgen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">morgen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">morgen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">morgen.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Morgen habe ich Zeit.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">spät</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">spät</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">spät.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">spät</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">spät</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">spät.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Es ist schon spät.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">wie spät</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">wie spät</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">wie spät.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">wie spät</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">wie spät</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">wie spät.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Wie spät ist es?</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">halb</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">halb</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">halb.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">halb</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">halb</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">halb.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Es ist halb drei.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">um</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">um</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">um.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">um</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">um</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">um.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Der Film beginnt um acht.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Montag</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Montag</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Montag.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Montag</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Montag</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Montag.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Der Montag ist lang.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Dienstag</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Dienstag</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Dienstag.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Dienstag</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Dienstag</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Dienstag.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Der Dienstag ist frei.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Mittwoch</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Mittwoch</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Mittwoch.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Mittwoch</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Mittwoch</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Mittwoch.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Der Mittwoch ist gut.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Donnerstag</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Donnerstag</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Donnerstag.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Donnerstag</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Donnerstag</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Donnerstag.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Der Donnerstag ist lang.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Freitag</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Freitag</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Freitag.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Freitag</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Freitag</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Freitag.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Der Freitag ist gut.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Samstag</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Samstag</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Samstag.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Samstag</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Samstag</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Samstag.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Der Samstag ist frei.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Sonntag</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Sonntag</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Sonntag.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Sonntag</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Sonntag</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Sonntag.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Der Sonntag ist ruhig.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Woche</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Woche</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Woche.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Woche</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Woche</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Woche.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Die Woche hat sieben Tage.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Geburtstag</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Geburtstag</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Geburtstag.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Geburtstag</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Geburtstag</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Geburtstag.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Der Geburtstag ist im März.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Schwimmbad</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Schwimmbad</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Schwimmbad.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Schwimmbad</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Schwimmbad</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Schwimmbad.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Das Schwimmbad ist offen.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Ausstellung</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Ausstellung</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Ausstellung.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Ausstellung</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Ausstellung</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Ausstellung.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Die Ausstellung ist schön.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Café</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Café</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Café.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Café</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Café</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Café.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Das Café ist nett.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Disco</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Disco</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Disco.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Disco</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Disco</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Disco.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Die Disco ist laut.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Kneipe</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Kneipe</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Kneipe.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Kneipe</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Kneipe</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Kneipe.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Die Kneipe ist gemütlich.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Konzert</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Konzert</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Konzert.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Konzert</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Konzert</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Konzert.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Das Konzert ist gut.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Museum</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Museum</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Museum.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Museum</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Museum</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Museum.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Das Museum ist groß.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Restaurant</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Restaurant</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">das Restaurant.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Restaurant</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Restaurant</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">das Restaurant.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Das Restaurant ist gut.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Idee</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Idee</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Idee.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Idee</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Idee</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Idee.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Die Idee ist gut.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Einladung</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Einladung</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">die Einladung.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Einladung</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Einladung</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">die Einladung.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Die Einladung ist schön.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Vorschlag</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Vorschlag</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Kore"><prosody rate="0.85">der Vorschlag.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Vorschlag</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Vorschlag</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Charon"><prosody rate="0.85">der Vorschlag.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Charon">Der Vorschlag ist gut.</voice> <break time="4s"/>
 
 </speak>
