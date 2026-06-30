@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lektion 21 — Bei Rot musst du stehen, bei Grün darfst du gehen.</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+           background: #fff; color: #1a1a1a; font-size: 18px; line-height: 1.6;
+           padding: 3.5rem 1.25rem 2rem; max-width: 640px; margin: 0 auto; }
+    h1 { font-size: 1.4rem; font-weight: 700; margin-bottom: 0.35rem; }
+    .legend { font-size: 0.78rem; color: #888; margin-bottom: 0.5rem; }
+    .legend span { margin-right: 1rem; }
+    .der { color: #1d4ed8; } .die { color: #db2477; } .das { color: #059669; }
+    h2 { font-size: 0.85rem; font-weight: 600; text-transform: uppercase;
+         letter-spacing: 0.09em; color: #aaa; margin-bottom: 1.2rem; }
+    section { margin-bottom: 3rem; }
+    .word-list { list-style: none; }
+    .word-list li { padding: 0.5rem 0; border-bottom: 1px solid #f0f0f0; }
+    .word-list li:last-child { border-bottom: none; }
+    .word-row { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; }
+    .de { font-size: 1rem; font-weight: 500; }
+    .plural { font-size: 0.75rem; color: #bbb; font-weight: 400; margin-left: 0.35rem; }
+    .en { font-size: 0.85rem; color: #999; text-align: right; flex-shrink: 0; }
+    .sample { font-size: 0.82rem; color: #bbb; font-style: italic; margin-top: 0.1rem; }
+    .gloss  { font-size: 0.75rem; color: #d0d0d0; margin-top: 0.05rem; }
+    .back-link { display: block; font-size: 0.78rem; color: #bbb; text-decoration: none; margin-bottom: 1.5rem; }
+    .back-link:hover { color: #888; }
+    .verb-reg { color: #d97706; } .verb-irr { color: #7c3aed; }
+    .pos { font-style: italic; font-size: 0.72rem; color: #bbb; font-weight: 400; margin-left: 0.35rem; }
+    #player { position: fixed; top: 0; left: 0; right: 0; background: #fff;
+              border-bottom: 1px solid #f0f0f0; z-index: 100; padding: 0.5rem 1.25rem;
+              display: flex; align-items: center; justify-content: center; gap: 0.75rem; }
+    #player button { background: none; border: 1px solid #ddd; border-radius: 4px;
+                     padding: 0.3rem 0.7rem; font-size: 0.82rem; color: #555; cursor: pointer; line-height: 1.4; }
+    #player button:hover { border-color: #aaa; color: #111; }
+    #player #pp { min-width: 2.2rem; }
+    #progress { position: absolute; bottom: 0; left: 0; height: 2px; background: #1d4ed8; width: 0%; }
+    .lesson-nav { display: flex; justify-content: space-between; margin-top: 3rem;
+                  padding-top: 1.5rem; border-top: 1px solid #f0f0f0; font-size: 0.82rem; }
+    .lesson-nav a { color: #bbb; text-decoration: none; }
+    .lesson-nav a:hover { color: #555; }
+
+  </style>
+</head>
+<body>
+  <div id="player">
+    <audio id="audio" src="Lektion-21.mp3"></audio>
+    <button onclick="restart()">↺</button>
+    <button onclick="seek(-10)">−10s</button>
+    <button id="pp" onclick="togglePlay()">▶</button>
+    <button onclick="seek(10)">+10s</button>
+    <div id="progress"></div>
+  </div>
+  <script>
+
+    const audio = document.getElementById('audio');
+    const pp    = document.getElementById('pp');
+    function togglePlay() {
+      if (audio.paused) { audio.play(); pp.textContent = '⏸'; }
+      else              { audio.pause(); pp.textContent = '▶'; }
+    }
+    function seek(s) { audio.currentTime = Math.max(0, audio.currentTime + s); }
+    function restart() { audio.currentTime = 0; audio.play(); pp.textContent = '⏸'; }
+    audio.addEventListener('ended', () => pp.textContent = '▶');
+    const bar = document.getElementById('progress');
+    audio.addEventListener('timeupdate', () => {
+      if (audio.duration) bar.style.width = (audio.currentTime / audio.duration * 100) + '%';
+    });
+
+  </script>
+  <a class="back-link" href="index.html">← Alle Lektionen</a>
+  <h1>Lektion 21 — Bei Rot musst du stehen, bei Grün darfst du gehen.</h1>
+  <p class="legend">
+    <span><span class="der">■</span> der (m)</span>
+    <span><span class="die">■</span> die (f)</span>
+    <span><span class="das">■</span> das (n)</span>
+    <span><span class="verb-reg">■</span> reg.</span>
+    <span><span class="verb-irr">■</span> irr.</span>
+    <span><span class="pos">(adj)</span> Adjektiv / Adverb</span>
+  </p>
+  <section>
+    <h2>Wortschatz</h2>
+    <ul class="word-list">
+      <li>
+        <div class="word-row"><span class="de"><span class="verb-reg">achten</span></span><span class="en">to pay attention to</span></div>
+        <p class="sample">Bitte achten Sie auf die Regeln.</p><p class="gloss">please · pay-attention · you · to-the · rules</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="verb-reg">hupen</span></span><span class="en">to honk</span></div>
+        <p class="sample">Hier darf man nicht hupen.</p><p class="gloss">here · may · one · not · honk</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="verb-reg">parken</span></span><span class="en">to park</span></div>
+        <p class="sample">Hier darf man nicht parken.</p><p class="gloss">here · may · one · not · park</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="verb-reg">schieben</span></span><span class="en">to push</span></div>
+        <p class="sample">Er schiebt sein Fahrrad.</p><p class="gloss">he · pushes · his · bicycle</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="verb-irr">tragen</span></span><span class="en">to wear / carry</span></div>
+        <p class="sample">Man muss einen Helm tragen.</p><p class="gloss">one · must · a · helmet · wear</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="verb-irr">verstehen</span></span><span class="en">to understand</span></div>
+        <p class="sample">Ich verstehe das nicht.</p><p class="gloss">I · understand · that · not</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="verb-irr">aufstehen</span></span><span class="en">to get up</span></div>
+        <p class="sample">Ich stehe um 7 Uhr auf.</p><p class="gloss">I · stand · at · 7 · o'clock · up</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="verb-reg">baden</span></span><span class="en">to bathe</span></div>
+        <p class="sample">Man darf hier nicht baden.</p><p class="gloss">one · may · here · not · bathe</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="verb-reg">grillen</span></span><span class="en">to barbecue</span></div>
+        <p class="sample">Hier darf man nicht grillen.</p><p class="gloss">here · may · one · not · barbecue</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="verb-reg">klingeln</span></span><span class="en">to ring</span></div>
+        <p class="sample">Es klingelt an der Tür.</p><p class="gloss">it · rings · at · the · door</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="verb-irr">sitzen</span></span><span class="en">to sit</span></div>
+        <p class="sample">Man darf hier nicht sitzen.</p><p class="gloss">one · may · here · not · sit</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="die">die Regel</span><span class="plural">, -n</span></span><span class="en">rule</span></div>
+        <p class="sample">Das ist eine wichtige Regel.</p><p class="gloss">that · is · an · important · rule</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="das">das Schild</span><span class="plural">, -er</span></span><span class="en">sign</span></div>
+        <p class="sample">Das Schild sagt: Parken verboten.</p><p class="gloss">the · sign · says · parking · forbidden</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Verkehr</span><span class="plural">, –</span></span><span class="en">traffic</span></div>
+        <p class="sample">Der Verkehr ist sehr stark.</p><p class="gloss">the · traffic · is · very · heavy</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Straßenverkehr</span><span class="plural">, –</span></span><span class="en">road traffic</span></div>
+        <p class="sample">Im Straßenverkehr muss man aufpassen.</p><p class="gloss">in-the · road-traffic · must · one · pay-attention</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="die">die Wiese</span><span class="plural">, -n</span></span><span class="en">meadow / lawn</span></div>
+        <p class="sample">Auf der Wiese spielen Kinder.</p><p class="gloss">on · the · meadow · play · children</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Helm</span><span class="plural">, -e</span></span><span class="en">helmet</span></div>
+        <p class="sample">Man muss einen Helm tragen.</p><p class="gloss">one · must · a · helmet · wear</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="das">das Beispiel</span><span class="plural">, -e</span></span><span class="en">example</span></div>
+        <p class="sample">Das ist ein gutes Beispiel.</p><p class="gloss">that · is · a · good · example</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Hund</span><span class="plural">, -e</span></span><span class="en">dog</span></div>
+        <p class="sample">Hunde müssen an der Leine sein.</p><p class="gloss">dogs · must · on-the · leash · be</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="das">das Krankenhaus</span><span class="plural">, ¨-er</span></span><span class="en">hospital</span></div>
+        <p class="sample">Er liegt im Krankenhaus.</p><p class="gloss">he · lies · in-the · hospital</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="das">das Picknick</span><span class="plural">, -e und -s</span></span><span class="en">picnic</span></div>
+        <p class="sample">Wir machen ein Picknick im Park.</p><p class="gloss">we · make · a · picnic · in-the · park</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">einen Helm tragen<span class="pos">(adj)</span></span><span class="en">to wear a helmet</span></div>
+        <p class="sample">Man muss einen Helm tragen.</p><p class="gloss">one · must · a · helmet · wear</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">langsam<span class="pos">(adj)</span></span><span class="en">slow / slowly</span></div>
+        <p class="sample">Fahr langsam!</p><p class="gloss">drive · slowly</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">erlaubt<span class="pos">(adj)</span></span><span class="en">allowed / permitted</span></div>
+        <p class="sample">Ist das hier erlaubt?</p><p class="gloss">is · that · here · allowed</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">verboten<span class="pos">(adj)</span></span><span class="en">forbidden</span></div>
+        <p class="sample">Rauchen ist hier verboten.</p><p class="gloss">smoking · is · here · forbidden</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">zu Fuß<span class="pos">(adj)</span></span><span class="en">on foot</span></div>
+        <p class="sample">Ich gehe zu Fuß.</p><p class="gloss">I · go · on-foot</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">gefährlich<span class="pos">(adj)</span></span><span class="en">dangerous</span></div>
+        <p class="sample">Das ist sehr gefährlich!</p><p class="gloss">that · is · very · dangerous</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">schlimm<span class="pos">(adj)</span></span><span class="en">bad / serious</span></div>
+        <p class="sample">Das ist nicht so schlimm.</p><p class="gloss">that · is · not · so · bad</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">in Ordnung<span class="pos">(adj)</span></span><span class="en">all right / okay</span></div>
+        <p class="sample">Alles in Ordnung!</p><p class="gloss">everything · in · order</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">zum Beispiel<span class="pos">(adj)</span></span><span class="en">for example</span></div>
+        <p class="sample">Zum Beispiel Montag oder Dienstag.</p><p class="gloss">for-example · Monday · or · Tuesday</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">leise<span class="pos">(adj)</span></span><span class="en">quiet / softly</span></div>
+        <p class="sample">Bitte sei leise!</p><p class="gloss">please · be · quiet</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">für<span class="pos">(adj)</span></span><span class="en">for</span></div>
+        <p class="sample">Das ist für dich.</p><p class="gloss">that · is · for · you</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">gegen<span class="pos">(adj)</span></span><span class="en">against</span></div>
+        <p class="sample">Das Mittel hilft gegen Schmerzen.</p><p class="gloss">the · remedy · helps · against · pain</p>
+      </li>
+    </ul>
+  </section>
+  <div class="lesson-nav">
+    <a href="Lektion-20.html">← Lektion 20</a>
+    <a href="Lektion-22.html">→ Lektion 22</a>
+  </div>
+</body>
+</html>

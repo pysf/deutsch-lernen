@@ -1,0 +1,142 @@
+<speak>
+  <voice name="de-DE-Chirp3-HD-Puck">Menschen A1.2. Lektion 16. Wir haben hier ein Problem.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">bringen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">bringen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">bringen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Können Sie mir ein Handtuch bringen?</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">funktionieren</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">funktionieren</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">funktionieren.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Das Licht funktioniert nicht.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">kümmern</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">kümmern</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">kümmern.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Ich kümmere mich darum.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">reparieren</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">reparieren</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">reparieren.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Können Sie den Fernseher reparieren?</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">termine absagen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">termine absagen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">termine absagen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Ich muss alle Termine absagen.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">vereinbaren</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">vereinbaren</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">vereinbaren.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Wir vereinbaren einen Termin.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">verschieben</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">verschieben</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">verschieben.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Können wir den Termin verschieben?</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">passen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">passen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">passen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Passt es dir morgen?</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">ausmachen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">ausmachen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">ausmachen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Wir machen einen Termin aus.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">kennenlernen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">kennenlernen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">kennenlernen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Ich möchte Sie kennenlernen.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">mitnehmen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">mitnehmen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">mitnehmen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Kannst du mich mitnehmen?</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">tun</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">tun</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">tun.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Was kann ich für Sie tun?</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">warten</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">warten</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">warten.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Können Sie bitte warten?</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Aufzug</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Aufzug</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Aufzug.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Die Wohnung ist im dritten Stock — mit Aufzug!</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Dusche</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Dusche</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Dusche.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Die Dusche funktioniert nicht.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Fernseher</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Fernseher</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Fernseher.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Der Fernseher ist kaputt.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Föhn</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Föhn</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Föhn.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Mein Föhn ist kaputt.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Gast</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Gast</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Gast.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Wir haben heute Gäste.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Handtuch</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Handtuch</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Handtuch.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Wir haben keine Handtücher.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Heizung</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Heizung</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Heizung.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Die Heizung ist kaputt.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Klimaanlage</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Klimaanlage</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Klimaanlage.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Die Klimaanlage macht Lärm.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Verbindung</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Verbindung</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Verbindung.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Die Verbindung ist sehr gut.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Internetverbindung</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Internetverbindung</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Internetverbindung.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Die Internetverbindung ist kaputt.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Wecker</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Wecker</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Wecker.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Mein Wecker klingelt um 7 Uhr.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Lust</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Lust</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Lust.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Ich habe keine Lust.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Angst</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Angst</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Angst.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Ich habe Angst.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Kurs</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Kurs</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Kurs.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Ich gehe zum Deutschkurs.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Leben</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Leben</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Leben.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Das Leben hier ist sehr schön.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Sitzung</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Sitzung</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Sitzung.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Die Sitzung beginnt um 10 Uhr.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Stunde</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Stunde</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Stunde.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Ich warte seit einer Stunde.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">kaputt</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">kaputt</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">kaputt.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Der Fernseher ist kaputt.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">sofort</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">sofort</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">sofort.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Ich komme sofort!</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">pünktlich</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">pünktlich</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">pünktlich.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Er kommt immer pünktlich.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die halbe Stunde</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die halbe Stunde</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die halbe Stunde.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Eine halbe Stunde, bitte.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">dumm</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">dumm</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">dumm.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Das ist sehr dumm!</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">lustig</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">lustig</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">lustig.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Der Film ist sehr lustig.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">seltsam</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">seltsam</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">seltsam.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Das ist sehr seltsam.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">sicher</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">sicher</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">sicher.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Das Haus ist sicher.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">nichts</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">nichts</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">nichts.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Ich verstehe nichts.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">selbst</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">selbst</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">selbst.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Das mache ich selbst.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">Bescheid sagen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">Bescheid sagen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">Bescheid sagen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Sagen Sie mir Bescheid!</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">Hilfe rufen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">Hilfe rufen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">Hilfe rufen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Ich muss Hilfe rufen.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">Lust haben</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">Lust haben</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">Lust haben.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Hast du Lust ins Kino zu gehen?</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">Angst haben</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">Angst haben</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">Angst haben.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Hast du Angst?</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">Sehr geehrte</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">Sehr geehrte</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">Sehr geehrte.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Sehr geehrte Frau Müller, ...</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">Mit freundlichen Grüßen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">Mit freundlichen Grüßen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">Mit freundlichen Grüßen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Mit freundlichen Grüßen, Anna Müller.</voice> <break time="4s"/>
+
+</speak>

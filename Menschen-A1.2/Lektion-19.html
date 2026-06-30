@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lektion 19 — Der hatte doch keinen Bauch!</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+           background: #fff; color: #1a1a1a; font-size: 18px; line-height: 1.6;
+           padding: 3.5rem 1.25rem 2rem; max-width: 640px; margin: 0 auto; }
+    h1 { font-size: 1.4rem; font-weight: 700; margin-bottom: 0.35rem; }
+    .legend { font-size: 0.78rem; color: #888; margin-bottom: 0.5rem; }
+    .legend span { margin-right: 1rem; }
+    .der { color: #1d4ed8; } .die { color: #db2477; } .das { color: #059669; }
+    h2 { font-size: 0.85rem; font-weight: 600; text-transform: uppercase;
+         letter-spacing: 0.09em; color: #aaa; margin-bottom: 1.2rem; }
+    section { margin-bottom: 3rem; }
+    .word-list { list-style: none; }
+    .word-list li { padding: 0.5rem 0; border-bottom: 1px solid #f0f0f0; }
+    .word-list li:last-child { border-bottom: none; }
+    .word-row { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; }
+    .de { font-size: 1rem; font-weight: 500; }
+    .plural { font-size: 0.75rem; color: #bbb; font-weight: 400; margin-left: 0.35rem; }
+    .en { font-size: 0.85rem; color: #999; text-align: right; flex-shrink: 0; }
+    .sample { font-size: 0.82rem; color: #bbb; font-style: italic; margin-top: 0.1rem; }
+    .gloss  { font-size: 0.75rem; color: #d0d0d0; margin-top: 0.05rem; }
+    .back-link { display: block; font-size: 0.78rem; color: #bbb; text-decoration: none; margin-bottom: 1.5rem; }
+    .back-link:hover { color: #888; }
+    .verb-reg { color: #d97706; } .verb-irr { color: #7c3aed; }
+    .pos { font-style: italic; font-size: 0.72rem; color: #bbb; font-weight: 400; margin-left: 0.35rem; }
+    #player { position: fixed; top: 0; left: 0; right: 0; background: #fff;
+              border-bottom: 1px solid #f0f0f0; z-index: 100; padding: 0.5rem 1.25rem;
+              display: flex; align-items: center; justify-content: center; gap: 0.75rem; }
+    #player button { background: none; border: 1px solid #ddd; border-radius: 4px;
+                     padding: 0.3rem 0.7rem; font-size: 0.82rem; color: #555; cursor: pointer; line-height: 1.4; }
+    #player button:hover { border-color: #aaa; color: #111; }
+    #player #pp { min-width: 2.2rem; }
+    #progress { position: absolute; bottom: 0; left: 0; height: 2px; background: #1d4ed8; width: 0%; }
+    .lesson-nav { display: flex; justify-content: space-between; margin-top: 3rem;
+                  padding-top: 1.5rem; border-top: 1px solid #f0f0f0; font-size: 0.82rem; }
+    .lesson-nav a { color: #bbb; text-decoration: none; }
+    .lesson-nav a:hover { color: #555; }
+
+  </style>
+</head>
+<body>
+  <div id="player">
+    <audio id="audio" src="Lektion-19.mp3"></audio>
+    <button onclick="restart()">↺</button>
+    <button onclick="seek(-10)">−10s</button>
+    <button id="pp" onclick="togglePlay()">▶</button>
+    <button onclick="seek(10)">+10s</button>
+    <div id="progress"></div>
+  </div>
+  <script>
+
+    const audio = document.getElementById('audio');
+    const pp    = document.getElementById('pp');
+    function togglePlay() {
+      if (audio.paused) { audio.play(); pp.textContent = '⏸'; }
+      else              { audio.pause(); pp.textContent = '▶'; }
+    }
+    function seek(s) { audio.currentTime = Math.max(0, audio.currentTime + s); }
+    function restart() { audio.currentTime = 0; audio.play(); pp.textContent = '⏸'; }
+    audio.addEventListener('ended', () => pp.textContent = '▶');
+    const bar = document.getElementById('progress');
+    audio.addEventListener('timeupdate', () => {
+      if (audio.duration) bar.style.width = (audio.currentTime / audio.duration * 100) + '%';
+    });
+
+  </script>
+  <a class="back-link" href="index.html">← Alle Lektionen</a>
+  <h1>Lektion 19 — Der hatte doch keinen Bauch!</h1>
+  <p class="legend">
+    <span><span class="der">■</span> der (m)</span>
+    <span><span class="die">■</span> die (f)</span>
+    <span><span class="das">■</span> das (n)</span>
+    <span><span class="verb-reg">■</span> reg.</span>
+    <span><span class="verb-irr">■</span> irr.</span>
+    <span><span class="pos">(adj)</span> Adjektiv / Adverb</span>
+  </p>
+  <section>
+    <h2>Wortschatz</h2>
+    <ul class="word-list">
+      <li>
+        <div class="word-row"><span class="de"><span class="verb-reg">beschweren (sich)</span></span><span class="en">to complain</span></div>
+        <p class="sample">Der Gast beschwert sich.</p><p class="gloss">the · guest · complains</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="verb-irr">erkennen</span></span><span class="en">to recognize</span></div>
+        <p class="sample">Ich erkenne ihn nicht mehr.</p><p class="gloss">I · recognize · him · no-longer</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="verb-reg">geboren sein</span></span><span class="en">to be born</span></div>
+        <p class="sample">Wann bist du geboren?</p><p class="gloss">when · are · you · born</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="verb-irr">vergessen</span></span><span class="en">to forget</span></div>
+        <p class="sample">Ich habe seinen Namen vergessen.</p><p class="gloss">I · have · his · name · forgotten</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Bart</span><span class="plural">, ¨-e</span></span><span class="en">beard</span></div>
+        <p class="sample">Er hat jetzt einen Bart.</p><p class="gloss">he · has · now · a · beard</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="das">das Haar</span><span class="plural">, -e</span></span><span class="en">hair</span></div>
+        <p class="sample">Ihre Haare sind jetzt kurz.</p><p class="gloss">her · hair · is · now · short</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="die">die Bäckerei</span><span class="plural">, -en</span></span><span class="en">bakery</span></div>
+        <p class="sample">Die Bäckerei öffnet um 6 Uhr.</p><p class="gloss">the · bakery · opens · at · 6 · o'clock</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="die">die Hausfrau</span><span class="plural">, -en</span></span><span class="en">housewife</span></div>
+        <p class="sample">Sie ist Hausfrau.</p><p class="gloss">she · is · housewife</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">blond<span class="pos">(adj)</span></span><span class="en">blond</span></div>
+        <p class="sample">Sie hat blonde Haare.</p><p class="gloss">she · has · blond · hair</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">dick<span class="pos">(adj)</span></span><span class="en">fat / thick</span></div>
+        <p class="sample">Er ist ein bisschen dick.</p><p class="gloss">he · is · a · little · fat</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">dünn<span class="pos">(adj)</span></span><span class="en">thin</span></div>
+        <p class="sample">Sie ist sehr dünn.</p><p class="gloss">she · is · very · thin</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">glatt<span class="pos">(adj)</span></span><span class="en">straight (hair) / smooth</span></div>
+        <p class="sample">Sie hat glatte Haare.</p><p class="gloss">she · has · straight · hair</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">grau<span class="pos">(adj)</span></span><span class="en">grey</span></div>
+        <p class="sample">Der Himmel ist grau.</p><p class="gloss">the · sky · is · grey</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">hübsch<span class="pos">(adj)</span></span><span class="en">pretty</span></div>
+        <p class="sample">Sie ist sehr hübsch.</p><p class="gloss">she · is · very · pretty</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">schlank<span class="pos">(adj)</span></span><span class="en">slim</span></div>
+        <p class="sample">Er ist sehr schlank.</p><p class="gloss">he · is · very · slim</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">freundlich<span class="pos">(adj)</span></span><span class="en">friendly</span></div>
+        <p class="sample">Sie ist sehr freundlich.</p><p class="gloss">she · is · very · friendly</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">fröhlich<span class="pos">(adj)</span></span><span class="en">cheerful</span></div>
+        <p class="sample">Er ist immer fröhlich.</p><p class="gloss">he · is · always · cheerful</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">glücklich<span class="pos">(adj)</span></span><span class="en">happy</span></div>
+        <p class="sample">Ich bin sehr glücklich.</p><p class="gloss">I · am · very · happy</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">komisch<span class="pos">(adj)</span></span><span class="en">odd / funny</span></div>
+        <p class="sample">Das ist sehr komisch.</p><p class="gloss">that · is · very · odd</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">seltsam<span class="pos">(adj)</span></span><span class="en">strange</span></div>
+        <p class="sample">Das ist sehr seltsam.</p><p class="gloss">that · is · very · strange</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">sympathisch<span class="pos">(adj)</span></span><span class="en">likeable</span></div>
+        <p class="sample">Er ist sehr sympathisch.</p><p class="gloss">he · is · very · likeable</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">traurig<span class="pos">(adj)</span></span><span class="en">sad</span></div>
+        <p class="sample">Sie ist sehr traurig.</p><p class="gloss">she · is · very · sad</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">gleich<span class="pos">(adj)</span></span><span class="en">same / right away</span></div>
+        <p class="sample">Das ist gleich um die Ecke.</p><p class="gloss">that · is · right · around · the · corner</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">laut<span class="pos">(adj)</span></span><span class="en">loud</span></div>
+        <p class="sample">Die Musik ist zu laut.</p><p class="gloss">the · music · is · too · loud</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">ledig<span class="pos">(adj)</span></span><span class="en">single (unmarried)</span></div>
+        <p class="sample">Ich bin ledig.</p><p class="gloss">I · am · single</p>
+      </li>
+    </ul>
+  </section>
+  <div class="lesson-nav">
+    <a href="Lektion-18.html">← Lektion 18</a>
+    <a href="Lektion-20.html">→ Lektion 20</a>
+  </div>
+</body>
+</html>

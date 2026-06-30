@@ -1,0 +1,85 @@
+<speak>
+  <voice name="de-DE-Chirp3-HD-Puck">Menschen A1.2. Lektion 20. Komm sofort runter!</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">abtrocknen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">abtrocknen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">abtrocknen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Kannst du die Teller abtrocknen?</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">abwaschen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">abwaschen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">abwaschen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Ich muss noch abwaschen.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">spülen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">spülen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">spülen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Spül bitte das Geschirr!</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">waschen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">waschen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">waschen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Ich wasche die Wäsche.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">hassen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">hassen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">hassen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Ich hasse Hausarbeit.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">zumachen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">zumachen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">zumachen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Mach die Tür zu!</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Abfall</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Abfall</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Abfall.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Der Abfall muss raus.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Boden</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Boden</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Boden.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Der Boden ist schmutzig.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Geschirr</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Geschirr</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Geschirr.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Das Geschirr muss gespült werden.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Haushalt</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Haushalt</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Haushalt.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Ich mache den Haushalt.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Ordnung</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Ordnung</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Ordnung.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Alles ist in Ordnung.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Spülmaschine</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Spülmaschine</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Spülmaschine.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Räum die Spülmaschine aus!</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Wäsche</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Wäsche</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Wäsche.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Die Wäsche ist noch nass.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Anruf</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Anruf</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Anruf.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Ich habe einen Anruf bekommen.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Anrufbeantworter</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Anrufbeantworter</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Anrufbeantworter.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Ich spreche auf den Anrufbeantworter.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Antwort</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Antwort</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Antwort.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Ich warte auf eine Antwort.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Brief</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Brief</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Brief.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Ich schreibe einen Brief.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Größe</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Größe</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Größe.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Welche Größe haben Sie?</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Information</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Information</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Information.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Ich brauche eine Information.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">ordentlich</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">ordentlich</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">ordentlich.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Sein Zimmer ist immer ordentlich.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">sauber</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">sauber</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">sauber.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Die Küche ist sauber.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">schmutzig</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">schmutzig</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">schmutzig.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Die Schuhe sind schmutzig.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">auf sein</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">auf sein</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">auf sein.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Die Post ist bis 18 Uhr auf.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">fertig</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">fertig</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">fertig.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Das Essen ist fertig.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">ganz</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">ganz</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">ganz.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Ich bin ganz müde.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">schnell</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">schnell</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">schnell.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Er läuft sehr schnell.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">Geschirr spülen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">Geschirr spülen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">Geschirr spülen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Ich muss noch Geschirr spülen.</voice> <break time="4s"/>
+
+</speak>

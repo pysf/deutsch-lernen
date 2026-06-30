@@ -6,12 +6,15 @@
   <title>Lektion 5 — Was ist das? – Das ist ein F.</title>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background: #fff; color: #1a1a1a; font-size: 18px; line-height: 1.6; padding: 3.5rem 1.25rem 2rem; max-width: 640px; margin: 0 auto; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+           background: #fff; color: #1a1a1a; font-size: 18px; line-height: 1.6;
+           padding: 3.5rem 1.25rem 2rem; max-width: 640px; margin: 0 auto; }
     h1 { font-size: 1.4rem; font-weight: 700; margin-bottom: 0.35rem; }
     .legend { font-size: 0.78rem; color: #888; margin-bottom: 0.5rem; }
     .legend span { margin-right: 1rem; }
     .der { color: #1d4ed8; } .die { color: #db2477; } .das { color: #059669; }
-    h2 { font-size: 0.85rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.09em; color: #aaa; margin-bottom: 1.2rem; }
+    h2 { font-size: 0.85rem; font-weight: 600; text-transform: uppercase;
+         letter-spacing: 0.09em; color: #aaa; margin-bottom: 1.2rem; }
     section { margin-bottom: 3rem; }
     .word-list { list-style: none; }
     .word-list li { padding: 0.5rem 0; border-bottom: 1px solid #f0f0f0; }
@@ -21,21 +24,24 @@
     .plural { font-size: 0.75rem; color: #bbb; font-weight: 400; margin-left: 0.35rem; }
     .en { font-size: 0.85rem; color: #999; text-align: right; flex-shrink: 0; }
     .sample { font-size: 0.82rem; color: #bbb; font-style: italic; margin-top: 0.1rem; }
+    .gloss  { font-size: 0.75rem; color: #d0d0d0; margin-top: 0.05rem; }
     .back-link { display: block; font-size: 0.78rem; color: #bbb; text-decoration: none; margin-bottom: 1.5rem; }
     .back-link:hover { color: #888; }
-    .verb-reg { color: #d97706; }
-    .verb-irr { color: #7c3aed; }
-    .perfekt { font-size: 0.82rem; color: #888; font-weight: 400; margin-top: 0.1rem; }
+    .verb-reg { color: #d97706; } .verb-irr { color: #7c3aed; }
     .pos { font-style: italic; font-size: 0.72rem; color: #bbb; font-weight: 400; margin-left: 0.35rem; }
-    #player { position: fixed; top: 0; left: 0; right: 0; background: #fff; border-bottom: 1px solid #f0f0f0; z-index: 100; padding: 0.5rem 1.25rem; display: flex; align-items: center; justify-content: center; gap: 0.75rem; }
-    #player button { background: none; border: 1px solid #ddd; border-radius: 4px; padding: 0.3rem 0.7rem; font-size: 0.82rem; color: #555; cursor: pointer; line-height: 1.4; }
+    #player { position: fixed; top: 0; left: 0; right: 0; background: #fff;
+              border-bottom: 1px solid #f0f0f0; z-index: 100; padding: 0.5rem 1.25rem;
+              display: flex; align-items: center; justify-content: center; gap: 0.75rem; }
+    #player button { background: none; border: 1px solid #ddd; border-radius: 4px;
+                     padding: 0.3rem 0.7rem; font-size: 0.82rem; color: #555; cursor: pointer; line-height: 1.4; }
     #player button:hover { border-color: #aaa; color: #111; }
     #player #pp { min-width: 2.2rem; }
-    .gloss { font-size: 0.75rem; color: #d0d0d0; margin-top: 0.05rem; }
     #progress { position: absolute; bottom: 0; left: 0; height: 2px; background: #1d4ed8; width: 0%; }
-    .lesson-nav { display: flex; justify-content: space-between; margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid #f0f0f0; font-size: 0.82rem; }
+    .lesson-nav { display: flex; justify-content: space-between; margin-top: 3rem;
+                  padding-top: 1.5rem; border-top: 1px solid #f0f0f0; font-size: 0.82rem; }
     .lesson-nav a { color: #bbb; text-decoration: none; }
     .lesson-nav a:hover { color: #555; }
+
   </style>
 </head>
 <body>
@@ -48,11 +54,12 @@
     <div id="progress"></div>
   </div>
   <script>
+
     const audio = document.getElementById('audio');
-    const pp = document.getElementById('pp');
+    const pp    = document.getElementById('pp');
     function togglePlay() {
       if (audio.paused) { audio.play(); pp.textContent = '⏸'; }
-      else { audio.pause(); pp.textContent = '▶'; }
+      else              { audio.pause(); pp.textContent = '▶'; }
     }
     function seek(s) { audio.currentTime = Math.max(0, audio.currentTime + s); }
     function restart() { audio.currentTime = 0; audio.play(); pp.textContent = '⏸'; }
@@ -61,6 +68,7 @@
     audio.addEventListener('timeupdate', () => {
       if (audio.duration) bar.style.width = (audio.currentTime / audio.duration * 100) + '%';
     });
+
   </script>
   <a class="back-link" href="index.html">← Alle Lektionen</a>
   <h1>Lektion 5 — Was ist das? – Das ist ein F.</h1>
@@ -70,153 +78,172 @@
     <span><span class="das">■</span> das (n)</span>
     <span><span class="verb-reg">■</span> reg.</span>
     <span><span class="verb-irr">■</span> irr.</span>
-    <span><span class="pos">(t)</span> transitiv · <span class="pos">(i)</span> intransitiv · <span class="pos">(adj)</span> Adjektiv · <span class="pos">(adv)</span> Adverb</span>
+    <span><span class="pos">(adj)</span> Adjektiv / Adverb</span>
   </p>
   <section>
     <h2>Wortschatz</h2>
     <ul class="word-list">
-
       <li>
-        <div class="word-row"><span class="de">neu<span class="pos" title="Adjektiv">(adj)</span></span><span class="en">new</span></div>
-        <p class="sample">Das Buch ist neu.</p>
-        <p class="gloss">The book is new</p>
+        <div class="word-row"><span class="de"><span class="verb-irr">schreiben</span></span><span class="en">to write</span></div>
+        <p class="sample">Ich schreibe meinen Namen.</p><p class="gloss">I · write · my · name</p>
       </li>
       <li>
-        <div class="word-row"><span class="de">elegant<span class="pos" title="Adjektiv">(adj)</span></span><span class="en">elegant</span></div>
-        <p class="sample">Die Brille ist elegant.</p>
-        <p class="gloss">The glasses are elegant</p>
+        <div class="word-row"><span class="de"><span class="verb-irr">verstehen</span></span><span class="en">to understand</span></div>
+        <p class="sample">Ich verstehe das nicht.</p><p class="gloss">I · understand · that · not</p>
       </li>
       <li>
-        <div class="word-row"><span class="de">rund<span class="pos" title="Adjektiv">(adj)</span></span><span class="en">round</span></div>
-        <p class="sample">Das Glas ist rund.</p>
-        <p class="gloss">The glass is round</p>
+        <div class="word-row"><span class="de"><span class="der">der Gegenstand</span><span class="plural">, ¨-e</span></span><span class="en">object / item</span></div>
+        <p class="sample">Was ist das für ein Gegenstand?</p><p class="gloss">what · is · that · for · an · object</p>
       </li>
       <li>
-        <div class="word-row"><span class="de">eckig<span class="pos" title="Adjektiv">(adj)</span></span><span class="en">angular / square</span></div>
-        <p class="sample">Der Tisch ist eckig.</p>
-        <p class="gloss">The table is angular</p>
+        <div class="word-row"><span class="de"><span class="der">der Bleistift</span><span class="plural">, -e</span></span><span class="en">pencil</span></div>
+        <p class="sample">Ich schreibe mit einem Bleistift.</p><p class="gloss">I · write · with · a · pencil</p>
       </li>
       <li>
-        <div class="word-row"><span class="de">sportlich<span class="pos" title="Adjektiv">(adj)</span></span><span class="en">sporty</span></div>
-        <p class="sample">Die Tasche ist sportlich.</p>
-        <p class="gloss">The bag is sporty</p>
-      </li>
-
-      <li>
-        <div class="word-row"><span class="de"><span class="verb-irr">möchten</span><span class="pos" title="transitiv (Akkusativobjekt)">(t)</span></span><span class="en">would like to</span></div>
-        <p class="perfekt">hat gemocht</p>
-        <p class="sample">Ich möchte ein Buch. · Ich habe das Buch gemocht.</p>
-        <p class="gloss">I would-like a book</p>
+        <div class="word-row"><span class="de"><span class="die">die Brille</span><span class="plural">, -n</span></span><span class="en">glasses</span></div>
+        <p class="sample">Meine Brille ist neu.</p><p class="gloss">my · glasses · are · new</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="verb-irr">beschreiben</span><span class="pos" title="transitiv (Akkusativobjekt)">(t)</span></span><span class="en">to describe</span></div>
-        <p class="perfekt">hat beschrieben</p>
-        <p class="sample">Ich beschreibe die Uhr. · Ich habe die Uhr beschrieben.</p>
-        <p class="gloss">I describe the watch</p>
-      </li>
-
-      <li>
-        <div class="word-row"><span class="de"><span class="der">der Bleistift</span><span class="plural">Pl. Bleistifte</span><span class="pos" title="maskulin">(m)</span></span><span class="en">pencil</span></div>
-        <p class="sample">Der Bleistift ist lang. · Ich brauche einen Bleistift.</p>
-        <p class="gloss">The pencil is long</p>
+        <div class="word-row"><span class="de"><span class="das">das Buch</span><span class="plural">, ¨-er</span></span><span class="en">book</span></div>
+        <p class="sample">Das Buch ist sehr interessant.</p><p class="gloss">the · book · is · very · interesting</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="die">die Brille</span><span class="plural">Pl. Brillen</span><span class="pos" title="feminin">(f)</span></span><span class="en">glasses</span></div>
-        <p class="sample">Die Brille ist neu. · Ich suche eine Brille.</p>
-        <p class="gloss">The glasses are new</p>
+        <div class="word-row"><span class="de"><span class="die">die Flasche</span><span class="plural">, -n</span></span><span class="en">bottle</span></div>
+        <p class="sample">Die Flasche ist leer.</p><p class="gloss">the · bottle · is · empty</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="das">das Buch</span><span class="plural">Pl. Bücher</span><span class="pos" title="neutrum">(n)</span></span><span class="en">book</span></div>
-        <p class="sample">Das Buch ist interessant. · Ich lese ein Buch.</p>
-        <p class="gloss">The book is interesting</p>
+        <div class="word-row"><span class="de"><span class="das">das Feuerzeug</span><span class="plural">, -e</span></span><span class="en">lighter</span></div>
+        <p class="sample">Hast du ein Feuerzeug?</p><p class="gloss">have · you · a · lighter</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="das">das Feuerzeug</span><span class="plural">Pl. Feuerzeuge</span><span class="pos" title="neutrum">(n)</span></span><span class="en">lighter</span></div>
-        <p class="sample">Das Feuerzeug ist klein. · Ich suche ein Feuerzeug.</p>
-        <p class="gloss">The lighter is small</p>
+        <div class="word-row"><span class="de"><span class="die">die Geldbörse</span><span class="plural">, -n</span></span><span class="en">purse / wallet</span></div>
+        <p class="sample">Meine Geldbörse ist rot.</p><p class="gloss">my · purse · is · red</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="die">die Flasche</span><span class="plural">Pl. Flaschen</span><span class="pos" title="feminin">(f)</span></span><span class="en">bottle</span></div>
-        <p class="sample">Die Flasche ist groß. · Ich nehme eine Flasche.</p>
-        <p class="gloss">The bottle is big</p>
+        <div class="word-row"><span class="de"><span class="der">der Kugelschreiber</span><span class="plural">, - (Kuli der, -s)</span></span><span class="en">ballpoint pen</span></div>
+        <p class="sample">Ich brauche einen Kugelschreiber.</p><p class="gloss">I · need · a · ballpoint-pen</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="der">der Fotoapparat</span><span class="plural">Pl. Fotoapparate</span><span class="pos" title="maskulin">(m)</span></span><span class="en">camera</span></div>
-        <p class="sample">Der Fotoapparat ist modern. · Ich kaufe einen Fotoapparat.</p>
-        <p class="gloss">The camera is modern</p>
+        <div class="word-row"><span class="de"><span class="der">der Schlüssel</span><span class="plural">, -</span></span><span class="en">key</span></div>
+        <p class="sample">Wo ist mein Schlüssel?</p><p class="gloss">where · is · my · key</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="die">die Kette</span><span class="plural">Pl. Ketten</span><span class="pos" title="feminin">(f)</span></span><span class="en">chain / necklace</span></div>
-        <p class="sample">Die Kette ist schön. · Ich trage eine Kette.</p>
-        <p class="gloss">The necklace is beautiful</p>
+        <div class="word-row"><span class="de"><span class="die">die Tasche</span><span class="plural">, -n</span></span><span class="en">bag</span></div>
+        <p class="sample">Meine Tasche ist sehr schwer.</p><p class="gloss">my · bag · is · very · heavy</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="der">der Kugelschreiber</span><span class="plural">Pl. Kugelschreiber</span><span class="pos" title="maskulin">(m)</span></span><span class="en">ballpoint pen</span></div>
-        <p class="sample">Der Kugelschreiber ist neu. · Ich brauche einen Kugelschreiber.</p>
-        <p class="gloss">The ballpoint-pen is new</p>
+        <div class="word-row"><span class="de"><span class="die">die Uhr</span><span class="plural">, -en</span></span><span class="en">o'clock / clock</span></div>
+        <p class="sample">Die Uhr ist sehr teuer.</p><p class="gloss">the · watch · is · very · expensive</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="der">der Schlüssel</span><span class="plural">Pl. Schlüssel</span><span class="pos" title="maskulin">(m)</span></span><span class="en">key</span></div>
-        <p class="sample">Der Schlüssel ist klein. · Ich suche den Schlüssel.</p>
-        <p class="gloss">The key is small</p>
+        <div class="word-row"><span class="de"><span class="das">das Handy</span><span class="plural">, -s</span></span><span class="en">mobile phone</span></div>
+        <p class="sample">Mein Handy ist neu.</p><p class="gloss">my · mobile · is · new</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="die">die Tasche</span><span class="plural">Pl. Taschen</span><span class="pos" title="feminin">(f)</span></span><span class="en">bag / pocket</span></div>
-        <p class="sample">Die Tasche ist groß. · Ich trage eine Tasche.</p>
-        <p class="gloss">The bag is big</p>
+        <div class="word-row"><span class="de"><span class="der">der Regenschirm</span><span class="plural">, -e</span></span><span class="en">umbrella</span></div>
+        <p class="sample">Ich habe meinen Regenschirm vergessen.</p><p class="gloss">I · have · my · umbrella · forgotten</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="die">die Uhr</span><span class="plural">Pl. Uhren</span><span class="pos" title="feminin">(f)</span></span><span class="en">watch / clock</span></div>
-        <p class="sample">Die Uhr ist schön. · Ich kaufe eine Uhr.</p>
-        <p class="gloss">The watch is beautiful</p>
+        <div class="word-row"><span class="de"><span class="der">der Ring</span><span class="plural">, -e</span></span><span class="en">ring</span></div>
+        <p class="sample">Der Ring ist aus Gold.</p><p class="gloss">the · ring · is · made-of · gold</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="die">die Farbe</span><span class="plural">Pl. Farben</span><span class="pos" title="feminin">(f)</span></span><span class="en">color</span></div>
-        <p class="sample">Die Farbe ist schön. · Ich wähle eine Farbe.</p>
-        <p class="gloss">The color is beautiful</p>
+        <div class="word-row"><span class="de"><span class="die">die Sache</span><span class="plural">, -n</span></span><span class="en">thing</span></div>
+        <p class="sample">Das ist meine Sache.</p><p class="gloss">that · is · my · thing</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="die">die Form</span><span class="plural">Pl. Formen</span><span class="pos" title="feminin">(f)</span></span><span class="en">shape / form</span></div>
-        <p class="sample">Die Form ist rund. · Ich beschreibe die Form.</p>
-        <p class="gloss">The shape is round</p>
+        <div class="word-row"><span class="de"><span class="die">die Form</span><span class="plural">, -en</span></span><span class="en">shape</span></div>
+        <p class="sample">Welche Form hat das?</p><p class="gloss">which · shape · has · that</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="das">das Material</span><span class="plural">Pl. Materialien</span><span class="pos" title="neutrum">(n)</span></span><span class="en">material</span></div>
-        <p class="sample">Das Material ist gut. · Ich wähle das Material.</p>
-        <p class="gloss">The material is good</p>
+        <div class="word-row"><span class="de"><span class="das">das Material</span><span class="plural">, Materialien</span></span><span class="en">material</span></div>
+        <p class="sample">Aus welchem Material ist das?</p><p class="gloss">from · which · material · is · that</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="das">das Ding</span><span class="plural">Pl. Dinge</span><span class="pos" title="neutrum">(n)</span></span><span class="en">thing / object</span></div>
-        <p class="sample">Das Ding ist klein. · Ich suche das Ding.</p>
-        <p class="gloss">The thing is small</p>
+        <div class="word-row"><span class="de"><span class="das">das Glas</span><span class="plural">, ¨-er</span></span><span class="en">glass</span></div>
+        <p class="sample">Ein Glas Wasser, bitte.</p><p class="gloss">a · glass · water · please</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="das">das Glas</span><span class="plural">Pl. Gläser</span><span class="pos" title="neutrum">(n)</span></span><span class="en">glass</span></div>
-        <p class="sample">Das Glas ist rund. · Ich nehme ein Glas.</p>
-        <p class="gloss">The glass is round</p>
+        <div class="word-row"><span class="de"><span class="das">das Holz</span><span class="plural">, –</span></span><span class="en">wood</span></div>
+        <p class="sample">Der Tisch ist aus Holz.</p><p class="gloss">the · table · is · from · wood</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="das">das Metall</span><span class="plural">Pl. Metalle</span><span class="pos" title="neutrum">(n)</span></span><span class="en">metal</span></div>
-        <p class="sample">Das Metall ist hart. · Ich nehme das Metall.</p>
-        <p class="gloss">The metal is hard</p>
+        <div class="word-row"><span class="de"><span class="das">das Metall</span><span class="plural">, –</span></span><span class="en">metal</span></div>
+        <p class="sample">Das ist aus Metall.</p><p class="gloss">that · is · from · metal</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="das">das Plastik</span><span class="pos" title="neutrum">(n)</span></span><span class="en">plastic (no plural)</span></div>
-        <p class="sample">Das Plastik ist leicht. · Ich nehme das Plastik.</p>
-        <p class="gloss">The plastic is light</p>
+        <div class="word-row"><span class="de"><span class="das">das Papier</span><span class="plural">, -e</span></span><span class="en">paper</span></div>
+        <p class="sample">Das Buch ist aus Papier.</p><p class="gloss">the · book · is · from · paper</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="das">das Formular</span><span class="plural">Pl. Formulare</span><span class="pos" title="neutrum">(n)</span></span><span class="en">form / document</span></div>
-        <p class="sample">Das Formular ist lang. · Ich fülle das Formular aus.</p>
-        <p class="gloss">The form is long</p>
+        <div class="word-row"><span class="de"><span class="das">das Plastik</span><span class="plural">, –</span></span><span class="en">plastic</span></div>
+        <p class="sample">Die Flasche ist aus Plastik.</p><p class="gloss">the · bottle · is · from · plastic</p>
       </li>
-
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Kunststoff</span><span class="plural">, -e</span></span><span class="en">synthetic material</span></div>
+        <p class="sample">Das ist aus Kunststoff.</p><p class="gloss">that · is · from · synthetic-material</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="die">die Farbe</span><span class="plural">, -n</span></span><span class="en">colour</span></div>
+        <p class="sample">Was ist deine Lieblingsfarbe?</p><p class="gloss">what · is · your · favourite-colour</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="das">das Wort</span><span class="plural">, ¨-er</span></span><span class="en">word</span></div>
+        <p class="sample">Wie schreibt man das Wort?</p><p class="gloss">how · writes · one · the · word</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">eckig<span class="pos">(adj)</span></span><span class="en">angular / rectangular</span></div>
+        <p class="sample">Der Tisch ist eckig.</p><p class="gloss">the · table · is · rectangular</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">rund<span class="pos">(adj)</span></span><span class="en">round</span></div>
+        <p class="sample">Der Tisch ist rund.</p><p class="gloss">the · table · is · round</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">blau<span class="pos">(adj)</span></span><span class="en">blue</span></div>
+        <p class="sample">Das Buch ist blau.</p><p class="gloss">the · book · is · blue</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">braun<span class="pos">(adj)</span></span><span class="en">brown</span></div>
+        <p class="sample">Der Tisch ist braun.</p><p class="gloss">the · table · is · brown</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">gelb<span class="pos">(adj)</span></span><span class="en">yellow</span></div>
+        <p class="sample">Die Lampe ist gelb.</p><p class="gloss">the · lamp · is · yellow</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">grün<span class="pos">(adj)</span></span><span class="en">green</span></div>
+        <p class="sample">Die Flasche ist grün.</p><p class="gloss">the · bottle · is · green</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">rot<span class="pos">(adj)</span></span><span class="en">red</span></div>
+        <p class="sample">Der Schlüssel ist rot.</p><p class="gloss">the · key · is · red</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">schwarz<span class="pos">(adj)</span></span><span class="en">black</span></div>
+        <p class="sample">Die Tasche ist schwarz.</p><p class="gloss">the · bag · is · black</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">weiß<span class="pos">(adj)</span></span><span class="en">white</span></div>
+        <p class="sample">Das Papier ist weiß.</p><p class="gloss">the · paper · is · white</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">grau<span class="pos">(adj)</span></span><span class="en">grey</span></div>
+        <p class="sample">Der Himmel ist grau.</p><p class="gloss">the · sky · is · grey</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">deutsch<span class="pos">(adj)</span></span><span class="en">German</span></div>
+        <p class="sample">Das Wort ist auf Deutsch.</p><p class="gloss">the · word · is · in · German</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">auf Deutsch<span class="pos">(adj)</span></span><span class="en">in German</span></div>
+        <p class="sample">Wie heißt das auf Deutsch?</p><p class="gloss">how · is-it-called · that · in · German</p>
+      </li>
     </ul>
   </section>
-
-  <nav class="lesson-nav">
+  <div class="lesson-nav">
     <a href="Lektion-4.html">← Lektion 4</a>
-    <a href="Lektion-6.html">Lektion 6 →</a>
-  </nav>
+    <a href="Lektion-6.html">→ Lektion 6</a>
+  </div>
 </body>
 </html>

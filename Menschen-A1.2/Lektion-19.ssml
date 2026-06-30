@@ -1,0 +1,79 @@
+<speak>
+  <voice name="de-DE-Chirp3-HD-Puck">Menschen A1.2. Lektion 19. Der hatte doch keinen Bauch!</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">beschweren (sich)</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">beschweren (sich)</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">beschweren (sich).</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Der Gast beschwert sich.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">erkennen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">erkennen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">erkennen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Ich erkenne ihn nicht mehr.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">geboren sein</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">geboren sein</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">geboren sein.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Wann bist du geboren?</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">vergessen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">vergessen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">vergessen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Ich habe seinen Namen vergessen.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Bart</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Bart</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Bart.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Er hat jetzt einen Bart.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Haar</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Haar</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Haar.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Ihre Haare sind jetzt kurz.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Bäckerei</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Bäckerei</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Bäckerei.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Die Bäckerei öffnet um 6 Uhr.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Hausfrau</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Hausfrau</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Hausfrau.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Sie ist Hausfrau.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">blond</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">blond</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">blond.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Sie hat blonde Haare.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">dick</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">dick</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">dick.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Er ist ein bisschen dick.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">dünn</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">dünn</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">dünn.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Sie ist sehr dünn.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">glatt</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">glatt</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">glatt.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Sie hat glatte Haare.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">grau</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">grau</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">grau.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Der Himmel ist grau.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">hübsch</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">hübsch</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">hübsch.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Sie ist sehr hübsch.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">schlank</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">schlank</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">schlank.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Er ist sehr schlank.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">freundlich</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">freundlich</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">freundlich.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Sie ist sehr freundlich.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">fröhlich</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">fröhlich</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">fröhlich.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Er ist immer fröhlich.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">glücklich</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">glücklich</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">glücklich.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Ich bin sehr glücklich.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">komisch</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">komisch</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">komisch.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Das ist sehr komisch.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">seltsam</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">seltsam</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">seltsam.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Das ist sehr seltsam.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">sympathisch</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">sympathisch</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">sympathisch.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Er ist sehr sympathisch.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">traurig</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">traurig</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">traurig.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Sie ist sehr traurig.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">gleich</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">gleich</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">gleich.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Das ist gleich um die Ecke.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">laut</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">laut</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">laut.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Die Musik ist zu laut.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">ledig</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">ledig</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">ledig.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Ich bin ledig.</voice> <break time="4s"/>
+
+</speak>

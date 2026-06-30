@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lektion 22 — Am besten sind seine Schuhe!</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+           background: #fff; color: #1a1a1a; font-size: 18px; line-height: 1.6;
+           padding: 3.5rem 1.25rem 2rem; max-width: 640px; margin: 0 auto; }
+    h1 { font-size: 1.4rem; font-weight: 700; margin-bottom: 0.35rem; }
+    .legend { font-size: 0.78rem; color: #888; margin-bottom: 0.5rem; }
+    .legend span { margin-right: 1rem; }
+    .der { color: #1d4ed8; } .die { color: #db2477; } .das { color: #059669; }
+    h2 { font-size: 0.85rem; font-weight: 600; text-transform: uppercase;
+         letter-spacing: 0.09em; color: #aaa; margin-bottom: 1.2rem; }
+    section { margin-bottom: 3rem; }
+    .word-list { list-style: none; }
+    .word-list li { padding: 0.5rem 0; border-bottom: 1px solid #f0f0f0; }
+    .word-list li:last-child { border-bottom: none; }
+    .word-row { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; }
+    .de { font-size: 1rem; font-weight: 500; }
+    .plural { font-size: 0.75rem; color: #bbb; font-weight: 400; margin-left: 0.35rem; }
+    .en { font-size: 0.85rem; color: #999; text-align: right; flex-shrink: 0; }
+    .sample { font-size: 0.82rem; color: #bbb; font-style: italic; margin-top: 0.1rem; }
+    .gloss  { font-size: 0.75rem; color: #d0d0d0; margin-top: 0.05rem; }
+    .back-link { display: block; font-size: 0.78rem; color: #bbb; text-decoration: none; margin-bottom: 1.5rem; }
+    .back-link:hover { color: #888; }
+    .verb-reg { color: #d97706; } .verb-irr { color: #7c3aed; }
+    .pos { font-style: italic; font-size: 0.72rem; color: #bbb; font-weight: 400; margin-left: 0.35rem; }
+    #player { position: fixed; top: 0; left: 0; right: 0; background: #fff;
+              border-bottom: 1px solid #f0f0f0; z-index: 100; padding: 0.5rem 1.25rem;
+              display: flex; align-items: center; justify-content: center; gap: 0.75rem; }
+    #player button { background: none; border: 1px solid #ddd; border-radius: 4px;
+                     padding: 0.3rem 0.7rem; font-size: 0.82rem; color: #555; cursor: pointer; line-height: 1.4; }
+    #player button:hover { border-color: #aaa; color: #111; }
+    #player #pp { min-width: 2.2rem; }
+    #progress { position: absolute; bottom: 0; left: 0; height: 2px; background: #1d4ed8; width: 0%; }
+    .lesson-nav { display: flex; justify-content: space-between; margin-top: 3rem;
+                  padding-top: 1.5rem; border-top: 1px solid #f0f0f0; font-size: 0.82rem; }
+    .lesson-nav a { color: #bbb; text-decoration: none; }
+    .lesson-nav a:hover { color: #555; }
+
+  </style>
+</head>
+<body>
+  <div id="player">
+    <audio id="audio" src="Lektion-22.mp3"></audio>
+    <button onclick="restart()">↺</button>
+    <button onclick="seek(-10)">−10s</button>
+    <button id="pp" onclick="togglePlay()">▶</button>
+    <button onclick="seek(10)">+10s</button>
+    <div id="progress"></div>
+  </div>
+  <script>
+
+    const audio = document.getElementById('audio');
+    const pp    = document.getElementById('pp');
+    function togglePlay() {
+      if (audio.paused) { audio.play(); pp.textContent = '⏸'; }
+      else              { audio.pause(); pp.textContent = '▶'; }
+    }
+    function seek(s) { audio.currentTime = Math.max(0, audio.currentTime + s); }
+    function restart() { audio.currentTime = 0; audio.play(); pp.textContent = '⏸'; }
+    audio.addEventListener('ended', () => pp.textContent = '▶');
+    const bar = document.getElementById('progress');
+    audio.addEventListener('timeupdate', () => {
+      if (audio.duration) bar.style.width = (audio.currentTime / audio.duration * 100) + '%';
+    });
+
+  </script>
+  <a class="back-link" href="index.html">← Alle Lektionen</a>
+  <h1>Lektion 22 — Am besten sind seine Schuhe!</h1>
+  <p class="legend">
+    <span><span class="der">■</span> der (m)</span>
+    <span><span class="die">■</span> die (f)</span>
+    <span><span class="das">■</span> das (n)</span>
+    <span><span class="verb-reg">■</span> reg.</span>
+    <span><span class="verb-irr">■</span> irr.</span>
+    <span><span class="pos">(adj)</span> Adjektiv / Adverb</span>
+  </p>
+  <section>
+    <h2>Wortschatz</h2>
+    <ul class="word-list">
+      <li>
+        <div class="word-row"><span class="de"><span class="verb-reg">anhaben</span></span><span class="en">to have on / wear</span></div>
+        <p class="sample">Was hast du heute an?</p><p class="gloss">what · have · you · today · on</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="verb-irr">anziehen</span></span><span class="en">to put on / dress</span></div>
+        <p class="sample">Zieh dich warm an!</p><p class="gloss">dress · yourself · warmly</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="verb-reg">erzählen</span></span><span class="en">to tell / narrate</span></div>
+        <p class="sample">Er erzählt eine Geschichte.</p><p class="gloss">he · tells · a · story</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="die">die Kleidung</span><span class="plural">, –</span></span><span class="en">clothing</span></div>
+        <p class="sample">Ich kaufe neue Kleidung.</p><p class="gloss">I · buy · new · clothing</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="die">die Bluse</span><span class="plural">, -n</span></span><span class="en">blouse</span></div>
+        <p class="sample">Die Bluse ist sehr schön.</p><p class="gloss">the · blouse · is · very · beautiful</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="die">die Jacke</span><span class="plural">, -n</span></span><span class="en">jacket</span></div>
+        <p class="sample">Die Jacke ist sehr warm.</p><p class="gloss">the · jacket · is · very · warm</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Gürtel</span><span class="plural">, -</span></span><span class="en">belt</span></div>
+        <p class="sample">Der Gürtel ist aus Leder.</p><p class="gloss">the · belt · is · from · leather</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="das">das Hemd</span><span class="plural">, -en</span></span><span class="en">shirt</span></div>
+        <p class="sample">Das Hemd ist weiß.</p><p class="gloss">the · shirt · is · white</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="die">die Hose</span><span class="plural">, -n</span></span><span class="en">trousers</span></div>
+        <p class="sample">Die Hose ist blau.</p><p class="gloss">the · trousers · are · blue</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Hut</span><span class="plural">, ¨-e</span></span><span class="en">hat</span></div>
+        <p class="sample">Der Hut ist sehr elegant.</p><p class="gloss">the · hat · is · very · elegant</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="das">das Kleid</span><span class="plural">, -er</span></span><span class="en">dress</span></div>
+        <p class="sample">Das Kleid ist sehr elegant.</p><p class="gloss">the · dress · is · very · elegant</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Mantel</span><span class="plural">, ¨-</span></span><span class="en">coat</span></div>
+        <p class="sample">Im Winter trage ich einen Mantel.</p><p class="gloss">in-the · winter · wear · I · a · coat</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="die">die Mütze</span><span class="plural">, -n</span></span><span class="en">woollen hat / cap</span></div>
+        <p class="sample">Im Winter trage ich eine Mütze.</p><p class="gloss">in-the · winter · wear · I · a · woolly-hat</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Pullover</span><span class="plural">, -</span></span><span class="en">pullover / jumper</span></div>
+        <p class="sample">Der Pullover ist sehr warm.</p><p class="gloss">the · pullover · is · very · warm</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Rock</span><span class="plural">, ¨-e</span></span><span class="en">skirt</span></div>
+        <p class="sample">Der Rock ist sehr schön.</p><p class="gloss">the · skirt · is · very · beautiful</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Schuh</span><span class="plural">, -e</span></span><span class="en">shoe</span></div>
+        <p class="sample">Am besten sind seine Schuhe!</p><p class="gloss">at-the-best · are · his · shoes</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="die">die Socke</span><span class="plural">, -n</span></span><span class="en">sock</span></div>
+        <p class="sample">Meine Socken sind neu.</p><p class="gloss">my · socks · are · new</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Strumpf</span><span class="plural">, ¨-e</span></span><span class="en">stocking</span></div>
+        <p class="sample">Die Strümpfe sind schwarz.</p><p class="gloss">the · stockings · are · black</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="die">die Strumpfhose</span><span class="plural">, -n</span></span><span class="en">tights</span></div>
+        <p class="sample">Die Strumpfhose ist kaputt.</p><p class="gloss">the · tights · are · broken</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="das">das T-Shirt</span><span class="plural">, -s</span></span><span class="en">T-shirt</span></div>
+        <p class="sample">Das T-Shirt ist weiß.</p><p class="gloss">the · T-shirt · is · white</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Text</span><span class="plural">, -e</span></span><span class="en">text</span></div>
+        <p class="sample">Ich lese den Text.</p><p class="gloss">I · read · the · text</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">klug<span class="pos">(adj)</span></span><span class="en">clever / smart</span></div>
+        <p class="sample">Sie ist sehr klug.</p><p class="gloss">she · is · very · clever</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">als<span class="pos">(adj)</span></span><span class="en">than / as</span></div>
+        <p class="sample">Er ist größer als sie.</p><p class="gloss">he · is · taller · than · her</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">wie<span class="pos">(adj)</span></span><span class="en">how / like</span></div>
+        <p class="sample">Wie heißen Sie?</p><p class="gloss">how · are-you-called · you</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">zuletzt<span class="pos">(adj)</span></span><span class="en">last / finally</span></div>
+        <p class="sample">Zuletzt kaufe ich die Schuhe.</p><p class="gloss">last · buy · I · the · shoes</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">zurzeit<span class="pos">(adj)</span></span><span class="en">currently</span></div>
+        <p class="sample">Zurzeit arbeite ich viel.</p><p class="gloss">currently · work · I · much</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">Klasse!</span><span class="en">Great!</span></div>
+        <p class="sample">Klasse! Das ist super!</p><p class="gloss">great · that · is · super</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">Toll!</span><span class="en">Fantastic!</span></div>
+        <p class="sample">Toll! Du hast es geschafft!</p><p class="gloss">fantastic · you · have · it · managed</p>
+      </li>
+    </ul>
+  </section>
+  <div class="lesson-nav">
+    <a href="Lektion-21.html">← Lektion 21</a>
+    <a href="Lektion-23.html">→ Lektion 23</a>
+  </div>
+</body>
+</html>

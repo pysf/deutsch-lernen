@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lektion 16 — Wir haben hier ein Problem.</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+           background: #fff; color: #1a1a1a; font-size: 18px; line-height: 1.6;
+           padding: 3.5rem 1.25rem 2rem; max-width: 640px; margin: 0 auto; }
+    h1 { font-size: 1.4rem; font-weight: 700; margin-bottom: 0.35rem; }
+    .legend { font-size: 0.78rem; color: #888; margin-bottom: 0.5rem; }
+    .legend span { margin-right: 1rem; }
+    .der { color: #1d4ed8; } .die { color: #db2477; } .das { color: #059669; }
+    h2 { font-size: 0.85rem; font-weight: 600; text-transform: uppercase;
+         letter-spacing: 0.09em; color: #aaa; margin-bottom: 1.2rem; }
+    section { margin-bottom: 3rem; }
+    .word-list { list-style: none; }
+    .word-list li { padding: 0.5rem 0; border-bottom: 1px solid #f0f0f0; }
+    .word-list li:last-child { border-bottom: none; }
+    .word-row { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; }
+    .de { font-size: 1rem; font-weight: 500; }
+    .plural { font-size: 0.75rem; color: #bbb; font-weight: 400; margin-left: 0.35rem; }
+    .en { font-size: 0.85rem; color: #999; text-align: right; flex-shrink: 0; }
+    .sample { font-size: 0.82rem; color: #bbb; font-style: italic; margin-top: 0.1rem; }
+    .gloss  { font-size: 0.75rem; color: #d0d0d0; margin-top: 0.05rem; }
+    .back-link { display: block; font-size: 0.78rem; color: #bbb; text-decoration: none; margin-bottom: 1.5rem; }
+    .back-link:hover { color: #888; }
+    .verb-reg { color: #d97706; } .verb-irr { color: #7c3aed; }
+    .pos { font-style: italic; font-size: 0.72rem; color: #bbb; font-weight: 400; margin-left: 0.35rem; }
+    #player { position: fixed; top: 0; left: 0; right: 0; background: #fff;
+              border-bottom: 1px solid #f0f0f0; z-index: 100; padding: 0.5rem 1.25rem;
+              display: flex; align-items: center; justify-content: center; gap: 0.75rem; }
+    #player button { background: none; border: 1px solid #ddd; border-radius: 4px;
+                     padding: 0.3rem 0.7rem; font-size: 0.82rem; color: #555; cursor: pointer; line-height: 1.4; }
+    #player button:hover { border-color: #aaa; color: #111; }
+    #player #pp { min-width: 2.2rem; }
+    #progress { position: absolute; bottom: 0; left: 0; height: 2px; background: #1d4ed8; width: 0%; }
+    .lesson-nav { display: flex; justify-content: space-between; margin-top: 3rem;
+                  padding-top: 1.5rem; border-top: 1px solid #f0f0f0; font-size: 0.82rem; }
+    .lesson-nav a { color: #bbb; text-decoration: none; }
+    .lesson-nav a:hover { color: #555; }
+
+  </style>
+</head>
+<body>
+  <div id="player">
+    <audio id="audio" src="Lektion-16.mp3"></audio>
+    <button onclick="restart()">↺</button>
+    <button onclick="seek(-10)">−10s</button>
+    <button id="pp" onclick="togglePlay()">▶</button>
+    <button onclick="seek(10)">+10s</button>
+    <div id="progress"></div>
+  </div>
+  <script>
+
+    const audio = document.getElementById('audio');
+    const pp    = document.getElementById('pp');
+    function togglePlay() {
+      if (audio.paused) { audio.play(); pp.textContent = '⏸'; }
+      else              { audio.pause(); pp.textContent = '▶'; }
+    }
+    function seek(s) { audio.currentTime = Math.max(0, audio.currentTime + s); }
+    function restart() { audio.currentTime = 0; audio.play(); pp.textContent = '⏸'; }
+    audio.addEventListener('ended', () => pp.textContent = '▶');
+    const bar = document.getElementById('progress');
+    audio.addEventListener('timeupdate', () => {
+      if (audio.duration) bar.style.width = (audio.currentTime / audio.duration * 100) + '%';
+    });
+
+  </script>
+  <a class="back-link" href="index.html">← Alle Lektionen</a>
+  <h1>Lektion 16 — Wir haben hier ein Problem.</h1>
+  <p class="legend">
+    <span><span class="der">■</span> der (m)</span>
+    <span><span class="die">■</span> die (f)</span>
+    <span><span class="das">■</span> das (n)</span>
+    <span><span class="verb-reg">■</span> reg.</span>
+    <span><span class="verb-irr">■</span> irr.</span>
+    <span><span class="pos">(adj)</span> Adjektiv / Adverb</span>
+  </p>
+  <section>
+    <h2>Wortschatz</h2>
+    <ul class="word-list">
+      <li>
+        <div class="word-row"><span class="de"><span class="verb-irr">bringen</span></span><span class="en">to bring</span></div>
+        <p class="sample">Können Sie mir ein Handtuch bringen?</p><p class="gloss">can · you · me · a · towel · bring</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="verb-reg">funktionieren</span></span><span class="en">to work / function</span></div>
+        <p class="sample">Das Licht funktioniert nicht.</p><p class="gloss">the · light · works · not</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="verb-reg">kümmern</span></span><span class="en">to take care of</span></div>
+        <p class="sample">Ich kümmere mich darum.</p><p class="gloss">I · take-care · myself · about-it</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="verb-reg">reparieren</span></span><span class="en">to repair</span></div>
+        <p class="sample">Können Sie den Fernseher reparieren?</p><p class="gloss">can · you · the · TV · repair</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="verb-reg">termine absagen</span></span><span class="en">to cancel appointments</span></div>
+        <p class="sample">Ich muss alle Termine absagen.</p><p class="gloss">I · must · all · appointments · cancel</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="verb-reg">vereinbaren</span></span><span class="en">to arrange</span></div>
+        <p class="sample">Wir vereinbaren einen Termin.</p><p class="gloss">we · arrange · an · appointment</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="verb-reg">verschieben</span></span><span class="en">to postpone</span></div>
+        <p class="sample">Können wir den Termin verschieben?</p><p class="gloss">can · we · the · appointment · postpone</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="verb-reg">passen</span></span><span class="en">to suit / fit</span></div>
+        <p class="sample">Passt es dir morgen?</p><p class="gloss">suits · it · you · tomorrow</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="verb-reg">ausmachen</span></span><span class="en">to arrange / turn off</span></div>
+        <p class="sample">Wir machen einen Termin aus.</p><p class="gloss">we · arrange · an · appointment</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="verb-reg">kennenlernen</span></span><span class="en">to get to know</span></div>
+        <p class="sample">Ich möchte Sie kennenlernen.</p><p class="gloss">I · would-like · you · get-to-know</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="verb-reg">mitnehmen</span></span><span class="en">to take along</span></div>
+        <p class="sample">Kannst du mich mitnehmen?</p><p class="gloss">can · you · me · take-along</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="verb-irr">tun</span></span><span class="en">to do</span></div>
+        <p class="sample">Was kann ich für Sie tun?</p><p class="gloss">what · can · I · for · you · do</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="verb-reg">warten</span></span><span class="en">to wait</span></div>
+        <p class="sample">Können Sie bitte warten?</p><p class="gloss">can · you · please · wait</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Aufzug</span><span class="plural">, ¨-e</span></span><span class="en">elevator / lift</span></div>
+        <p class="sample">Die Wohnung ist im dritten Stock — mit Aufzug!</p><p class="gloss">the · apartment · is · on-the · third-floor · with · elevator</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="die">die Dusche</span><span class="plural">, -n</span></span><span class="en">shower</span></div>
+        <p class="sample">Die Dusche funktioniert nicht.</p><p class="gloss">the · shower · works · not</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Fernseher</span><span class="plural">, -</span></span><span class="en">television / TV</span></div>
+        <p class="sample">Der Fernseher ist kaputt.</p><p class="gloss">the · TV · is · broken</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Föhn</span><span class="plural">, -e / -s</span></span><span class="en">hair dryer</span></div>
+        <p class="sample">Mein Föhn ist kaputt.</p><p class="gloss">my · hair-dryer · is · broken</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Gast</span><span class="plural">, ¨-e</span></span><span class="en">guest</span></div>
+        <p class="sample">Wir haben heute Gäste.</p><p class="gloss">we · have · today · guests</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="das">das Handtuch</span><span class="plural">, ¨-er</span></span><span class="en">towel</span></div>
+        <p class="sample">Wir haben keine Handtücher.</p><p class="gloss">we · have · no · towels</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="die">die Heizung</span><span class="plural">, -en</span></span><span class="en">heating</span></div>
+        <p class="sample">Die Heizung ist kaputt.</p><p class="gloss">the · heating · is · broken</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="die">die Klimaanlage</span><span class="plural">, -n</span></span><span class="en">air conditioning</span></div>
+        <p class="sample">Die Klimaanlage macht Lärm.</p><p class="gloss">the · air-conditioning · makes · noise</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="die">die Verbindung</span><span class="plural">, -en</span></span><span class="en">connection</span></div>
+        <p class="sample">Die Verbindung ist sehr gut.</p><p class="gloss">the · connection · is · very · good</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="die">die Internetverbindung</span><span class="plural">, -en</span></span><span class="en">internet connection</span></div>
+        <p class="sample">Die Internetverbindung ist kaputt.</p><p class="gloss">the · internet-connection · is · broken</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Wecker</span><span class="plural">, -</span></span><span class="en">alarm clock</span></div>
+        <p class="sample">Mein Wecker klingelt um 7 Uhr.</p><p class="gloss">my · alarm-clock · rings · at · 7 · o'clock</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="die">die Lust</span><span class="plural">, ¨-e</span></span><span class="en">desire</span></div>
+        <p class="sample">Ich habe keine Lust.</p><p class="gloss">I · have · no · desire</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="die">die Angst</span><span class="plural">, ¨-e</span></span><span class="en">fear</span></div>
+        <p class="sample">Ich habe Angst.</p><p class="gloss">I · have · fear</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Kurs</span><span class="plural">, -e (Tanz-</span></span><span class="en">course / class</span></div>
+        <p class="sample">Ich gehe zum Deutschkurs.</p><p class="gloss">I · go · to-the · German-class</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="das">das Leben</span><span class="plural">, –</span></span><span class="en">life</span></div>
+        <p class="sample">Das Leben hier ist sehr schön.</p><p class="gloss">the · life · here · is · very · beautiful</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="die">die Sitzung</span><span class="plural">, -en</span></span><span class="en">meeting</span></div>
+        <p class="sample">Die Sitzung beginnt um 10 Uhr.</p><p class="gloss">the · meeting · begins · at · 10 · o'clock</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="die">die Stunde</span><span class="plural">, -n</span></span><span class="en">hour</span></div>
+        <p class="sample">Ich warte seit einer Stunde.</p><p class="gloss">I · wait · since · an · hour</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">kaputt<span class="pos">(adj)</span></span><span class="en">broken</span></div>
+        <p class="sample">Der Fernseher ist kaputt.</p><p class="gloss">the · TV · is · broken</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">sofort<span class="pos">(adj)</span></span><span class="en">immediately</span></div>
+        <p class="sample">Ich komme sofort!</p><p class="gloss">I · come · immediately</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">pünktlich<span class="pos">(adj)</span></span><span class="en">punctual / on time</span></div>
+        <p class="sample">Er kommt immer pünktlich.</p><p class="gloss">he · comes · always · punctual</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">die halbe Stunde<span class="pos">(adj)</span></span><span class="en">half an hour</span></div>
+        <p class="sample">Eine halbe Stunde, bitte.</p><p class="gloss">a · half · hour · please</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">dumm<span class="pos">(adj)</span></span><span class="en">stupid</span></div>
+        <p class="sample">Das ist sehr dumm!</p><p class="gloss">that · is · very · stupid</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">lustig<span class="pos">(adj)</span></span><span class="en">funny / fun</span></div>
+        <p class="sample">Der Film ist sehr lustig.</p><p class="gloss">the · film · is · very · funny</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">seltsam<span class="pos">(adj)</span></span><span class="en">strange</span></div>
+        <p class="sample">Das ist sehr seltsam.</p><p class="gloss">that · is · very · strange</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">sicher<span class="pos">(adj)</span></span><span class="en">safe / certain</span></div>
+        <p class="sample">Das Haus ist sicher.</p><p class="gloss">the · house · is · safe</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">nichts<span class="pos">(adj)</span></span><span class="en">nothing</span></div>
+        <p class="sample">Ich verstehe nichts.</p><p class="gloss">I · understand · nothing</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">selbst<span class="pos">(adj)</span></span><span class="en">oneself</span></div>
+        <p class="sample">Das mache ich selbst.</p><p class="gloss">that · do · I · myself</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">Bescheid sagen</span><span class="en">to let someone know</span></div>
+        <p class="sample">Sagen Sie mir Bescheid!</p><p class="gloss">tell · you · me · please</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">Hilfe rufen</span><span class="en">to call for help</span></div>
+        <p class="sample">Ich muss Hilfe rufen.</p><p class="gloss">I · must · help · call</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">Lust haben</span><span class="en">to feel like (doing)</span></div>
+        <p class="sample">Hast du Lust ins Kino zu gehen?</p><p class="gloss">have · you · desire · to-the-cinema · to · go</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">Angst haben</span><span class="en">to be afraid</span></div>
+        <p class="sample">Hast du Angst?</p><p class="gloss">have · you · fear</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">Sehr geehrte</span><span class="en">Dear (formal, f)</span></div>
+        <p class="sample">Sehr geehrte Frau Müller, ...</p><p class="gloss">dear · Ms · Müller</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">Mit freundlichen Grüßen</span><span class="en">Kind regards</span></div>
+        <p class="sample">Mit freundlichen Grüßen, Anna Müller.</p><p class="gloss">kind-regards · Anna · Müller</p>
+      </li>
+    </ul>
+  </section>
+  <div class="lesson-nav">
+    <a href="Lektion-15.html">← Lektion 15</a>
+    <a href="Lektion-17.html">→ Lektion 17</a>
+  </div>
+</body>
+</html>

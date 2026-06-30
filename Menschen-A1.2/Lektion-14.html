@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lektion 14 — Wie findest du Ottos Haus?</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+           background: #fff; color: #1a1a1a; font-size: 18px; line-height: 1.6;
+           padding: 3.5rem 1.25rem 2rem; max-width: 640px; margin: 0 auto; }
+    h1 { font-size: 1.4rem; font-weight: 700; margin-bottom: 0.35rem; }
+    .legend { font-size: 0.78rem; color: #888; margin-bottom: 0.5rem; }
+    .legend span { margin-right: 1rem; }
+    .der { color: #1d4ed8; } .die { color: #db2477; } .das { color: #059669; }
+    h2 { font-size: 0.85rem; font-weight: 600; text-transform: uppercase;
+         letter-spacing: 0.09em; color: #aaa; margin-bottom: 1.2rem; }
+    section { margin-bottom: 3rem; }
+    .word-list { list-style: none; }
+    .word-list li { padding: 0.5rem 0; border-bottom: 1px solid #f0f0f0; }
+    .word-list li:last-child { border-bottom: none; }
+    .word-row { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; }
+    .de { font-size: 1rem; font-weight: 500; }
+    .plural { font-size: 0.75rem; color: #bbb; font-weight: 400; margin-left: 0.35rem; }
+    .en { font-size: 0.85rem; color: #999; text-align: right; flex-shrink: 0; }
+    .sample { font-size: 0.82rem; color: #bbb; font-style: italic; margin-top: 0.1rem; }
+    .gloss  { font-size: 0.75rem; color: #d0d0d0; margin-top: 0.05rem; }
+    .back-link { display: block; font-size: 0.78rem; color: #bbb; text-decoration: none; margin-bottom: 1.5rem; }
+    .back-link:hover { color: #888; }
+    .verb-reg { color: #d97706; } .verb-irr { color: #7c3aed; }
+    .pos { font-style: italic; font-size: 0.72rem; color: #bbb; font-weight: 400; margin-left: 0.35rem; }
+    #player { position: fixed; top: 0; left: 0; right: 0; background: #fff;
+              border-bottom: 1px solid #f0f0f0; z-index: 100; padding: 0.5rem 1.25rem;
+              display: flex; align-items: center; justify-content: center; gap: 0.75rem; }
+    #player button { background: none; border: 1px solid #ddd; border-radius: 4px;
+                     padding: 0.3rem 0.7rem; font-size: 0.82rem; color: #555; cursor: pointer; line-height: 1.4; }
+    #player button:hover { border-color: #aaa; color: #111; }
+    #player #pp { min-width: 2.2rem; }
+    #progress { position: absolute; bottom: 0; left: 0; height: 2px; background: #1d4ed8; width: 0%; }
+    .lesson-nav { display: flex; justify-content: space-between; margin-top: 3rem;
+                  padding-top: 1.5rem; border-top: 1px solid #f0f0f0; font-size: 0.82rem; }
+    .lesson-nav a { color: #bbb; text-decoration: none; }
+    .lesson-nav a:hover { color: #555; }
+
+  </style>
+</head>
+<body>
+  <div id="player">
+    <audio id="audio" src="Lektion-14.mp3"></audio>
+    <button onclick="restart()">↺</button>
+    <button onclick="seek(-10)">−10s</button>
+    <button id="pp" onclick="togglePlay()">▶</button>
+    <button onclick="seek(10)">+10s</button>
+    <div id="progress"></div>
+  </div>
+  <script>
+
+    const audio = document.getElementById('audio');
+    const pp    = document.getElementById('pp');
+    function togglePlay() {
+      if (audio.paused) { audio.play(); pp.textContent = '⏸'; }
+      else              { audio.pause(); pp.textContent = '▶'; }
+    }
+    function seek(s) { audio.currentTime = Math.max(0, audio.currentTime + s); }
+    function restart() { audio.currentTime = 0; audio.play(); pp.textContent = '⏸'; }
+    audio.addEventListener('ended', () => pp.textContent = '▶');
+    const bar = document.getElementById('progress');
+    audio.addEventListener('timeupdate', () => {
+      if (audio.duration) bar.style.width = (audio.currentTime / audio.duration * 100) + '%';
+    });
+
+  </script>
+  <a class="back-link" href="index.html">← Alle Lektionen</a>
+  <h1>Lektion 14 — Wie findest du Ottos Haus?</h1>
+  <p class="legend">
+    <span><span class="der">■</span> der (m)</span>
+    <span><span class="die">■</span> die (f)</span>
+    <span><span class="das">■</span> das (n)</span>
+    <span><span class="verb-reg">■</span> reg.</span>
+    <span><span class="verb-irr">■</span> irr.</span>
+    <span><span class="pos">(adj)</span> Adjektiv / Adverb</span>
+  </p>
+  <section>
+    <h2>Wortschatz</h2>
+    <ul class="word-list">
+      <li>
+        <div class="word-row"><span class="de"><span class="verb-reg">vermieten</span></span><span class="en">to rent out</span></div>
+        <p class="sample">Er vermietet sein Haus.</p><p class="gloss">he · rents-out · his · house</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="verb-irr">aussehen</span></span><span class="en">to look / appear</span></div>
+        <p class="sample">Das Haus sieht toll aus.</p><p class="gloss">the · house · looks · great</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="verb-reg">bezahlen</span></span><span class="en">to pay</span></div>
+        <p class="sample">Wie viel muss ich bezahlen?</p><p class="gloss">how · much · must · I · pay</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="verb-irr">stehen</span></span><span class="en">to stand</span></div>
+        <p class="sample">Das Sofa steht im Wohnzimmer.</p><p class="gloss">the · sofa · stands · in-the · living-room</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="das">das Haus</span><span class="plural">, ¨-er</span></span><span class="en">house</span></div>
+        <p class="sample">Wie findest du Ottos Haus?</p><p class="gloss">how · find · you · Otto's · house</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="die">die Wohnung</span><span class="plural">, -en</span></span><span class="en">apartment / flat</span></div>
+        <p class="sample">Ich suche eine 2-Zimmer-Wohnung.</p><p class="gloss">I · look-for · a · 2-room · apartment</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Balkon</span><span class="plural">, -e</span></span><span class="en">balcony</span></div>
+        <p class="sample">Da oben ist sein Balkon.</p><p class="gloss">there · up · is · his · balcony</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Baum</span><span class="plural">, ¨-e</span></span><span class="en">tree</span></div>
+        <p class="sample">Der Baum im Garten ist sehr groß.</p><p class="gloss">the · tree · in-the · garden · is · very · big</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="die">die Blume</span><span class="plural">, -n</span></span><span class="en">flower</span></div>
+        <p class="sample">Die Blumen im Garten sind schön.</p><p class="gloss">the · flowers · in-the · garden · are · beautiful</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="das">das Erdgeschoss</span><span class="plural">, -e</span></span><span class="en">ground floor</span></div>
+        <p class="sample">Im Erdgeschoss sind drei Zimmer.</p><p class="gloss">on-the · ground-floor · are · three · rooms</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="das">das Fenster</span><span class="plural">, -</span></span><span class="en">window</span></div>
+        <p class="sample">Das Fenster ist sehr groß.</p><p class="gloss">the · window · is · very · big</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="die">die Garage</span><span class="plural">, -n</span></span><span class="en">garage</span></div>
+        <p class="sample">Sein Auto steht in der Garage.</p><p class="gloss">his · car · stands · in · the · garage</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Garten</span><span class="plural">, ¨-</span></span><span class="en">garden</span></div>
+        <p class="sample">Seinen Garten mag ich nicht so.</p><p class="gloss">his · garden · like · I · not · so-much</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Keller</span><span class="plural">, -</span></span><span class="en">basement / cellar</span></div>
+        <p class="sample">Im Keller steht der Wein.</p><p class="gloss">in-the · cellar · stands · the · wine</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="das">das Licht</span><span class="plural">, -er</span></span><span class="en">light</span></div>
+        <p class="sample">Das Licht im Zimmer ist gut.</p><p class="gloss">the · light · in-the · room · is · good</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="die">die Miete</span><span class="plural">, -n</span></span><span class="en">rent</span></div>
+        <p class="sample">Die Miete beträgt 880 Euro.</p><p class="gloss">the · rent · amounts-to · 880 · euros</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Müll</span><span class="plural">, –</span></span><span class="en">rubbish / trash</span></div>
+        <p class="sample">Der Müll muss raus.</p><p class="gloss">the · rubbish · must · out</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Nachbar</span><span class="plural">, -n</span></span><span class="en">neighbour (m)</span></div>
+        <p class="sample">Mein Nachbar ist sehr nett.</p><p class="gloss">my · neighbour · is · very · nice</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Quadratmeter</span><span class="plural">, -</span></span><span class="en">square meter</span></div>
+        <p class="sample">Die Wohnung ist 60 Quadratmeter groß.</p><p class="gloss">the · apartment · is · 60 · square-metres · big</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Stock</span><span class="plural">, die Stockwerke</span></span><span class="en">floor / storey</span></div>
+        <p class="sample">Wir wohnen im dritten Stock.</p><p class="gloss">we · live · on-the · third · floor</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="die">die Treppe</span><span class="plural">, -n</span></span><span class="en">stairs / staircase</span></div>
+        <p class="sample">Die Treppe ist sehr steil.</p><p class="gloss">the · stairs · are · very · steep</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Vermieter</span><span class="plural">, -</span></span><span class="en">landlord</span></div>
+        <p class="sample">Der Vermieter heißt Braun.</p><p class="gloss">the · landlord · is-named · Braun</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="das">das Wasser</span><span class="plural">, –</span></span><span class="en">water</span></div>
+        <p class="sample">Hier gibt es kein warmes Wasser.</p><p class="gloss">here · gives · there · no · warm · water</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="das">das Arbeitszimmer</span><span class="plural">, -</span></span><span class="en">study / home office</span></div>
+        <p class="sample">Im Arbeitszimmer steht ein Schreibtisch.</p><p class="gloss">in-the · study · stands · a · desk</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="das">das Bad</span><span class="plural">, ¨-er</span></span><span class="en">bathroom</span></div>
+        <p class="sample">Das Bad ist sehr klein.</p><p class="gloss">the · bathroom · is · very · small</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Flur</span><span class="plural">, -e</span></span><span class="en">hallway</span></div>
+        <p class="sample">Der Flur ist sehr lang.</p><p class="gloss">the · hallway · is · very · long</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="das">das Kinderzimmer</span><span class="plural">, -</span></span><span class="en">children's room</span></div>
+        <p class="sample">Das Kinderzimmer ist oben.</p><p class="gloss">the · children's-room · is · upstairs</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="die">die Küche</span><span class="plural">, -n</span></span><span class="en">kitchen</span></div>
+        <p class="sample">Die Küche ist sehr modern.</p><p class="gloss">the · kitchen · is · very · modern</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="das">das Schlafzimmer</span><span class="plural">, -</span></span><span class="en">bedroom</span></div>
+        <p class="sample">Das Schlafzimmer ist oben.</p><p class="gloss">the · bedroom · is · upstairs</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="die">die Toilette</span><span class="plural">, -n</span></span><span class="en">toilet</span></div>
+        <p class="sample">Die Toilette ist rechts.</p><p class="gloss">the · toilet · is · right</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="das">das Wohnzimmer</span><span class="plural">, -</span></span><span class="en">living room</span></div>
+        <p class="sample">Rechts ist sein Wohnzimmer.</p><p class="gloss">right · is · his · living-room</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="das">das Zimmer</span><span class="plural">, -</span></span><span class="en">room</span></div>
+        <p class="sample">Das Zimmer ist sehr groß.</p><p class="gloss">the · room · is · very · big</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Berg</span><span class="plural">, -e</span></span><span class="en">mountain</span></div>
+        <p class="sample">Hinter dem Haus ist ein Berg.</p><p class="gloss">behind · the · house · is · a · mountain</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Fluss</span><span class="plural">, ¨-e</span></span><span class="en">river</span></div>
+        <p class="sample">Der Fluss ist sehr schön.</p><p class="gloss">the · river · is · very · beautiful</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="das">das Meer</span><span class="plural">, -e</span></span><span class="en">sea / ocean</span></div>
+        <p class="sample">Im Sommer fahre ich ans Meer.</p><p class="gloss">in-the · summer · drive · I · to-the · sea</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Wald</span><span class="plural">, ¨-er</span></span><span class="en">forest</span></div>
+        <p class="sample">Hinter dem Haus ist ein Wald.</p><p class="gloss">behind · the · house · is · a · forest</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="die">die Anzeige</span><span class="plural">, -n</span></span><span class="en">advertisement</span></div>
+        <p class="sample">Ich habe eine Anzeige gelesen.</p><p class="gloss">I · have · an · advertisement · read</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="die">die Fabrik</span><span class="plural">, -en</span></span><span class="en">factory</span></div>
+        <p class="sample">Die Fabrik ist sehr alt.</p><p class="gloss">the · factory · is · very · old</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="die">die Familie</span><span class="plural">, -n</span></span><span class="en">family</span></div>
+        <p class="sample">Das ist meine Familie.</p><p class="gloss">that · is · my · family</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="die">die Stadt</span><span class="plural">, ¨-e</span></span><span class="en">city / town</span></div>
+        <p class="sample">Die Stadt ist sehr groß.</p><p class="gloss">the · city · is · very · big</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="das">das Zelt</span><span class="plural">, -e</span></span><span class="en">tent</span></div>
+        <p class="sample">Wir schlafen im Zelt.</p><p class="gloss">we · sleep · in-the · tent</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">gemütlich<span class="pos">(adj)</span></span><span class="en">cozy</span></div>
+        <p class="sample">Das Zimmer ist sehr gemütlich.</p><p class="gloss">the · room · is · very · cozy</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">leer<span class="pos">(adj)</span></span><span class="en">empty</span></div>
+        <p class="sample">Das Zimmer ist noch leer.</p><p class="gloss">the · room · is · still · empty</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">möbliert<span class="pos">(adj)</span></span><span class="en">furnished</span></div>
+        <p class="sample">Die Wohnung ist möbliert.</p><p class="gloss">the · apartment · is · furnished</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">hinten<span class="pos">(adj)</span></span><span class="en">at the back</span></div>
+        <p class="sample">Das Bad ist hinten rechts.</p><p class="gloss">the · bathroom · is · at-the-back · right</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">oben<span class="pos">(adj)</span></span><span class="en">above / upstairs</span></div>
+        <p class="sample">Das Schlafzimmer ist oben.</p><p class="gloss">the · bedroom · is · upstairs</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">unten<span class="pos">(adj)</span></span><span class="en">below / downstairs</span></div>
+        <p class="sample">Die Küche ist unten.</p><p class="gloss">the · kitchen · is · downstairs</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">vorn<span class="pos">(adj)</span></span><span class="en">at the front</span></div>
+        <p class="sample">Der Garten ist vorn.</p><p class="gloss">the · garden · is · at-the-front</p>
+      </li>
+    </ul>
+  </section>
+  <div class="lesson-nav">
+    <a href="Lektion-13.html">← Lektion 13</a>
+    <a href="Lektion-15.html">→ Lektion 15</a>
+  </div>
+</body>
+</html>

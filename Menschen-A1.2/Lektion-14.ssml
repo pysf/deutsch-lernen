@@ -1,0 +1,148 @@
+<speak>
+  <voice name="de-DE-Chirp3-HD-Puck">Menschen A1.2. Lektion 14. Wie findest du Ottos Haus?</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">vermieten</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">vermieten</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">vermieten.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Er vermietet sein Haus.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">aussehen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">aussehen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">aussehen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Das Haus sieht toll aus.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">bezahlen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">bezahlen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">bezahlen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Wie viel muss ich bezahlen?</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">stehen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">stehen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">stehen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Das Sofa steht im Wohnzimmer.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Haus</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Haus</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Haus.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Wie findest du Ottos Haus?</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Wohnung</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Wohnung</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Wohnung.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Ich suche eine 2-Zimmer-Wohnung.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Balkon</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Balkon</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Balkon.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Da oben ist sein Balkon.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Baum</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Baum</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Baum.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Der Baum im Garten ist sehr groß.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Blume</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Blume</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Blume.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Die Blumen im Garten sind schön.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Erdgeschoss</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Erdgeschoss</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Erdgeschoss.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Im Erdgeschoss sind drei Zimmer.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Fenster</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Fenster</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Fenster.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Das Fenster ist sehr groß.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Garage</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Garage</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Garage.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Sein Auto steht in der Garage.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Garten</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Garten</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Garten.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Seinen Garten mag ich nicht so.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Keller</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Keller</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Keller.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Im Keller steht der Wein.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Licht</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Licht</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Licht.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Das Licht im Zimmer ist gut.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Miete</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Miete</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Miete.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Die Miete beträgt 880 Euro.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Müll</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Müll</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Müll.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Der Müll muss raus.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Nachbar</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Nachbar</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Nachbar.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Mein Nachbar ist sehr nett.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Quadratmeter</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Quadratmeter</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Quadratmeter.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Die Wohnung ist 60 Quadratmeter groß.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Stock</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Stock</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Stock.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Wir wohnen im dritten Stock.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Treppe</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Treppe</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Treppe.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Die Treppe ist sehr steil.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Vermieter</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Vermieter</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Vermieter.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Der Vermieter heißt Braun.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Wasser</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Wasser</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Wasser.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Hier gibt es kein warmes Wasser.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Arbeitszimmer</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Arbeitszimmer</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Arbeitszimmer.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Im Arbeitszimmer steht ein Schreibtisch.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Bad</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Bad</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Bad.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Das Bad ist sehr klein.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Flur</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Flur</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Flur.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Der Flur ist sehr lang.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Kinderzimmer</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Kinderzimmer</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Kinderzimmer.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Das Kinderzimmer ist oben.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Küche</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Küche</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Küche.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Die Küche ist sehr modern.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Schlafzimmer</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Schlafzimmer</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Schlafzimmer.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Das Schlafzimmer ist oben.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Toilette</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Toilette</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Toilette.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Die Toilette ist rechts.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Wohnzimmer</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Wohnzimmer</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Wohnzimmer.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Rechts ist sein Wohnzimmer.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Zimmer</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Zimmer</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Zimmer.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Das Zimmer ist sehr groß.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Berg</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Berg</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Berg.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Hinter dem Haus ist ein Berg.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Fluss</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Fluss</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Fluss.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Der Fluss ist sehr schön.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Meer</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Meer</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Meer.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Im Sommer fahre ich ans Meer.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Wald</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Wald</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Wald.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Hinter dem Haus ist ein Wald.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Anzeige</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Anzeige</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Anzeige.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Ich habe eine Anzeige gelesen.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Fabrik</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Fabrik</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Fabrik.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Die Fabrik ist sehr alt.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Familie</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Familie</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Familie.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Das ist meine Familie.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Stadt</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Stadt</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Stadt.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Die Stadt ist sehr groß.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Zelt</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Zelt</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Zelt.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Wir schlafen im Zelt.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">gemütlich</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">gemütlich</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">gemütlich.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Das Zimmer ist sehr gemütlich.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">leer</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">leer</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">leer.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Das Zimmer ist noch leer.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">möbliert</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">möbliert</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">möbliert.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Die Wohnung ist möbliert.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">hinten</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">hinten</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">hinten.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Das Bad ist hinten rechts.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">oben</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">oben</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">oben.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Das Schlafzimmer ist oben.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">unten</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">unten</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">unten.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Die Küche ist unten.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">vorn</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">vorn</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">vorn.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Der Garten ist vorn.</voice> <break time="4s"/>
+
+</speak>

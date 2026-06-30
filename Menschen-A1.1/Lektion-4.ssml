@@ -1,91 +1,106 @@
 <speak>
-  <voice name="de-DE-Chirp3-HD-Puck">Menschen A1.1. Lektion 4. Der Tisch ist schön.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Menschen A1.1. Lektion 4. Der Tisch ist schön!</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">groß</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">groß</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">groß.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Das Zimmer ist groß.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">finden</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">finden</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">finden.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Ich finde den Tisch sehr schön.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">klein</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">klein</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">klein.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Der Stuhl ist klein.</voice> <break time="4s"/>
-
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">modern</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">modern</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">modern.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Das Sofa ist modern.</voice> <break time="4s"/>
-
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">praktisch</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">praktisch</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">praktisch.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Der Tisch ist praktisch.</voice> <break time="4s"/>
-
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">schön</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">schön</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">schön.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Die Lampe ist schön.</voice> <break time="4s"/>
-
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">hässlich</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">hässlich</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">hässlich.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Der Teppich ist hässlich.</voice> <break time="4s"/>
-
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">billig</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">billig</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">billig.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Das Bett ist billig.</voice> <break time="4s"/>
-
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">günstig</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">günstig</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">günstig.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Der Sessel ist günstig.</voice> <break time="4s"/>
-
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">teuer</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">teuer</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">teuer.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Der Schrank ist teuer.</voice> <break time="4s"/>
-
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">brauchen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">brauchen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">brauchen.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">hat gebraucht.</prosody></voice> <break time="3.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Ich brauche einen Tisch.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">suchen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">suchen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">suchen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Ich suche ein Sofa.</voice> <break time="4s"/>
 
   <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">kosten</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">kosten</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">kosten.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">hat gekostet.</prosody></voice> <break time="3.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Das Sofa kostet 500 Euro.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Wie viel kostet das?</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">zeigen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">zeigen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">zeigen.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">hat gezeigt.</prosody></voice> <break time="3.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Ich zeige das Bild.</voice> <break time="4s"/>
-
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Bett</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Bett</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Bett.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Das Bett ist groß.</voice> <break time="4s"/>
-
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Bild</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Bild</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Bild.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Das Bild ist schön.</voice> <break time="4s"/>
-
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Couch</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Couch</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Couch.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Die Couch ist bequem.</voice> <break time="4s"/>
-
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Tisch</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Tisch</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Tisch.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Der Tisch ist modern.</voice> <break time="4s"/>
-
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Lampe</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Lampe</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Lampe.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Die Lampe ist schön.</voice> <break time="4s"/>
-
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Schrank</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Schrank</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Schrank.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Der Schrank ist groß.</voice> <break time="4s"/>
-
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Sessel</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Sessel</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Sessel.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Der Sessel ist bequem.</voice> <break time="4s"/>
-
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Sofa</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Sofa</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Sofa.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Das Sofa ist bequem.</voice> <break time="4s"/>
-
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Stuhl</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Stuhl</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Stuhl.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Der Stuhl ist klein.</voice> <break time="4s"/>
-
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Teppich</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Teppich</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Teppich.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Der Teppich ist schön.</voice> <break time="4s"/>
-
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Zimmer</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Zimmer</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Zimmer.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Das Zimmer ist groß.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">machen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">machen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">machen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Was machst du?</voice> <break time="4s"/>
 
   <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Möbel</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Möbel</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Möbel.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Die Möbel sind neu.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Die Möbel sind sehr modern.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Euro</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Euro</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Euro.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Der Euro ist die Währung.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Bett</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Bett</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Bett.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Das Bett ist sehr groß.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Preis</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Preis</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Preis.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Der Preis ist gut.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Bild</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Bild</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Bild.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Das Bild ist sehr modern.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Sonderangebot</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Sonderangebot</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Sonderangebot.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Das Sonderangebot ist gut.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Lampe</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Lampe</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Lampe.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Die Lampe ist sehr schön.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Möbelhaus</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Möbelhaus</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Möbelhaus.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Das Möbelhaus ist groß.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Schrank</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Schrank</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Schrank.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Der Schrank ist sehr alt.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Sessel</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Sessel</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Sessel.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Der Sessel ist sehr bequem.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Sofa</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Sofa</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Sofa.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Das Sofa ist sehr gemütlich.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Stuhl</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Stuhl</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Stuhl.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Der Stuhl ist sehr bequem.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Tisch</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Tisch</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Tisch.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Der Tisch ist sehr schön!</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Teppich</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Teppich</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Teppich.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Der Teppich ist sehr teuer.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Zimmer</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Zimmer</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Zimmer.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Das Zimmer ist sehr groß.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Küche</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Küche</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Küche.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Die Küche ist sehr modern.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Bad</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Bad</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Bad.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Das Bad ist sehr klein.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Haus</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Haus</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Haus.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Wie findest du Ottos Haus?</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Wohnung</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Wohnung</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Wohnung.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Ich suche eine 2-Zimmer-Wohnung.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">wie viel</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">wie viel</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">wie viel.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Wie viel kostet das?</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">neu</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">neu</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">neu.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Der Tisch ist neu.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">alt</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">alt</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">alt.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Das Sofa ist sehr alt.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">billig</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">billig</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">billig.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Das Bett ist sehr billig.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">günstig</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">günstig</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">günstig.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Der Preis ist sehr günstig.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">teuer</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">teuer</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">teuer.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Das Sofa ist zu teuer.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">schön</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">schön</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">schön.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Das Zimmer ist sehr schön.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">hässlich</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">hässlich</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">hässlich.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Das Bild ist sehr hässlich.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">groß</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">groß</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">groß.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Das Zimmer ist sehr groß.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">klein</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">klein</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">klein.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Die Küche ist sehr klein.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">modern</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">modern</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">modern.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Die Küche ist sehr modern.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">praktisch</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">praktisch</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">praktisch.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Der Stuhl ist sehr praktisch.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">leicht</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">leicht</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">leicht.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Der Tisch ist sehr leicht.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">schwer</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">schwer</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">schwer.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Der Schrank ist sehr schwer.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">sehr</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">sehr</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">sehr.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Das Sofa ist sehr schön.</voice> <break time="4s"/>
 
 </speak>

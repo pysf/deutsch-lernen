@@ -2,21 +2,28 @@
   <voice name="de-DE-Chirp3-HD-Puck">Menschen A1.1. Lektion 6. Ich brauche kein Büro.</voice> <break time="4s"/>
 
   <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">brauchen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">brauchen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">brauchen.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">hat gebraucht.</prosody></voice> <break time="3.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Ich brauche einen Laptop.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Ich brauche ein Büro.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">wollen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">wollen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">wollen.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">hat gewollt.</prosody></voice> <break time="3.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Ich will einen Job.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">haben</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">haben</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">haben.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Ich habe einen Job.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">heute</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">heute</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">heute.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Heute arbeite ich zu Hause.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">machen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">machen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">machen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Was machst du?</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Bildschirm</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Bildschirm</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Bildschirm.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Der Bildschirm ist groß.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">suchen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">suchen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">suchen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Ich suche ein Sofa.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Briefmarke</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Briefmarke</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Briefmarke.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Die Briefmarke ist klein.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">finden</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">finden</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">finden.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Ich finde den Tisch sehr schön.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">lesen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">lesen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">lesen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Er liest die E-Mail.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">schreiben</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">schreiben</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">schreiben.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Ich schreibe meinen Namen.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Büro</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Büro</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Büro.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Ich brauche kein Büro.</voice> <break time="4s"/>
 
   <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Computer</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Computer</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Computer.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Puck">Der Computer ist neu.</voice> <break time="4s"/>
@@ -24,52 +31,46 @@
   <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Drucker</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Drucker</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Drucker.</prosody></voice> <break time="2.5s"/>
   <voice name="de-DE-Chirp3-HD-Puck">Der Drucker ist kaputt.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Handy</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Handy</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Handy.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Das Handy ist neu.</voice> <break time="4s"/>
-
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Kalender</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Kalender</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Kalender.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Der Kalender ist groß.</voice> <break time="4s"/>
-
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Maus</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Maus</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Maus.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Die Maus ist klein.</voice> <break time="4s"/>
-
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Notizbuch</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Notizbuch</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Notizbuch.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Das Notizbuch ist voll.</voice> <break time="4s"/>
-
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Rechnung</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Rechnung</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Rechnung.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Die Rechnung ist hoch.</voice> <break time="4s"/>
-
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Stift</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Stift</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Stift.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Der Stift ist neu.</voice> <break time="4s"/>
-
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Telefon</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Telefon</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Telefon.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Das Telefon ist laut.</voice> <break time="4s"/>
-
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Arbeitsplatz</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Arbeitsplatz</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Arbeitsplatz.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Der Arbeitsplatz ist gut.</voice> <break time="4s"/>
-
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Büro</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Büro</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Büro.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Das Büro ist groß.</voice> <break time="4s"/>
-
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Chef</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Chef</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Chef.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Der Chef ist nett.</voice> <break time="4s"/>
-
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Firma</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Firma</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Firma.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Die Firma ist groß.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Formular</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Formular</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Formular.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Füllen Sie das Formular aus!</voice> <break time="4s"/>
 
   <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Laptop</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Laptop</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Laptop.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Der Laptop ist klein.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Mein Laptop ist sehr schnell.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der See</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der See</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der See.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Der See ist schön.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Maus</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Maus</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Maus.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Die Maus ist sehr klein.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Termin</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Termin</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Termin.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Der Termin ist morgen.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Notizbuch</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Notizbuch</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Notizbuch.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Ich schreibe im Notizbuch.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Telefonnummer</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Telefonnummer</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Telefonnummer.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Die Telefonnummer ist lang.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Rechnung</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Rechnung</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Rechnung.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Die Rechnung ist sehr teuer.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die SMS</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die SMS</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die SMS.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Die SMS ist kurz.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Terminkalender</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Terminkalender</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Terminkalender.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Ich schaue in meinen Terminkalender.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Bildschirm</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Bildschirm</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Bildschirm.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Der Bildschirm ist sehr groß.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Schreibtisch</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Schreibtisch</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Schreibtisch.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Der Schreibtisch ist sehr groß.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Stift</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Stift</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Stift.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Ich brauche einen Stift.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Telefon</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Telefon</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Telefon.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Das Telefon ist kaputt.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Euro</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Euro</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Euro.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Das kostet 50 Euro.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Cent</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Cent</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Cent.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Das kostet 99 Cent.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Geld</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Geld</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Geld.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Ich habe kein Geld.</voice> <break time="4s"/>
+
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">kein</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">kein</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">kein.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Ich brauche kein Büro.</voice> <break time="4s"/>
 
 </speak>

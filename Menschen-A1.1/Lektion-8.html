@@ -6,12 +6,15 @@
   <title>Lektion 8 — Kein Problem. Ich habe Zeit!</title>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background: #fff; color: #1a1a1a; font-size: 18px; line-height: 1.6; padding: 3.5rem 1.25rem 2rem; max-width: 640px; margin: 0 auto; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+           background: #fff; color: #1a1a1a; font-size: 18px; line-height: 1.6;
+           padding: 3.5rem 1.25rem 2rem; max-width: 640px; margin: 0 auto; }
     h1 { font-size: 1.4rem; font-weight: 700; margin-bottom: 0.35rem; }
     .legend { font-size: 0.78rem; color: #888; margin-bottom: 0.5rem; }
     .legend span { margin-right: 1rem; }
     .der { color: #1d4ed8; } .die { color: #db2477; } .das { color: #059669; }
-    h2 { font-size: 0.85rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.09em; color: #aaa; margin-bottom: 1.2rem; }
+    h2 { font-size: 0.85rem; font-weight: 600; text-transform: uppercase;
+         letter-spacing: 0.09em; color: #aaa; margin-bottom: 1.2rem; }
     section { margin-bottom: 3rem; }
     .word-list { list-style: none; }
     .word-list li { padding: 0.5rem 0; border-bottom: 1px solid #f0f0f0; }
@@ -21,21 +24,24 @@
     .plural { font-size: 0.75rem; color: #bbb; font-weight: 400; margin-left: 0.35rem; }
     .en { font-size: 0.85rem; color: #999; text-align: right; flex-shrink: 0; }
     .sample { font-size: 0.82rem; color: #bbb; font-style: italic; margin-top: 0.1rem; }
+    .gloss  { font-size: 0.75rem; color: #d0d0d0; margin-top: 0.05rem; }
     .back-link { display: block; font-size: 0.78rem; color: #bbb; text-decoration: none; margin-bottom: 1.5rem; }
     .back-link:hover { color: #888; }
-    .verb-reg { color: #d97706; }
-    .verb-irr { color: #7c3aed; }
-    .perfekt { font-size: 0.82rem; color: #888; font-weight: 400; margin-top: 0.1rem; }
+    .verb-reg { color: #d97706; } .verb-irr { color: #7c3aed; }
     .pos { font-style: italic; font-size: 0.72rem; color: #bbb; font-weight: 400; margin-left: 0.35rem; }
-    #player { position: fixed; top: 0; left: 0; right: 0; background: #fff; border-bottom: 1px solid #f0f0f0; z-index: 100; padding: 0.5rem 1.25rem; display: flex; align-items: center; justify-content: center; gap: 0.75rem; }
-    #player button { background: none; border: 1px solid #ddd; border-radius: 4px; padding: 0.3rem 0.7rem; font-size: 0.82rem; color: #555; cursor: pointer; line-height: 1.4; }
+    #player { position: fixed; top: 0; left: 0; right: 0; background: #fff;
+              border-bottom: 1px solid #f0f0f0; z-index: 100; padding: 0.5rem 1.25rem;
+              display: flex; align-items: center; justify-content: center; gap: 0.75rem; }
+    #player button { background: none; border: 1px solid #ddd; border-radius: 4px;
+                     padding: 0.3rem 0.7rem; font-size: 0.82rem; color: #555; cursor: pointer; line-height: 1.4; }
     #player button:hover { border-color: #aaa; color: #111; }
     #player #pp { min-width: 2.2rem; }
-    .gloss { font-size: 0.75rem; color: #d0d0d0; margin-top: 0.05rem; }
     #progress { position: absolute; bottom: 0; left: 0; height: 2px; background: #1d4ed8; width: 0%; }
-    .lesson-nav { display: flex; justify-content: space-between; margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid #f0f0f0; font-size: 0.82rem; }
+    .lesson-nav { display: flex; justify-content: space-between; margin-top: 3rem;
+                  padding-top: 1.5rem; border-top: 1px solid #f0f0f0; font-size: 0.82rem; }
     .lesson-nav a { color: #bbb; text-decoration: none; }
     .lesson-nav a:hover { color: #555; }
+
   </style>
 </head>
 <body>
@@ -48,11 +54,12 @@
     <div id="progress"></div>
   </div>
   <script>
+
     const audio = document.getElementById('audio');
-    const pp = document.getElementById('pp');
+    const pp    = document.getElementById('pp');
     function togglePlay() {
       if (audio.paused) { audio.play(); pp.textContent = '⏸'; }
-      else { audio.pause(); pp.textContent = '▶'; }
+      else              { audio.pause(); pp.textContent = '▶'; }
     }
     function seek(s) { audio.currentTime = Math.max(0, audio.currentTime + s); }
     function restart() { audio.currentTime = 0; audio.play(); pp.textContent = '⏸'; }
@@ -61,6 +68,7 @@
     audio.addEventListener('timeupdate', () => {
       if (audio.duration) bar.style.width = (audio.currentTime / audio.duration * 100) + '%';
     });
+
   </script>
   <a class="back-link" href="index.html">← Alle Lektionen</a>
   <h1>Lektion 8 — Kein Problem. Ich habe Zeit!</h1>
@@ -70,179 +78,176 @@
     <span><span class="das">■</span> das (n)</span>
     <span><span class="verb-reg">■</span> reg.</span>
     <span><span class="verb-irr">■</span> irr.</span>
-    <span><span class="pos">(t)</span> transitiv · <span class="pos">(i)</span> intransitiv · <span class="pos">(adj)</span> Adjektiv · <span class="pos">(adv)</span> Adverb</span>
+    <span><span class="pos">(adj)</span> Adjektiv / Adverb</span>
   </p>
   <section>
     <h2>Wortschatz</h2>
     <ul class="word-list">
-
       <li>
-        <div class="word-row"><span class="de"><span class="verb-irr">einladen</span><span class="pos" title="transitiv (Akkusativobjekt)">(t)</span></span><span class="en">to invite</span></div>
-        <p class="perfekt">hat eingeladen</p>
-        <p class="sample">Ich lade dich ein. · Ich habe dich eingeladen.</p>
-        <p class="gloss">I invite you in</p>
+        <div class="word-row"><span class="de"><span class="verb-reg">braten</span></span><span class="en">to fry / roast</span></div>
+        <p class="sample">Er brät das Fleisch.</p><p class="gloss">he · fries · the · meat</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="verb-reg">absagen</span><span class="pos" title="transitiv (Akkusativobjekt)">(t)</span></span><span class="en">to cancel</span></div>
-        <p class="perfekt">hat abgesagt</p>
-        <p class="sample">Ich sage den Termin ab. · Ich habe den Termin abgesagt.</p>
-        <p class="gloss">I say the appointment off</p>
+        <div class="word-row"><span class="de"><span class="verb-reg">schmecken</span></span><span class="en">to taste</span></div>
+        <p class="sample">Das schmeckt sehr lecker!</p><p class="gloss">that · tastes · very · delicious</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="verb-reg">zusagen</span><span class="pos" title="intransitiv">(i)</span></span><span class="en">to accept (an invitation)</span></div>
-        <p class="perfekt">hat zugesagt</p>
-        <p class="sample">Ich sage zu. · Ich habe zugesagt.</p>
-        <p class="gloss">I say yes</p>
-      </li>
-
-      <li>
-        <div class="word-row"><span class="de">warum</span><span class="en">why</span></div>
-        <p class="sample">Warum kommst du nicht?</p>
-        <p class="gloss">Why come you not</p>
+        <div class="word-row"><span class="de"><span class="verb-irr">essen</span></span><span class="en">to eat</span></div>
+        <p class="sample">Was isst du gern?</p><p class="gloss">what · eat · you · gladly</p>
       </li>
       <li>
-        <div class="word-row"><span class="de">wann</span><span class="en">when</span></div>
-        <p class="sample">Wann kommst du?</p>
-        <p class="gloss">When come you</p>
+        <div class="word-row"><span class="de"><span class="verb-irr">trinken</span></span><span class="en">to drink</span></div>
+        <p class="sample">Ich trinke gern Kaffee.</p><p class="gloss">I · drink · gladly · coffee</p>
       </li>
       <li>
-        <div class="word-row"><span class="de">vielleicht<span class="pos" title="Adverb">(adv)</span></span><span class="en">maybe / perhaps</span></div>
-        <p class="sample">Vielleicht gehe ich ins Kino.</p>
-        <p class="gloss">Maybe go I to-the cinema</p>
+        <div class="word-row"><span class="de"><span class="das">das Essen</span><span class="plural">, –</span></span><span class="en">food / eating</span></div>
+        <p class="sample">Das Essen ist sehr lecker.</p><p class="gloss">the · food · is · very · delicious</p>
       </li>
       <li>
-        <div class="word-row"><span class="de">morgen<span class="pos" title="Adverb">(adv)</span></span><span class="en">tomorrow</span></div>
-        <p class="sample">Morgen habe ich Zeit.</p>
-        <p class="gloss">Tomorrow have I time</p>
+        <div class="word-row"><span class="de"><span class="das">das Trinken</span><span class="plural">, –</span></span><span class="en">drinking</span></div>
+        <p class="sample">Trinken ist sehr wichtig.</p><p class="gloss">drinking · is · very · important</p>
       </li>
       <li>
-        <div class="word-row"><span class="de">spät<span class="pos" title="Adjektiv">(adj)</span></span><span class="en">late</span></div>
-        <p class="sample">Es ist schon spät.</p>
-        <p class="gloss">It is already late</p>
+        <div class="word-row"><span class="de"><span class="die">die Lebensmittel</span><span class="plural">, (Pl.)</span></span><span class="en">groceries / food</span></div>
+        <p class="sample">Ich kaufe Lebensmittel im Supermarkt.</p><p class="gloss">I · buy · groceries · in-the · supermarket</p>
       </li>
       <li>
-        <div class="word-row"><span class="de">wie spät</span><span class="en">what time is it</span></div>
-        <p class="sample">Wie spät ist es?</p>
-        <p class="gloss">How late is it</p>
+        <div class="word-row"><span class="de"><span class="der">der Apfel</span><span class="plural">, ¨-</span></span><span class="en">apple</span></div>
+        <p class="sample">Der Apfel ist frisch.</p><p class="gloss">the · apple · is · fresh</p>
       </li>
       <li>
-        <div class="word-row"><span class="de">halb</span><span class="en">half past</span></div>
-        <p class="sample">Es ist halb drei.</p>
-        <p class="gloss">It is half three</p>
+        <div class="word-row"><span class="de"><span class="die">die Banane</span><span class="plural">, -n</span></span><span class="en">banana</span></div>
+        <p class="sample">Die Banane ist gelb.</p><p class="gloss">the · banana · is · yellow</p>
       </li>
       <li>
-        <div class="word-row"><span class="de">um</span><span class="en">at (time)</span></div>
-        <p class="sample">Der Film beginnt um acht.</p>
-        <p class="gloss">The film begins at eight</p>
-      </li>
-
-      <li>
-        <div class="word-row"><span class="de"><span class="der">der Montag</span><span class="plural">Pl. Montage</span><span class="pos" title="maskulin">(m)</span></span><span class="en">Monday</span></div>
-        <p class="sample">Der Montag ist lang. · Ich mag den Montag nicht.</p>
-        <p class="gloss">The Monday is long</p>
+        <div class="word-row"><span class="de"><span class="die">die Birne</span><span class="plural">, -n</span></span><span class="en">pear</span></div>
+        <p class="sample">Die Birne ist sehr süß.</p><p class="gloss">the · pear · is · very · sweet</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="der">der Dienstag</span><span class="plural">Pl. Dienstage</span><span class="pos" title="maskulin">(m)</span></span><span class="en">Tuesday</span></div>
-        <p class="sample">Der Dienstag ist frei. · Ich mag den Dienstag.</p>
-        <p class="gloss">The Tuesday is free</p>
+        <div class="word-row"><span class="de"><span class="das">das Brot</span><span class="plural">, -e</span></span><span class="en">bread</span></div>
+        <p class="sample">Das Brot ist sehr frisch.</p><p class="gloss">the · bread · is · very · fresh</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="der">der Mittwoch</span><span class="plural">Pl. Mittwoche</span><span class="pos" title="maskulin">(m)</span></span><span class="en">Wednesday</span></div>
-        <p class="sample">Der Mittwoch ist gut. · Ich mag den Mittwoch.</p>
-        <p class="gloss">The Wednesday is good</p>
+        <div class="word-row"><span class="de"><span class="das">das Brötchen</span><span class="plural">, -</span></span><span class="en">bread roll</span></div>
+        <p class="sample">Ich esse morgens ein Brötchen.</p><p class="gloss">I · eat · in-the-mornings · a · bread-roll</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="der">der Donnerstag</span><span class="plural">Pl. Donnerstage</span><span class="pos" title="maskulin">(m)</span></span><span class="en">Thursday</span></div>
-        <p class="sample">Der Donnerstag ist lang. · Ich mag den Donnerstag.</p>
-        <p class="gloss">The Thursday is long</p>
+        <div class="word-row"><span class="de"><span class="das">das Ei</span><span class="plural">, -er</span></span><span class="en">egg</span></div>
+        <p class="sample">Das Ei ist frisch.</p><p class="gloss">the · egg · is · fresh</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="der">der Freitag</span><span class="plural">Pl. Freitage</span><span class="pos" title="maskulin">(m)</span></span><span class="en">Friday</span></div>
-        <p class="sample">Der Freitag ist gut. · Ich mag den Freitag.</p>
-        <p class="gloss">The Friday is good</p>
+        <div class="word-row"><span class="de"><span class="das">das Fleisch</span><span class="plural">, –</span></span><span class="en">meat</span></div>
+        <p class="sample">Er isst kein Fleisch.</p><p class="gloss">he · eats · no · meat</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="der">der Samstag</span><span class="plural">Pl. Samstage</span><span class="pos" title="maskulin">(m)</span></span><span class="en">Saturday</span></div>
-        <p class="sample">Der Samstag ist frei. · Ich mag den Samstag.</p>
-        <p class="gloss">The Saturday is free</p>
+        <div class="word-row"><span class="de"><span class="der">der Fisch</span><span class="plural">, -e</span></span><span class="en">fish</span></div>
+        <p class="sample">Der Fisch ist sehr frisch.</p><p class="gloss">the · fish · is · very · fresh</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="der">der Sonntag</span><span class="plural">Pl. Sonntage</span><span class="pos" title="maskulin">(m)</span></span><span class="en">Sunday</span></div>
-        <p class="sample">Der Sonntag ist ruhig. · Ich mag den Sonntag.</p>
-        <p class="gloss">The Sunday is quiet</p>
+        <div class="word-row"><span class="de"><span class="das">das Gemüse</span><span class="plural">, –</span></span><span class="en">vegetables</span></div>
+        <p class="sample">Ich esse gern Gemüse.</p><p class="gloss">I · eat · gladly · vegetables</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="die">die Woche</span><span class="plural">Pl. Wochen</span><span class="pos" title="feminin">(f)</span></span><span class="en">week</span></div>
-        <p class="sample">Die Woche hat sieben Tage. · Ich warte eine Woche.</p>
-        <p class="gloss">The week has seven days</p>
+        <div class="word-row"><span class="de"><span class="der">der Käse</span><span class="plural">, –</span></span><span class="en">cheese</span></div>
+        <p class="sample">Der Käse ist sehr gut.</p><p class="gloss">the · cheese · is · very · good</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="der">der Geburtstag</span><span class="plural">Pl. Geburtstage</span><span class="pos" title="maskulin">(m)</span></span><span class="en">birthday</span></div>
-        <p class="sample">Der Geburtstag ist im März. · Ich feiere den Geburtstag.</p>
-        <p class="gloss">The birthday is in March</p>
+        <div class="word-row"><span class="de"><span class="die">die Kartoffel</span><span class="plural">, -n</span></span><span class="en">potato</span></div>
+        <p class="sample">Die Kartoffel ist fertig.</p><p class="gloss">the · potato · is · ready</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="das">das Schwimmbad</span><span class="plural">Pl. Schwimmbäder</span><span class="pos" title="neutrum">(n)</span></span><span class="en">swimming pool</span></div>
-        <p class="sample">Das Schwimmbad ist offen. · Ich besuche das Schwimmbad.</p>
-        <p class="gloss">The swimming-pool is open</p>
+        <div class="word-row"><span class="de"><span class="der">der Kuchen</span><span class="plural">, -</span></span><span class="en">cake</span></div>
+        <p class="sample">Der Kuchen ist sehr lecker.</p><p class="gloss">the · cake · is · very · delicious</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="die">die Ausstellung</span><span class="plural">Pl. Ausstellungen</span><span class="pos" title="feminin">(f)</span></span><span class="en">exhibition</span></div>
-        <p class="sample">Die Ausstellung ist schön. · Ich besuche die Ausstellung.</p>
-        <p class="gloss">The exhibition is beautiful</p>
+        <div class="word-row"><span class="de"><span class="die">die Milch</span><span class="plural">, –</span></span><span class="en">milk</span></div>
+        <p class="sample">Die Milch ist frisch.</p><p class="gloss">the · milk · is · fresh</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="das">das Café</span><span class="plural">Pl. Cafés</span><span class="pos" title="neutrum">(n)</span></span><span class="en">café</span></div>
-        <p class="sample">Das Café ist nett. · Ich besuche das Café.</p>
-        <p class="gloss">The café is nice</p>
+        <div class="word-row"><span class="de"><span class="das">das Obst</span><span class="plural">, –</span></span><span class="en">fruit</span></div>
+        <p class="sample">Ich esse gern Obst.</p><p class="gloss">I · eat · gladly · fruit</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="die">die Disco</span><span class="plural">Pl. Discos</span><span class="pos" title="feminin">(f)</span></span><span class="en">disco</span></div>
-        <p class="sample">Die Disco ist laut. · Ich besuche die Disco.</p>
-        <p class="gloss">The disco is loud</p>
+        <div class="word-row"><span class="de"><span class="der">der Reis</span><span class="plural">, –</span></span><span class="en">rice</span></div>
+        <p class="sample">Der Reis ist fertig.</p><p class="gloss">the · rice · is · ready</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="die">die Kneipe</span><span class="plural">Pl. Kneipen</span><span class="pos" title="feminin">(f)</span></span><span class="en">pub</span></div>
-        <p class="sample">Die Kneipe ist gemütlich. · Ich besuche die Kneipe.</p>
-        <p class="gloss">The pub is cozy</p>
+        <div class="word-row"><span class="de"><span class="die">die Sahne</span><span class="plural">, –</span></span><span class="en">cream</span></div>
+        <p class="sample">Mit Sahne, bitte!</p><p class="gloss">with · cream · please</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="das">das Konzert</span><span class="plural">Pl. Konzerte</span><span class="pos" title="neutrum">(n)</span></span><span class="en">concert</span></div>
-        <p class="sample">Das Konzert ist gut. · Ich besuche das Konzert.</p>
-        <p class="gloss">The concert is good</p>
+        <div class="word-row"><span class="de"><span class="der">der Salat</span><span class="plural">, -e</span></span><span class="en">salad / lettuce</span></div>
+        <p class="sample">Der Salat ist sehr frisch.</p><p class="gloss">the · salad · is · very · fresh</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="das">das Museum</span><span class="plural">Pl. Museen</span><span class="pos" title="neutrum">(n)</span></span><span class="en">museum</span></div>
-        <p class="sample">Das Museum ist groß. · Ich besuche das Museum.</p>
-        <p class="gloss">The museum is big</p>
+        <div class="word-row"><span class="de"><span class="das">das Salz</span><span class="plural">, –</span></span><span class="en">salt</span></div>
+        <p class="sample">Kannst du das Salz reichen?</p><p class="gloss">can · you · the · salt · pass</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="das">das Restaurant</span><span class="plural">Pl. Restaurants</span><span class="pos" title="neutrum">(n)</span></span><span class="en">restaurant</span></div>
-        <p class="sample">Das Restaurant ist gut. · Ich besuche das Restaurant.</p>
-        <p class="gloss">The restaurant is good</p>
+        <div class="word-row"><span class="de"><span class="die">die Schokolade</span><span class="plural">, –</span></span><span class="en">chocolate</span></div>
+        <p class="sample">Ich esse gern Schokolade.</p><p class="gloss">I · eat · gladly · chocolate</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="die">die Idee</span><span class="plural">Pl. Ideen</span><span class="pos" title="feminin">(f)</span></span><span class="en">idea</span></div>
-        <p class="sample">Die Idee ist gut. · Ich habe eine Idee.</p>
-        <p class="gloss">The idea is good</p>
+        <div class="word-row"><span class="de"><span class="die">die Suppe</span><span class="plural">, -n</span></span><span class="en">soup</span></div>
+        <p class="sample">Die Suppe ist sehr heiß.</p><p class="gloss">the · soup · is · very · hot</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="die">die Einladung</span><span class="plural">Pl. Einladungen</span><span class="pos" title="feminin">(f)</span></span><span class="en">invitation</span></div>
-        <p class="sample">Die Einladung ist schön. · Ich bekomme eine Einladung.</p>
-        <p class="gloss">The invitation is beautiful</p>
+        <div class="word-row"><span class="de"><span class="der">der Tee</span><span class="plural">, -s</span></span><span class="en">tea</span></div>
+        <p class="sample">Trinken Sie Tee?</p><p class="gloss">drink · you · tea</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="der">der Vorschlag</span><span class="plural">Pl. Vorschläge</span><span class="pos" title="maskulin">(m)</span></span><span class="en">suggestion / proposal</span></div>
-        <p class="sample">Der Vorschlag ist gut. · Ich mache einen Vorschlag.</p>
-        <p class="gloss">The suggestion is good</p>
+        <div class="word-row"><span class="de"><span class="die">die Tomate</span><span class="plural">, -n</span></span><span class="en">tomato</span></div>
+        <p class="sample">Die Tomate ist rot.</p><p class="gloss">the · tomato · is · red</p>
       </li>
-
+      <li>
+        <div class="word-row"><span class="de"><span class="die">die Wurst</span><span class="plural">, ¨-e</span></span><span class="en">sausage</span></div>
+        <p class="sample">Ich esse gern Wurst.</p><p class="gloss">I · eat · gladly · sausage</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="die">die Zitrone</span><span class="plural">, -n</span></span><span class="en">lemon</span></div>
+        <p class="sample">Die Zitrone ist sauer.</p><p class="gloss">the · lemon · is · sour</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Zucker</span><span class="plural">, –</span></span><span class="en">sugar</span></div>
+        <p class="sample">Nehmen Sie Zucker?</p><p class="gloss">take · you · sugar</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="das">das Bier</span><span class="plural">, -e</span></span><span class="en">beer</span></div>
+        <p class="sample">Er trinkt gern Bier.</p><p class="gloss">he · drinks · gladly · beer</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Wein</span><span class="plural">, -e</span></span><span class="en">wine</span></div>
+        <p class="sample">Das ist ein guter Wein.</p><p class="gloss">that · is · a · good · wine</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="das">das Mineralwasser</span><span class="plural">, –</span></span><span class="en">mineral water</span></div>
+        <p class="sample">Ich trinke Mineralwasser.</p><p class="gloss">I · drink · mineral-water</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Kaffee</span><span class="plural">, –</span></span><span class="en">coffee</span></div>
+        <p class="sample">Ich trinke jeden Morgen Kaffee.</p><p class="gloss">I · drink · every · morning · coffee</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Saft</span><span class="plural">, ¨-e</span></span><span class="en">juice</span></div>
+        <p class="sample">Der Saft ist sehr frisch.</p><p class="gloss">the · juice · is · very · fresh</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">hungrig<span class="pos">(adj)</span></span><span class="en">hungry</span></div>
+        <p class="sample">Ich bin sehr hungrig.</p><p class="gloss">I · am · very · hungry</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">durstig<span class="pos">(adj)</span></span><span class="en">thirsty</span></div>
+        <p class="sample">Bist du durstig?</p><p class="gloss">are · you · thirsty</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">lecker<span class="pos">(adj)</span></span><span class="en">delicious</span></div>
+        <p class="sample">Das schmeckt sehr lecker!</p><p class="gloss">that · tastes · very · delicious</p>
+      </li>
     </ul>
   </section>
-
-  <nav class="lesson-nav">
+  <div class="lesson-nav">
     <a href="Lektion-7.html">← Lektion 7</a>
-    <a href="Lektion-9.html">Lektion 9 →</a>
-  </nav>
+    <a href="Lektion-9.html">→ Lektion 9</a>
+  </div>
 </body>
 </html>

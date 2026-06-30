@@ -6,12 +6,15 @@
   <title>Lektion 9 — Ich möchte was essen, Onkel Harry.</title>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background: #fff; color: #1a1a1a; font-size: 18px; line-height: 1.6; padding: 3.5rem 1.25rem 2rem; max-width: 640px; margin: 0 auto; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+           background: #fff; color: #1a1a1a; font-size: 18px; line-height: 1.6;
+           padding: 3.5rem 1.25rem 2rem; max-width: 640px; margin: 0 auto; }
     h1 { font-size: 1.4rem; font-weight: 700; margin-bottom: 0.35rem; }
     .legend { font-size: 0.78rem; color: #888; margin-bottom: 0.5rem; }
     .legend span { margin-right: 1rem; }
     .der { color: #1d4ed8; } .die { color: #db2477; } .das { color: #059669; }
-    h2 { font-size: 0.85rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.09em; color: #aaa; margin-bottom: 1.2rem; }
+    h2 { font-size: 0.85rem; font-weight: 600; text-transform: uppercase;
+         letter-spacing: 0.09em; color: #aaa; margin-bottom: 1.2rem; }
     section { margin-bottom: 3rem; }
     .word-list { list-style: none; }
     .word-list li { padding: 0.5rem 0; border-bottom: 1px solid #f0f0f0; }
@@ -21,21 +24,24 @@
     .plural { font-size: 0.75rem; color: #bbb; font-weight: 400; margin-left: 0.35rem; }
     .en { font-size: 0.85rem; color: #999; text-align: right; flex-shrink: 0; }
     .sample { font-size: 0.82rem; color: #bbb; font-style: italic; margin-top: 0.1rem; }
+    .gloss  { font-size: 0.75rem; color: #d0d0d0; margin-top: 0.05rem; }
     .back-link { display: block; font-size: 0.78rem; color: #bbb; text-decoration: none; margin-bottom: 1.5rem; }
     .back-link:hover { color: #888; }
-    .verb-reg { color: #d97706; }
-    .verb-irr { color: #7c3aed; }
-    .perfekt { font-size: 0.82rem; color: #888; font-weight: 400; margin-top: 0.1rem; }
+    .verb-reg { color: #d97706; } .verb-irr { color: #7c3aed; }
     .pos { font-style: italic; font-size: 0.72rem; color: #bbb; font-weight: 400; margin-left: 0.35rem; }
-    #player { position: fixed; top: 0; left: 0; right: 0; background: #fff; border-bottom: 1px solid #f0f0f0; z-index: 100; padding: 0.5rem 1.25rem; display: flex; align-items: center; justify-content: center; gap: 0.75rem; }
-    #player button { background: none; border: 1px solid #ddd; border-radius: 4px; padding: 0.3rem 0.7rem; font-size: 0.82rem; color: #555; cursor: pointer; line-height: 1.4; }
+    #player { position: fixed; top: 0; left: 0; right: 0; background: #fff;
+              border-bottom: 1px solid #f0f0f0; z-index: 100; padding: 0.5rem 1.25rem;
+              display: flex; align-items: center; justify-content: center; gap: 0.75rem; }
+    #player button { background: none; border: 1px solid #ddd; border-radius: 4px;
+                     padding: 0.3rem 0.7rem; font-size: 0.82rem; color: #555; cursor: pointer; line-height: 1.4; }
     #player button:hover { border-color: #aaa; color: #111; }
     #player #pp { min-width: 2.2rem; }
-    .gloss { font-size: 0.75rem; color: #d0d0d0; margin-top: 0.05rem; }
     #progress { position: absolute; bottom: 0; left: 0; height: 2px; background: #1d4ed8; width: 0%; }
-    .lesson-nav { display: flex; justify-content: space-between; margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid #f0f0f0; font-size: 0.82rem; }
+    .lesson-nav { display: flex; justify-content: space-between; margin-top: 3rem;
+                  padding-top: 1.5rem; border-top: 1px solid #f0f0f0; font-size: 0.82rem; }
     .lesson-nav a { color: #bbb; text-decoration: none; }
     .lesson-nav a:hover { color: #555; }
+
   </style>
 </head>
 <body>
@@ -48,11 +54,12 @@
     <div id="progress"></div>
   </div>
   <script>
+
     const audio = document.getElementById('audio');
-    const pp = document.getElementById('pp');
+    const pp    = document.getElementById('pp');
     function togglePlay() {
       if (audio.paused) { audio.play(); pp.textContent = '⏸'; }
-      else { audio.pause(); pp.textContent = '▶'; }
+      else              { audio.pause(); pp.textContent = '▶'; }
     }
     function seek(s) { audio.currentTime = Math.max(0, audio.currentTime + s); }
     function restart() { audio.currentTime = 0; audio.play(); pp.textContent = '⏸'; }
@@ -61,6 +68,7 @@
     audio.addEventListener('timeupdate', () => {
       if (audio.duration) bar.style.width = (audio.currentTime / audio.duration * 100) + '%';
     });
+
   </script>
   <a class="back-link" href="index.html">← Alle Lektionen</a>
   <h1>Lektion 9 — Ich möchte was essen, Onkel Harry.</h1>
@@ -70,190 +78,128 @@
     <span><span class="das">■</span> das (n)</span>
     <span><span class="verb-reg">■</span> reg.</span>
     <span><span class="verb-irr">■</span> irr.</span>
-    <span><span class="pos">(t)</span> transitiv · <span class="pos">(i)</span> intransitiv · <span class="pos">(adj)</span> Adjektiv · <span class="pos">(adv)</span> Adverb</span>
+    <span><span class="pos">(adj)</span> Adjektiv / Adverb</span>
   </p>
-
   <section>
     <h2>Wortschatz</h2>
     <ul class="word-list">
-
       <li>
-        <div class="word-row"><span class="de"><span class="verb-irr">essen</span><span class="pos" title="transitiv (Akkusativobjekt)">(t)</span></span><span class="en">to eat</span></div>
-        <p class="perfekt">hat gegessen</p>
-        <p class="sample">Ich esse Brot. · Ich habe Brot gegessen.</p>
-        <p class="gloss">I eat bread</p>
+        <div class="word-row"><span class="de"><span class="verb-reg">brauchen</span></span><span class="en">to need</span></div>
+        <p class="sample">Ich brauche ein Büro.</p><p class="gloss">I · need · an · office</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="verb-irr">trinken</span><span class="pos" title="transitiv (Akkusativobjekt)">(t)</span></span><span class="en">to drink</span></div>
-        <p class="perfekt">hat getrunken</p>
-        <p class="sample">Ich trinke Wasser. · Ich habe Wasser getrunken.</p>
-        <p class="gloss">I drink water</p>
+        <div class="word-row"><span class="de"><span class="verb-reg">kaufen</span></span><span class="en">to buy</span></div>
+        <p class="sample">Ich kaufe frisches Brot.</p><p class="gloss">I · buy · fresh · bread</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="verb-reg">schmecken</span><span class="pos" title="intransitiv">(i)</span></span><span class="en">to taste (good)</span></div>
-        <p class="perfekt">hat geschmeckt</p>
-        <p class="sample">Die Suppe schmeckt gut. · Die Suppe hat gut geschmeckt.</p>
-        <p class="gloss">The soup tastes good</p>
+        <div class="word-row"><span class="de"><span class="verb-irr">einkaufen</span></span><span class="en">to go shopping</span></div>
+        <p class="sample">Ich gehe einkaufen.</p><p class="gloss">I · go · shopping</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="verb-irr">mögen</span><span class="pos" title="transitiv (Akkusativobjekt)">(t)</span></span><span class="en">to like</span></div>
-        <p class="perfekt">hat gemocht</p>
-        <p class="sample">Ich mag Schokolade. · Ich habe Schokolade gemocht.</p>
-        <p class="gloss">I like chocolate</p>
-      </li>
-
-      <li>
-        <div class="word-row"><span class="de"><span class="der">der Hunger</span><span class="pos" title="maskulin">(m)</span></span><span class="en">hunger</span></div>
-        <p class="sample">Der Hunger ist groß. · Ich habe Hunger.</p>
-        <p class="gloss">The hunger is great</p>
+        <div class="word-row"><span class="de"><span class="verb-reg">kosten</span></span><span class="en">to cost</span></div>
+        <p class="sample">Wie viel kostet das?</p><p class="gloss">how · much · costs · that</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="der">der Durst</span><span class="pos" title="maskulin">(m)</span></span><span class="en">thirst</span></div>
-        <p class="sample">Der Durst ist groß. · Ich habe Durst.</p>
-        <p class="gloss">The thirst is great</p>
+        <div class="word-row"><span class="de"><span class="der">der Einkauf</span><span class="plural">, ¨-e</span></span><span class="en">shopping</span></div>
+        <p class="sample">Der Einkauf dauert eine Stunde.</p><p class="gloss">the · shopping · takes · one · hour</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="der">der Onkel</span><span class="plural">Pl. Onkel</span><span class="pos" title="maskulin">(m)</span></span><span class="en">uncle</span></div>
-        <p class="sample">Der Onkel ist nett. · Ich besuche den Onkel.</p>
-        <p class="gloss">The uncle is nice</p>
+        <div class="word-row"><span class="de"><span class="der">der Markt</span><span class="plural">, ¨-e</span></span><span class="en">market</span></div>
+        <p class="sample">Auf dem Markt gibt es frisches Gemüse.</p><p class="gloss">on-the · market · gives · there · fresh · vegetables</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="der">der Kühlschrank</span><span class="plural">Pl. Kühlschränke</span><span class="pos" title="maskulin">(m)</span></span><span class="en">fridge / refrigerator</span></div>
-        <p class="sample">Der Kühlschrank ist voll. · Ich öffne den Kühlschrank.</p>
-        <p class="gloss">The fridge is full</p>
+        <div class="word-row"><span class="de"><span class="der">der Wochenmarkt</span><span class="plural">, ¨-e</span></span><span class="en">weekly market</span></div>
+        <p class="sample">Am Wochenmarkt gibt es frisches Gemüse.</p><p class="gloss">at-the · weekly-market · gives · there · fresh · vegetables</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="das">das Brot</span><span class="plural">Pl. Brote</span><span class="pos" title="neutrum">(n)</span></span><span class="en">bread</span></div>
-        <p class="sample">Das Brot ist frisch. · Ich esse ein Brot.</p>
-        <p class="gloss">The bread is fresh</p>
+        <div class="word-row"><span class="de"><span class="der">der Supermarkt</span><span class="plural">, ¨-e</span></span><span class="en">supermarket</span></div>
+        <p class="sample">Im Supermarkt kaufe ich ein.</p><p class="gloss">in-the · supermarket · buy · I · (shopping)</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="die">die Butter</span><span class="pos" title="feminin">(f)</span></span><span class="en">butter</span></div>
-        <p class="sample">Die Butter ist frisch. · Ich nehme die Butter.</p>
-        <p class="gloss">The butter is fresh</p>
+        <div class="word-row"><span class="de"><span class="die">die Metzgerei</span><span class="plural">, -en</span></span><span class="en">butcher's shop</span></div>
+        <p class="sample">In der Metzgerei kaufe ich Fleisch.</p><p class="gloss">in · the · butcher's · buy · I · meat</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="der">der Käse</span><span class="plural">Pl. Käse</span><span class="pos" title="maskulin">(m)</span></span><span class="en">cheese</span></div>
-        <p class="sample">Der Käse ist gut. · Ich esse den Käse.</p>
-        <p class="gloss">The cheese is good</p>
+        <div class="word-row"><span class="de"><span class="die">die Bäckerei</span><span class="plural">, -en</span></span><span class="en">bakery</span></div>
+        <p class="sample">Die Bäckerei öffnet um 6 Uhr.</p><p class="gloss">the · bakery · opens · at · 6 · o'clock</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="der">der Schinken</span><span class="plural">Pl. Schinken</span><span class="pos" title="maskulin">(m)</span></span><span class="en">ham</span></div>
-        <p class="sample">Der Schinken ist frisch. · Ich esse den Schinken.</p>
-        <p class="gloss">The ham is fresh</p>
+        <div class="word-row"><span class="de"><span class="das">das Kaufhaus</span><span class="plural">, ¨-er</span></span><span class="en">department store</span></div>
+        <p class="sample">Das Kaufhaus ist sehr groß.</p><p class="gloss">the · department-store · is · very · big</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="der">der Apfel</span><span class="plural">Pl. Äpfel</span><span class="pos" title="maskulin">(m)</span></span><span class="en">apple</span></div>
-        <p class="sample">Der Apfel ist rot. · Ich esse einen Apfel.</p>
-        <p class="gloss">The apple is red</p>
+        <div class="word-row"><span class="de"><span class="der">der Laden</span><span class="plural">, ¨-</span></span><span class="en">shop / store</span></div>
+        <p class="sample">Der Laden öffnet um 9 Uhr.</p><p class="gloss">the · shop · opens · at · 9 · o'clock</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="die">die Orange</span><span class="plural">Pl. Orangen</span><span class="pos" title="feminin">(f)</span></span><span class="en">orange</span></div>
-        <p class="sample">Die Orange ist süß. · Ich esse eine Orange.</p>
-        <p class="gloss">The orange is sweet</p>
+        <div class="word-row"><span class="de"><span class="die">die Dose</span><span class="plural">, -n</span></span><span class="en">tin / can</span></div>
+        <p class="sample">Ich kaufe eine Dose Tomaten.</p><p class="gloss">I · buy · a · tin · tomatoes</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="die">die Tomate</span><span class="plural">Pl. Tomaten</span><span class="pos" title="feminin">(f)</span></span><span class="en">tomato</span></div>
-        <p class="sample">Die Tomate ist rot. · Ich esse eine Tomate.</p>
-        <p class="gloss">The tomato is red</p>
+        <div class="word-row"><span class="de"><span class="die">die Flasche</span><span class="plural">, -n</span></span><span class="en">bottle</span></div>
+        <p class="sample">Die Flasche ist leer.</p><p class="gloss">the · bottle · is · empty</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="die">die Kartoffel</span><span class="plural">Pl. Kartoffeln</span><span class="pos" title="feminin">(f)</span></span><span class="en">potato</span></div>
-        <p class="sample">Die Kartoffel ist groß. · Ich koche eine Kartoffel.</p>
-        <p class="gloss">The potato is big</p>
+        <div class="word-row"><span class="de"><span class="das">das Gramm</span><span class="plural">, –</span></span><span class="en">gram</span></div>
+        <p class="sample">Ich brauche 200 Gramm Käse.</p><p class="gloss">I · need · 200 · grams · cheese</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="der">der Fisch</span><span class="plural">Pl. Fische</span><span class="pos" title="maskulin">(m)</span></span><span class="en">fish</span></div>
-        <p class="sample">Der Fisch ist frisch. · Ich esse den Fisch.</p>
-        <p class="gloss">The fish is fresh</p>
+        <div class="word-row"><span class="de"><span class="das">das Kilo</span><span class="plural">, -s</span></span><span class="en">kilo</span></div>
+        <p class="sample">Zwei Kilo Tomaten, bitte.</p><p class="gloss">two · kilos · tomatoes · please</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="der">der Salat</span><span class="plural">Pl. Salate</span><span class="pos" title="maskulin">(m)</span></span><span class="en">salad / lettuce</span></div>
-        <p class="sample">Der Salat ist frisch. · Ich esse den Salat.</p>
-        <p class="gloss">The salad is fresh</p>
+        <div class="word-row"><span class="de"><span class="der">der Liter</span><span class="plural">, –</span></span><span class="en">litre</span></div>
+        <p class="sample">Einen Liter Milch, bitte.</p><p class="gloss">a · litre · milk · please</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="die">die Suppe</span><span class="plural">Pl. Suppen</span><span class="pos" title="feminin">(f)</span></span><span class="en">soup</span></div>
-        <p class="sample">Die Suppe ist heiß. · Ich esse die Suppe.</p>
-        <p class="gloss">The soup is hot</p>
+        <div class="word-row"><span class="de"><span class="die">die Packung</span><span class="plural">, -en</span></span><span class="en">packet / pack</span></div>
+        <p class="sample">Eine Packung Zucker, bitte.</p><p class="gloss">a · packet · sugar · please</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="der">der Kuchen</span><span class="plural">Pl. Kuchen</span><span class="pos" title="maskulin">(m)</span></span><span class="en">cake</span></div>
-        <p class="sample">Der Kuchen ist süß. · Ich esse den Kuchen.</p>
-        <p class="gloss">The cake is sweet</p>
+        <div class="word-row"><span class="de"><span class="das">das Pfund</span><span class="plural">, –</span></span><span class="en">pound (500g)</span></div>
+        <p class="sample">Ein Pfund Butter, bitte.</p><p class="gloss">a · pound · butter · please</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="die">die Schokolade</span><span class="plural">Pl. Schokoladen</span><span class="pos" title="feminin">(f)</span></span><span class="en">chocolate</span></div>
-        <p class="sample">Die Schokolade ist gut. · Ich esse die Schokolade.</p>
-        <p class="gloss">The chocolate is good</p>
+        <div class="word-row"><span class="de"><span class="das">das Stück</span><span class="plural">, -e</span></span><span class="en">piece</span></div>
+        <p class="sample">Drei Stück Kuchen, bitte.</p><p class="gloss">three · pieces · cake · please</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="die">die Milch</span><span class="pos" title="feminin">(f)</span></span><span class="en">milk</span></div>
-        <p class="sample">Die Milch ist frisch. · Ich trinke die Milch.</p>
-        <p class="gloss">The milk is fresh</p>
+        <div class="word-row"><span class="de"><span class="der">der Becher</span><span class="plural">, -</span></span><span class="en">cup / tub</span></div>
+        <p class="sample">Ein Becher Joghurt, bitte.</p><p class="gloss">a · pot · yoghurt · please</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="das">das Ei</span><span class="plural">Pl. Eier</span><span class="pos" title="neutrum">(n)</span></span><span class="en">egg</span></div>
-        <p class="sample">Das Ei ist frisch. · Ich esse ein Ei.</p>
-        <p class="gloss">The egg is fresh</p>
+        <div class="word-row"><span class="de"><span class="das">das Glas</span><span class="plural">, ¨-er</span></span><span class="en">glass</span></div>
+        <p class="sample">Ein Glas Wasser, bitte.</p><p class="gloss">a · glass · water · please</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="das">das Eis</span><span class="pos" title="neutrum">(n)</span></span><span class="en">ice cream</span></div>
-        <p class="sample">Das Eis ist kalt. · Ich esse ein Eis.</p>
-        <p class="gloss">The ice-cream is cold</p>
+        <div class="word-row"><span class="de"><span class="das">das Sonderangebot</span><span class="plural">, -e</span></span><span class="en">special offer</span></div>
+        <p class="sample">Das Brot ist im Sonderangebot.</p><p class="gloss">the · bread · is · in-the · special-offer</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="das">das Obst</span><span class="pos" title="neutrum">(n)</span></span><span class="en">fruit</span></div>
-        <p class="sample">Das Obst ist frisch. · Ich esse das Obst.</p>
-        <p class="gloss">The fruit is fresh</p>
+        <div class="word-row"><span class="de"><span class="der">der Preis</span><span class="plural">, -e</span></span><span class="en">price</span></div>
+        <p class="sample">Der Preis ist sehr günstig.</p><p class="gloss">the · price · is · very · good-value</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="der">der Reis</span><span class="pos" title="maskulin">(m)</span></span><span class="en">rice</span></div>
-        <p class="sample">Der Reis ist fertig. · Ich esse den Reis.</p>
-        <p class="gloss">The rice is ready</p>
+        <div class="word-row"><span class="de">günstig<span class="pos">(adj)</span></span><span class="en">good value / affordable</span></div>
+        <p class="sample">Der Preis ist sehr günstig.</p><p class="gloss">the · price · is · very · good-value</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="die">die Pizza</span><span class="plural">Pl. Pizzen</span><span class="pos" title="feminin">(f)</span></span><span class="en">pizza</span></div>
-        <p class="sample">Die Pizza ist heiß. · Ich esse eine Pizza.</p>
-        <p class="gloss">The pizza is hot</p>
+        <div class="word-row"><span class="de">teuer<span class="pos">(adj)</span></span><span class="en">expensive</span></div>
+        <p class="sample">Das Sofa ist zu teuer.</p><p class="gloss">the · sofa · is · too · expensive</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="das">das Frühstück</span><span class="pos" title="neutrum">(n)</span></span><span class="en">breakfast</span></div>
-        <p class="sample">Das Frühstück ist fertig. · Ich mache das Frühstück.</p>
-        <p class="gloss">The breakfast is ready</p>
+        <div class="word-row"><span class="de">billig<span class="pos">(adj)</span></span><span class="en">cheap</span></div>
+        <p class="sample">Das Bett ist sehr billig.</p><p class="gloss">the · bed · is · very · cheap</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="die">die Vorspeise</span><span class="plural">Pl. Vorspeisen</span><span class="pos" title="feminin">(f)</span></span><span class="en">starter / appetizer</span></div>
-        <p class="sample">Die Vorspeise ist gut. · Ich bestelle eine Vorspeise.</p>
-        <p class="gloss">The starter is good</p>
+        <div class="word-row"><span class="de">Wie viel kostet ...?</span><span class="en">How much does ... cost?</span></div>
+        <p class="sample">Wie viel kostet das Brot?</p><p class="gloss">how · much · costs · the · bread</p>
       </li>
-      <li>
-        <div class="word-row"><span class="de"><span class="das">das Hauptgericht</span><span class="plural">Pl. Hauptgerichte</span><span class="pos" title="neutrum">(n)</span></span><span class="en">main course</span></div>
-        <p class="sample">Das Hauptgericht ist groß. · Ich bestelle ein Hauptgericht.</p>
-        <p class="gloss">The main-course is big</p>
-      </li>
-      <li>
-        <div class="word-row"><span class="de"><span class="das">das Dessert</span><span class="plural">Pl. Desserts</span><span class="pos" title="neutrum">(n)</span></span><span class="en">dessert</span></div>
-        <p class="sample">Das Dessert ist süß. · Ich bestelle ein Dessert.</p>
-        <p class="gloss">The dessert is sweet</p>
-      </li>
-      <li>
-        <div class="word-row"><span class="de"><span class="die">die Speisekarte</span><span class="plural">Pl. Speisekarten</span><span class="pos" title="feminin">(f)</span></span><span class="en">menu</span></div>
-        <p class="sample">Die Speisekarte ist lang. · Ich lese die Speisekarte.</p>
-        <p class="gloss">The menu is long</p>
-      </li>
-      <li>
-        <div class="word-row"><span class="de"><span class="das">das Wochenende</span><span class="plural">Pl. Wochenenden</span><span class="pos" title="neutrum">(n)</span></span><span class="en">weekend</span></div>
-        <p class="sample">Das Wochenende ist schön. · Ich genieße das Wochenende.</p>
-        <p class="gloss">The weekend is nice</p>
-      </li>
-
     </ul>
   </section>
-
-  <nav class="lesson-nav">
+  <div class="lesson-nav">
     <a href="Lektion-8.html">← Lektion 8</a>
-    <a href="Lektion-10.html">Lektion 10 →</a>
-  </nav>
+    <a href="Lektion-10.html">→ Lektion 10</a>
+  </div>
 </body>
 </html>

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lektion 20 — Komm sofort runter!</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+           background: #fff; color: #1a1a1a; font-size: 18px; line-height: 1.6;
+           padding: 3.5rem 1.25rem 2rem; max-width: 640px; margin: 0 auto; }
+    h1 { font-size: 1.4rem; font-weight: 700; margin-bottom: 0.35rem; }
+    .legend { font-size: 0.78rem; color: #888; margin-bottom: 0.5rem; }
+    .legend span { margin-right: 1rem; }
+    .der { color: #1d4ed8; } .die { color: #db2477; } .das { color: #059669; }
+    h2 { font-size: 0.85rem; font-weight: 600; text-transform: uppercase;
+         letter-spacing: 0.09em; color: #aaa; margin-bottom: 1.2rem; }
+    section { margin-bottom: 3rem; }
+    .word-list { list-style: none; }
+    .word-list li { padding: 0.5rem 0; border-bottom: 1px solid #f0f0f0; }
+    .word-list li:last-child { border-bottom: none; }
+    .word-row { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; }
+    .de { font-size: 1rem; font-weight: 500; }
+    .plural { font-size: 0.75rem; color: #bbb; font-weight: 400; margin-left: 0.35rem; }
+    .en { font-size: 0.85rem; color: #999; text-align: right; flex-shrink: 0; }
+    .sample { font-size: 0.82rem; color: #bbb; font-style: italic; margin-top: 0.1rem; }
+    .gloss  { font-size: 0.75rem; color: #d0d0d0; margin-top: 0.05rem; }
+    .back-link { display: block; font-size: 0.78rem; color: #bbb; text-decoration: none; margin-bottom: 1.5rem; }
+    .back-link:hover { color: #888; }
+    .verb-reg { color: #d97706; } .verb-irr { color: #7c3aed; }
+    .pos { font-style: italic; font-size: 0.72rem; color: #bbb; font-weight: 400; margin-left: 0.35rem; }
+    #player { position: fixed; top: 0; left: 0; right: 0; background: #fff;
+              border-bottom: 1px solid #f0f0f0; z-index: 100; padding: 0.5rem 1.25rem;
+              display: flex; align-items: center; justify-content: center; gap: 0.75rem; }
+    #player button { background: none; border: 1px solid #ddd; border-radius: 4px;
+                     padding: 0.3rem 0.7rem; font-size: 0.82rem; color: #555; cursor: pointer; line-height: 1.4; }
+    #player button:hover { border-color: #aaa; color: #111; }
+    #player #pp { min-width: 2.2rem; }
+    #progress { position: absolute; bottom: 0; left: 0; height: 2px; background: #1d4ed8; width: 0%; }
+    .lesson-nav { display: flex; justify-content: space-between; margin-top: 3rem;
+                  padding-top: 1.5rem; border-top: 1px solid #f0f0f0; font-size: 0.82rem; }
+    .lesson-nav a { color: #bbb; text-decoration: none; }
+    .lesson-nav a:hover { color: #555; }
+
+  </style>
+</head>
+<body>
+  <div id="player">
+    <audio id="audio" src="Lektion-20.mp3"></audio>
+    <button onclick="restart()">↺</button>
+    <button onclick="seek(-10)">−10s</button>
+    <button id="pp" onclick="togglePlay()">▶</button>
+    <button onclick="seek(10)">+10s</button>
+    <div id="progress"></div>
+  </div>
+  <script>
+
+    const audio = document.getElementById('audio');
+    const pp    = document.getElementById('pp');
+    function togglePlay() {
+      if (audio.paused) { audio.play(); pp.textContent = '⏸'; }
+      else              { audio.pause(); pp.textContent = '▶'; }
+    }
+    function seek(s) { audio.currentTime = Math.max(0, audio.currentTime + s); }
+    function restart() { audio.currentTime = 0; audio.play(); pp.textContent = '⏸'; }
+    audio.addEventListener('ended', () => pp.textContent = '▶');
+    const bar = document.getElementById('progress');
+    audio.addEventListener('timeupdate', () => {
+      if (audio.duration) bar.style.width = (audio.currentTime / audio.duration * 100) + '%';
+    });
+
+  </script>
+  <a class="back-link" href="index.html">← Alle Lektionen</a>
+  <h1>Lektion 20 — Komm sofort runter!</h1>
+  <p class="legend">
+    <span><span class="der">■</span> der (m)</span>
+    <span><span class="die">■</span> die (f)</span>
+    <span><span class="das">■</span> das (n)</span>
+    <span><span class="verb-reg">■</span> reg.</span>
+    <span><span class="verb-irr">■</span> irr.</span>
+    <span><span class="pos">(adj)</span> Adjektiv / Adverb</span>
+  </p>
+  <section>
+    <h2>Wortschatz</h2>
+    <ul class="word-list">
+      <li>
+        <div class="word-row"><span class="de"><span class="verb-reg">abtrocknen</span></span><span class="en">to dry (dishes)</span></div>
+        <p class="sample">Kannst du die Teller abtrocknen?</p><p class="gloss">can · you · the · plates · dry</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="verb-irr">abwaschen</span></span><span class="en">to wash up</span></div>
+        <p class="sample">Ich muss noch abwaschen.</p><p class="gloss">I · must · still · wash-up</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="verb-reg">spülen</span></span><span class="en">to rinse / wash up</span></div>
+        <p class="sample">Spül bitte das Geschirr!</p><p class="gloss">wash-up · please · the · dishes</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="verb-reg">waschen</span></span><span class="en">to wash</span></div>
+        <p class="sample">Ich wasche die Wäsche.</p><p class="gloss">I · wash · the · laundry</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="verb-reg">hassen</span></span><span class="en">to hate</span></div>
+        <p class="sample">Ich hasse Hausarbeit.</p><p class="gloss">I · hate · housework</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="verb-reg">zumachen</span></span><span class="en">to close / shut</span></div>
+        <p class="sample">Mach die Tür zu!</p><p class="gloss">close · the · door</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Abfall</span><span class="plural">, ¨-e</span></span><span class="en">waste / rubbish</span></div>
+        <p class="sample">Der Abfall muss raus.</p><p class="gloss">the · rubbish · must · out</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Boden</span><span class="plural">, ¨-</span></span><span class="en">floor / ground</span></div>
+        <p class="sample">Der Boden ist schmutzig.</p><p class="gloss">the · floor · is · dirty</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="das">das Geschirr</span><span class="plural">, –</span></span><span class="en">dishes / crockery</span></div>
+        <p class="sample">Das Geschirr muss gespült werden.</p><p class="gloss">the · dishes · must · washed · be</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Haushalt</span><span class="plural">, ¨-e</span></span><span class="en">household / housework</span></div>
+        <p class="sample">Ich mache den Haushalt.</p><p class="gloss">I · do · the · housework</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="die">die Ordnung</span><span class="plural">, -en</span></span><span class="en">tidiness</span></div>
+        <p class="sample">Alles ist in Ordnung.</p><p class="gloss">everything · is · in · order</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="die">die Spülmaschine</span><span class="plural">, -n</span></span><span class="en">dishwasher</span></div>
+        <p class="sample">Räum die Spülmaschine aus!</p><p class="gloss">empty · the · dishwasher</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="die">die Wäsche</span><span class="plural">, –</span></span><span class="en">laundry</span></div>
+        <p class="sample">Die Wäsche ist noch nass.</p><p class="gloss">the · laundry · is · still · wet</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Anruf</span><span class="plural">, -e</span></span><span class="en">phone call</span></div>
+        <p class="sample">Ich habe einen Anruf bekommen.</p><p class="gloss">I · have · a · phone-call · received</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Anrufbeantworter</span><span class="plural">, -</span></span><span class="en">answering machine</span></div>
+        <p class="sample">Ich spreche auf den Anrufbeantworter.</p><p class="gloss">I · speak · onto · the · answering-machine</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="die">die Antwort</span><span class="plural">, -en</span></span><span class="en">answer</span></div>
+        <p class="sample">Ich warte auf eine Antwort.</p><p class="gloss">I · wait · for · an · answer</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Brief</span><span class="plural">, -e</span></span><span class="en">letter</span></div>
+        <p class="sample">Ich schreibe einen Brief.</p><p class="gloss">I · write · a · letter</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="die">die Größe</span><span class="plural">, -n</span></span><span class="en">size</span></div>
+        <p class="sample">Welche Größe haben Sie?</p><p class="gloss">which · size · have · you</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="die">die Information</span><span class="plural">, -en</span></span><span class="en">information</span></div>
+        <p class="sample">Ich brauche eine Information.</p><p class="gloss">I · need · an · information</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">ordentlich<span class="pos">(adj)</span></span><span class="en">tidy / neat</span></div>
+        <p class="sample">Sein Zimmer ist immer ordentlich.</p><p class="gloss">his · room · is · always · tidy</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">sauber<span class="pos">(adj)</span></span><span class="en">clean</span></div>
+        <p class="sample">Die Küche ist sauber.</p><p class="gloss">the · kitchen · is · clean</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">schmutzig<span class="pos">(adj)</span></span><span class="en">dirty</span></div>
+        <p class="sample">Die Schuhe sind schmutzig.</p><p class="gloss">the · shoes · are · dirty</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">auf sein<span class="pos">(adj)</span></span><span class="en">to be open</span></div>
+        <p class="sample">Die Post ist bis 18 Uhr auf.</p><p class="gloss">the · post-office · is · until · 6pm · open</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">fertig<span class="pos">(adj)</span></span><span class="en">ready / finished</span></div>
+        <p class="sample">Das Essen ist fertig.</p><p class="gloss">the · food · is · ready</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">ganz<span class="pos">(adj)</span></span><span class="en">whole / entirely</span></div>
+        <p class="sample">Ich bin ganz müde.</p><p class="gloss">I · am · completely · tired</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">schnell<span class="pos">(adj)</span></span><span class="en">fast / quick</span></div>
+        <p class="sample">Er läuft sehr schnell.</p><p class="gloss">he · runs · very · quickly</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">Geschirr spülen</span><span class="en">to do the dishes</span></div>
+        <p class="sample">Ich muss noch Geschirr spülen.</p><p class="gloss">I · must · still · dishes · wash-up</p>
+      </li>
+    </ul>
+  </section>
+  <div class="lesson-nav">
+    <a href="Lektion-19.html">← Lektion 19</a>
+    <a href="Lektion-21.html">→ Lektion 21</a>
+  </div>
+</body>
+</html>

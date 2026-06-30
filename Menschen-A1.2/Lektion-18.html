@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lektion 18 — Geben Sie ihm doch diesen Tee!</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+           background: #fff; color: #1a1a1a; font-size: 18px; line-height: 1.6;
+           padding: 3.5rem 1.25rem 2rem; max-width: 640px; margin: 0 auto; }
+    h1 { font-size: 1.4rem; font-weight: 700; margin-bottom: 0.35rem; }
+    .legend { font-size: 0.78rem; color: #888; margin-bottom: 0.5rem; }
+    .legend span { margin-right: 1rem; }
+    .der { color: #1d4ed8; } .die { color: #db2477; } .das { color: #059669; }
+    h2 { font-size: 0.85rem; font-weight: 600; text-transform: uppercase;
+         letter-spacing: 0.09em; color: #aaa; margin-bottom: 1.2rem; }
+    section { margin-bottom: 3rem; }
+    .word-list { list-style: none; }
+    .word-list li { padding: 0.5rem 0; border-bottom: 1px solid #f0f0f0; }
+    .word-list li:last-child { border-bottom: none; }
+    .word-row { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; }
+    .de { font-size: 1rem; font-weight: 500; }
+    .plural { font-size: 0.75rem; color: #bbb; font-weight: 400; margin-left: 0.35rem; }
+    .en { font-size: 0.85rem; color: #999; text-align: right; flex-shrink: 0; }
+    .sample { font-size: 0.82rem; color: #bbb; font-style: italic; margin-top: 0.1rem; }
+    .gloss  { font-size: 0.75rem; color: #d0d0d0; margin-top: 0.05rem; }
+    .back-link { display: block; font-size: 0.78rem; color: #bbb; text-decoration: none; margin-bottom: 1.5rem; }
+    .back-link:hover { color: #888; }
+    .verb-reg { color: #d97706; } .verb-irr { color: #7c3aed; }
+    .pos { font-style: italic; font-size: 0.72rem; color: #bbb; font-weight: 400; margin-left: 0.35rem; }
+    #player { position: fixed; top: 0; left: 0; right: 0; background: #fff;
+              border-bottom: 1px solid #f0f0f0; z-index: 100; padding: 0.5rem 1.25rem;
+              display: flex; align-items: center; justify-content: center; gap: 0.75rem; }
+    #player button { background: none; border: 1px solid #ddd; border-radius: 4px;
+                     padding: 0.3rem 0.7rem; font-size: 0.82rem; color: #555; cursor: pointer; line-height: 1.4; }
+    #player button:hover { border-color: #aaa; color: #111; }
+    #player #pp { min-width: 2.2rem; }
+    #progress { position: absolute; bottom: 0; left: 0; height: 2px; background: #1d4ed8; width: 0%; }
+    .lesson-nav { display: flex; justify-content: space-between; margin-top: 3rem;
+                  padding-top: 1.5rem; border-top: 1px solid #f0f0f0; font-size: 0.82rem; }
+    .lesson-nav a { color: #bbb; text-decoration: none; }
+    .lesson-nav a:hover { color: #555; }
+
+  </style>
+</head>
+<body>
+  <div id="player">
+    <audio id="audio" src="Lektion-18.mp3"></audio>
+    <button onclick="restart()">↺</button>
+    <button onclick="seek(-10)">−10s</button>
+    <button id="pp" onclick="togglePlay()">▶</button>
+    <button onclick="seek(10)">+10s</button>
+    <div id="progress"></div>
+  </div>
+  <script>
+
+    const audio = document.getElementById('audio');
+    const pp    = document.getElementById('pp');
+    function togglePlay() {
+      if (audio.paused) { audio.play(); pp.textContent = '⏸'; }
+      else              { audio.pause(); pp.textContent = '▶'; }
+    }
+    function seek(s) { audio.currentTime = Math.max(0, audio.currentTime + s); }
+    function restart() { audio.currentTime = 0; audio.play(); pp.textContent = '⏸'; }
+    audio.addEventListener('ended', () => pp.textContent = '▶');
+    const bar = document.getElementById('progress');
+    audio.addEventListener('timeupdate', () => {
+      if (audio.duration) bar.style.width = (audio.currentTime / audio.duration * 100) + '%';
+    });
+
+  </script>
+  <a class="back-link" href="index.html">← Alle Lektionen</a>
+  <h1>Lektion 18 — Geben Sie ihm doch diesen Tee!</h1>
+  <p class="legend">
+    <span><span class="der">■</span> der (m)</span>
+    <span><span class="die">■</span> die (f)</span>
+    <span><span class="das">■</span> das (n)</span>
+    <span><span class="verb-reg">■</span> reg.</span>
+    <span><span class="verb-irr">■</span> irr.</span>
+    <span><span class="pos">(adj)</span> Adjektiv / Adverb</span>
+  </p>
+  <section>
+    <h2>Wortschatz</h2>
+    <ul class="word-list">
+      <li>
+        <div class="word-row"><span class="de"><span class="verb-reg">husten</span></span><span class="en">to cough</span></div>
+        <p class="sample">Er hustet sehr viel.</p><p class="gloss">he · coughs · very · much</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="verb-irr">wehtun</span></span><span class="en">to hurt / ache</span></div>
+        <p class="sample">Mein Kopf tut weh.</p><p class="gloss">my · head · does · hurt</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="verb-irr">bleiben</span></span><span class="en">to stay / remain</span></div>
+        <p class="sample">Sie sollen im Bett bleiben.</p><p class="gloss">you · should · in-the · bed · stay</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="verb-irr">geben</span></span><span class="en">to give</span></div>
+        <p class="sample">Geben Sie ihm diesen Tee!</p><p class="gloss">give · you · him · this · tea</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="die">die Apotheke</span><span class="plural">, -n</span></span><span class="en">pharmacy</span></div>
+        <p class="sample">Die Apotheke ist um die Ecke.</p><p class="gloss">the · pharmacy · is · around · the · corner</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Doktor</span><span class="plural">, -en</span></span><span class="en">doctor</span></div>
+        <p class="sample">Der Doktor kommt gleich.</p><p class="gloss">the · doctor · comes · right-away</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="das">das Fieber</span><span class="plural">, –</span></span><span class="en">fever</span></div>
+        <p class="sample">Ich habe Fieber.</p><p class="gloss">I · have · fever</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Husten</span><span class="plural">, –</span></span><span class="en">cough</span></div>
+        <p class="sample">Er hat starken Husten.</p><p class="gloss">he · has · strong · cough</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="das">das Medikament</span><span class="plural">, -e</span></span><span class="en">medication</span></div>
+        <p class="sample">Das Medikament hilft schnell.</p><p class="gloss">the · medication · helps · quickly</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="die">die Medizin</span><span class="plural">, -en</span></span><span class="en">medicine</span></div>
+        <p class="sample">Die Medizin ist bitter.</p><p class="gloss">the · medicine · is · bitter</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="das">das Pflaster</span><span class="plural">, -</span></span><span class="en">plaster / bandage</span></div>
+        <p class="sample">Haben Sie ein Pflaster?</p><p class="gloss">have · you · a · plaster</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="die">die Praxis</span><span class="plural">, Praxen</span></span><span class="en">doctor's practice</span></div>
+        <p class="sample">Die Praxis öffnet um 8 Uhr.</p><p class="gloss">the · practice · opens · at · 8 · o'clock</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="das">das Rezept</span><span class="plural">, -e</span></span><span class="en">recipe / prescription</span></div>
+        <p class="sample">Der Arzt gibt mir ein Rezept.</p><p class="gloss">the · doctor · gives · me · a · prescription</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="die">die Salbe</span><span class="plural">, -n</span></span><span class="en">ointment</span></div>
+        <p class="sample">Nehmen Sie diese Salbe.</p><p class="gloss">take · you · this · ointment</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Schmerz</span><span class="plural">, -en</span></span><span class="en">pain</span></div>
+        <p class="sample">Ich habe starke Schmerzen.</p><p class="gloss">I · have · strong · pain</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Schnupfen</span><span class="plural">, –</span></span><span class="en">cold / runny nose</span></div>
+        <p class="sample">Ich habe Schnupfen.</p><p class="gloss">I · have · a-cold</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="die">die Tablette</span><span class="plural">, -n</span></span><span class="en">tablet / pill</span></div>
+        <p class="sample">Nehmen Sie diese Tabletten.</p><p class="gloss">take · you · these · tablets</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Arm</span><span class="plural">, -e</span></span><span class="en">arm</span></div>
+        <p class="sample">Mein Arm tut weh.</p><p class="gloss">my · arm · hurts</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="das">das Auge</span><span class="plural">, -n</span></span><span class="en">eye</span></div>
+        <p class="sample">Mein Auge ist rot.</p><p class="gloss">my · eye · is · red</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Bauch</span><span class="plural">, ¨-e</span></span><span class="en">stomach</span></div>
+        <p class="sample">Ich habe Bauchschmerzen.</p><p class="gloss">I · have · stomach-pains</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="das">das Bein</span><span class="plural">, -e</span></span><span class="en">leg</span></div>
+        <p class="sample">Mein Bein tut weh.</p><p class="gloss">my · leg · hurts</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="die">die Brust</span><span class="plural">, ¨-e</span></span><span class="en">chest</span></div>
+        <p class="sample">Ich habe Schmerzen in der Brust.</p><p class="gloss">I · have · pain · in · the · chest</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Finger</span><span class="plural">, -</span></span><span class="en">finger</span></div>
+        <p class="sample">Mein Finger blutet.</p><p class="gloss">my · finger · bleeds</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Fuß</span><span class="plural">, ¨-e</span></span><span class="en">foot</span></div>
+        <p class="sample">Mein Fuß tut weh.</p><p class="gloss">my · foot · hurts</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Hals</span><span class="plural">, ¨-e</span></span><span class="en">neck / throat</span></div>
+        <p class="sample">Ich habe Halsschmerzen.</p><p class="gloss">I · have · throat-pain</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="die">die Hand</span><span class="plural">, ¨-e</span></span><span class="en">hand</span></div>
+        <p class="sample">Meine Hand ist kalt.</p><p class="gloss">my · hand · is · cold</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="das">das Knie</span><span class="plural">, -</span></span><span class="en">knee</span></div>
+        <p class="sample">Mein Knie tut weh.</p><p class="gloss">my · knee · hurts</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Kopf</span><span class="plural">, ¨-e</span></span><span class="en">head</span></div>
+        <p class="sample">Ich habe Kopfschmerzen.</p><p class="gloss">I · have · head-pains</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="die">die Nase</span><span class="plural">, -n</span></span><span class="en">nose</span></div>
+        <p class="sample">Meine Nase läuft.</p><p class="gloss">my · nose · runs</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Mund</span><span class="plural">, ¨-er</span></span><span class="en">mouth</span></div>
+        <p class="sample">Mein Mund ist trocken.</p><p class="gloss">my · mouth · is · dry</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="das">das Ohr</span><span class="plural">, -en</span></span><span class="en">ear</span></div>
+        <p class="sample">Mein Ohr tut weh.</p><p class="gloss">my · ear · hurts</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Rücken</span><span class="plural">, -</span></span><span class="en">back</span></div>
+        <p class="sample">Mein Rücken schmerzt.</p><p class="gloss">my · back · hurts</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Zahn</span><span class="plural">, ¨-e</span></span><span class="en">tooth</span></div>
+        <p class="sample">Mein Zahn tut weh.</p><p class="gloss">my · tooth · hurts</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">gesund<span class="pos">(adj)</span></span><span class="en">healthy</span></div>
+        <p class="sample">Ich bin wieder gesund.</p><p class="gloss">I · am · again · healthy</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">krank<span class="pos">(adj)</span></span><span class="en">sick / ill</span></div>
+        <p class="sample">Er ist sehr krank.</p><p class="gloss">he · is · very · sick</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">hoch<span class="pos">(adj)</span></span><span class="en">high</span></div>
+        <p class="sample">Das Fieber ist hoch.</p><p class="gloss">the · fever · is · high</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">doch<span class="pos">(adj)</span></span><span class="en">do (emphasis) / after all</span></div>
+        <p class="sample">Das stimmt doch!</p><p class="gloss">that · is-correct · after-all</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">gegen<span class="pos">(adj)</span></span><span class="en">against</span></div>
+        <p class="sample">Das Mittel hilft gegen Schmerzen.</p><p class="gloss">the · remedy · helps · against · pain</p>
+      </li>
+    </ul>
+  </section>
+  <div class="lesson-nav">
+    <a href="Lektion-17.html">← Lektion 17</a>
+    <a href="Lektion-19.html">→ Lektion 19</a>
+  </div>
+</body>
+</html>

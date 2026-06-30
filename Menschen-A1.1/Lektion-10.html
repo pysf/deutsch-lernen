@@ -6,12 +6,15 @@
   <title>Lektion 10 — Ich steige jetzt in die U-Bahn ein.</title>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background: #fff; color: #1a1a1a; font-size: 18px; line-height: 1.6; padding: 3.5rem 1.25rem 2rem; max-width: 640px; margin: 0 auto; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+           background: #fff; color: #1a1a1a; font-size: 18px; line-height: 1.6;
+           padding: 3.5rem 1.25rem 2rem; max-width: 640px; margin: 0 auto; }
     h1 { font-size: 1.4rem; font-weight: 700; margin-bottom: 0.35rem; }
     .legend { font-size: 0.78rem; color: #888; margin-bottom: 0.5rem; }
     .legend span { margin-right: 1rem; }
     .der { color: #1d4ed8; } .die { color: #db2477; } .das { color: #059669; }
-    h2 { font-size: 0.85rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.09em; color: #aaa; margin-bottom: 1.2rem; }
+    h2 { font-size: 0.85rem; font-weight: 600; text-transform: uppercase;
+         letter-spacing: 0.09em; color: #aaa; margin-bottom: 1.2rem; }
     section { margin-bottom: 3rem; }
     .word-list { list-style: none; }
     .word-list li { padding: 0.5rem 0; border-bottom: 1px solid #f0f0f0; }
@@ -21,21 +24,24 @@
     .plural { font-size: 0.75rem; color: #bbb; font-weight: 400; margin-left: 0.35rem; }
     .en { font-size: 0.85rem; color: #999; text-align: right; flex-shrink: 0; }
     .sample { font-size: 0.82rem; color: #bbb; font-style: italic; margin-top: 0.1rem; }
-    .gloss { font-size: 0.75rem; color: #d0d0d0; margin-top: 0.05rem; }
+    .gloss  { font-size: 0.75rem; color: #d0d0d0; margin-top: 0.05rem; }
     .back-link { display: block; font-size: 0.78rem; color: #bbb; text-decoration: none; margin-bottom: 1.5rem; }
     .back-link:hover { color: #888; }
-    .verb-reg { color: #d97706; }
-    .verb-irr { color: #7c3aed; }
-    .perfekt { font-size: 0.82rem; color: #888; font-weight: 400; margin-top: 0.1rem; }
+    .verb-reg { color: #d97706; } .verb-irr { color: #7c3aed; }
     .pos { font-style: italic; font-size: 0.72rem; color: #bbb; font-weight: 400; margin-left: 0.35rem; }
-    #player { position: fixed; top: 0; left: 0; right: 0; background: #fff; border-bottom: 1px solid #f0f0f0; z-index: 100; padding: 0.5rem 1.25rem; display: flex; align-items: center; justify-content: center; gap: 0.75rem; }
-    #player button { background: none; border: 1px solid #ddd; border-radius: 4px; padding: 0.3rem 0.7rem; font-size: 0.82rem; color: #555; cursor: pointer; line-height: 1.4; }
+    #player { position: fixed; top: 0; left: 0; right: 0; background: #fff;
+              border-bottom: 1px solid #f0f0f0; z-index: 100; padding: 0.5rem 1.25rem;
+              display: flex; align-items: center; justify-content: center; gap: 0.75rem; }
+    #player button { background: none; border: 1px solid #ddd; border-radius: 4px;
+                     padding: 0.3rem 0.7rem; font-size: 0.82rem; color: #555; cursor: pointer; line-height: 1.4; }
     #player button:hover { border-color: #aaa; color: #111; }
     #player #pp { min-width: 2.2rem; }
     #progress { position: absolute; bottom: 0; left: 0; height: 2px; background: #1d4ed8; width: 0%; }
-    .lesson-nav { display: flex; justify-content: space-between; margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid #f0f0f0; font-size: 0.82rem; }
+    .lesson-nav { display: flex; justify-content: space-between; margin-top: 3rem;
+                  padding-top: 1.5rem; border-top: 1px solid #f0f0f0; font-size: 0.82rem; }
     .lesson-nav a { color: #bbb; text-decoration: none; }
     .lesson-nav a:hover { color: #555; }
+
   </style>
 </head>
 <body>
@@ -48,11 +54,12 @@
     <div id="progress"></div>
   </div>
   <script>
+
     const audio = document.getElementById('audio');
-    const pp = document.getElementById('pp');
+    const pp    = document.getElementById('pp');
     function togglePlay() {
       if (audio.paused) { audio.play(); pp.textContent = '⏸'; }
-      else { audio.pause(); pp.textContent = '▶'; }
+      else              { audio.pause(); pp.textContent = '▶'; }
     }
     function seek(s) { audio.currentTime = Math.max(0, audio.currentTime + s); }
     function restart() { audio.currentTime = 0; audio.play(); pp.textContent = '⏸'; }
@@ -61,6 +68,7 @@
     audio.addEventListener('timeupdate', () => {
       if (audio.duration) bar.style.width = (audio.currentTime / audio.duration * 100) + '%';
     });
+
   </script>
   <a class="back-link" href="index.html">← Alle Lektionen</a>
   <h1>Lektion 10 — Ich steige jetzt in die U-Bahn ein.</h1>
@@ -70,175 +78,188 @@
     <span><span class="das">■</span> das (n)</span>
     <span><span class="verb-reg">■</span> reg.</span>
     <span><span class="verb-irr">■</span> irr.</span>
-    <span><span class="pos">(t)</span> transitiv · <span class="pos">(i)</span> intransitiv · <span class="pos">(adj)</span> Adjektiv · <span class="pos">(adv)</span> Adverb</span>
+    <span><span class="pos">(adj)</span> Adjektiv / Adverb</span>
   </p>
   <section>
     <h2>Wortschatz</h2>
     <ul class="word-list">
-
       <li>
-        <div class="word-row"><span class="de"><span class="verb-irr">einsteigen</span><span class="pos" title="intransitiv">(i)</span></span><span class="en">to get on / to board</span></div>
-        <p class="perfekt">ist eingestiegen</p>
-        <p class="sample">Ich steige in den Bus ein. · Ich bin in den Bus eingestiegen.</p>
-        <p class="gloss">I step in the bus in</p>
+        <div class="word-row"><span class="de"><span class="die">die Zeit</span><span class="plural">, -en</span></span><span class="en">time</span></div>
+        <p class="sample">Ich habe keine Zeit.</p><p class="gloss">I · have · no · time</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="verb-irr">aussteigen</span><span class="pos" title="intransitiv">(i)</span></span><span class="en">to get off / to exit</span></div>
-        <p class="perfekt">ist ausgestiegen</p>
-        <p class="sample">Ich steige am Bahnhof aus. · Ich bin am Bahnhof ausgestiegen.</p>
-        <p class="gloss">I step at-the station out</p>
+        <div class="word-row"><span class="de"><span class="die">die Uhrzeit</span><span class="plural">, -en</span></span><span class="en">time of day / clock time</span></div>
+        <p class="sample">Wie spät ist es?</p><p class="gloss">how · late · is · it</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="verb-irr">abfahren</span><span class="pos" title="intransitiv">(i)</span></span><span class="en">to depart</span></div>
-        <p class="perfekt">ist abgefahren</p>
-        <p class="sample">Der Zug fährt um acht Uhr ab. · Der Zug ist um acht Uhr abgefahren.</p>
-        <p class="gloss">The train departs at eight o'clock off</p>
+        <div class="word-row"><span class="de"><span class="das">das Jahr</span><span class="plural">, -e</span></span><span class="en">year</span></div>
+        <p class="sample">Ich lerne seit einem Jahr Deutsch.</p><p class="gloss">I · learn · since · a · year · German</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="verb-irr">ankommen</span><span class="pos" title="intransitiv">(i)</span></span><span class="en">to arrive</span></div>
-        <p class="perfekt">ist angekommen</p>
-        <p class="sample">Wir kommen um zehn Uhr an. · Wir sind um zehn Uhr angekommen.</p>
-        <p class="gloss">We come at ten o'clock on</p>
+        <div class="word-row"><span class="de"><span class="die">die Jahreszeit</span><span class="plural">, -en</span></span><span class="en">season</span></div>
+        <p class="sample">Was ist deine Lieblingsjahrzeit?</p><p class="gloss">what · is · your · favourite-season</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="verb-irr">umsteigen</span><span class="pos" title="intransitiv">(i)</span></span><span class="en">to transfer / to change</span></div>
-        <p class="perfekt">ist umgestiegen</p>
-        <p class="sample">In München steige ich um. · Ich bin in München umgestiegen.</p>
-        <p class="gloss">In Munich step I over</p>
+        <div class="word-row"><span class="de"><span class="der">der Frühling</span><span class="plural">, -e</span></span><span class="en">spring</span></div>
+        <p class="sample">Im Frühling blühen die Blumen.</p><p class="gloss">in-the · spring · bloom · the · flowers</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="verb-irr">einfahren</span><span class="pos" title="intransitiv">(i)</span></span><span class="en">to pull in (train)</span></div>
-        <p class="perfekt">ist eingefahren</p>
-        <p class="sample">Der Zug fährt gerade ein. · Der Zug ist gerade eingefahren.</p>
-        <p class="gloss">The train drives just in</p>
+        <div class="word-row"><span class="de"><span class="der">der Sommer</span><span class="plural">, –</span></span><span class="en">summer</span></div>
+        <p class="sample">Im Sommer fahre ich ans Meer.</p><p class="gloss">in-the · summer · drive · I · to-the · sea</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="verb-reg">abholen</span><span class="pos" title="transitiv (Akkusativobjekt)">(t)</span></span><span class="en">to pick up</span></div>
-        <p class="perfekt">hat abgeholt</p>
-        <p class="sample">Mein Freund holt mich ab. · Mein Freund hat mich abgeholt.</p>
-        <p class="gloss">My friend picks me off</p>
+        <div class="word-row"><span class="de"><span class="der">der Herbst</span><span class="plural">, -e</span></span><span class="en">autumn</span></div>
+        <p class="sample">Im Herbst ist es kühl.</p><p class="gloss">in-the · autumn · is · it · cool</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="verb-irr">anrufen</span><span class="pos" title="transitiv (Akkusativobjekt)">(t)</span></span><span class="en">to call (by phone)</span></div>
-        <p class="perfekt">hat angerufen</p>
-        <p class="sample">Ich rufe meine Mutter an. · Ich habe meine Mutter angerufen.</p>
-        <p class="gloss">I call my mother on</p>
+        <div class="word-row"><span class="de"><span class="der">der Winter</span><span class="plural">, –</span></span><span class="en">winter</span></div>
+        <p class="sample">Im Winter schneit es.</p><p class="gloss">in-the · winter · snows · it</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="verb-irr">nehmen</span><span class="pos" title="transitiv (Akkusativobjekt)">(t)</span></span><span class="en">to take (transport)</span></div>
-        <p class="perfekt">hat genommen</p>
-        <p class="sample">Ich nehme die S-Bahn. · Ich habe die S-Bahn genommen.</p>
-        <p class="gloss">I take the S-Bahn</p>
-      </li>
-
-      <li>
-        <div class="word-row"><span class="de">gerade<span class="pos" title="Adverb">(adv)</span></span><span class="en">right now / just</span></div>
-        <p class="sample">Der Bus kommt gerade.</p>
-        <p class="gloss">The bus comes just</p>
-      </li>
-
-      <li>
-        <div class="word-row"><span class="de"><span class="die">die U-Bahn</span><span class="plural">Pl. U-Bahnen</span><span class="pos" title="feminin">(f)</span></span><span class="en">subway / metro</span></div>
-        <p class="sample">Die U-Bahn kommt. · Ich nehme die U-Bahn.</p>
-        <p class="gloss">The subway comes</p>
+        <div class="word-row"><span class="de"><span class="der">der Monat</span><span class="plural">, -e</span></span><span class="en">month</span></div>
+        <p class="sample">Er arbeitet seit drei Monaten hier.</p><p class="gloss">he · works · since · three · months · here</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="der">der Bus</span><span class="plural">Pl. Busse</span><span class="pos" title="maskulin">(m)</span></span><span class="en">bus</span></div>
-        <p class="sample">Der Bus kommt in fünf Minuten. · Ich nehme den Bus.</p>
-        <p class="gloss">The bus comes in five minutes</p>
+        <div class="word-row"><span class="de"><span class="die">die Woche</span><span class="plural">, -n</span></span><span class="en">week</span></div>
+        <p class="sample">Die Woche hat sieben Tage.</p><p class="gloss">the · week · has · seven · days</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="die">die S-Bahn</span><span class="plural">Pl. S-Bahnen</span><span class="pos" title="feminin">(f)</span></span><span class="en">suburban rail</span></div>
-        <p class="sample">Die S-Bahn fährt nach München. · Ich nehme die S-Bahn.</p>
-        <p class="gloss">The suburban-rail goes to Munich</p>
+        <div class="word-row"><span class="de"><span class="der">der Wochentag</span><span class="plural">, -e</span></span><span class="en">weekday</span></div>
+        <p class="sample">Montag ist ein Wochentag.</p><p class="gloss">Monday · is · a · weekday</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="die">die Straßenbahn</span><span class="plural">Pl. Straßenbahnen</span><span class="pos" title="feminin">(f)</span></span><span class="en">tram / streetcar</span></div>
-        <p class="sample">Die Straßenbahn hält hier. · Ich nehme die Straßenbahn.</p>
-        <p class="gloss">The tram stops here</p>
+        <div class="word-row"><span class="de"><span class="das">das Wochenende</span><span class="plural">, -n</span></span><span class="en">weekend</span></div>
+        <p class="sample">Am Wochenende schlafe ich lange.</p><p class="gloss">at-the · weekend · sleep · I · long</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="der">der Zug</span><span class="plural">Pl. Züge</span><span class="pos" title="maskulin">(m)</span></span><span class="en">train</span></div>
-        <p class="sample">Der Zug kommt um zehn Uhr. · Ich nehme den Zug.</p>
-        <p class="gloss">The train comes at ten o'clock</p>
+        <div class="word-row"><span class="de"><span class="die">die Tageszeit</span><span class="plural">, -en</span></span><span class="en">time of day</span></div>
+        <p class="sample">Was ist deine Lieblingstageszeit?</p><p class="gloss">what · is · your · favourite-time-of-day</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="das">das Taxi</span><span class="plural">Pl. Taxis</span><span class="pos" title="neutrum">(n)</span></span><span class="en">taxi</span></div>
-        <p class="sample">Das Taxi ist teuer. · Ich nehme ein Taxi.</p>
-        <p class="gloss">The taxi is expensive</p>
+        <div class="word-row"><span class="de"><span class="der">der Morgen</span><span class="plural">, –</span></span><span class="en">morning</span></div>
+        <p class="sample">Am Morgen trinke ich Kaffee.</p><p class="gloss">in-the · morning · drink · I · coffee</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="das">das Flugzeug</span><span class="plural">Pl. Flugzeuge</span><span class="pos" title="neutrum">(n)</span></span><span class="en">airplane</span></div>
-        <p class="sample">Das Flugzeug fliegt nach Berlin. · Ich nehme das Flugzeug.</p>
-        <p class="gloss">The airplane flies to Berlin</p>
+        <div class="word-row"><span class="de"><span class="der">der Vormittag</span><span class="plural">, -e</span></span><span class="en">late morning</span></div>
+        <p class="sample">Am Vormittag trinke ich Kaffee.</p><p class="gloss">in-the · late-morning · drink · I · coffee</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="der">der Bahnhof</span><span class="plural">Pl. Bahnhöfe</span><span class="pos" title="maskulin">(m)</span></span><span class="en">train station</span></div>
-        <p class="sample">Der Bahnhof ist groß. · Ich suche den Bahnhof.</p>
-        <p class="gloss">The station is big</p>
+        <div class="word-row"><span class="de"><span class="der">der Mittag</span><span class="plural">, -e</span></span><span class="en">midday / noon</span></div>
+        <p class="sample">Zu Mittag esse ich warm.</p><p class="gloss">at · midday · eat · I · warm</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="der">der Hauptbahnhof</span><span class="plural">Pl. Hauptbahnhöfe</span><span class="pos" title="maskulin">(m)</span></span><span class="en">main station</span></div>
-        <p class="sample">Der Hauptbahnhof ist sehr groß. · Ich suche den Hauptbahnhof.</p>
-        <p class="gloss">The main-station is very big</p>
+        <div class="word-row"><span class="de"><span class="der">der Nachmittag</span><span class="plural">, -e</span></span><span class="en">afternoon</span></div>
+        <p class="sample">Am Nachmittag mache ich Sport.</p><p class="gloss">in-the · afternoon · do · I · sport</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="der">der Flughafen</span><span class="plural">Pl. Flughäfen</span><span class="pos" title="maskulin">(m)</span></span><span class="en">airport</span></div>
-        <p class="sample">Der Flughafen ist weit weg. · Ich suche den Flughafen.</p>
-        <p class="gloss">The airport is far away</p>
+        <div class="word-row"><span class="de"><span class="der">der Abend</span><span class="plural">, -e</span></span><span class="en">evening</span></div>
+        <p class="sample">Am Abend lese ich.</p><p class="gloss">in-the · evening · read · I</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="der">der Bahnsteig</span><span class="plural">Pl. Bahnsteige</span><span class="pos" title="maskulin">(m)</span></span><span class="en">platform</span></div>
-        <p class="sample">Der Bahnsteig ist hier. · Ich suche den Bahnsteig.</p>
-        <p class="gloss">The platform is here</p>
+        <div class="word-row"><span class="de"><span class="die">die Nacht</span><span class="plural">, ¨-e</span></span><span class="en">night</span></div>
+        <p class="sample">In der Nacht schlafe ich.</p><p class="gloss">in · the · night · sleep · I</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="das">das Gleis</span><span class="plural">Pl. Gleise</span><span class="pos" title="neutrum">(n)</span></span><span class="en">track / platform</span></div>
-        <p class="sample">Das Gleis ist Nummer fünf. · Ich suche das Gleis.</p>
-        <p class="gloss">The track is number five</p>
+        <div class="word-row"><span class="de"><span class="die">die Uhr</span><span class="plural">, -en</span></span><span class="en">o'clock / clock</span></div>
+        <p class="sample">Die Uhr ist sehr teuer.</p><p class="gloss">the · watch · is · very · expensive</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="die">die Haltestelle</span><span class="plural">Pl. Haltestellen</span><span class="pos" title="feminin">(f)</span></span><span class="en">stop</span></div>
-        <p class="sample">Die Haltestelle ist hier. · Ich suche die Haltestelle.</p>
-        <p class="gloss">The stop is here</p>
+        <div class="word-row"><span class="de"><span class="das">das Viertel</span><span class="plural">, –</span></span><span class="en">quarter</span></div>
+        <p class="sample">Es ist Viertel nach neun.</p><p class="gloss">it · is · quarter · past · nine</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="der">der Koffer</span><span class="plural">Pl. Koffer</span><span class="pos" title="maskulin">(m)</span></span><span class="en">suitcase</span></div>
-        <p class="sample">Der Koffer ist schwer. · Ich trage den Koffer.</p>
-        <p class="gloss">The suitcase is heavy</p>
+        <div class="word-row"><span class="de">halb<span class="pos">(adj)</span></span><span class="en">half past</span></div>
+        <p class="sample">Es ist halb acht.</p><p class="gloss">it · is · half · eight</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="das">das Gepäck</span><span class="pos" title="neutrum">(n)</span></span><span class="en">luggage / baggage</span></div>
-        <p class="sample">Das Gepäck ist schwer. · Ich habe das Gepäck.</p>
-        <p class="gloss">The luggage is heavy</p>
+        <div class="word-row"><span class="de">vor<span class="pos">(adj)</span></span><span class="en">in front of</span></div>
+        <p class="sample">Er kam vor einem Jahr nach Deutschland.</p><p class="gloss">he · came · before · a · year · to · Germany</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="die">die Reise</span><span class="plural">Pl. Reisen</span><span class="pos" title="feminin">(f)</span></span><span class="en">journey / trip</span></div>
-        <p class="sample">Die Reise dauert zwei Stunden. · Ich mache eine Reise.</p>
-        <p class="gloss">The journey lasts two hours</p>
+        <div class="word-row"><span class="de">wann<span class="pos">(adj)</span></span><span class="en">when</span></div>
+        <p class="sample">Wann kommst du?</p><p class="gloss">when · come · you</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="die">die Minute</span><span class="plural">Pl. Minuten</span><span class="pos" title="feminin">(f)</span></span><span class="en">minute</span></div>
-        <p class="sample">Eine Minute ist kurz. · Ich warte eine Minute.</p>
-        <p class="gloss">A minute is short</p>
+        <div class="word-row"><span class="de">Januar</span><span class="en">January</span></div>
+        <p class="sample">Im Januar ist es sehr kalt.</p><p class="gloss">in-the · January · is · it · very · cold</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="die">die Durchsage</span><span class="plural">Pl. Durchsagen</span><span class="pos" title="feminin">(f)</span></span><span class="en">announcement</span></div>
-        <p class="sample">Die Durchsage ist laut. · Ich höre die Durchsage.</p>
-        <p class="gloss">The announcement is loud</p>
+        <div class="word-row"><span class="de">Februar</span><span class="en">February</span></div>
+        <p class="sample">Im Februar gibt es Fasching.</p><p class="gloss">in-the · February · gives · there · Carnival</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="das">das Verkehrsmittel</span><span class="plural">Pl. Verkehrsmittel</span><span class="pos" title="neutrum">(n)</span></span><span class="en">means of transport</span></div>
-        <p class="sample">Das Verkehrsmittel ist gut. · Ich brauche ein Verkehrsmittel.</p>
-        <p class="gloss">The means-of-transport is good</p>
+        <div class="word-row"><span class="de">März</span><span class="en">March</span></div>
+        <p class="sample">Im März beginnt der Frühling.</p><p class="gloss">in-the · March · begins · the · spring</p>
       </li>
-
+      <li>
+        <div class="word-row"><span class="de">April</span><span class="en">April</span></div>
+        <p class="sample">Im April regnet es oft.</p><p class="gloss">in-the · April · rains · it · often</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">Mai</span><span class="en">May</span></div>
+        <p class="sample">Im Mai ist das Wetter schön.</p><p class="gloss">in-the · May · is · the · weather · beautiful</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">Juni</span><span class="en">June</span></div>
+        <p class="sample">Im Juni fährt er in Urlaub.</p><p class="gloss">in-the · June · drives · he · on-holiday</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">Juli</span><span class="en">July</span></div>
+        <p class="sample">Im Juli ist es sehr heiß.</p><p class="gloss">in-the · July · is · it · very · hot</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">August</span><span class="en">August</span></div>
+        <p class="sample">Im August gehe ich schwimmen.</p><p class="gloss">in-the · August · go · I · swimming</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">September</span><span class="en">September</span></div>
+        <p class="sample">Im September beginnt die Schule.</p><p class="gloss">in-the · September · begins · the · school</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">Oktober</span><span class="en">October</span></div>
+        <p class="sample">Im Oktober ist es kühl.</p><p class="gloss">in-the · October · is · it · cool</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">November</span><span class="en">November</span></div>
+        <p class="sample">Im November regnet es viel.</p><p class="gloss">in-the · November · rains · it · much</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">Dezember</span><span class="en">December</span></div>
+        <p class="sample">Im Dezember ist Weihnachten.</p><p class="gloss">in-the · December · is · Christmas</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">Montag</span><span class="en">Monday</span></div>
+        <p class="sample">Am Montag habe ich Deutschkurs.</p><p class="gloss">on · Monday · have · I · German-class</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">Dienstag</span><span class="en">Tuesday</span></div>
+        <p class="sample">Am Dienstag habe ich frei.</p><p class="gloss">on · Tuesday · have · I · off</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">Mittwoch</span><span class="en">Wednesday</span></div>
+        <p class="sample">Am Mittwoch gehe ich zum Arzt.</p><p class="gloss">on · Wednesday · go · I · to-the · doctor</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">Donnerstag</span><span class="en">Thursday</span></div>
+        <p class="sample">Am Donnerstag arbeite ich.</p><p class="gloss">on · Thursday · work · I</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">Freitag</span><span class="en">Friday</span></div>
+        <p class="sample">Am Freitag gehen wir ins Kino.</p><p class="gloss">on · Friday · go · we · into-the · cinema</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">Samstag</span><span class="en">Saturday</span></div>
+        <p class="sample">Am Samstag schlafe ich lange.</p><p class="gloss">on · Saturday · sleep · I · long</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">Sonntag</span><span class="en">Sunday</span></div>
+        <p class="sample">Am Sonntag gehe ich spazieren.</p><p class="gloss">on · Sunday · go · I · for-a-walk</p>
+      </li>
     </ul>
   </section>
-
-  <nav class="lesson-nav">
+  <div class="lesson-nav">
     <a href="Lektion-9.html">← Lektion 9</a>
-    <a href="Lektion-11.html">Lektion 11 →</a>
-  </nav>
+    <a href="Lektion-11.html">→ Lektion 11</a>
+  </div>
 </body>
 </html>

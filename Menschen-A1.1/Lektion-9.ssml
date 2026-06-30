@@ -1,107 +1,88 @@
 <speak>
   <voice name="de-DE-Chirp3-HD-Puck">Menschen A1.1. Lektion 9. Ich möchte was essen, Onkel Harry.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">essen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">essen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">essen.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">hat gegessen.</prosody></voice> <break time="3.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Ich esse Brot.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">brauchen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">brauchen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">brauchen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Ich brauche ein Büro.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">trinken</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">trinken</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">trinken.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">hat getrunken.</prosody></voice> <break time="3.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Ich trinke Wasser.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">kaufen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">kaufen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">kaufen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Ich kaufe frisches Brot.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">schmecken</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">schmecken</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">schmecken.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">hat geschmeckt.</prosody></voice> <break time="3.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Die Suppe schmeckt gut.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">einkaufen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">einkaufen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">einkaufen.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Ich gehe einkaufen.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">mögen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">mögen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">mögen.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">hat gemocht.</prosody></voice> <break time="3.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Ich mag Schokolade.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">kosten</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">kosten</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">kosten.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Wie viel kostet das?</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Hunger</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Hunger</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Hunger.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Der Hunger ist groß.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Einkauf</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Einkauf</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Einkauf.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Der Einkauf dauert eine Stunde.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Durst</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Durst</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Durst.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Der Durst ist groß.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Markt</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Markt</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Markt.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Auf dem Markt gibt es frisches Gemüse.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Onkel</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Onkel</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Onkel.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Der Onkel ist nett.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Wochenmarkt</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Wochenmarkt</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Wochenmarkt.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Am Wochenmarkt gibt es frisches Gemüse.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Kühlschrank</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Kühlschrank</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Kühlschrank.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Der Kühlschrank ist voll.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Supermarkt</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Supermarkt</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Supermarkt.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Im Supermarkt kaufe ich ein.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Brot</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Brot</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Brot.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Das Brot ist frisch.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Metzgerei</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Metzgerei</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Metzgerei.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">In der Metzgerei kaufe ich Fleisch.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Butter</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Butter</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Butter.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Die Butter ist frisch.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Bäckerei</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Bäckerei</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Bäckerei.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Die Bäckerei öffnet um 6 Uhr.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Käse</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Käse</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Käse.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Der Käse ist gut.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Kaufhaus</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Kaufhaus</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Kaufhaus.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Das Kaufhaus ist sehr groß.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Schinken</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Schinken</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Schinken.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Der Schinken ist frisch.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Laden</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Laden</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Laden.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Der Laden öffnet um 9 Uhr.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Apfel</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Apfel</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Apfel.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Der Apfel ist rot.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Dose</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Dose</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Dose.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Ich kaufe eine Dose Tomaten.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Orange</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Orange</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Orange.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Die Orange ist süß.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Flasche</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Flasche</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Flasche.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Die Flasche ist leer.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Tomate</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Tomate</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Tomate.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Die Tomate ist rot.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Gramm</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Gramm</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Gramm.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Ich brauche 200 Gramm Käse.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Kartoffel</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Kartoffel</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Kartoffel.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Die Kartoffel ist groß.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Kilo</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Kilo</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Kilo.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Zwei Kilo Tomaten, bitte.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Fisch</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Fisch</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Fisch.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Der Fisch ist frisch.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Liter</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Liter</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Liter.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Einen Liter Milch, bitte.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Salat</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Salat</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Salat.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Der Salat ist frisch.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Packung</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Packung</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Packung.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Eine Packung Zucker, bitte.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Suppe</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Suppe</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Suppe.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Die Suppe ist heiß.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Pfund</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Pfund</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Pfund.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Ein Pfund Butter, bitte.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Kuchen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Kuchen</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Kuchen.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Der Kuchen ist süß.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Stück</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Stück</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Stück.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Drei Stück Kuchen, bitte.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Schokolade</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Schokolade</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Schokolade.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Die Schokolade ist gut.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Becher</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Becher</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Becher.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Ein Becher Joghurt, bitte.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Milch</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Milch</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Milch.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Die Milch ist frisch.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Glas</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Glas</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Glas.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Ein Glas Wasser, bitte.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Ei</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Ei</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Ei.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Das Ei ist frisch.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Sonderangebot</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Sonderangebot</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Sonderangebot.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Das Brot ist im Sonderangebot.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Eis</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Eis</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Eis.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Das Eis ist kalt.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Preis</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Preis</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Preis.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Der Preis ist sehr günstig.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Obst</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Obst</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Obst.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Das Obst ist frisch.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">günstig</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">günstig</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">günstig.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Der Preis ist sehr günstig.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Reis</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Reis</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">der Reis.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Der Reis ist fertig.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">teuer</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">teuer</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">teuer.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Das Sofa ist zu teuer.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Pizza</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Pizza</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Pizza.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Die Pizza ist heiß.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">billig</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">billig</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">billig.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Das Bett ist sehr billig.</voice> <break time="4s"/>
 
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Frühstück</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Frühstück</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Frühstück.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Das Frühstück ist fertig.</voice> <break time="4s"/>
-
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Vorspeise</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Vorspeise</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Vorspeise.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Die Vorspeise ist gut.</voice> <break time="4s"/>
-
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Hauptgericht</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Hauptgericht</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Hauptgericht.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Das Hauptgericht ist groß.</voice> <break time="4s"/>
-
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Dessert</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Dessert</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Dessert.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Das Dessert ist süß.</voice> <break time="4s"/>
-
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Speisekarte</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Speisekarte</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">die Speisekarte.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Die Speisekarte ist lang.</voice> <break time="4s"/>
-
-  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Wochenende</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Wochenende</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">das Wochenende.</prosody></voice> <break time="2.5s"/>
-  <voice name="de-DE-Chirp3-HD-Puck">Das Wochenende ist schön.</voice> <break time="4s"/>
+  <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">Wie viel kostet ...?</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">Wie viel kostet ...?</prosody></voice> <break time="2.5s"/> <voice name="de-DE-Chirp3-HD-Puck"><prosody rate="0.85">Wie viel kostet ...?.</prosody></voice> <break time="2.5s"/>
+  <voice name="de-DE-Chirp3-HD-Puck">Wie viel kostet das Brot?</voice> <break time="4s"/>
 
 </speak>

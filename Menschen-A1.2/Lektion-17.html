@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lektion 17 — Wer will Popstar werden?</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+           background: #fff; color: #1a1a1a; font-size: 18px; line-height: 1.6;
+           padding: 3.5rem 1.25rem 2rem; max-width: 640px; margin: 0 auto; }
+    h1 { font-size: 1.4rem; font-weight: 700; margin-bottom: 0.35rem; }
+    .legend { font-size: 0.78rem; color: #888; margin-bottom: 0.5rem; }
+    .legend span { margin-right: 1rem; }
+    .der { color: #1d4ed8; } .die { color: #db2477; } .das { color: #059669; }
+    h2 { font-size: 0.85rem; font-weight: 600; text-transform: uppercase;
+         letter-spacing: 0.09em; color: #aaa; margin-bottom: 1.2rem; }
+    section { margin-bottom: 3rem; }
+    .word-list { list-style: none; }
+    .word-list li { padding: 0.5rem 0; border-bottom: 1px solid #f0f0f0; }
+    .word-list li:last-child { border-bottom: none; }
+    .word-row { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; }
+    .de { font-size: 1rem; font-weight: 500; }
+    .plural { font-size: 0.75rem; color: #bbb; font-weight: 400; margin-left: 0.35rem; }
+    .en { font-size: 0.85rem; color: #999; text-align: right; flex-shrink: 0; }
+    .sample { font-size: 0.82rem; color: #bbb; font-style: italic; margin-top: 0.1rem; }
+    .gloss  { font-size: 0.75rem; color: #d0d0d0; margin-top: 0.05rem; }
+    .back-link { display: block; font-size: 0.78rem; color: #bbb; text-decoration: none; margin-bottom: 1.5rem; }
+    .back-link:hover { color: #888; }
+    .verb-reg { color: #d97706; } .verb-irr { color: #7c3aed; }
+    .pos { font-style: italic; font-size: 0.72rem; color: #bbb; font-weight: 400; margin-left: 0.35rem; }
+    #player { position: fixed; top: 0; left: 0; right: 0; background: #fff;
+              border-bottom: 1px solid #f0f0f0; z-index: 100; padding: 0.5rem 1.25rem;
+              display: flex; align-items: center; justify-content: center; gap: 0.75rem; }
+    #player button { background: none; border: 1px solid #ddd; border-radius: 4px;
+                     padding: 0.3rem 0.7rem; font-size: 0.82rem; color: #555; cursor: pointer; line-height: 1.4; }
+    #player button:hover { border-color: #aaa; color: #111; }
+    #player #pp { min-width: 2.2rem; }
+    #progress { position: absolute; bottom: 0; left: 0; height: 2px; background: #1d4ed8; width: 0%; }
+    .lesson-nav { display: flex; justify-content: space-between; margin-top: 3rem;
+                  padding-top: 1.5rem; border-top: 1px solid #f0f0f0; font-size: 0.82rem; }
+    .lesson-nav a { color: #bbb; text-decoration: none; }
+    .lesson-nav a:hover { color: #555; }
+
+  </style>
+</head>
+<body>
+  <div id="player">
+    <audio id="audio" src="Lektion-17.mp3"></audio>
+    <button onclick="restart()">↺</button>
+    <button onclick="seek(-10)">−10s</button>
+    <button id="pp" onclick="togglePlay()">▶</button>
+    <button onclick="seek(10)">+10s</button>
+    <div id="progress"></div>
+  </div>
+  <script>
+
+    const audio = document.getElementById('audio');
+    const pp    = document.getElementById('pp');
+    function togglePlay() {
+      if (audio.paused) { audio.play(); pp.textContent = '⏸'; }
+      else              { audio.pause(); pp.textContent = '▶'; }
+    }
+    function seek(s) { audio.currentTime = Math.max(0, audio.currentTime + s); }
+    function restart() { audio.currentTime = 0; audio.play(); pp.textContent = '⏸'; }
+    audio.addEventListener('ended', () => pp.textContent = '▶');
+    const bar = document.getElementById('progress');
+    audio.addEventListener('timeupdate', () => {
+      if (audio.duration) bar.style.width = (audio.currentTime / audio.duration * 100) + '%';
+    });
+
+  </script>
+  <a class="back-link" href="index.html">← Alle Lektionen</a>
+  <h1>Lektion 17 — Wer will Popstar werden?</h1>
+  <p class="legend">
+    <span><span class="der">■</span> der (m)</span>
+    <span><span class="die">■</span> die (f)</span>
+    <span><span class="das">■</span> das (n)</span>
+    <span><span class="verb-reg">■</span> reg.</span>
+    <span><span class="verb-irr">■</span> irr.</span>
+    <span><span class="pos">(adj)</span> Adjektiv / Adverb</span>
+  </p>
+  <section>
+    <h2>Wortschatz</h2>
+    <ul class="word-list">
+      <li>
+        <div class="word-row"><span class="de"><span class="verb-reg">eine prüfung schaffen</span></span><span class="en">to pass an exam</span></div>
+        <p class="sample">Sie hat die Prüfung geschafft!</p><p class="gloss">she · has · the · exam · passed</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="verb-irr">abschließen</span></span><span class="en">to complete</span></div>
+        <p class="sample">Er schließt seine Ausbildung ab.</p><p class="gloss">he · completes · his · training</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="verb-reg">anmelden</span></span><span class="en">to register</span></div>
+        <p class="sample">Ich melde mich für den Kurs an.</p><p class="gloss">I · register · for · the · course</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="verb-reg">verdienen</span></span><span class="en">to earn</span></div>
+        <p class="sample">Er verdient gut.</p><p class="gloss">he · earns · well</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="verb-irr">werden</span></span><span class="en">to become</span></div>
+        <p class="sample">Ich will Arzt werden.</p><p class="gloss">I · want · doctor · become</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="verb-irr">wollen</span></span><span class="en">to want to (modal)</span></div>
+        <p class="sample">Was willst du werden?</p><p class="gloss">what · want · you · become</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="verb-reg">heiraten</span></span><span class="en">to get married</span></div>
+        <p class="sample">Wir wollen heiraten.</p><p class="gloss">we · want · get-married</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="verb-irr">laufen</span></span><span class="en">to run / walk</span></div>
+        <p class="sample">Ich laufe jeden Morgen.</p><p class="gloss">I · run · every · morning</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="verb-reg">reisen</span></span><span class="en">to travel</span></div>
+        <p class="sample">Ich reise gern.</p><p class="gloss">I · travel · gladly</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="verb-reg">putzen</span></span><span class="en">to clean</span></div>
+        <p class="sample">Ich putze das Haus.</p><p class="gloss">I · clean · the · house</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="die">die Ausbildung</span><span class="plural">, -en</span></span><span class="en">vocational training</span></div>
+        <p class="sample">Er macht eine Ausbildung als Koch.</p><p class="gloss">he · does · a · training · as · chef</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="das">das Ausland</span><span class="plural">, –</span></span><span class="en">abroad / foreign country</span></div>
+        <p class="sample">Er arbeitet im Ausland.</p><p class="gloss">he · works · in · the · abroad</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="die">die Chance</span><span class="plural">, -n</span></span><span class="en">chance</span></div>
+        <p class="sample">Das ist eine tolle Chance!</p><p class="gloss">that · is · a · great · chance</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="die">die Fremdsprache</span><span class="plural">, -n</span></span><span class="en">foreign language</span></div>
+        <p class="sample">Ich lerne eine Fremdsprache.</p><p class="gloss">I · learn · a · foreign-language</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="das">das Geld</span><span class="plural">, –</span></span><span class="en">money</span></div>
+        <p class="sample">Ich habe kein Geld.</p><p class="gloss">I · have · no · money</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Politiker</span><span class="plural">, -</span></span><span class="en">politician (m)</span></div>
+        <p class="sample">Der Politiker spricht im Fernsehen.</p><p class="gloss">the · politician · speaks · on-TV</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="die">die Prüfung</span><span class="plural">, -en</span></span><span class="en">exam</span></div>
+        <p class="sample">Ich muss eine Prüfung machen.</p><p class="gloss">I · must · an · exam · do</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Sänger</span><span class="plural">, -</span></span><span class="en">singer (m)</span></div>
+        <p class="sample">Er ist ein bekannter Sänger.</p><p class="gloss">he · is · a · well-known · singer</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="die">die Sängerin</span><span class="plural">, -nen</span></span><span class="en">singer (f)</span></div>
+        <p class="sample">Die Sängerin ist sehr bekannt.</p><p class="gloss">the · singer · is · very · well-known</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="der">der Star</span><span class="plural">, -s</span></span><span class="en">star (celebrity)</span></div>
+        <p class="sample">Er ist ein Star!</p><p class="gloss">he · is · a · star</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="das">das Instrument</span><span class="plural">, -e</span></span><span class="en">instrument</span></div>
+        <p class="sample">Welches Instrument spielst du?</p><p class="gloss">which · instrument · play · you</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="die">die Kreditkarte</span><span class="plural">, -n</span></span><span class="en">credit card</span></div>
+        <p class="sample">Ich bezahle mit Kreditkarte.</p><p class="gloss">I · pay · with · credit-card</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="das">das Lied</span><span class="plural">, -er</span></span><span class="en">song</span></div>
+        <p class="sample">Das Lied klingt sehr schön.</p><p class="gloss">the · song · sounds · very · beautiful</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="das">das Motorrad</span><span class="plural">, ¨-er</span></span><span class="en">motorcycle</span></div>
+        <p class="sample">Er fährt Motorrad.</p><p class="gloss">he · rides · motorbike</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de"><span class="die">die Welt</span><span class="plural">, -en</span></span><span class="en">world</span></div>
+        <p class="sample">Die Welt ist groß.</p><p class="gloss">the · world · is · big</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">eine Ausbildung abschließen<span class="pos">(adj)</span></span><span class="en">to complete training</span></div>
+        <p class="sample">Er schließt seine Ausbildung ab.</p><p class="gloss">he · completes · his · training</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">unbedingt<span class="pos">(adj)</span></span><span class="en">absolutely</span></div>
+        <p class="sample">Ich will das unbedingt machen.</p><p class="gloss">I · want · that · absolutely · do</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">auf keinen Fall<span class="pos">(adj)</span></span><span class="en">under no circumstances</span></div>
+        <p class="sample">Auf keinen Fall!</p><p class="gloss">under-no-circumstances</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">ohne<span class="pos">(adj)</span></span><span class="en">without</span></div>
+        <p class="sample">Ich trinke Kaffee ohne Zucker.</p><p class="gloss">I · drink · coffee · without · sugar</p>
+      </li>
+    </ul>
+  </section>
+  <div class="lesson-nav">
+    <a href="Lektion-16.html">← Lektion 16</a>
+    <a href="Lektion-18.html">→ Lektion 18</a>
+  </div>
+</body>
+</html>

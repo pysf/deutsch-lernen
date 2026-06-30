@@ -3,15 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Lektion 1 — Hallo! Ich bin Nicole</title>
+  <title>Lektion 1 — Hallo! Ich bin Nicole.</title>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background: #fff; color: #1a1a1a; font-size: 18px; line-height: 1.6; padding: 3.5rem 1.25rem 2rem; max-width: 640px; margin: 0 auto; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+           background: #fff; color: #1a1a1a; font-size: 18px; line-height: 1.6;
+           padding: 3.5rem 1.25rem 2rem; max-width: 640px; margin: 0 auto; }
     h1 { font-size: 1.4rem; font-weight: 700; margin-bottom: 0.35rem; }
     .legend { font-size: 0.78rem; color: #888; margin-bottom: 0.5rem; }
     .legend span { margin-right: 1rem; }
-    .der { color: #1d4ed8; } .die { color: #db2777; } .das { color: #059669; }
-    h2 { font-size: 0.85rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.09em; color: #aaa; margin-bottom: 1.2rem; }
+    .der { color: #1d4ed8; } .die { color: #db2477; } .das { color: #059669; }
+    h2 { font-size: 0.85rem; font-weight: 600; text-transform: uppercase;
+         letter-spacing: 0.09em; color: #aaa; margin-bottom: 1.2rem; }
     section { margin-bottom: 3rem; }
     .word-list { list-style: none; }
     .word-list li { padding: 0.5rem 0; border-bottom: 1px solid #f0f0f0; }
@@ -21,21 +24,24 @@
     .plural { font-size: 0.75rem; color: #bbb; font-weight: 400; margin-left: 0.35rem; }
     .en { font-size: 0.85rem; color: #999; text-align: right; flex-shrink: 0; }
     .sample { font-size: 0.82rem; color: #bbb; font-style: italic; margin-top: 0.1rem; }
+    .gloss  { font-size: 0.75rem; color: #d0d0d0; margin-top: 0.05rem; }
     .back-link { display: block; font-size: 0.78rem; color: #bbb; text-decoration: none; margin-bottom: 1.5rem; }
     .back-link:hover { color: #888; }
-    .verb-reg { color: #d97706; }
-    .verb-irr { color: #7c3aed; }
-    .perfekt { font-size: 0.82rem; color: #888; font-weight: 400; margin-top: 0.1rem; }
+    .verb-reg { color: #d97706; } .verb-irr { color: #7c3aed; }
     .pos { font-style: italic; font-size: 0.72rem; color: #bbb; font-weight: 400; margin-left: 0.35rem; }
-    #player { position: fixed; top: 0; left: 0; right: 0; background: #fff; border-bottom: 1px solid #f0f0f0; z-index: 100; padding: 0.5rem 1.25rem; display: flex; align-items: center; justify-content: center; gap: 0.75rem; }
-    #player button { background: none; border: 1px solid #ddd; border-radius: 4px; padding: 0.3rem 0.7rem; font-size: 0.82rem; color: #555; cursor: pointer; line-height: 1.4; }
+    #player { position: fixed; top: 0; left: 0; right: 0; background: #fff;
+              border-bottom: 1px solid #f0f0f0; z-index: 100; padding: 0.5rem 1.25rem;
+              display: flex; align-items: center; justify-content: center; gap: 0.75rem; }
+    #player button { background: none; border: 1px solid #ddd; border-radius: 4px;
+                     padding: 0.3rem 0.7rem; font-size: 0.82rem; color: #555; cursor: pointer; line-height: 1.4; }
     #player button:hover { border-color: #aaa; color: #111; }
     #player #pp { min-width: 2.2rem; }
-    .gloss { font-size: 0.75rem; color: #d0d0d0; margin-top: 0.05rem; }
     #progress { position: absolute; bottom: 0; left: 0; height: 2px; background: #1d4ed8; width: 0%; }
-    .lesson-nav { display: flex; justify-content: space-between; margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid #f0f0f0; font-size: 0.82rem; }
+    .lesson-nav { display: flex; justify-content: space-between; margin-top: 3rem;
+                  padding-top: 1.5rem; border-top: 1px solid #f0f0f0; font-size: 0.82rem; }
     .lesson-nav a { color: #bbb; text-decoration: none; }
     .lesson-nav a:hover { color: #555; }
+
   </style>
 </head>
 <body>
@@ -48,11 +54,12 @@
     <div id="progress"></div>
   </div>
   <script>
+
     const audio = document.getElementById('audio');
-    const pp = document.getElementById('pp');
+    const pp    = document.getElementById('pp');
     function togglePlay() {
       if (audio.paused) { audio.play(); pp.textContent = '⏸'; }
-      else { audio.pause(); pp.textContent = '▶'; }
+      else              { audio.pause(); pp.textContent = '▶'; }
     }
     function seek(s) { audio.currentTime = Math.max(0, audio.currentTime + s); }
     function restart() { audio.currentTime = 0; audio.play(); pp.textContent = '⏸'; }
@@ -61,254 +68,118 @@
     audio.addEventListener('timeupdate', () => {
       if (audio.duration) bar.style.width = (audio.currentTime / audio.duration * 100) + '%';
     });
+
   </script>
   <a class="back-link" href="index.html">← Alle Lektionen</a>
-  <h1>Lektion 1 — Hallo! Ich bin Nicole</h1>
+  <h1>Lektion 1 — Hallo! Ich bin Nicole.</h1>
   <p class="legend">
     <span><span class="der">■</span> der (m)</span>
     <span><span class="die">■</span> die (f)</span>
     <span><span class="das">■</span> das (n)</span>
     <span><span class="verb-reg">■</span> reg.</span>
     <span><span class="verb-irr">■</span> irr.</span>
-    <span><span class="pos">(t)</span> transitiv · <span class="pos">(i)</span> intransitiv · <span class="pos">(adj)</span> Adjektiv · <span class="pos">(adv)</span> Adverb</span>
+    <span><span class="pos">(adj)</span> Adjektiv / Adverb</span>
   </p>
-
   <section>
     <h2>Wortschatz</h2>
     <ul class="word-list">
-
       <li>
-        <div class="word-row"><span class="de">Hallo</span><span class="en">hello</span></div>
-        <p class="sample">Hallo! Wie heißen Sie?</p>
-        <p class="gloss">Hello! How are-called you?</p>
+        <div class="word-row"><span class="de"><span class="verb-reg">buchstabieren</span></span><span class="en">to spell</span></div>
+        <p class="sample">Können Sie das buchstabieren?</p><p class="gloss">can · you · that · spell</p>
       </li>
       <li>
-        <div class="word-row"><span class="de">auf Wiedersehen</span><span class="en">goodbye (formal)</span></div>
-        <p class="sample">Auf Wiedersehen! Bis morgen.</p>
-        <p class="gloss">Until seeing-again!</p>
+        <div class="word-row"><span class="de"><span class="verb-irr">heißen</span></span><span class="en">to be called / named</span></div>
+        <p class="sample">Wie heißen Sie?</p><p class="gloss">how · are-you-called · you</p>
       </li>
       <li>
-        <div class="word-row"><span class="de">tschüss</span><span class="en">bye (informal)</span></div>
-        <p class="sample">Tschüss! Bis bald.</p>
-        <p class="gloss">Bye!</p>
+        <div class="word-row"><span class="de"><span class="verb-irr">kommen</span></span><span class="en">to come</span></div>
+        <p class="sample">Woher kommen Sie?</p><p class="gloss">from-where · come · you</p>
       </li>
       <li>
-        <div class="word-row"><span class="de">guten Morgen</span><span class="en">good morning</span></div>
-        <p class="sample">Guten Morgen! Wie geht es Ihnen?</p>
-        <p class="gloss">Good morning! How goes it you?</p>
+        <div class="word-row"><span class="de"><span class="verb-irr">sprechen</span></span><span class="en">to speak</span></div>
+        <p class="sample">Ich spreche Deutsch und Englisch.</p><p class="gloss">I · speak · German · and · English</p>
       </li>
       <li>
-        <div class="word-row"><span class="de">guten Tag</span><span class="en">good day / hello</span></div>
-        <p class="sample">Guten Tag! Ich heiße Anna.</p>
-        <p class="gloss">Good day! I am-called Anna.</p>
+        <div class="word-row"><span class="de"><span class="der">der Name</span><span class="plural">, -n</span></span><span class="en">name</span></div>
+        <p class="sample">Wie ist Ihr Name?</p><p class="gloss">how · is · your · name</p>
       </li>
       <li>
-        <div class="word-row"><span class="de">guten Abend</span><span class="en">good evening</span></div>
-        <p class="sample">Guten Abend! Wie geht es dir?</p>
-        <p class="gloss">Good evening! How goes it you?</p>
+        <div class="word-row"><span class="de"><span class="der">der Vorname</span><span class="plural">, -n</span></span><span class="en">first name</span></div>
+        <p class="sample">Mein Vorname ist Anna.</p><p class="gloss">my · first-name · is · Anna</p>
       </li>
       <li>
-        <div class="word-row"><span class="de">gute Nacht</span><span class="en">good night</span></div>
-        <p class="sample">Gute Nacht! Bis morgen.</p>
-        <p class="gloss">Good night!</p>
+        <div class="word-row"><span class="de"><span class="der">der Nachname</span><span class="plural">, -n</span></span><span class="en">surname</span></div>
+        <p class="sample">Mein Nachname ist Müller.</p><p class="gloss">my · surname · is · Müller</p>
       </li>
       <li>
-        <div class="word-row"><span class="de">danke</span><span class="en">thank you</span></div>
-        <p class="sample">Danke! Das ist sehr nett.</p>
-        <p class="gloss">Thank-you! That is very nice.</p>
+        <div class="word-row"><span class="de"><span class="der">der Familienname</span><span class="plural">, -n</span></span><span class="en">surname / family name</span></div>
+        <p class="sample">Mein Familienname ist Müller.</p><p class="gloss">my · surname · is · Müller</p>
       </li>
       <li>
-        <div class="word-row"><span class="de">bitte</span><span class="en">please / you're welcome</span></div>
-        <p class="sample">Bitte, kommen Sie herein.</p>
-        <p class="gloss">Please, come you in.</p>
+        <div class="word-row"><span class="de"><span class="die">die Frau</span><span class="plural">, -en</span></span><span class="en">Ms / Mrs / woman</span></div>
+        <p class="sample">Das ist Frau Schmidt.</p><p class="gloss">that · is · Ms · Schmidt</p>
       </li>
       <li>
-        <div class="word-row"><span class="de">ja</span><span class="en">yes</span></div>
-        <p class="sample">Ja, ich komme aus Wien.</p>
-        <p class="gloss">Yes, I come from Vienna.</p>
+        <div class="word-row"><span class="de"><span class="der">der Herr</span><span class="plural">, -en</span></span><span class="en">Mr / gentleman</span></div>
+        <p class="sample">Guten Tag, Herr Müller!</p><p class="gloss">good-day · Mr · Müller</p>
       </li>
       <li>
-        <div class="word-row"><span class="de">nein</span><span class="en">no</span></div>
-        <p class="sample">Nein, ich wohne nicht in Berlin.</p>
-        <p class="gloss">No, I live not in Berlin.</p>
+        <div class="word-row"><span class="de">kommen aus<span class="pos">(adj)</span></span><span class="en">to come from</span></div>
+        <p class="sample">Ich komme aus Deutschland.</p><p class="gloss">I · come · from · Germany</p>
       </li>
       <li>
-        <div class="word-row"><span class="de">auch<span class="pos" title="Adverb">(adv)</span></span><span class="en">also / too</span></div>
-        <p class="sample">Ich spreche auch Englisch.</p>
-        <p class="gloss">I speak also English.</p>
+        <div class="word-row"><span class="de">wer<span class="pos">(adj)</span></span><span class="en">who</span></div>
+        <p class="sample">Wer ist das?</p><p class="gloss">who · is · that</p>
       </li>
       <li>
-        <div class="word-row"><span class="de">gut<span class="pos" title="Adjektiv">(adj)</span></span><span class="en">good / well</span></div>
-        <p class="sample">Mein Deutsch ist gut.</p>
-        <p class="gloss">My German is good.</p>
+        <div class="word-row"><span class="de">wie<span class="pos">(adj)</span></span><span class="en">how / like</span></div>
+        <p class="sample">Wie heißen Sie?</p><p class="gloss">how · are-you-called · you</p>
       </li>
       <li>
-        <div class="word-row"><span class="de">sehr gut</span><span class="en">very good / very well</span></div>
-        <p class="sample">Das ist sehr gut!</p>
-        <p class="gloss">That is very good!</p>
+        <div class="word-row"><span class="de">woher<span class="pos">(adj)</span></span><span class="en">where from</span></div>
+        <p class="sample">Woher kommen Sie?</p><p class="gloss">from-where · come · you</p>
       </li>
       <li>
-        <div class="word-row"><span class="de">nicht so gut</span><span class="en">not so good</span></div>
-        <p class="sample">Mein Englisch ist nicht so gut.</p>
-        <p class="gloss">My English is not so good.</p>
-      </li>
-
-      <li>
-        <div class="word-row"><span class="de">ich</span><span class="en">I</span></div>
-        <p class="sample">Ich heiße Nicole.</p>
-        <p class="gloss">I am-called Nicole.</p>
+        <div class="word-row"><span class="de">ich<span class="pos">(adj)</span></span><span class="en">I</span></div>
+        <p class="sample">Ich komme aus Berlin.</p><p class="gloss">I · come · from · Berlin</p>
       </li>
       <li>
-        <div class="word-row"><span class="de">du</span><span class="en">you (informal)</span></div>
-        <p class="sample">Woher kommst du?</p>
-        <p class="gloss">Where-from come you?</p>
+        <div class="word-row"><span class="de">du<span class="pos">(adj)</span></span><span class="en">you (informal)</span></div>
+        <p class="sample">Woher kommst du?</p><p class="gloss">from-where · come · you</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">aus<span class="pos">(adj)</span></span><span class="en">from / out of</span></div>
+        <p class="sample">Ich komme aus München.</p><p class="gloss">I · come · from · Munich</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">in<span class="pos">(adj)</span></span><span class="en">in</span></div>
+        <p class="sample">Ich wohne in Berlin.</p><p class="gloss">I · live · in · Berlin</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">guten Tag<span class="pos">(adj)</span></span><span class="en">good day / hello</span></div>
+        <p class="sample">Guten Tag! Wie heißen Sie?</p><p class="gloss">good-day · how · are-you-called · you</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">hallo<span class="pos">(adj)</span></span><span class="en">hello</span></div>
+        <p class="sample">Hallo! Ich bin Nicole.</p><p class="gloss">hello · I · am · Nicole</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">auf Wiedersehen<span class="pos">(adj)</span></span><span class="en">goodbye</span></div>
+        <p class="sample">Auf Wiedersehen! Bis morgen.</p><p class="gloss">goodbye · until · tomorrow</p>
+      </li>
+      <li>
+        <div class="word-row"><span class="de">tschüs<span class="pos">(adj)</span></span><span class="en">bye</span></div>
+        <p class="sample">Tschüs! Bis bald.</p><p class="gloss">bye · until · soon</p>
       </li>
       <li>
         <div class="word-row"><span class="de">Sie</span><span class="en">you (formal)</span></div>
-        <p class="sample">Wie heißen Sie?</p>
-        <p class="gloss">How are-called you?</p>
+        <p class="sample">Wie heißen Sie?</p><p class="gloss">how · are-you-called · you</p>
       </li>
-      <li>
-        <div class="word-row"><span class="de">wie</span><span class="en">how</span></div>
-        <p class="sample">Wie heißen Sie?</p>
-        <p class="gloss">How are-called you?</p>
-      </li>
-      <li>
-        <div class="word-row"><span class="de">wer</span><span class="en">who</span></div>
-        <p class="sample">Wer ist das?</p>
-        <p class="gloss">Who is that?</p>
-      </li>
-      <li>
-        <div class="word-row"><span class="de">woher</span><span class="en">where from</span></div>
-        <p class="sample">Woher kommen Sie?</p>
-        <p class="gloss">Where-from come you?</p>
-      </li>
-      <li>
-        <div class="word-row"><span class="de">was</span><span class="en">what</span></div>
-        <p class="sample">Was ist das?</p>
-        <p class="gloss">What is that?</p>
-      </li>
-
-      <li>
-        <div class="word-row"><span class="de"><span class="verb-irr">heißen</span><span class="pos" title="intransitiv">(i)</span></span><span class="en">to be called</span></div>
-        <p class="perfekt">hat geheißen</p>
-        <p class="sample">Ich heiße Anna. · Wie hat sie geheißen?</p>
-        <p class="gloss">I am-called Anna.</p>
-      </li>
-      <li>
-        <div class="word-row"><span class="de"><span class="verb-irr">sein</span><span class="pos" title="intransitiv">(i)</span></span><span class="en">to be</span></div>
-        <p class="perfekt">ist gewesen</p>
-        <p class="sample">Ich bin Studentin. · Er ist müde gewesen.</p>
-        <p class="gloss">I am student.</p>
-      </li>
-      <li>
-        <div class="word-row"><span class="de"><span class="verb-irr">kommen</span><span class="pos" title="intransitiv">(i)</span></span><span class="en">to come</span></div>
-        <p class="perfekt">ist gekommen</p>
-        <p class="sample">Ich komme aus Deutschland. · Sie ist aus Wien gekommen.</p>
-        <p class="gloss">I come from Germany.</p>
-      </li>
-      <li>
-        <div class="word-row"><span class="de"><span class="verb-reg">wohnen</span><span class="pos" title="intransitiv">(i)</span></span><span class="en">to live / to reside</span></div>
-        <p class="perfekt">hat gewohnt</p>
-        <p class="sample">Ich wohne in Berlin. · Er hat in München gewohnt.</p>
-        <p class="gloss">I live in Berlin.</p>
-      </li>
-      <li>
-        <div class="word-row"><span class="de"><span class="verb-irr">sprechen</span><span class="pos" title="transitiv (Akkusativobjekt)">(t)</span></span><span class="en">to speak</span></div>
-        <p class="perfekt">hat gesprochen</p>
-        <p class="sample">Ich spreche Deutsch. · Sie hat gut Englisch gesprochen.</p>
-        <p class="gloss">I speak German.</p>
-      </li>
-
-      <li>
-        <div class="word-row"><span class="de">deutsch<span class="pos" title="Adjektiv">(adj)</span></span><span class="en">German (adj.)</span></div>
-        <p class="sample">Ich spreche Deutsch.</p>
-        <p class="gloss">I speak German.</p>
-      </li>
-
-      <li>
-        <div class="word-row"><span class="de"><span class="das">das Lied</span><span class="plural">Pl. Lieder</span><span class="pos" title="neutrum">(n)</span></span><span class="en">song</span></div>
-        <p class="sample">Das Lied ist schön. · Ich höre ein Lied.</p>
-        <p class="gloss">The song is beautiful.</p>
-      </li>
-      <li>
-        <div class="word-row"><span class="de"><span class="der">der Name</span><span class="plural">Pl. Namen</span><span class="pos" title="maskulin">(m)</span></span><span class="en">name</span></div>
-        <p class="sample">Der Name ist lang. · Ich schreibe den Namen.</p>
-        <p class="gloss">The name is long.</p>
-      </li>
-      <li>
-        <div class="word-row"><span class="de"><span class="das">das Land</span><span class="plural">Pl. Länder</span><span class="pos" title="neutrum">(n)</span></span><span class="en">country</span></div>
-        <p class="sample">Das Land ist groß. · Ich kenne das Land.</p>
-        <p class="gloss">The country is big.</p>
-      </li>
-      <li>
-        <div class="word-row"><span class="de"><span class="die">die Sprache</span><span class="plural">Pl. Sprachen</span><span class="pos" title="feminin">(f)</span></span><span class="en">language</span></div>
-        <p class="sample">Die Sprache ist schön. · Ich lerne die Sprache.</p>
-        <p class="gloss">The language is beautiful.</p>
-      </li>
-      <li>
-        <div class="word-row"><span class="de"><span class="die">die Musik</span><span class="pos" title="feminin">(f)</span></span><span class="en">music (no plural)</span></div>
-        <p class="sample">Die Musik ist schön. · Ich höre die Musik.</p>
-        <p class="gloss">The music is beautiful.</p>
-      </li>
-      <li>
-        <div class="word-row"><span class="de"><span class="die">die Frau</span><span class="plural">Pl. Frauen</span><span class="pos" title="feminin">(f)</span></span><span class="en">woman / Mrs.</span></div>
-        <p class="sample">Die Frau kommt aus Wien. · Ich kenne die Frau.</p>
-        <p class="gloss">The woman comes from Vienna.</p>
-      </li>
-      <li>
-        <div class="word-row"><span class="de"><span class="der">der Herr</span><span class="plural">Pl. Herren</span><span class="pos" title="maskulin">(m)</span></span><span class="en">gentleman / Mr.</span></div>
-        <p class="sample">Der Herr heißt Müller. · Ich kenne den Herrn.</p>
-        <p class="gloss">The gentleman is-called Müller.</p>
-      </li>
-      <li>
-        <div class="word-row"><span class="de"><span class="der">der Vorname</span><span class="plural">Pl. Vornamen</span><span class="pos" title="maskulin">(m)</span></span><span class="en">first name</span></div>
-        <p class="sample">Der Vorname ist Anna. · Ich schreibe den Vornamen.</p>
-        <p class="gloss">The first-name is Anna.</p>
-      </li>
-      <li>
-        <div class="word-row"><span class="de"><span class="der">der Familienname</span><span class="plural">Pl. Familiennamen</span><span class="pos" title="maskulin">(m)</span></span><span class="en">family name / surname</span></div>
-        <p class="sample">Der Familienname ist Müller. · Ich schreibe den Familiennamen.</p>
-        <p class="gloss">The family-name is Müller.</p>
-      </li>
-      <li>
-        <div class="word-row"><span class="de"><span class="der">der Abend</span><span class="plural">Pl. Abende</span><span class="pos" title="maskulin">(m)</span></span><span class="en">evening</span></div>
-        <p class="sample">Der Abend ist schön. · Ich mag den Abend.</p>
-        <p class="gloss">The evening is beautiful.</p>
-      </li>
-      <li>
-        <div class="word-row"><span class="de"><span class="der">der Morgen</span><span class="plural">Pl. Morgen</span><span class="pos" title="maskulin">(m)</span></span><span class="en">morning</span></div>
-        <p class="sample">Der Morgen ist kalt. · Ich mag den Morgen.</p>
-        <p class="gloss">The morning is cold.</p>
-      </li>
-      <li>
-        <div class="word-row"><span class="de"><span class="die">die Nacht</span><span class="plural">Pl. Nächte</span><span class="pos" title="feminin">(f)</span></span><span class="en">night</span></div>
-        <p class="sample">Die Nacht ist lang. · Ich mag die Nacht.</p>
-        <p class="gloss">The night is long.</p>
-      </li>
-
-      <li>
-        <div class="word-row"><span class="de">Deutschland</span><span class="en">Germany</span></div>
-        <p class="sample">Deutschland ist groß. · Ich kenne Deutschland.</p>
-        <p class="gloss">Germany is big.</p>
-      </li>
-      <li>
-        <div class="word-row"><span class="de">Österreich</span><span class="en">Austria</span></div>
-        <p class="sample">Österreich ist schön. · Ich besuche Österreich.</p>
-        <p class="gloss">Austria is beautiful.</p>
-      </li>
-      <li>
-        <div class="word-row"><span class="de"><span class="die">die Schweiz</span><span class="pos" title="feminin">(f)</span></span><span class="en">Switzerland</span></div>
-        <p class="sample">Die Schweiz ist schön. · Ich besuche die Schweiz.</p>
-        <p class="gloss">The Switzerland is beautiful.</p>
-      </li>
-
     </ul>
   </section>
-
-  <nav class="lesson-nav">
+  <div class="lesson-nav">
     <span></span>
-    <a href="Lektion-2.html">Lektion 2 →</a>
-  </nav>
+    <a href="Lektion-2.html">→ Lektion 2</a>
+  </div>
 </body>
 </html>

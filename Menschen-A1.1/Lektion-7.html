@@ -6,12 +6,15 @@
   <title>Lektion 7 — Du kannst wirklich toll …!</title>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background: #fff; color: #1a1a1a; font-size: 18px; line-height: 1.6; padding: 3.5rem 1.25rem 2rem; max-width: 640px; margin: 0 auto; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+           background: #fff; color: #1a1a1a; font-size: 18px; line-height: 1.6;
+           padding: 3.5rem 1.25rem 2rem; max-width: 640px; margin: 0 auto; }
     h1 { font-size: 1.4rem; font-weight: 700; margin-bottom: 0.35rem; }
     .legend { font-size: 0.78rem; color: #888; margin-bottom: 0.5rem; }
     .legend span { margin-right: 1rem; }
     .der { color: #1d4ed8; } .die { color: #db2477; } .das { color: #059669; }
-    h2 { font-size: 0.85rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.09em; color: #aaa; margin-bottom: 1.2rem; }
+    h2 { font-size: 0.85rem; font-weight: 600; text-transform: uppercase;
+         letter-spacing: 0.09em; color: #aaa; margin-bottom: 1.2rem; }
     section { margin-bottom: 3rem; }
     .word-list { list-style: none; }
     .word-list li { padding: 0.5rem 0; border-bottom: 1px solid #f0f0f0; }
@@ -21,21 +24,24 @@
     .plural { font-size: 0.75rem; color: #bbb; font-weight: 400; margin-left: 0.35rem; }
     .en { font-size: 0.85rem; color: #999; text-align: right; flex-shrink: 0; }
     .sample { font-size: 0.82rem; color: #bbb; font-style: italic; margin-top: 0.1rem; }
+    .gloss  { font-size: 0.75rem; color: #d0d0d0; margin-top: 0.05rem; }
     .back-link { display: block; font-size: 0.78rem; color: #bbb; text-decoration: none; margin-bottom: 1.5rem; }
     .back-link:hover { color: #888; }
-    .verb-reg { color: #d97706; }
-    .verb-irr { color: #7c3aed; }
-    .perfekt { font-size: 0.82rem; color: #888; font-weight: 400; margin-top: 0.1rem; }
+    .verb-reg { color: #d97706; } .verb-irr { color: #7c3aed; }
     .pos { font-style: italic; font-size: 0.72rem; color: #bbb; font-weight: 400; margin-left: 0.35rem; }
-    #player { position: fixed; top: 0; left: 0; right: 0; background: #fff; border-bottom: 1px solid #f0f0f0; z-index: 100; padding: 0.5rem 1.25rem; display: flex; align-items: center; justify-content: center; gap: 0.75rem; }
-    #player button { background: none; border: 1px solid #ddd; border-radius: 4px; padding: 0.3rem 0.7rem; font-size: 0.82rem; color: #555; cursor: pointer; line-height: 1.4; }
+    #player { position: fixed; top: 0; left: 0; right: 0; background: #fff;
+              border-bottom: 1px solid #f0f0f0; z-index: 100; padding: 0.5rem 1.25rem;
+              display: flex; align-items: center; justify-content: center; gap: 0.75rem; }
+    #player button { background: none; border: 1px solid #ddd; border-radius: 4px;
+                     padding: 0.3rem 0.7rem; font-size: 0.82rem; color: #555; cursor: pointer; line-height: 1.4; }
     #player button:hover { border-color: #aaa; color: #111; }
     #player #pp { min-width: 2.2rem; }
-    .gloss { font-size: 0.75rem; color: #d0d0d0; margin-top: 0.05rem; }
     #progress { position: absolute; bottom: 0; left: 0; height: 2px; background: #1d4ed8; width: 0%; }
-    .lesson-nav { display: flex; justify-content: space-between; margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid #f0f0f0; font-size: 0.82rem; }
+    .lesson-nav { display: flex; justify-content: space-between; margin-top: 3rem;
+                  padding-top: 1.5rem; border-top: 1px solid #f0f0f0; font-size: 0.82rem; }
     .lesson-nav a { color: #bbb; text-decoration: none; }
     .lesson-nav a:hover { color: #555; }
+
   </style>
 </head>
 <body>
@@ -48,11 +54,12 @@
     <div id="progress"></div>
   </div>
   <script>
+
     const audio = document.getElementById('audio');
-    const pp = document.getElementById('pp');
+    const pp    = document.getElementById('pp');
     function togglePlay() {
       if (audio.paused) { audio.play(); pp.textContent = '⏸'; }
-      else { audio.pause(); pp.textContent = '▶'; }
+      else              { audio.pause(); pp.textContent = '▶'; }
     }
     function seek(s) { audio.currentTime = Math.max(0, audio.currentTime + s); }
     function restart() { audio.currentTime = 0; audio.play(); pp.textContent = '⏸'; }
@@ -61,6 +68,7 @@
     audio.addEventListener('timeupdate', () => {
       if (audio.duration) bar.style.width = (audio.currentTime / audio.duration * 100) + '%';
     });
+
   </script>
   <a class="back-link" href="index.html">← Alle Lektionen</a>
   <h1>Lektion 7 — Du kannst wirklich toll …!</h1>
@@ -70,178 +78,120 @@
     <span><span class="das">■</span> das (n)</span>
     <span><span class="verb-reg">■</span> reg.</span>
     <span><span class="verb-irr">■</span> irr.</span>
-    <span><span class="pos">(t)</span> transitiv · <span class="pos">(i)</span> intransitiv · <span class="pos">(adj)</span> Adjektiv · <span class="pos">(adv)</span> Adverb</span>
+    <span><span class="pos">(adj)</span> Adjektiv / Adverb</span>
   </p>
   <section>
     <h2>Wortschatz</h2>
     <ul class="word-list">
-
       <li>
-        <div class="word-row"><span class="de"><span class="verb-irr">backen</span><span class="pos" title="transitiv (Akkusativobjekt)">(t)</span></span><span class="en">to bake</span></div>
-        <p class="perfekt">hat gebacken</p>
-        <p class="sample">Ich backe einen Kuchen. · Ich habe einen Kuchen gebacken.</p>
-        <p class="gloss">I bake a cake</p>
+        <div class="word-row"><span class="de"><span class="verb-irr">singen</span></span><span class="en">to sing</span></div>
+        <p class="sample">Ich singe sehr gern.</p><p class="gloss">I · sing · very · gladly</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="verb-reg">fotografieren</span><span class="pos" title="transitiv (Akkusativobjekt)">(t)</span></span><span class="en">to take photos</span></div>
-        <p class="perfekt">hat fotografiert</p>
-        <p class="sample">Ich fotografiere die Stadt. · Ich habe die Stadt fotografiert.</p>
-        <p class="gloss">I photograph the city</p>
+        <div class="word-row"><span class="de"><span class="verb-reg">tanzen</span></span><span class="en">to dance</span></div>
+        <p class="sample">Kannst du tanzen?</p><p class="gloss">can · you · dance</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="verb-reg">Fußball spielen</span><span class="pos" title="intransitiv">(i)</span></span><span class="en">to play football</span></div>
-        <p class="perfekt">hat Fußball gespielt</p>
-        <p class="sample">Ich spiele Fußball. · Ich habe Fußball gespielt.</p>
-        <p class="gloss">I play football</p>
+        <div class="word-row"><span class="de"><span class="verb-reg">fotografieren</span></span><span class="en">to take photos</span></div>
+        <p class="sample">Er fotografiert sehr gern.</p><p class="gloss">he · photographs · very · gladly</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="verb-reg">im Internet surfen</span><span class="pos" title="intransitiv">(i)</span></span><span class="en">to surf the internet</span></div>
-        <p class="perfekt">hat im Internet gesurft</p>
-        <p class="sample">Ich surfe im Internet. · Ich habe im Internet gesurft.</p>
-        <p class="gloss">I surf in-the internet</p>
+        <div class="word-row"><span class="de"><span class="verb-reg">kochen</span></span><span class="en">to cook</span></div>
+        <p class="sample">Sie kocht sehr gut.</p><p class="gloss">she · cooks · very · well</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="verb-reg">malen</span><span class="pos" title="transitiv (Akkusativobjekt)">(t)</span></span><span class="en">to paint / to draw</span></div>
-        <p class="perfekt">hat gemalt</p>
-        <p class="sample">Ich male ein Bild. · Ich habe ein Bild gemalt.</p>
-        <p class="gloss">I paint a picture</p>
+        <div class="word-row"><span class="de"><span class="verb-irr">lesen</span></span><span class="en">to read</span></div>
+        <p class="sample">Er liest die E-Mail.</p><p class="gloss">he · reads · the · email</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="verb-reg">Musik hören</span><span class="pos" title="transitiv (Akkusativobjekt)">(t)</span></span><span class="en">to listen to music</span></div>
-        <p class="perfekt">hat Musik gehört</p>
-        <p class="sample">Ich höre Musik. · Ich habe Musik gehört.</p>
-        <p class="gloss">I hear music</p>
+        <div class="word-row"><span class="de"><span class="verb-reg">reisen</span></span><span class="en">to travel</span></div>
+        <p class="sample">Ich reise gern.</p><p class="gloss">I · travel · gladly</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="verb-irr">Rad fahren</span><span class="pos" title="intransitiv">(i)</span></span><span class="en">to ride a bike</span></div>
-        <p class="perfekt">ist Rad gefahren</p>
-        <p class="sample">Ich fahre Rad. · Ich bin Rad gefahren.</p>
-        <p class="gloss">I drive bike</p>
+        <div class="word-row"><span class="de"><span class="verb-reg">spielen</span></span><span class="en">to play</span></div>
+        <p class="sample">Er spielt Gitarre.</p><p class="gloss">he · plays · guitar</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="verb-irr">schwimmen</span><span class="pos" title="intransitiv">(i)</span></span><span class="en">to swim</span></div>
-        <p class="perfekt">ist geschwommen</p>
-        <p class="sample">Ich schwimme gern. · Ich bin geschwommen.</p>
-        <p class="gloss">I swim gladly</p>
+        <div class="word-row"><span class="de"><span class="verb-irr">schwimmen</span></span><span class="en">to swim</span></div>
+        <p class="sample">Ich schwimme jeden Tag.</p><p class="gloss">I · swim · every · day</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="verb-irr">spazieren gehen</span><span class="pos" title="intransitiv">(i)</span></span><span class="en">to go for a walk</span></div>
-        <p class="perfekt">ist spazieren gegangen</p>
-        <p class="sample">Ich gehe spazieren. · Ich bin spazieren gegangen.</p>
-        <p class="gloss">I go for-a-walk</p>
+        <div class="word-row"><span class="de"><span class="verb-reg">tauchen</span></span><span class="en">to dive / scuba dive</span></div>
+        <p class="sample">Im Urlaub gehe ich tauchen.</p><p class="gloss">on-holiday · go · I · scuba-diving</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="verb-irr">können</span><span class="pos" title="intransitiv">(i)</span></span><span class="en">can / to be able to</span></div>
-        <p class="perfekt">hat gekonnt</p>
-        <p class="sample">Ich kann gut schwimmen. · Ich habe das immer gekonnt.</p>
-        <p class="gloss">I can well swim</p>
+        <div class="word-row"><span class="de"><span class="verb-irr">backen</span></span><span class="en">to bake</span></div>
+        <p class="sample">Sie backt sehr gern Kuchen.</p><p class="gloss">she · bakes · very · gladly · cake</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="verb-reg">lieben</span><span class="pos" title="transitiv (Akkusativobjekt)">(t)</span></span><span class="en">to love</span></div>
-        <p class="perfekt">hat geliebt</p>
-        <p class="sample">Ich liebe Musik. · Ich habe die Musik geliebt.</p>
-        <p class="gloss">I love music</p>
+        <div class="word-row"><span class="de"><span class="verb-reg">fischen</span></span><span class="en">to fish</span></div>
+        <p class="sample">Er fischt am Wochenende.</p><p class="gloss">he · fishes · at-the · weekend</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="verb-reg">telefonieren</span><span class="pos" title="intransitiv">(i)</span></span><span class="en">to make a phone call</span></div>
-        <p class="perfekt">hat telefoniert</p>
-        <p class="sample">Ich telefoniere mit meiner Mutter. · Ich habe mit ihr telefoniert.</p>
-        <p class="gloss">I phone with my mother</p>
-      </li>
-
-      <li>
-        <div class="word-row"><span class="de">gar nicht<span class="pos" title="Adverb">(adv)</span></span><span class="en">not at all</span></div>
-        <p class="sample">Ich kann gar nicht schwimmen.</p>
-        <p class="gloss">I can not-at-all swim</p>
+        <div class="word-row"><span class="de"><span class="verb-reg">malen</span></span><span class="en">to paint</span></div>
+        <p class="sample">Die Kinder malen gern.</p><p class="gloss">the · children · paint · gladly</p>
       </li>
       <li>
-        <div class="word-row"><span class="de">manchmal<span class="pos" title="Adverb">(adv)</span></span><span class="en">sometimes</span></div>
-        <p class="sample">Ich fahre manchmal Rad.</p>
-        <p class="gloss">I drive sometimes bike</p>
+        <div class="word-row"><span class="de"><span class="verb-irr">reiten</span></span><span class="en">to ride (horse)</span></div>
+        <p class="sample">Sie reitet sehr gut.</p><p class="gloss">she · rides · very · well</p>
       </li>
       <li>
-        <div class="word-row"><span class="de">nie<span class="pos" title="Adverb">(adv)</span></span><span class="en">never</span></div>
-        <p class="sample">Ich gehe nie ins Kino.</p>
-        <p class="gloss">I go never into-the cinema</p>
+        <div class="word-row"><span class="de"><span class="verb-reg">sammeln</span></span><span class="en">to collect</span></div>
+        <p class="sample">Er sammelt Briefmarken.</p><p class="gloss">he · collects · stamps</p>
       </li>
       <li>
-        <div class="word-row"><span class="de">oft<span class="pos" title="Adverb">(adv)</span></span><span class="en">often</span></div>
-        <p class="sample">Ich höre oft Musik.</p>
-        <p class="gloss">I hear often music</p>
+        <div class="word-row"><span class="de"><span class="verb-reg">wandern</span></span><span class="en">to hike</span></div>
+        <p class="sample">Wir wandern am Wochenende.</p><p class="gloss">we · hike · at-the · weekend</p>
       </li>
       <li>
-        <div class="word-row"><span class="de">wie oft</span><span class="en">how often</span></div>
-        <p class="sample">Wie oft spielst du Fußball?</p>
-        <p class="gloss">How often play you football</p>
+        <div class="word-row"><span class="de"><span class="die">die Freizeit</span><span class="plural">, –</span></span><span class="en">free time / leisure</span></div>
+        <p class="sample">Was machst du in deiner Freizeit?</p><p class="gloss">what · do · you · in · your · free-time</p>
       </li>
       <li>
-        <div class="word-row"><span class="de">leider<span class="pos" title="Adverb">(adv)</span></span><span class="en">unfortunately</span></div>
-        <p class="sample">Ich kann leider nicht kommen.</p>
-        <p class="gloss">I can unfortunately not come</p>
+        <div class="word-row"><span class="de"><span class="das">das Hobby</span><span class="plural">, -s</span></span><span class="en">hobby</span></div>
+        <p class="sample">Was ist dein Hobby?</p><p class="gloss">what · is · your · hobby</p>
       </li>
       <li>
-        <div class="word-row"><span class="de">natürlich<span class="pos" title="Adverb">(adv)</span></span><span class="en">of course / naturally</span></div>
-        <p class="sample">Natürlich komme ich!</p>
-        <p class="gloss">Of-course come I</p>
+        <div class="word-row"><span class="de"><span class="der">der Fußball</span><span class="plural">, ¨-e</span></span><span class="en">football / soccer</span></div>
+        <p class="sample">Er spielt jeden Tag Fußball.</p><p class="gloss">he · plays · every · day · football</p>
       </li>
       <li>
-        <div class="word-row"><span class="de">fast<span class="pos" title="Adverb">(adv)</span></span><span class="en">almost</span></div>
-        <p class="sample">Ich kann fast gut schwimmen.</p>
-        <p class="gloss">I can almost well swim</p>
-      </li>
-
-      <li>
-        <div class="word-row"><span class="de"><span class="der">der Ausflug</span><span class="plural">Pl. Ausflüge</span><span class="pos" title="maskulin">(m)</span></span><span class="en">excursion / day trip</span></div>
-        <p class="sample">Der Ausflug ist schön. · Ich mache einen Ausflug.</p>
-        <p class="gloss">The excursion is beautiful</p>
+        <div class="word-row"><span class="de"><span class="die">die Gitarre</span><span class="plural">, -n</span></span><span class="en">guitar</span></div>
+        <p class="sample">Er spielt sehr gut Gitarre.</p><p class="gloss">he · plays · very · well · guitar</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="die">die Freizeit</span><span class="pos" title="feminin">(f)</span></span><span class="en">free time</span></div>
-        <p class="sample">Die Freizeit ist kurz. · Ich genieße die Freizeit.</p>
-        <p class="gloss">The free-time is short</p>
+        <div class="word-row"><span class="de"><span class="das">das Kino</span><span class="plural">, -s</span></span><span class="en">cinema</span></div>
+        <p class="sample">Wir gehen heute ins Kino.</p><p class="gloss">we · go · today · into-the · cinema</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="das">das Kino</span><span class="plural">Pl. Kinos</span><span class="pos" title="neutrum">(n)</span></span><span class="en">cinema</span></div>
-        <p class="sample">Das Kino ist neu. · Ich besuche das Kino.</p>
-        <p class="gloss">The cinema is new</p>
+        <div class="word-row"><span class="de"><span class="die">die Musik</span><span class="plural">, –</span></span><span class="en">music</span></div>
+        <p class="sample">Ich höre gern Musik.</p><p class="gloss">I · listen · gladly · music</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="der">der Spaß</span><span class="pos" title="maskulin">(m)</span></span><span class="en">fun</span></div>
-        <p class="sample">Der Spaß ist groß. · Ich habe Spaß.</p>
-        <p class="gloss">The fun is great</p>
+        <div class="word-row"><span class="de"><span class="das">das Schwimmen</span><span class="plural">, –</span></span><span class="en">swimming</span></div>
+        <p class="sample">Schwimmen macht Spaß.</p><p class="gloss">swimming · makes · fun</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="das">das Theater</span><span class="plural">Pl. Theater</span><span class="pos" title="neutrum">(n)</span></span><span class="en">theatre</span></div>
-        <p class="sample">Das Theater ist alt. · Ich besuche das Theater.</p>
-        <p class="gloss">The theatre is old</p>
+        <div class="word-row"><span class="de"><span class="das">das Tennis</span><span class="plural">, –</span></span><span class="en">tennis</span></div>
+        <p class="sample">Sie spielt Tennis.</p><p class="gloss">she · plays · tennis</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="die">die Gitarre</span><span class="plural">Pl. Gitarren</span><span class="pos" title="feminin">(f)</span></span><span class="en">guitar</span></div>
-        <p class="sample">Die Gitarre ist schön. · Ich kaufe eine Gitarre.</p>
-        <p class="gloss">The guitar is beautiful</p>
+        <div class="word-row"><span class="de">gern<span class="pos">(adj)</span></span><span class="en">gladly / with pleasure</span></div>
+        <p class="sample">Ich singe gern.</p><p class="gloss">I · sing · gladly</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="das">das Kompliment</span><span class="plural">Pl. Komplimente</span><span class="pos" title="neutrum">(n)</span></span><span class="en">compliment</span></div>
-        <p class="sample">Das Kompliment ist nett. · Ich mache ein Kompliment.</p>
-        <p class="gloss">The compliment is nice</p>
+        <div class="word-row"><span class="de">Fußball spielen</span><span class="en">to play football</span></div>
+        <p class="sample">Er spielt jeden Tag Fußball.</p><p class="gloss">he · plays · every · day · football</p>
       </li>
       <li>
-        <div class="word-row"><span class="de"><span class="die">die Fähigkeit</span><span class="plural">Pl. Fähigkeiten</span><span class="pos" title="feminin">(f)</span></span><span class="en">ability / skill</span></div>
-        <p class="sample">Die Fähigkeit ist wichtig. · Ich habe eine Fähigkeit.</p>
-        <p class="gloss">The ability is important</p>
+        <div class="word-row"><span class="de">Gitarre spielen</span><span class="en">to play guitar</span></div>
+        <p class="sample">Kannst du Gitarre spielen?</p><p class="gloss">can · you · guitar · play</p>
       </li>
-      <li>
-        <div class="word-row"><span class="de"><span class="das">das Auto</span><span class="plural">Pl. Autos</span><span class="pos" title="neutrum">(n)</span></span><span class="en">car</span></div>
-        <p class="sample">Das Auto ist neu. · Ich kaufe ein Auto.</p>
-        <p class="gloss">The car is new</p>
-      </li>
-
     </ul>
   </section>
-
-  <nav class="lesson-nav">
+  <div class="lesson-nav">
     <a href="Lektion-6.html">← Lektion 6</a>
-    <a href="Lektion-8.html">Lektion 8 →</a>
-  </nav>
+    <a href="Lektion-8.html">→ Lektion 8</a>
+  </div>
 </body>
 </html>
